@@ -1,0 +1,103 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_141_interstellar.txt
+# char_count: 5008
+# word_count: 872
+### END METADATA ###
+
+140 / NONSENSE
+
+fifteen minutes. When we return to earth, a few years older
+(our proper time) we may find that we have been gone, according 
+to earth time, for centuries (their relative time). Exactly
+how long depends upon how fast we have been going.
+
+This scene is not science fiction. It is based upon a wellknown 
+(to physicists) phenomenon called the Twin Paradox of
+the special theory of relativity. Part of the paradox is that one
+twin remains on earth while the other goes on a space voyage
+and returns younger than his brother.
+
+There are many examples of proper time and relative time.
+Suppose that we are in a space station observing an astronaut
+who is traveling at a speed of 161,000 miles per second relative to us.
+ As we watch him, we notice a certain sluggishness
+in his movements, as though he were moving in slow motion.
+We also notice that everything in his spaceship also seems to
+function in slow motion. His rolled cigarette, for example,
+lasts twice as long as one of ours.
+
+Of course, part of his sluggishness is due to the fact that he
+is fast increasing the distance between us, and with each passing
+moment, it takes the light from his spaceship longer to reach
+us. Nonetheless, after making allowances for the travel time
+of the light involved, we find that the astronaut still is moving
+more slowly than usual.
+
+However, to the astronaut, it is we who are zipping past
+him at 161,000 miles per second, and after he makes all the
+necessary allowances, he finds that it is we who are sluggish.
+Our cigarette lasts twice as long as his.
+
+This situation could be the ultimate illustration of how the
+grass is always greener on the other side, Each man’s cigarette lasts 
+twice as long as the other’s. (Unfortunately, so does
+each man’s trip to the dentist).
+
+The time that we ourselves experience and measure is our
+proper time. Our cigarette lasts the normal length of time.
+The time that we measure for the astronaut is the relative
+time. His cigarette appears to last twice as long as ours
+because his time passes twice as slowly. The situation is similar
+regarding proper lengths and relative lengths. From our point
+of view, the astronaut’s cigarette, provided that it is pointing
+in the direction that his spaceship is moving, is shorter than
+our own cigarette.
+
+The other side of the coin is that the astronaut sees himself
+as stationary and his cigarettes as normal. He also sees us as
+cigarettes as shorter than his and slower burning.
+
+Einstein's theory has been substantiated in many ways. All
+of them verify it with awesome accuracy.
+
+The most common verifications of time dilation come from
+high-energy particle physics. A very light elementary particle,
+called a muon (pronounced moo’on), is created at the top of
+the earth’s atmosphere by the collision of protons (one form of
+“cosmic radiation”) and air molecules. We know from experiments 
+in which muons are created in accelerators that they
+live a very short time. By no means do they live long enough
+to reach the earth from the upper atmosphere. Long before
+the time it takes to traverse this distance, they should decay
+spontaneously into other types of particles. Yet this does not
+happen because we detect them in abundance here at the
+earth’s surface.
+
+Why do the muons created by cosmic radiation live longer,
+in fact, seven times longer than those muons created in the
+laboratory. The answer is that the muons produced by collisions 
+of cosmic radiation and air molecules travel much faster
+than any muons that we can create experimentally. Their
+velocity is approximately 99 percent of the speed of light. At
+that speed, time dilation is quite noticeable. They do not live
+longer than usual from their point of view, but from our point
+of view they live seven times longer than they would at slower
+velocities.
+
+This is true not only of muons, but of almost all subatomic
+particles, and there are many of them. For example, pions
+(pie’ons), another type of subatomic particle, which move at 80
+percent of the speed of light, live, on the average, 1.67 times
+as long as slow pions. The special theory of relativity tells us
+that the intrinsic lifetime of these high-speed particles does
+not increase, but that their relative rate of time flow slows
+down. The special theory of relativity also made the calculation 
+of these phenomena possible long before we had the
+technical capability to create them.
+
+In 1972, four of the most accurate atomic clocks available
+were put aboard an aircraft and flown around the world. At
+the end of the trip, they were found to be slightly behind
+their stationary, earthbound counterparts with which they were
+synchronized before the flight.* The next time that you fly,
+* The clocks were flown around the world each way (east and west).

@@ -1,0 +1,94 @@
+### METADATA ###
+# source_file: Toyota Production System__Ohno_toyota_system.txt
+# char_count: 4093
+# word_count: 700
+### END METADATA ###
+
+Toyoda Kiichir6é insisted on the highest quality equipment
+had used with electric furnaces to cast thin parts for the looms.
+Even so, 500 to 600 cylinders were rejected.
+After making 1,000 pieces of an item, most workers become
+fairly skilled and defect-free. But the first several 100 pieces will
+contain some good and some bad. Until skills are established, we
+have to be prepared to discard anything borderline. This is how
+materials problems are satisfactorily solved.
+
+> Provide Good Equipment Even If the
+Factory Is Simple
+
+and worked to use them effectively:
+
+We know machine manufacturing can be done using proper tools.
+But the problem is to produce them cheaply.
+
+Machining cast products is not much different from manufacturing textile machines. 
+Textile machines must be mass produced to a
+considerable extent. The same is true of automobiles. With textile
+machines, there are many varieties. In the case of the automobile,
+types may be fewer but greater accuracy and more specialized
+machines are necessary, such as fine boring and honing machines.
+
+We can get ideas in other countries by studying the new manufacturing 
+equipment being developed by other automotive
+machine makers. In this area, it is obvious that advanced equipment 
+will enable us to make inexpensive products as good as those
+produced elsewhere.
+
+Although I feel plant facilities can be as simple as barracks, I try
+to buy equipment that can perform perfectly — regardless of
+cost. We really have no alternative but to buy machines costing
+¥ 50,000 ($12,500) to ¥ 60,000 ($15,000) each. If we are not prepared 
+to spend money for good machines, we should not be in
+automobile manufacturing.
+
+At the time, I tried to save money by using barracks as plants
+and reducing research spending. Regardless of how much I was
+laughed at, I would have run out of money had I continued buying 
+things that were not needed. Eliminating a lot of small wastes
+enabled us to afford good equipment.
+
+Genealogy of the Toyota Production System «
+
+Machinery must be chosen carefully. To avoid ending up with
+wrong machines and wasting ¥30,000 ($7,500) to ¥*50,000
+($12,500), we went to America to examine them first.
+
+Once this expensive equipment is acquired, we have to learn to
+use it correctly. So, we study tool use because regardless of how
+good a machine is, we cannot produce large quantities accurately
+without proper tools. We need tools intended for mass production — 
+and their design and production can easily take three to
+four years. This is what we have been doing since Toyota first
+bought the equipment three years ago.
+
+After buying millions of yen worth of machinery, hundreds of
+people worked hard for three years without putting a single car on
+the market. Stockholders began to worry and wonder when cars
+would start rolling out. Those in charge also felt that somehow
+we should produce one or two cars just to show we were really
+doing something.
+
+However, a car made this way would not be of the highest quality. 
+This point is difficult for managers and capital investors to understand. 
+If we hadn’t had managers with enough courage to
+make a bold commitment to car manufacturing, we would not
+have found investors to trust the engineers and leave everything
+to them.
+
+It would be easy if money was guaranteed once cars were produced. 
+But money is always lost the first few years which is why
+this business is so difficult to establish. Anyone who plans such a
+endeavor and doesn’t look ahead is foolish.
+
+In the first few years, many managers thought this way. They
+considered me overly confident with no thought of the future.
+
+It is easier to operate a tried and true business that uses known
+methods and will clearly make money. Starting a difficult business 
+that no one else will touch is a challenge. But if it fails, the
+fault is entirely yours — and you can commit harakiri with a
+clear conscience.
+
+I will go as far as I can with the automobile. If I do anything, it
+will be to make cars the public can afford. I know it will be
+difficult, but this is where I started.

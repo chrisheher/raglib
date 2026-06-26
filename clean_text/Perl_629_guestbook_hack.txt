@@ -1,0 +1,68 @@
+
+Chapter 19
+
+Chapter 19 Security 629
+
+This guestbook program creates a page in which the guestbook contents are displayed
+followed by a form that allows users to sign the guestbook. The program opens 
+the guestbook file on line 26 and outputs the contents of the file on line 28. Lines 31-38 output the
+form. If the user signs the guestbook, lines 11-24 take the input from the user (lines 14-16)
+and write it to the guestbook (lines 18-23).
+
+The problem with this program, as you can see in the sample screen captures, is that
+the user can type anything in the text area, including HTML, and that input will be added
+to the guestbook. In the sample screen captures, the user added an open-ended table
+element. When the guestbook was sent back to the client, the user input was interpreted
+by the browser and used to render the page. In addition, the table element was not
+terminated by the user, so each click of the Sign the Guestbook button makes the effect
+even worse.
+
+We can use regular expressions to filter out harmful HTML tags from user input.
+Again, in the spirit of defensive programming, it is better to allow input that you know will
+not cause a problem, rather than to block dangerous input and potentially not catch all cases
+that can cause security breaches. Figure 19.7 rewrites the guestbook program of Fig. 19.6
+to filter out all HTML tags except <br> from the text of the message. If any tags are
+entered in the Name or E-mail fields of the guestbook form, the program generates an
+error message.
+
+Line 16 uses the regular expression /<.*>/ to search for anything resembling a
+HTML tag in the Name and E-mail fields. If HTML tags are found, lines 17-20 print a
+message asking the user to reenter his or her input without the tags.
+
+I #iperl
+
+2 # Fig. 19.7: €ig19_67.91
+
+3 # Guestbook pregram which filters BYML tags.
+
+5 use warnings;
+
+6 use strict;
+
+7 use CGI qw( :standard );
+
+9 print( header(), start _html( "Guestbook" ), h1( "Guestbook" ) Le
+10 )
+
+I) aif ( param() ) f{
+
+12 my $name = param( "name" );
+
+13 my $email = param( "email" );
+
+14 my $message = param( "message" )j;
+
+16 if ( $name =~ /<.*>/ II $email =~ /<.*>/ ) {
+
+17 print ( h3( "HTML tags not allowed in Name or E-mail" ),
+
+18 br(), "Please correct your entry and re-send", br(),
+
+19 ~ "Po include the < or > symbols, use &ampgt or &amplt.",
+20 br() )F
+
+21 }
+
+22 else {
+
+23 print( h3( "Thank you for signing our guestbook!!!" ) de

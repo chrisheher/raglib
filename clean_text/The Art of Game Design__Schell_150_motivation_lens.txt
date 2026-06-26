@@ -1,0 +1,103 @@
+### METADATA ###
+# source_file: The Art of Game Design__Schell_150_motivation_lens.txt
+# char_count: 4676
+# word_count: 829
+### END METADATA ###
+
+manufacturing record each day and how it vastly increased his motivation and
+engagement. What happened there, exactly? Certainly, one could argue that his
+motivation became more internal. He was less focused on the external reward for
+ing his job (getting paid) and became more focused on something more internal
+his personal record, because he wanted to, and thus his motivation became
+before his own.
+
+But there is something else at work here, too. It was something that I did not fully
+comprehend until I was reading a book about neuroscience that pointed out that
+as sure seeking and pain avoiding are two different systems in the brain. They are
+it a simple continuum of pain to pleasure, but two different sets of motivational
+circuits. So often, though, we just group pleasure seeking and pain avoiding into —
+ lump we call “motivation” and think no more about it. But when we think to 
+separate them, interesting things come to light.
+The relevance of this to games becomes clear when considering the following
+ample. Let’s say I start a new software company: Big Red Button Software. Our
+st product is a new kind of tax preparation software. We send you a big red
+itton in the mail, you push it, and bam! Your taxes are instantly prepared,
+ the maximum refund allowable by law. I suspect you would agree
+at is a pretty amazing software product, and I’m glad you like it, because we are
+tting ready to release our second product: it’s a game called Angry Birds. Again,
+» send you a big red button in the mail, and this time when you push it, bam!
+Ju instantly win!
+
+But that’s not such an amazing software product, is it? In fact, it might be the
+worst game ever. What is it that makes these two applications so radically differit? 
+Simply this: I “hafta” do my taxes, but I “wanna” play a game. Taxes are all
+out pain avoidance. I don’t do them because I enjoy them, or because someone
+paying me to do them, but because I'll suffer heavy fines and maybe go to jail if
+lon’t do them. But playing a game is all about pleasure seeking. There is no penty for not playing—I do it simply because I enjoy doing it. This has nothing to do
+ith the activity and everything to do with our attitude toward it. A friend of mine
+ves preparing tax forms, and likewise, video games bore him. For him, taxes are
+“wanna” activity, and videogames are a “hafta.”
+So why do we care about this? Because while many gameplaying motivations are
+out pleasure seeking, not all of them are—many are centered on pain avoidance.
+hen you are avoiding enemies and “trying not to die,” you are in pain avoidance
+ode. When you are scooping up gold stars and scoring clever combos, you are i
+easure-seeking mode. They are both valid kinds of motivation and can actuall
+ork well in combination. However, sometimes the combination gets out of balice. “Free to play” games often begin entirely focused on pleasure seeking: big
+wards, unexpected bonuses, and exciting animations. But over time, they buil
+) obligations—come back by a certain time or lose points, invite more friends 0
+iss out on prizes. Gradually, these games slide from pleasure seeking motivations
+pain avoidance motivations.*They keep you coming back, but you don’t always
+el as good about it. For this reason, as designer Sheri Graner Ray puts it, “People
+
+EEE '’ 5
+
+WANNA VS. HAFTA
+
+don’t just stop playing these games, they divorce them.”
+players have had similar experiences. They begin phayt
+many fun things to do, one of which is to join a guild and
+camaraderie of team play. But sometimes guild leaders, in a desire to succeed, pres-
+=“ . int ears to play more than they want to. Players want to avoid the pain
+feel fe ee Ne ieee showing up, and gradually, playing starts to
+
+For an interesting perspective on the motivatio
+one on a matrix, where one axis is internal/exter
+IL is ene more illustration of how richl
+can be.
+
+Many World of Warcraft
+ng because there are so
+enjoy the friendship and
+
+ns in your game, try putting each
+nal and the other is hafta/wanna.
+y complex and interesting human motivation
+
+Pain Pleasure FIGURE
+oo ; ° ;
+avoiding seeking
+
+11.4
+
+External
+Internal
+
+Be wary of those who tell you that human mo
+
+ri 5 tivation is a simple thi
+inore its complexity at your peril. Take this lens <——
+
+to help you remember.
+
+Lens #23: The Lens of Motivation —
+
+ai Woe ay oe eccrine them more
+What motivations do players have to play my oe
+
+Which motivations are most internal? Which are most external?
+
+Which are pleasure seeking? Which are pain avoiding? : -
+
+Which motivations support each other?
+
+Which motivations are in conflict?

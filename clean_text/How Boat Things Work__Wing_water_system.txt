@@ -1,0 +1,40 @@
+### METADATA ###
+# source_file: How Boat Things Work__Wing_water_system.txt
+# char_count: 1579
+# word_count: 268
+### END METADATA ###
+
+he Raritan Galley Flow water pressure system
+is an excellent example of a complete freshwater system for boats.
+
+Water may be supplied directly under pressure
+from a dockside water hookup or drawn from the
+ship’s freshwater storage tank. Water drawn from the
+ship’s tank is pressurized by a flexible diaphragm
+pump (see facing page). A small accumulator tank
+attached to the pump helps prevent rapid on-off cycling of the pump. 
+For less cycling, a larger expansion tank may be installed
+ on the downstream side of a check valve.
+
+Both accumulator and expansion tanks contain
+captive-air bladders. As the water is forced into the
+tank by the pump, the air is compressed. When the
+
+To deck fill fitting pressure reaches its upper limit, 
+the pump stops. As water is drawn from the tank, the 
+air pressure drops to the low limit of the pressure switch, 
+triggering the pump to recharge the tank.
+
+Cold water is drawn directly from the expansion
+tank. Hot water is supplied by a 6-, 12-, or 20-gallon
+water heater, which may contain an engine-coolant
+heat exchanger, as well as a 110 VAC heater element
+for running on shore power.
+
+The engine-coolant heat exchanger is a coil of
+copper tubing inside the water heater tank. The
+freshwater coolant is diverted, on its way from the
+thermostat to the engine’s heat exchanger, through
+the water heater exchanger, imparting some of the
+engine’s heat to the water heater tank.
+

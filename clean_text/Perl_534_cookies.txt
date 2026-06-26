@@ -1,0 +1,25 @@
+### METADATA ###
+# source_file: Perl_534_cookies.txt
+# char_count: 3207
+# word_count: 543
+### END METADATA ###
+
+534 Session Tracking and Cookies Chapter 16
+
+16.6 Cookies
+
+In the last two sections, we discussed two ways in which information may be
+ passed between programs (or executions of the same program) through a browser. This section
+concentrates on storing state information on the client computer with cookies. Cookies
+are essentially small text files that a Web server sends to your browser, which then writes
+the cookie onto your computer. Many Web sites use cookies to track a user’s progress
+through their site (as in a shopping-cart application) or to help customize the site to an
+individual user. Cookies do not break into your computer, nor do they erase your hard
+drive. However, they can be used to keep track of how often you visit a site or what you
+buy at a site. For this reason, cookies are considered to be a security and privacy concern,
+Popular Web browsers provide support for cookies. These browsers also allow users who.
+are concerned about their privacy and security to disable this support. Most major Web
+sites use cookies. As a programmer, you should be aware of the possibility that cookies
+will be disabled by your clients, Figure 16.4, Fig. 16.5 and Fig. 16.6 use cookies to store
+and manipulate information about a user.
+

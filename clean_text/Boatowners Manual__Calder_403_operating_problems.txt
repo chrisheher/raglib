@@ -1,0 +1,127 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_403_operating_problems.txt
+# char_count: 4912
+# word_count: 835
+### END METADATA ###
+
+Put your hand under the exhaust for a few secds and then 
+sniff it to see if it smells of diesel. If it does, 
+one or more cylinders are not fring. If weather is cold 
+and the engine has just been
+tted, the most likely cause is poor compresn, especially if the smoke clears as the engine
+rms up. If the smoke persists, there may be a
+fective injector.
+
+ss of Performance
+
+jh back pressure. The exhaust is an inte-
+I part of the airflow through an engine. Any
+riction will generate back pressure 
+
+ This
+can cause an engine to lose power, overheat, and
+probably smoke (black). The most likely causes
+high exhaust back pressure are:
+closed or partially closed sea valve on the
+exhaust exit pipe.
+
+oo small an exhaust pipe, too many bends
+nd elbows, too great a lift from a water-lift
+uffler to the exhaust exit  or a kink in an exhaust hose.
+
+xcessive carbon formation in the exhaust sysm caused by long hours of operation at light
+ads (such as when battery charging or refrigating at anchor).
+
+wintertime, frozen water in a water lifttype
+uffler at initial startup. This may produce a
+ssing immediately after cranking, or bubbles
+the raw-water strainer, as the trapped
+exhaust looks for an escape path.
+
+Generally, the easiest way to check for a fouled
+ist is to remove the exhaust hose from the
+-lift muffler, then wipe your finger inside
+muffler and use a flashlight to look up the
+There should be nothing more than a light
+n film. What you may find is a heavy carrust. In this case, the entire exhaust system,
+ling the exhaust valves, is likely to be fouled
+ably because you have only been running
+gine for short periods and/or for long hours
+loads). A significant overhaul is needed.
+exhaust should be broken loose and
+‘ted annually until you know for sure that
+t fouling, and maybe every other year after
+
+ks. Diesel engines make a variety of internoises. Each of the principal components
+its own sound, and a good mechanic can
+solate a problem simply by detecting a
+> knock coming out of the engine.
+
+symphony, however, is frequently garbled
+riety of fuel and ignition knocks. Differ-
+
+ences in the rate of combustion can Cause noises
+that are almost indistinguishable from mechanical knocks,
+ especially on two-cycle diesels.
+
+But if you run the engine at full speed and then shut
+down the governor control lever (the throttle), a
+fuel knock will cease at once, whereas a
+mechanical knock will probably still be audible,
+although not as loud as before because the
+engine is now merely coasting to a stop. Knocks
+that gradually get louder over the life of an
+engine (especially if accompanied by slowly
+declining oil pressure when the engine is hot)
+are almost certainly mechanical knocks.
+
+Some fuel knocks are quite normal, especially
+on initial start-up. Diesels are much noisier than
+gasoline engines and have a characteristic clatter
+at idle, especially when cold. (Note that electronically 
+controlled common rail injection systems eliminate this clatter.) 
+
+The owner of a diesel will have to become accustomed to these
+noises in order to detect and differentiate out-of.
+the-ordinary fuel knocks. These can have several
+causes, such as poor-quality fuel (low cetane rating, 
+dirt or water in the fuel), faulty fuel injection, 
+injection timing too ear y, and_oil in the
+inlet manifold from leaking turbocharger or
+“Supercharger seals (oil is sucked into the 
+cylinders causing premature ignition).
+
+A sudden loud knocking, especially on startup, is likely to be a stuck injector that is now
+dumping nonatomized diesel into the cylinder.
+Combustion is delayed and then there is a sudden flare-up. 
+Damage to the piston and cylinder
+as well as the fuel injection pump is possible. 
+
+To determine which injector is knocking, loosen the
+injector lines at the injectors one at a time until
+fuel spurts out (don’t do this with a two-cycle
+Detroit Diesel or any engine with a common rail
+fuel injection system—fuel will flood out!) If
+the engine has internal fuel lines, loosen the
+delivery pipes at the external fittings on the cylinder
+head so that fuel doesn’t run down into the crankcase.
+
+If the knocking ceases, you have found the
+offending cylinder; if not, tighten the fuel line
+and loosen the next. If you find the offending
+injector but have no replacement Injector on
+board, you can run the engine with the injector
+line loose. However, you will need to collect the
+diesel that continually dribbles out the injector
+line (and you will, of course, suffer a significant
+loss of power). If the knocking is not stopped by
+loosening the injection lines, it is almost certainly 
+a mechanical problem.
+
+The more common mechanical knocks arise
+from worn piston pin or connecting rod bearings, 
+worn pistons, and worn main bearings. All
+these mechanical problems require professional
+help. Do not ignore new noises!
+
+OPERATING PROBLEMS

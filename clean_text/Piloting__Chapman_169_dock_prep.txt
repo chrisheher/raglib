@@ -1,0 +1,51 @@
+### METADATA ###
+# source_file: Piloting__Chapman_169_dock_prep.txt
+# char_count: 2319
+# word_count: 406
+### END METADATA ###
+
+course, or some kind of drag must be towed on the side
+of the working propeller.
+
+A basic principle in the maneuvering of a twin-screw
+vessel is to use the rudders primarily in relation to the
+direction of the vessel’s movement through the water (that
+is, whether she had headway or sternway). Elsewhere, it
+will be recalled, the principle as given for the single-screw
+vessel was that the rudder should be considered in relation to 
+the direction in which the propeller happens to be
+turning, regardless of whether the vessel has headway or
+sternway.
+
+When a twin-screw vessel has headway, both propellers turning ahead, 
+and a quick turn to starboard is desired, the starboard engine is reversed with right rudder.
+The fact that the vessel has headway means that the right
+rudder adds its steering effect to shorten the turn.
+
+
+
+With sternway, both propellers reversing, if a quick turn
+to port is wanted, the port engine is thrown ahead, with
+left rudder. Again, due to the vessel's sternway, the rudder’s 
+effect is added to that of the propellers in causing a
+short turn to port. Return the port engine to reverse gear
+as the stern moves onto the required heading.
+
+If a twin-screw vessel has considerable headway and
+her engines are reversed with rudder hard over, the stern
+will normally swing away from the rudder (to port with
+right rudder and vice versa) until the headway is overcome 
+by the reversing engines. After she has gathered sternway, 
+her stern tends to work toward the side on
+which her rudder is set. Then the vessel’s stern in the
+situation just cited would eventually move to starboard
+with right rudder, after her headway had changed to
+sternway.
+
+Figure 744 In preparing to dock, this twin-screw cruiser has come to a stop just past its slip (at
+A), fenders are rigged, and crew members are standing by with stern lines. Helmsman backs
+down on starboard engine (B) while port engine is turning ahead slowly, to keep the transom
+aligned with the slip as the bow comes around. A stern line is passed ashore (C), both engines
+are reversed at dead slow speed as the boat backs straight into the slip (D), and a turn is taken
+around a cleat with the stern line. Both engines are shifted briefly into forward gear to stop the
+boat (D), and a bow line is taken ashore.

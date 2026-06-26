@@ -1,0 +1,97 @@
+Biological and physical laws of nature are not
+necessarily inherent in the laws of logic.
+
+Douglas Lenat has devoted a lifetime to conquering the mysteries of
+common sense. He feels that the problem is that artificial intelligence (AT)
+researchers have tiptoed around the periphery of the real problem. What
+is needed, he says, is nothing less than an “AI Manhattan Project,” a full
+frontal assault on common sense. The challenge is to create an Encyclopedia 
+of Common Sense—i.e., a nearly complete set of common-sense
+rules. In other words, instead of analyzing isolated pieces of logic, he is
+advocating a brute force, take-no-prisoners approach.
+
+Beginning in 1984, Lenat began to create Cyc (short for encyclopedia),
+a $25 million project which was funded by a consortium of companies
+including Xerox, Digital Equipment, Kodak, and Apple. While previous
+programs could barely achieve the common-sense logic of a three-year old, 
+Cyc’s goal was to achieve the common-sense knowledge of an adult.
+“No one in 2015 would dream of buying a machine without common
+sense,” Lenat claims, “any more than anyone today would buy a personal
+computer that couldn’t run spreadsheets [or] word processing programs.”
+
+Lenat believes that in the future everyone will load common-sense
+programs into their computers, allowing them to have intelligent 
+conversations with their computers, which will be capable of interpreting and
+carrying out people’s commands. Lenat’s goal is to write down a complete list 
+of all common-sense rules. Some “obvious” rules include:
+
+¢ Nothing can be in two places at the same time.
+¢ When humans die, they are not born again.
+
+* Dying is undesirable.
+
+¢ Animals do not like pain.
+
+¢ Time advances at the same rate for everyone.
+
+* When it rains, people get wet.
+
+* Sweet things taste good.
+
+Each “obvious” statement can take his crew many weeks or months to
+break down into its logical components. After ten years of work, he has
+accumulated 10 million such assertions, requiring a billion bytes 
+of information. He ultimately hopes to accumulate a staggering 100 
+million “obvious”’ assertions.
+
+At times Lenat despairs of compiling all the ambiguities hidden within
+the English, language, ambiguities that are only resolved by a person’s
+knowledge of the real world. Take, for example, the statement: “Mary saw
+a bicycle in the store window. She wanted it.” Lenat says, “How do we
+know that she wanted the bicycle, and not the store, or the window?”
+The actual resolution of this simple problem requires that Cyc understand 
+the nearly complete set of likes and dislikes of human beings.
+
+The difficulty of the problem is underscored by the fact that it took
+Lenat three months for him to program Cyc to understand the following:
+
+“Napoleon died on St. Helena. Wellington was saddened.” Unraveling
+these two deceptively simple sentences was complicated because Cyc had
+to untangle a chain of “obvious” statements. First, Cyc had to figure out
+that Napoleon was a person; that persons have the unfortunate habit of
+dying; that death is irreversible and undesirable; that death, in turn, often
+triggers emotion; and that sadness is one of these emotions.
+
+Lenat and his staff get ideas for Cyc from a most unusual source: by
+reading scandalous supermarket tabloids and asking themselves what Cyc
+needs to know to understand (or refute) them. Lenat asks the question:
+can Cyc spot the errors in the tabloids? (If Cyc succeeds in seeing
+through the misconceptions in the supermarket tabloids, it probably will
+have already exceeded the common-sense abilities of a great many Americans!)
+
+One of Lenat’s intermediate goals is to hit the “break even” point,
+where the computer will be able to learn faster by simply “reading” new
+material than by having an army of private tutors with Ph.D.s. Like a
+young bird taking off on its maiden voyage, Cyc will then be able to soar
+on its own power. At that point, it can dispense with human teachers and,
+like a ten-year-old child, read and learn on its own.
+
+Lenat sums up his philosophy with the statement: “Intelligence is 10
+million rules.” This is the opposite of the approach taken in physics,
+where physicists try to reduce vast amounts of material to the simplest
+equations. According to Lenat, this is, in fact, the problem with AI 
+research. Like AI founder Marvin Minsky, Lenat believes that AI researchers 
+have fallen victim to “physics envy.” Impressed with how successful
+physicists have been in representing the physical world with a handful of
+equations, they have mistakenly thought that artificial intelligence could
+also be reduced to a few lines of logic.
+
+But to Lenat, common sense and intelligence are the sum total of
+millions of lines of code. They cannot be reduced to a few lines of logic.
+This is why Lenat feels the Cyc program is so important. Beyond 2020, if
+Cyc can be successfully incorporated into an expert system, it could give
+us computerized doctors, industrial chemists and engineers, lawyers, and
+sO on.
+
+Not everyone in the AI community believes in Lenat’s work. Maes, for
+example, thinks that a truly intelligent agent must learn from and interact

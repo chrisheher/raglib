@@ -1,0 +1,77 @@
+### METADATA ###
+# source_file: Hamlet on the Holodeck__Murray_truth_serum.txt
+# char_count: 4291
+# word_count: 713
+### END METADATA ###
+
+of “ractiv” entertainment. For instance, while playing the role of Ilse
+in the ractiv equivalent of The Mousetrap (a long-running murder
+mystery set on a train in World War Il Europe), a performance in
+which paying guests and professional ractors interact from distant 
+locations in a shared virtual space, she is distracted by a virtual masher:
+
+It was nearly ruined by one of the players, who had clearly signed up
+exclusively for the purpose of maneuvering Ilse into bed. He turned
+out to be the secret SS colonel too; but he was so hell-bent on fucking
+Ilse that he spent the whole evening out of character. Finally Miranda
+lured him into the kitchen in the back of the dining car, shoved a
+foot-long butcher knife in his chest, and left him in the fridge. She
+had played this role a couple of hundred times and knew the location
+of every potentially lethal object on the train. (PB 108)
+
+Miranda’s very professional solution to the problem of how to deal
+with instinctual arousal when it threatens to disrupt the illusory
+world was to provide an “in character” response to inappropriately
+“out of character” behavior.
+
+In live-action role-playing games, the narrative conventions that
+control the boundary between the real world and the illusion are
+called “mechanics.” LARP mechanics are a kind of abstract mimicry
+for behaviors that would otherwise require props, danger, or physical
+involvement. For instance, many role-playing games represent com:
+bat by elaborate arithmetical calculations of comparative strength,
+force, and vulnerability values. In such a game one might see a crowd
+of people standing in a college corridor in the middle of the night,
+shouting numbers at one another, doing the math in their heads, and
+then turning over the name tags of those players who have been cal:
+culated to be dead. There can also be mechanics for seduction. If two
+characters want to have sex, the mechanic might be that they go to
+place separate from other players and remain there for a certain num»
+ber of minutes. They then report to the game master that they have
+had sex. If they want to kiss, they might just say to one another “I kiss
+you” and “I kiss you back.”
+
+~ In some ways, these mechanics are the equivalent of the fade-out
+technique used in movies. They signal that something is happening
+that can only take place place in the viewer’s or interactor’s imagination. 
+The abstractly represented action can be exploited for the immersive pleasure 
+of role-playing as, for example, when two players improvise a love scene, 
+complete with longing looks and poignant words but no necking. Or the mechanic 
+can be exploited for its nartative consequences. For instance, in one simulation, 
+sex with a particular woman served as a kind of truth serum. After making love she
+could ask one question, which her partner had to answer truthfully
+This mechanic allowed sex to be used as a game strategy
+‘of the players’ enjoyment of the scene.
+
+In MUDs, which are on-line role-playing environments, players
+; ave created a similar repertoire of conventions for everything from
+yeddings to virtual pie-making. Sometimes these conventions only
+Involve navigating through the MUD to a particular virtual room and
+@hgaging in a ritualized conversation with other MUDders. For exaimple, 
+I might type in “south, west, south” until the program announces, 
+“Wedding Chapel.” The program would then tell me the
+Names of those who are present, but it would be up to all the role
+yers together to improvise the wedding scene. In other Mudders can 
+program some objects and events into the system. The
+ding Chapel could contain an automated minister, who would
+the couple through their vows. After the ceremony the minister
+ld remember they were married; he might be programmed to tell
+eryone he meets about each new marriage—perhaps even gossip
+about what the bride was wearing and whether she looked pregnant.
+
+‘He narrative strategies used in MUDs raise many questions about
+to establish boundaries between private fantasy and public content. 
+There is no single storyteller in a MUD; the computer proi itself 
+serves as narrator of the story, publishing the dialogue of
+Players to their computer screens and announcing entrances,
+, descriptions, and some events. The command structure by

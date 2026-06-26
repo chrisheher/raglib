@@ -1,0 +1,94 @@
+### METADATA ###
+# source_file: Cognition In The Wild__Hutchins_222_mass_telepathy.txt
+# char_count: 3447
+# word_count: 579
+### END METADATA ###
+
+Social Organization and the Cognitive Properties of Groups
+With these simulation pieces, an exploration of the relational
+among the properties of the individuals and of the group with
+spect to confirmation bias can be made.
+
+THE COMMONSENSE ARCHITECTURE OF GROUP 
+It is often assumed that the best wa
+a4 group is to improve the comm
+the group, or, conversely,
+munication. In his 1982 n
+
+y to improve the performa I
+unication among the membora
+that what is lacking in groups is ag
+ovel Foundation’s Edge, Isaac Asim
+
+taken to be a single self-regulating organism, Asimov extended th
+
+Concept to the cognitive realm. On Asimov’s Gaia, every consciotl
+
+being is in continuous high-bandwidth communication with ever
+
+other. sini is but one mind on Gaia. In Asimov’s book itis a vor
+powerful mind, one that
+
+can do things that are beyond the capu
+bilities of any individual mind. Is this really an advisable way ti
+
+communication is not always in Principle
+some conditions, increasing the richness
+result in undesirable properties at the grou
+
+Consider a simulation experiment in wh
+
+better than less. Under
+of communication may
+p level.
+ich only the persuasive
+ness of the communication among networks is varied. (Recall that
+this is implemented by changing the strength of the connections
+between units in one network and corresponding units in other
+networks.) In the initial community of networks, all the networks
+have the same underlying constraint structure, and all have the —
+Same access to environmental evidence, but each has a slightly
+different initial pattern of activation than any of the others. Furthermore, all the networks communicate with one another, all the
+units in each network are connected to all the units in the other
+networks, and the communication is continuous. This can be
+regarded as a model of mass mental telepathy. Under these conditions, when the communication connecti 01
+ness) is zero, the networks do not com
+settles into an interpretation that
+dispositions (figure 5.4a). If the ¢
+time with a nonzero persuasive
+
+ion strength (persuasivemunicate at all, and each
+is determined by its initial preommunity is started again, this
+ness, each individual network
+
+Distance from interpretation 2
+
+0.0 1.0 -
+
+Distance from interpretation 2
+
+0 10 2.0 0.0 1.0 20
+. 5;
+
+i i Distance from interpretation 1
+Distance from interpretation 1
+
+Distance from interpretation 2
+
+Distance from interpretation 1
+
+Distance from interpretation 1
+
+i ix indivi ini ion space. Each panel in this figure represents the
+ne on memes bates Se tiaee ssa The persuasiveness of the aan
+among th ou ari ulated; all other parameters are held constant. In panel a, the a ni
+SOT aes not communicating with one another, and each goes to the in —
+lena se m st . initial position in interpretation space. In panel b, with some eee seek
+amon the indi iduals, the individual who started most nearly equidistant from the ire
+ret ao be : influenced by the three individuals who favor interpretation 2 and has’ " _
+ant mm a tation. In panel c, at a higher level of communication, the unsure —_—— .
+mip nts two individuals who favor interpretation 1 and has followed them _
+nent ersuasiveness set even higher, those individuals who start nearer ane :
+Mii if inte move toward that interpretation, but as those moving toward a za
+ea eahe {holt own interpretations the = ete ar be sta :
+thom alao towards interpretation 2, Under conditions of high p

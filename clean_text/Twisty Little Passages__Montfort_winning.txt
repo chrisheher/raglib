@@ -1,0 +1,40 @@
+### METADATA ###
+# source_file: Twisty Little Passages__Montfort_winning.txt
+# char_count: 4041
+# word_count: 712
+### END METADATA ###
+
+An extremely interesting response to this one possible “winning” final reply
+is given by the maintainer of the Infocom Bugs List:
+You receive the full 400 out of 400 points when you turn the final
+statue, not when you open the sarcophagus and trap yourself. Why
+not just turn that final statue, and then leave the pyramid, taking the
+five jewelled clusters [some of the artifacts found during exploration 
+of the pyramid] .. . as your retirement fund? The farewell
+note at the beginning of the game establishes that your workers left
+you enough to get back to civilization safely. The game won't officially 
+end of its own accord if you leave the pyramid, but so what?
+k I ewe the pyramid, QUIT with the full number of points, and if
+that isn’t winning, I don’t know what is. (Cree 2001)
+The interactor who follows these steps is not rewarded by an alternative film
+reply; unlike the dig crew, Berlyn and Fogleman did not provide for the
+player character to return alive. Those who follow this path enable themselves
+to imagine their own ending, consistent with the framework of the the
+adventure. Even a third party examining a transcript of such a game Coll
+plausibly read it as having an outcome that Berlyn had not thought of i)
+had not provided for in implementing Infidel. This demonstrates that read
+against the grain (and writing against the grain, by interactors) is possible
+even in a work of interactive fiction, where the system of the world and 1
+possible textual outcomes are programmatically fixed.
+
+Interactors can choose their own adventures in other ways besides jf
+providing input to the program, and it is in this realm of interpretation—11l
+helping to understand how the actual operation of the text-mi hin
+occurs—that theories of reader response are likely to be of most help
+some cases, as in Infidel, interactors may even be able to operate the IT wt
+in a way that is consistent with an unanticipated interpretation.
+Meretzky’s first creation, the 1983 Planeffall, had the player character (
+land on a planet and try to survive to be rescued. The work included #1
+innovations that were wisely not emulated later: a requirement that 
+ ‘has and sleep, for instance, which seemed appropriate for the su
+situation but did not make for particularly interesting challenge

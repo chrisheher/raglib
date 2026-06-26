@@ -1,0 +1,87 @@
+### METADATA ###
+# source_file: Toyota Production System__Ohno_toyota_waste.txt
+# char_count: 3968
+# word_count: 620
+### END METADATA ###
+
+76» TOYOTA PRODUCTION SYSTEM
+
+But my father, an acquaintance of Toyoda Kiichiro, helped
+me acquire a position.
+
+I never dreamed of encountering Toyoda Kiichiro and the
+world of automobiles. But in 1942, Toyoda Spinning and
+Weaving was dissolved. In 1943, I was transferred to the
+Toyota Motor Company, where I entered Toyoda Kiichiro’s
+busy realm of producing automobiles for the war effort.
+
+My textile experience was valuable. Whether in car or fabric
+production, the relationship between workers and machines is
+basically the same. For a private business that is part of a 
+secondary manufacturing industry, cost reduction remains
+ management’s biggest problem — in both the East and West.
+
+Prior to the war and even the automobile, Japan’s textile industry
+ had been struggling in the rough waters of world trade.
+To catch up with and surpass Lancashire and Yorkshire, 
+England’s major textile regions, and to strengthen our 
+international standing, we were already implementing cost reduction
+measures. Thus, Japan’s textile industry already had a global
+view and was actively rationalizing its production methods.
+
+In comparison, the automobile industry in Japan had a short
+history. Before and during World War II, Toyoda Kiichiro
+headed two teams of automobile engineers and business managers 
+in an attempt to mass-produce cars domestically. But
+while truck production was reaching fairly high quantities,
+passenger car production was still far away.
+
+By the late 1940s, Toyoda Kiichiré saw the possibility of his
+wish being fulfilled. In October 1949, the restriction on small
+passenger car production was lifted and price controls
+abolished. The lifting of distribution control and transition to
+independent sales came in April 1950. Unfortunately, at about
+this time, Toyoda Kiichiro resigned from the presidency, taking
+ responsibility for the labor dispute.
+
+Toyoda Spinning and Weaving and the Toyota Motor
+Company, while both small in scale, possessed a global atmosphere.
+ When I joined Toyoda Spinning and Weaving in
+1932, two years after Toyoda Sakichi’s death, the legacy of the
+great inventor remained. Unconsciously, we seemed to know
+what “world class” was. Moving to the world of automobiles
+I met Toyoda Kiichird, whose foresight was matched by Ao
+one’s. Thus, from the beginning, our corporate world was
+globally oriented.
+
+> Two Extraordinary Characters
+
+The two pillars of the Toyota production system are autonomation and just-in-time.
+Autonomation was taken from the ideas and practice of
+Toyoda Sakichi. The Toyota-type auto-activated loom
+which he invented, was fast as well as equipped with a device
+to automatically stop the machine should any one of the many
+warp threads break or the weft thread run out.
+
+ we learned that applying human intelligence to machines was
+ the only way to make machines work for people. The following 
+is an excerpt from an article by
+Haraguchi Akira entitled “Conversation with Toyoda Sakichi”:
+
+The textile industry at that time was not as large as today’s.
+Mostly, older women wove at home by hand. In my village
+every family farmed and each house had a land-weaving
+machine. Influenced by my environment, I gradually began
+thinking about this hand-weaving machine. Sometimes, I would
+spend all day watching the grandmother next door weaving. I
+came to understand the way the weaving machine worked. The
+woven cotton fabric was wound into a thicker and thicker roll.
+The more I watched, the more interested I became.
+
+Toyoda Sakichi was talking about the spring of 1888 when
+he was 20 years old. Reading this, I was impressed by the way
+he observed all day, gradually understanding the way the
+loom operated and becoming more interested as he watched.
+
+With any problem, I always ask why five times. This
+Toyota procedure is actually adapted from Toyoda Sakichi’s

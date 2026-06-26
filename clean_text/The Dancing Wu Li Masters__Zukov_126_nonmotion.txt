@@ -1,0 +1,103 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_126_nonmotion.txt
+# char_count: 4659
+# word_count: 766
+### END METADATA ###
+
+126 / NONSENSE
+
+not come along until Descartes). However, our present measuring devices 
+are more accurate than Galileo’s who occasionally even used his pulse 
+(which means that the more excited
+he got, the more inaccurate his measurements became)).
+Whenever we reconstruct Galileo's falling body experiments,
+we always find discrepancies between the theoretical results
+that we should get and the experimental results that we actually do get. 
+These discrepancies are due to the rotation of the
+earth. The bitter truth is that the laws of mechanics are not
+valid for a co-ordinate system rigidly attached to the earth.
+The earth is not an inertial frame of reference. Since their
+very inception, the poor laws of classical mechanics have been
+left, so to speak, without a home. No one has discovered a
+co-ordinate system in which they manifest themselves perfectly.
+
+This leaves us, from a physicist’s point of view, in a pretty
+mess. On the one hand, we have the laws of classical mechanics, 
+which are indispensable to physics, and, on the other
+hand, these same laws are predicated upon a co-ordinate system
+which may not even exist.
+
+This problem is related to relativity, which is the problem
+of determining absolute non-motion, in an intimate way. If
+such a thing as absolute non-motion were detected, then a
+co-ordinate system attached to it would be the long-lost inertial
+frame of reference, the co-ordinate system in which the classical 
+laws of mechanics are perfectly valid. Then everything
+would make sense again because, given a frame of reference
+in which the classical laws of mechanics are valid, any frame
+of reference, the classical laws of mechanics at last would have
+a permanent mailing address.
+
+Physicists do not enjoy theories with loose ends. Before
+Einstein, the problem of detecting absolute motion (or absolute 
+non-motion—if we find one, we find the other), and the
+problem of finding an inertial co-ordinate system were, to say
+the least, loose ends. The entire structure of classical mechanics 
+was based on the fact that somewhere, somehow, there
+must be a frame of reference in which the laws of classical
+mechanics are valid. The inability of physicists to find it made
+classical mechanics appear exactly like a huge castle built on sand.
+
+Although no one, including Einstein, discovered absolute
+non-motion, the inability ta detect it was a major concern of
+Einstein's day. The second major controversy of Einstein’s
+day (not counting Planck’s discovery of the quantum) was an
+incomprehensible, logic-defying characteristic of light.
+
+In the course of their experiments with the speed of light,
+physicists discovered something very strange. The speed of
+light disregards the transformation laws of classical mechanies.
+Of course, that’s impossible, but nevertheless, experiment
+alter experiment proved just the opposite. The speed of light
+just happens to be the most nonsensical thing ever discovered.
+‘That is because it never changes.
+
+“So light always travels at the same speed,” we ask, “what’s
+so strange about that?”
+
+“Ok my, oh my,” says a distraught physicist, circa 1887,
+“you simply don’t understand the problem. The problem is
+that no matter what the circumstances of the measurement,
+no matter what the motion of the observer, the speed of light
+always measures 186,000 miles per second.”*
+
+“Is this bad?” we say, beginning to sense that something is
+strange here.
+
+“Worse,” says the physicist. “It’s impossible. Look,” he
+tells us, trying to calm himself, “suppose that we are standing
+still and that somewhere in front of us is a light bulb that also
+is standing still. The light bulb flashes on and off and we
+measure the velocity of the light that comes from it. What do
+you suppose that velocity will be?”
+
+“186,000 miles per second,” we answer, “the speed of light.”
+
+“Correct!” says the physicist, with a knowing look that makes
+us uncomfortable. “Now, suppose the light bulb still is standing
+still, but we are moving toward it at 100,000 miles per second.
+Now what will we measure the speed of the light to be?”
+
+“286,000 miles per second,” we answer, “the speed of light
+(186,000 miles per second) plus our speed (100,000 miles per
+second).” (This is a typical example of a classical transformation).
+
+“Wrong!” shouts the physicist. “That’s just the point. The
+speed of the light is still 186,000 miles per second.”
+
+“Wait a minute,” we say. “That can’t be. You say that if the
+light bulb is at rest and we are at rest, the speed of photons
+
+* Ina vacuum. The speed of light changes in matter depending upon the index
+of refraction of the matter: ¢,,,teee =————_
+index of refraction

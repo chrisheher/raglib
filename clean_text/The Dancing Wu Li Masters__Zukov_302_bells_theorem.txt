@@ -1,0 +1,87 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_302_bells_theorem.txt
+# char_count: 4266
+# word_count: 689
+### END METADATA ###
+
+302 / ENLIGHTENMENT
+
+Below is a diagram of the logical implications of Bell’s
+theorem. It is drawn from informal discussions of the Fundamental 
+Physics Group at the Lawrence Berkeley Laboratory,
+under the direction and sponsorship of Dr. Elizabeth Rauscher.
+These discussions, in turn, were based primarily upon the
+work of Henry Stapp.
+
+
+SUPERDETERMINISM
+
+To summarize, Bell’s theorem showed, in 1964, that either
+the statistical predictions of quantum theory are false or the
+principle of local causes is false. In 1972, Clauser and Freedman 
+performed an experiment at Berkeley which validated
+therelevant statistical predictions of quantum theory. Therefore, _
+according to Bell’s theorem, the principle of locals causes
+must be false. f
+
+The principle of local causes says that what happens in I
+one area does not depend upon variables subject to the
+control of an experimenter in a distant space-like separated I
+area. The simplest way to explain the failure of the principle
+of local causes is to conclude that what happens is one
+
+an experimenter in a distant space-like separated area.
+this explanation is correct, then we live in a nonlocal universe 
+(“locality fails”) characterized by superluminal
+(faster than light) connections between apparently “separate
+parts.” ;
+
+However, there are other ways in which the principle of
+local causes can fail. The principle of local causes is based
+upon two tacit assumptions. The first tacit assumption is that
+we have the ability to determine our own actions, i.e., that
+we have a free will.* The second tacit assumption is that
+when we choose to do one thing in place of another, “what
+would have happened if . . .” would have produced definite
+results. These two assumptions together are what Stapp calls
+contrafactual definiteness.
+
+If the first assumption (contrafactualness) fails, then we are
+led to a superdeterminism which precludes the idea of alternative
+ possibilities. According to this type of determinism, it is
+not possible that the world ever could have been other than it
+if the second assumption (definiteness) fails, then we
+are led to the Many Worlds theory in which the world
+continuously is splitting into separate and mutually inaccessible branches, 
+each of which contains different editions of
+the same actors performing different acts at the same time
+on different stages which somehow are located in the same
+place.
+
+There may be still ways to understand the failure of
+the principle of local causes, but the very fact that it must fail
+means that the world is in some way profoundly different
+ftom our ordinary ideas about it. (Perhaps we really are living
+i a dark cave).
+
+the “no models” option on the diagram is, in effect, the
+Copenhagen Interpretation of Quantum Mechanics (page 37).
+In 1927, the most famous assemblage of physicists in history
+decided that it might not ever be possible to construct a
+model of reality, i.e., to explain the way things “really are
+behind the scenes.” Despite the tidal wave of “knowledge”
+which has swept over us for forty years, the Fundamental
+physics Group found it necessary, like the physicists at
+Copenhagen a half century before them, to acknowledge that
+it might not be possible to construct a model of reality. This
+awknowledgment is more than a recognition of the limitations
+mM this theory or that theory. It is a recognition emerging
+throughout the West that knowledge itself is limited. Said
+
+* Physicists usually express philosophical phrases (like “free will”) in more precise
+yr, or example, the concept of free will is defined within this experimental
+‘Huntion as the tacit assumption that “each of the two observers, one located in
+
+wu A, and the other located in area B, can choose between two possible
+“lervations [experiments].” These two choices are considered “free variables” in
+the context of the study of the observations made on the two-particle system.

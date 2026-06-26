@@ -1,0 +1,72 @@
+### METADATA ###
+# source_file: IF Handbook_360_narrative.txt
+# char_count: 4678
+# word_count: 814
+### END METADATA ###
+
+
+“ostensible plot premise—sometimes with obvious set-piece puzzles
+ and usually with the is only slightly better hidden. Aberrations like Trinity 
+(Brian Moriarty, Heom, 1986) and A Mind Forever Voyaging (Steve Meretzky, Infocom,
+h) aside, most IF had so little plot that it was all but inevitable that
+§ would predominate and largely displace what passed for a story.
+of the games produced in the freeware IF tevolution featured
+yer stories, however (perhaps because, in shorter IF, it’s easier to
+Wi A Narrative arc), spawning a trend toward smoother integration of
+A puzzle (in other words, fewer locked doors that have to be
+relatively short IF games were all but unknown in 1994, Unnkwitt ( "i
+Half (D. A. Leary) was written in 1993 as a teaser for Unnkulia (ot
+A. Leary, 1993), and medium-length fare like Busted! Jon Drulinan #
+Derek Pizzuto, 1993) was rate (and only half-serious). ‘The advent al th
+annual competition in 1995, with its “One Rule” that entries mit}
+finishable in under two hours, heralded a movement toward shiv
+games, and popular games like Joby’ Fire Witch (John Baker, 19) I "
+followed and pushed the trend—fast enough that longer IF, by 2! ae
+
+largely unknown, with maybe a release or two each year. (Three af 1 Keel 
+because no IF player can leave a doot unlocked in good
+relatively compact; if all new games were expected to be Cwniy Wi
+there would likely have been much fewer IF authors. At the sii 1%
+however, the trend toward shorter games lessened players’ palieiyy #
+
+Wopranked games (The Edyfice (Lucian P. Smith), Babe/ (Ian Finley),
+(herass (Nate Cull)) had become highly focused, and the puzzles to
+wed would have made little to no sense in any other context.
+
+highly difficult, epic-length IF on the scale of Jigsaw; 
+i had singly, by 2004, a plot that both made sense and drove the bulk of
+teaccustom oneself to devoting months to a single game where the action had become an expected IF feature, and well-regarded common IF experience takes only an evening (and when (lie I Integrated their plot and puzzles seamlessly. (It would have been
+hundreds more worthy efforts in the archive). The diminished ay jt to imagine the puzzles in the 2001-2003 competition wikaees —
+fot long games in turn made authors reluctant to devote the consil) it J Towards Bedlam (Star Foster and Daniel Ravipinto, 2003),
+energies required, and the spiral proceeded from there. How sil 4 ( Harth, Another Sky (Paul O”’Brian, 2002), and _A/7 Roads (Jon
+loss this was for the IF world was a matter of taste and opi I 2001)—transposed into any other game.)
+
+course, but it was certainly a striking trend. His was a welcome development in a lot of respects, but in one in
+
+A somewhat unfortunate example of this was G. Keviti 1
+Once and Future, a sprawling Arthurian epic written over the eee
+five years and teleased commercially in 1998. While teviews
+generally positive, interest (at least, as measured by sales) was (ee
+part, it seemed, because epic-length IF had fallen out of style 1) a"
+extent over the course of the game’s creation, and the ample me
+
+lit; it suggested that the IF medium can be valuable for
+i, ideas and telling a story in new ways, not simply for the
+Of puzzles (which was, largely, its original purpose). Some have
+I that the ability to not only put the player in the shoes of the
+Miist (as static fiction does with first-person narration) but actually
+Me protagonist’s actions heightens a sense of complicity in the
+
+short, high-quality freeware games natrowed the panw) 4 unfolds and offers an opportunity to make a statement that
+—-* Ould not be made as effectively in static fiction. imilatly, the
+
+re of interacting with characters and experiencifig a setting gives
+fential emotional impact not available in static fiction—and the
+lets found ways to make such an impact, notably Adam Cadre in
+(1998) and Andrew Plotkin in Shade (2000).
+
+Ii ink was spilled in the 1994-2004 period on the subject of the
+
+The Narrative Caught Up with the Crosswit
+
+Through most of its history, IF consisted largely of puzzles Wit we

@@ -1,0 +1,98 @@
+### METADATA ###
+# source_file: Poetics of Myth__Meletinsky_071_propp.txt
+# char_count: 5790
+# word_count: 905
+### END METADATA ###
+
+70 The Poetics of Myth
+
+that there is no myth without narration. In theory, this is acknowledged
+by Lévi-Strauss, but in practice this is an aspect that he does not examine 
+in detail. At first glance, it may seem that this is a defect of structuralism, 
+but this would not be totally accurate. It is rather an inherent
+weakness, major or minor, of all theories of myth, even those that are
+the basis for adherents of literary criticism with a mythological bent.
+
+The syntagmatic aspect has been examined in detail by Viadimir
+Propp in Morphology of the Folktale. Propp concentrates not on myths
+but on tales, and folk tales essentially emphasize plot, while the narrative
+quality emerges in poetic stereotypes. Propp is undoubtedly one of the
+leading figures of structuralism, and Lévi-Strauss’s accusations of formalism 
+seem unjustified."* 
+
+After a few experimental attempts in American folkiore studies 
+to develop an approach to the syntagmatic aspect of
+myth (by Robert Armstrong and John Fischer, for example),'° Alan
+Dundes proposed a viewpoint that was critical of Lévi-Strauss 
+and applied Propp’s methods to the myths and folk tales of North American
+Indians using a terminology partly derived from linguist Kenneth Pyke.”
+His starting point is that there is little to distinguish the structure of
+myths and tales among North American Indians. Although Dundes has
+paid close attention to the synchronic dimension and is far from 
+an evolutionist, even the most superficial comparison of his analysis of Indian
+tales with Propp’s study of Russian folk tales emphasizes the importance
+of a comparative methodology. However, AJ. Greimas, also a structuralist, 
+has justified the historical comparison of myths and folk tales."
+
+He has attempted to construct a narrative grammar of myth and blend
+the Lévi-Straussian paradigmatic approach with Propp’s emphasis on
+the syntagmatic while incorporating the latest findings from logic and
+semantics. He applies his synthetic approach to Russian folk tales and to
+the Bororo myths cited in Lévi-Strauss’s first volume of Mythologiques.
+
+Greimas reduces the number of Propp’s functions (the general actions 
+of the characters in the folk tale) from thirty to twenty. He considers 
+every pair joined not only by implication, in the sense that one follows 
+the other, but also by logical disjunction, by which he means a
+paradigmatic relationship that is independent of the linear development
+of the plot. Two pairs of functions are unified by means of a semantic
+correlation, negative and positive. The series of negative elements at the
+beginning of a tale or a myth must in the end be transformed, usually by
+means of a test, into a series of positive elements. In Greimas’s judgment, 
+the test is a mediating function that is independent of any particular pair. 
+
+Greimas assigns all functions into three categories: tests; 
+adhesion and disengagement; and contractual functions, accepting or 
+refusing to perform an action. The fundamental thematic corpus of a tale or
+myth is divided into a negative and a positive series that are linked to the
+beginning and to the end of the tale, respectively. Every function appears 
+in two narrative modes—one truthful, the other deceitful. As Greimas sees it, 
+the structure formed by the characters in a tale is a SyStem composed of the 
+pairs ‘sender-receiver’ and ‘subject-object’. In the
+narrative process, Greimas locates and analyzes the redistribution of
+roles, while he links every narrative syntagma to the articulation of the
+mythological content in diverse codes. Finally, the diachronic aspects are
+compared with the transformations of the underlying content.
+
+Greimas’s logic is impeccable and a few points (for example, the
+key role played by tests and the redistribution of roles within tales) are
+extremely well argued. But because his arguments are not based on primary texts, 
+some of his attempts to construct a new systematic approach
+seem forced. For example, sometimes ‘logic’ leads Greimas to pair off
+heterogeneous functions or transpose Propp’s very concrete scheme
+regarding the subject matter of tales to myths. In myths, there are rarely
+hierarchically-arranged series of tests, nor do tales possess the internal
+dialectic of alienation or the reestablishing of pacts between protagonists
+that typify myths. In brief, while always interesting and methodologically
+sound, Greimas’s approach is a bit sketchy.
+
+After having written the above, I received a copy of a book written
+by Joseph Courtés, a follower of Greimas.'* The book is a ‘semiotic
+reading’ of Lévi-Strauss’s Mythologiques. Courtés argues that LéviStrauss’s 
+insistence on the primacy of paradigms, his insistence on homologous codes 
+defined not only in terms of structural organization but
+in terms of ethnographic ‘meaning’, and the presence of lexical and
+mythological confusion (ethnological reality and the structure of oppositions, 
+respectively) are obstacles to the full development of his theoties, He proposes
+ an addition to Lévi-Straussian methodology in the
+form of Greimas’s narrative grammar in order to move Lévi-Strauss’s
+structuralism closer to the narrative dimension, thus linking the semantic
+structure to syntax by means of a double articulation of adhesion and
+disengagement. Courtés believes it is necessary to limit the description
+of codes to the background, to snclude a third component between the
+two poles of the opposition, to grant a precise thematic role to this third
+component (mediator, ‘separator’, ‘attractor’) of oppositions, and to
+emphasize the diachronic aspect that is always implicit in Lévi-Strauss.
+The road is thus open for a more precise application of the elements of
+symbolic logic in the form not of ‘judgments’ but of ‘propositions’ of
+the type:

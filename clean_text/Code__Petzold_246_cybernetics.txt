@@ -1,0 +1,119 @@
+### METADATA ###
+# source_file: Code__Petzold_246_cybernetics.txt
+# char_count: 6737
+# word_count: 1060
+# date_found: January 1, 1925
+### END METADATA ###
+
+Chapter Eighteen
+
+John von Neumann wasn’t the only person doing some major conceptual
+thinking about the nature of computers in the 1940s.
+
+Claude Shannon (born 1916) was another influential thinker. In Chapter
+11, I discussed his 1938 master’s thesis, which established the 
+relationship between switches, relays, and Boolean algebra. 
+In 1948, while working for Bell Telephone Laboratories, he published
+ a paper in the Bell System Tech. nical Journal entitled “A Mathematical Theory of Communication” that not only introduced the word bit in print but 
+established a field of study today —known as information theory. 
+
+Information theory is concerned with transmitting digital information 
+in the presence of noise (which usually prevents
+all the information from getting through) and how to compensate for that,
+In 1949, he wrote the first article about programming a computer to play
+chess, and in 1952 he designed a mechanical mouse controlled by relays that
+could learn its way around a maze. Shannon was also well known at Bell
+Labs for riding a unicycle and juggling simultaneously.
+
+Norbert Wiener (1 894-1964), who earned his Ph.D. in mathematics from
+Harvard at the age of 18, is most famous for his book Cybernetics, or Control
+and Communication in the Animal and Machine (1948). He coined the word
+cybernetics (derived from the Greek for steersman) to identify a theory that
+related biological processes in humans and animals to the mechanics of
+computers and robots. In popular culture, the ubiquitous cyber- prefix now
+denotes anything related to the computer. Most notably, the interconnection
+of millions of computers through the Internet is known as cyberspace, a word
+coined by cyberpunk science-fiction novelist William Gibson in his 1984
+novel Neuromancer.
+
+In 1948, the Eckert-Mauchly Computer Corporation (later part of
+Remington Rand) began work on what would become the first commercially
+available computer—the Universal Automatic Computer, or UNIVAC. It was
+completed in 1951, and the first one was delivered to the Bureau of the Census. 
+The UNIVAC made its prime-time network debut on CBS, when it was
+used to predict results of the 1952 presidential election. Walter Cronkite
+referred to it as an “electronic brain.” Also in 1952, IBM announced the
+company’s first commercial computer system, the 701.
+
+And thus began a long history of corporate and governmental computing. 
+However interesting that history might be, we’re going to pursue another 
+historical track—a track that shrank the cost and size of computers
+and brought them into the home, and which began with an almost unnoticed 
+electronics breakthrough in 1947,
+
+Bell Telephone Laboratories was for many years a place where smart people
+could work on just about anything that interested them. Some of them, 
+fortunately, were interested in computers. P’ve already mentioned George Stibitz
+and Claude Shannon, both of whom made significant contributions to early
+computing while working at Bell Labs. Later on, in the 1970s, Bell Labs was
+the birthplace of the influential computer operating system named Unix and
+a programming language named C, which Ill describe in upcoming chapters.
+
+Bell Labs came about when American Telephone and Telegraph officially
+separated their scientific and technical research divisions from the rest of their
+business, creating the subsidiary on January 1, 1925. The primary purpose
+Hf Hell Labs was to develop technologies for improving the telephone system, 
+That mandate was fortunately vague enough to encompass all sorts of
+things, but one obvious perennial goal within the telephone system was the
+distorted amplification of voice signals transmitted over wires,
+
+Since 1912, the Bell System had worked with vacuum tube amplification,
+wid a considerable amount of research and engineering went into improving 
+Vacuum tubes for use by the telephone system. Despite this work, vacuum
+tiihes still left much to be desired. Tubes were large, consumed a lot of power,
+avid eventually burned out. But they were the only game in town.
+
+All that changed December 16, 1947, when two physicists at Bell Labs
+famed John Bardeen (1908-1991) and Walter Brattain (1902-1987) wired
+i different type of amplifier. This new amplifier was constructed from a slab
+of germanium—an element known as a semiconductor—and a strip of gold
+foil, They demonstrated it to their boss, William Shockley (1910-1989), a
+week later. It was the first transistor, a device that some people have called the
+fost important invention of the enti exter
+
+~The transistor didn’t come out of the blue. Eight years earlier, on
+ Decemher 29, 1939, Shockley had written in his notebook, “It has today 
+occurred to me that an amplifier using semiconductors rather than vacuum 
+is in principle possible.” And after that first transistor was demonstrated,
+ many years followed in perfecting it. It wasn’t until 1956 that Shockley, Bardeen, and
+Ibrattain were awarded the Nobel Prize in physics “for their researches on
+semiconductors and their discovery of the transistor effect.”
+
+Earlier in this book, I talked about conductors and insulators. Conductors
+are so called because they’re very conducive to the passage of electricity.
+Copper, silver, and gold are the best conductors, and it’s no coincidence that
+all three are found in the same column of the periodic table of the elements.
+
+As you'll recall, the electrons in an atom are distributed in shells that
+surround the nucleus of the atom. What characterizes these three conductors 
+is a lone electron in the outermost shell. This electron can be easily dislodged
+ from the rest of the atom and hence is free to move as electrical
+current. The opposites of conductors are insulators—like rubber and plastic—
+that barely conduct electricity at all.
+
+The elements germanium and silicon (as well as some compounds) are
+called semiconductors, not because they conduct half as well as conductors,
+but because their conductance can be manipulated in various ways. 
+Semiconductors have four electrons in the outermost shell, which is half the
+maximum number the outer shell can have. In a pure semiconductor, the
+atoms form very stable bonds with each other and have a crystalline structure 
+similar to the diamond. Such semiconductors aren’t good conductors.
+
+But semiconductors can be doped, which means that they’re combined
+with certain impurities. One type of impurity adds extra electrons to those
+needed for the bond between the atoms. These are called N-type semiconductors 
+(N for negative). Another type of impurity results in a P-type
+semiconductor.
+
+Semiconductors can be made into amplifiers by sandwiching a P-type
+semiconductor between two N-type semiconductors. This is known as an

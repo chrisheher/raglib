@@ -1,0 +1,60 @@
+### METADATA ###
+# source_file: Learn to Program Ruby__Pine_112_growth.txt
+# char_count: 2195
+# word_count: 403
+### END METADATA ###
+
+112 © Chapter 13. Creating New Classes, Changing Existing Ones
+
+3.6 A Few More Things to Try
+
+* Orange tree. Make an OrangeTree class that has a height method that returns
+its height and a one_year_passes method that, when called, ages the tree one
+year. Each year the tree grows taller (however much you think an orange
+tree should grow in a year), and after some number of years (again, your
+call) the tree should die. For the first few years, it should not produce
+fruit, but after a while it should, and I guess that older trees produce
+more each year than younger trees...whatever you think makes the most
+sense. And, of course, you should be able to count_the_oranges (which returns
+the number of oranges on the tree) and pick_an_orange (which reduces the
+@orange_count by 1 and returns a string telling you how delicious the orange
+was, or else it just tells you that there are no more oranges to pick this
+year). Make sure any oranges you don’t pick one year fall off before the
+next year.
+
+Interactive baby dragon. Write a program that lets you enter commands
+such as feed and walk and calls those methods on your dragon. Of course,
+since you are inputting just strings, you will need some sort of method
+dispatch, where your program checks which string was entered and then
+calls the appropriate method.
+
+
+
+This is definitely one of the coolest features 
+have this feature, though they may call i som
+most of the more popular ones don't, and i's
+Ruby makes it so pretty with its cute little thing.
+
+What is this cool new thing? It's the ability a (
+between do and end), wrap it up in an object (oath
+or pass it to a method, and run the code in thy J
+it (more than once, if you want), So, it's kind of
+isn’t bound to an object (it is an object), and yout
+like you can with any object. I think it's example
+toast = Proc.new do
+
+puts 'Cheers!'
+
+toast.call
+toast.call
+toast.call
+
+I created a proc (which I think is supposed to
+more important, it rhymes with block) (hat ld
+I called the proc three times. As you can see, I '
+
+Actually, it’s even more like a method than I hy v
+can take parameters:
+
+do_you_like = Proc.new do Igood_stuffI
+puts "I *really* like #{good_stuff}!"

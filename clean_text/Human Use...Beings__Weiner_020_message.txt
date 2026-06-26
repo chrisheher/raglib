@@ -1,0 +1,86 @@
+### METADATA ###
+# source_file: Human Use...Beings__Weiner_020_message.txt
+# char_count: 4117
+# word_count: 695
+### END METADATA ###
+
+20 THE HUMAN USE OF HUMAN BEINGS
+
+The first satisfactory solution to the problems aroused
+by this experiment was that of Lorentz, who pointed
+out that if the forces holding matter together were 
+conceived as being themselves electrical or optical in
+nature, we should expect a negative result from the
+Michelson-Morley experiment. However, Einstein in
+1905 translated these ideas of Lorentz into a form in
+which the unobservability of absolute motion was rather
+a postulate of physics than the result of any particular
+structure of matter. For our purposes, the important
+thing is that in Einstein’s work, light and matter are
+on an equal basis, as they had been in the writings
+before Newton; without the Newtonian subordination
+of everything else to matter and mechanics.
+
+In explaining his views, Einstein makes abundant
+use of the observer who may be at rest or may be
+moving. In his theory of relativity it is impossible to
+introduce the observer without also introducing the
+idea of message, and without, in fact, returning the
+emphasis of physics to a quasi-Leibnitzian state, whose
+tendency is once again optical. Einstein's theory of relativity 
+and Gibbs’ statistical mechanics are in sharp
+contrast, in that Einstein, like Newton, is still talking
+primarily in terms of an absolutely rigid dynamics not
+introducing the idea of probability. Gibbs’ work, on
+the other hand, is probabilistic from the very start, yet
+both directions of work represent a shift in the point
+of view of physics in which the world as it actually
+exists is replaced in some sense or other by the world
+as it happens to be observed, and the old naive realism
+of physics gives way to something on which Bishop
+Berkeley might have smiled with pleasure.
+
+At this point it is appropriate for us to review certain
+notions pertaining to entropy which have already been
+presented in the introduction. As we have said, the
+idea of entropy represents several of the most important 
+departures of Gibbsian mechanics from Newtonian mechanics. 
+In Gibbs’ view we have a physical quantity which belongs 
+not to the outside world as such, but to certain sets of 
+possible outside worlds, and therefore to the answer to 
+certain specific questions which we can ask concerning 
+the outside world. Physics now becomes not the discussion 
+of an outside universe which may be regarded as the total answer
+to all the questions concerning it, but an account of
+the answers to much more limited questions. In fact,
+we are now no longer concerned with the study of all
+possible outgoing and incoming messages which we
+may send and receive, but with the theory of much
+more specific outgoing and incoming messages; and it
+involves a measurement of the no-longer infinite amount
+of information that they yield us.
+
+Messages are themselves a form of pattern and organization. 
+Indeed, it is possible to treat sets of messages as having an 
+entropy like sets of states of the external world. Just as entropy 
+is a measure of disorganization, the information carried by a set 
+of messages is a measure of organization. In fact, it is possible
+to interpret the information carried by a message as
+essentially the negative of its entropy, and the negative
+logarithm of its probability. That is, the more probable
+the message, the less information it gives. Clichés, for
+example, are less illuminating than great poems.
+
+I have already referred to Leibnitz’s interest in
+automata, an interest incidentally shared by his contemporary, 
+Pascal, who made real contributions to the development of what
+ we now know as the desk adding machine. Leibnitz saw in the 
+concordance of the time given by clocks set at the same time, 
+the model for the pre-established harmony of his monads. For 
+the technique embodied in the automata of his time was that of
+the clockmaker. Let us consider the activity of the little
+figures which dance on the top of a music box. They
+move in accordance with a pattern, but it is a pattern
+which is set in advance, and in which the past activity
+of the figures has practically nothing to do with the
+

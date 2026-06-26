@@ -1,0 +1,76 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_008_components.txt
+# char_count: 1475
+# word_count: 227
+### END METADATA ###
+
+Valve springs
+
+Cylinder head
+
+der head gasket
+
+er block (in-line)
+
+Rocker
+arms
+
+Cylinder block (V-8)
+
+Cylinder liner
+
+Principles of Operation 9
+
+Aftercooler (intercooler)
+Rocker arm
+Injector
+Turbocharger Valve guide
+Push rod
+Valve
+"Wet" cylinder liner Piston rings
+asia Camshaft
+Piston pin
+"Jerk"-type fuel injection
+Heat exchanger ern
+
+Connecting rod
+
+Crank end bearing
+
+Oil filter
+
+Main bearing cap
+
+Oil pump
+
+Figure 1-12. Cutaway view of a Caterpillar 3406B turbocharged in-line 6 represents typi-
+
+cal modern diesels. (Courtesy Caterpillar Tractor Co.)
+
+Cylinder liner
+(partially removed)
+
+Cylinder block
+
+Top of liner makes
+watertight seal in
+
+jacket
+
+Bottom of cylinder liner has
+"0" rings which seal in base of block
+piston. The piston rings press out against the walls of
+the cylinder to make a gas-tight seal. The top end of a
+cylinder is sealed with a casting known as a cylinder
+head, which contains the injectors, valves, and frequently 
+combustion chambers, water passages, and so
+on. The valves are set in guides, which are replaceable 
+sleeves pressed into the cylinder head.
+
+When an engine begins to show appreciable wear,
+these valve guides are easily pressed out and replaced.
+Better-quality engines also have replaceable valve
+seats, the area that a valve contacts to seal the 
+combustion chamber. Re-machining valve seats, replacing
+valve guides, and installing new valves renews the
+cylinder head, giving this expensive part an almost

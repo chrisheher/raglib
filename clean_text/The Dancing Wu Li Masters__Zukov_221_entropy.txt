@@ -1,0 +1,90 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_221_entropy.txt
+# char_count: 4247
+# word_count: 730
+### END METADATA ###
+
+220 / 1 CLUTCH MY IDEAS
+
+backward in time as a positron it absorbs two photons at B, —
+
+reverses its direction in time again, and again becomes an
+electron. Instead of three particles there is only one particle
+which, moving from left to right, travels first forward in time,
+then backward in time, and then forward in time again.
+
+This is the static type of space-time picture described in
+Einstein’s theory of relativity (page 150). If we could survey
+an entire span of time as we can survey an entire region of
+space, we would see that events do not unfold with the flow of
+time but present themselves complete, like a finished painting
+on the fabric of space-time. In such a picture movements
+backward and forward in time are no more significant than
+movements backward and forward in space.
+
+The illusion of events “developing” in time is due to our
+particular type of awareness which allows us to see only narrow
+strips of the total space-time picture one at a time. For
+example, suppose that we place a piece of cardboard with a
+narrow strip cut out of it over the diagram on page 219 so that
+all that we can see of the interaction is what is visible through
+the cut-out. If we move the cardboard slowly upward, starting —
+at the bottom, our restricted view discovers a series of events,
+each one happening after the other.
+
+First, we see three particles, two photons entering our view
+from the right and an electron entering from the left (1).
+Next, we see the photons collide to produce an electron- ©
+positron pair, the electron flying off to the right and the positron
+flying off to the left (2). Finally, we see the newly created
+positron meet the original electron to create two new photons
+(3). Only when we remove the entire cardboard (which was an
+artificial construction anyway) can we see the complete picture.
+
+“In space-time,” wrote de Broglie,
+everything which for each of us constitutes the past, the
+present, and the future is given in block. . . . Each observer, 
+as his time passes, discovers, so to speak, new
+slices of space-time which appear to him as successive
+aspects of the material world, though in reality the
+ensemble of events constituting space-time exist prior to
+his knowledge of them. !
+
+“Wait a minute,” says Jim de Wit to a passing particle
+physicist. “It is easy to talk of movement backward and 
+forward in time, but I never have experienced going backward
+in time. If particles can travel backward in time, why can't I
+travel backward in time?”
+
+The answer which physicists gave to this question is actually q
+uite simple: There is a growing tendency in any closed
+part of the universe, their explanation goes, for disorder (called
+“entropy ) to expand at the price of order (called “negentropy ).
+Suppose, for example, that we deposit a drop of black ink into
+a glass of clear water. Initially its presence is quite ordered.
+That is, all of the molecules of ink are located in one small
+area and are clearly segregated from the molecules of clear
+water.
+
+As time passes, however, natural molecular motion will cause
+the black ink molecules steadily to intersperse with the clear
+water molecules until they are distributed evenly throughout
+the glass, resulting in a murky homogeneous liquid with no
+structure or order whatever—only a bland uniformity (maximal entropy).
+
+Experience has taught us to associate increasing entropy
+with the forward movement of time. If we see a movie of a
+glass of murky water becoming clearer and clearer until all of
+the foreign substance in it collects into one small drop at the
+top, we know at once that the film is running backward. Of
+course, it is theoretically possible for this to happen, but it is
+so improbable that it simply never (probably) will happen. In
+short, time “flows” in the direction of high probability, which
+is the direction of increasing entropy.
+
+The theory of growing disorder, or “increasing entropy,” is
+called the second law of thermodynamics. The second law of
+thermodynamics is statistical. That means it won't work unless
+there are many entities in a given situation to apply it to.
+Generally speaking, individual subatomic particles are conceived
+as such conceptually isolated, short-lived entities that the second

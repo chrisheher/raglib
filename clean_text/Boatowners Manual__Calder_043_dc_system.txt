@@ -1,0 +1,125 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_043_dc_system.txt
+# char_count: 3516
+# word_count: 571
+### END METADATA ###
+
+With a wired-in shunt, you will need a continuous rating 
+of 200 amps even on quite small boats.
+
+This is because the entire battery input or output
+will be flowing through the shunt—in many
+installations this will include engine-cranking
+loads and perhaps an electric windlass, bow
+thruster, and/or electric winches. Boats with
+larger loads and heavier equipment will need to
+go to 400 or even 800 amp shunts. Really highload 
+devices, such as a bow thruster, may still
+need to be wired to the battery side of the shunt
+(and thus not measured),
+
+
+panel
+= ana
+
+starter motor
+
+ammeter
+voltmeter
+
+house bank cranking battery
+shunt
+
+to all negatives
+(see note 2)
+ammeter
+
+(plus amp-hours)
+
+FIGURE 1-39A. Desirable measurement points on a
+DC system. Notes: 1. One multifunction meter can be
+used instead of individual meters. 2. With a dedicated
+cranking battery it is not as important to measure
+amps in and out,/So’the ammeter is shown wired to the
+house batteries. If the batteries are alternated in house
+use, a second shunt can be placed in the negative
+cable to the second battery, or else the single shunt
+can be moved to position 2; where it will measure total
+current in and out of the batteries.
+
+FIGURE 1-39B. A shunt for measuring high
+amperages.
+
+Even with accurate amperage and voltage
+measurements, it still takes a good grasp of the
+nature of batteries to gain an understanding of
+the health of the batteries from the readings. An
+amp-hour meter will take the guesswork out of
+these calculations, providing an instant readout
+of the state of charge of any battery bank (Figures 1-40A and 1-40B; more in Chapter 3),
+
+Finally, it is worth considering a meter with
+programmable alarms for such situations as lowor high-battery voltage or low state of charge.
+These alarms may well warn you of a potentially
+damaging situation long before it would otherwise be noticed.
+
+In the past, any kind of multifunction monitoring device of the kind being recommended
+invariably resulted in numerous small-gauge
+cables being run to the computer and display
+device (Figures 1-40C and 1-40D). The installation was quite involved and time consuming. At
+time of writing, Xantrex, Victron, and probably
+other manufacturers are in the process of greatly
+simplifying the installation by packaging the
+computing device with the shunt needed to
+measure amperage and then using a plug-in data
+cord to communicate with the display unit (and
+also various other devices, such as a battery
+charger and DC-to-AC inverter). The Xantrex
+unit is called a DC Node; the overall system is a
+Xanbus. Victron’s system is a VENet. The DC
+Node also accepts battery temperature input and
+performs a wide range of analytic functions.
+
+AC In/Charge
+Inverter On @ System
+Low Battery
+
+Fault
+
+System Control Panel
+
+PUTTING THE PIECES TOGETHER
+
+FIGURE 1-40A. A systems
+monitor with sophisticated
+networking capable of
+interfacing with electronic
+engine control display units
+and other networked
+devices on board.
+(Courtesy Xantrex)
+
+FIGURE 1-40B. A
+basic systems monitor,
+resembling the fuel
+gauge in a car.
+
+FIGURE 1-40C. A
+complete DC monitoring
+system, including two
+shunts (one for battery
+amps, the other for alternator amps), a multistep
+voltage regulator, and a
+panel-mounted display
+and control unit.
+
+FIGURE 1-40D. This is a
+first-class sophisticated
+systems monitor from
+Ample Technology, but
+
+it does require quite a bit
+of wiring. (Ample
+Technology)
+
+NERGY MONITOR,

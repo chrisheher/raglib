@@ -1,0 +1,43 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_040_course_label.txt
+# char_count: 2254
+# word_count: 406
+### END METADATA ###
+
+
+on the latitude scale and steps off the line, counting the number
+steps, multiplying this by the length of the step, and adding a
+remainder. The distance so measured is the length of the rhumb line
+
+
+Your course is your intended direction of travel through the way
+A course line is a line extending in the direction of the course. From
+known position of your vessel, the course line is drawn in the directicion
+indicated by the course. It is good practice to label all lines and point
+of significance as they are drawn, for an unlabeled line or point ma
+be misinterpreted later. Any simple, clear, logical system of labels i
+suitable. The following is widely used and might well be consider
+standard.
+
+
+
+Label a course line with direction and speed. Above the course line
+place a capital C followed by three figures to indicate the course steered,
+It is customary to label and steer courses to the nearest whole degree
+As mentioned before, small-boat skippers should label a course with
+the magnetic reading, for that is the course to be steered. Below the
+course line, and under the direction label, place a capital § followed
+by figures representing the speed in knots. Since the course is always 
+given in degrees magnetic and the speed in knots, it is not necessary 
+to indicate the units or reference the direction. 
+
+A point to be labeled is usually enclosed by a small circle in the case. 
+of a fix (an accurate position determined without reference to any former
+position), by a semicircle in the case of a dead reckoning position, 
+Heading west at 8 knots off Dicks Arm.
+and by a small square in the case of an estimated position. It is labeled
+with the time, usually to the nearest minute. Time is usually expressed —
+in four figures without punctuation, on a 24-hour basis. Zone time
+(your /ocal time) is usually used. A course line is a succession of an _
+infinite number of dead reckoning positions. Only selected points should
+be labeled.

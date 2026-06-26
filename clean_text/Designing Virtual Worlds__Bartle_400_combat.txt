@@ -1,0 +1,77 @@
+
+Why did MUD1 do it this way? It looks suspiciously like the way that Dungeons &
+Dragons combat works—so similar that many virtual worlds openly refer to charaacter
+health as “hit points,” in the D&D tradition.
+
+MUD] did it this way because it delivered the gameplay. Roy wanted combat to pro
+ceed as exchanges of blows—I swing, you swing, I swing, you swing—because that
+was the most appropriate level of abstraction. He wanted it automated because other
+wise it would have been tedious for players continually to type “hit them>*.” When
+character swings at another character, there has to be some chance of hitting: This 
+encapsulated by the dexterity attribute. As for what to do when a hit got through, while
+obviously there had to be some damage.
+
+Roy and I discussed how to handle this. Although I knew the D&D combat system
+well, I also knew other ways to do this kind of thing (I didn’t only play D&D, after all
+
+Come to that, Pd already designed board games and a computer game*”’ that used
+different mechanisms. Overall, though, the classic approach won on the basis of simplicity. 
+When you're in a fight, you want an instant readout on how well you're doing,
+Anything too complicated wouldn't give players enough time to absorb it: anything
+much simpler and combat wouldn't have been any fun.
+
+We decided, therefore, to give characters a number of “lives.” Whenever a character
+was hit successfully, one life would be removed. To make this less predictable than it
+sounds, we scaled up everything by a factor of ten and added some randomness. Thus,
+ulthough your character could usually survive ten blows, sometimes they’d hold out
+lor longer and sometimes they’d capitulate sooner. We did some tuning to make sure
+hat battles neither ground on too slowly nor ended too quickly to be fun, and that was
+hat. Everything else—spells, weapons, artifa¢ts—followed.
+
+As a game mechanic, this worked well. As a representation of reality, it was somewhat
+off the mark. Real-life combat with hand weapons is not a gradual wearing down, a cut
+here, a nick there, until eventually someone dies of attrition. Instead, most blows are
+locked, dodged, or parried, and when one does finally land it either has little effect or
+
+6, Note that clicking a mouse is much easier than typing, which is why graphical virtual worlds can get away
+with non-automatic hand-to-hand combat.
+
+‘7. A two-player tank warfare game in BASIC which is now lost to the world (not that the world should be bothered about this!), It used a target location approach, whereby each hit could knock out a system or crew
+member, reducing the options that the player had for their subsequent commands,
+
+Life in the Virtual World pretty well incapacitates the recipient. In real-world warfare,
+once suffering a telling wound they could take no further part in the battle were 
+certain to die even if no one finished them off (medical science couldnt deal is 
+infection). Virtual worlds set in different periods or having some kind bed magic
+be able in them don’t have to stick with these facts, of course, but they still need a fiction
+to rationalize it.
+
+So what other combat systems are available that retain the gameplay but make more
+rational sense?
+
+Enhanced Combat Systems
+
+Actually, the MUD1-style approach does make some sense if, instead of stamina/health
+hit points, armor/shield is used. You bash at people until their armor comes to er
+then the next blow hits their body and they've lost. Where characters injuries ine
+heal with rest after a fight, “wounded” armor is repaired. Of course, to be realistic
+some hits should possibly get through despite the armor, but even so they might not
+do fatal damage, yet fatigue can set in and...blah blah blah.
+
+Combat systems can rapidly get very complex. However, the same approaches crop u
+time and time again, not only in virtual worlds but also in single-player and tabletop
+games. Here’s a run-down:
+
+Reaction and recovery times. Traditional combat is round-based, in that characters
+trade blows either in turn or simultaneously. This is unrealistic, because we
+weapons take longer to recover from than others. In the time it takes you to a
+your two-handed sword, I might have been able to run through twice his
+my rapier. Defense also can have reaction and recovery times: Your hd s “ :
+may take more damage, but if I switch the point of my attack you might no
+able to bring it into play before I strike.
+
+One-off attacks. Instead of having fights proceed automatically after the first block
+has been struck, each one must be performed manually. If I throw my axe at
+you, I can hardly do so round after round anyway—its a one-off attack. Special
+boosted attacks (such as stunning punches or called shots) are usually treated
+as one-offs.

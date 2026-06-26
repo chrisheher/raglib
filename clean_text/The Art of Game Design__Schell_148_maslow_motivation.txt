@@ -1,0 +1,68 @@
+We get all excited about them and have wonderful, memle experiences when playing them. 
+But in the larger scheme of our lives, there is always something more important we 
+could be doing. And, in fact, this is true for all entrtainment. It is no exaggeration 
+to say that the goal of all entertainment experiences is to take something unimportant 
+(such as a ball going through a hoop, a story of imaginary animals, or whether this card 
+is a king or an ace) and make it seem important indeed. Is this deception? It is not. 
+
+In the end, we are always aware it is “just a game.” But during play, something happens 
+in us that makes it feel. it is SO much more. Something drives us and compels us to care 
+about these trivial expriences as if they were matters of life and death. This is the magic of motivation,
+question of why we do what we do is as old as philosophy itself, but there can be
+pubt that game designers seem to have special insights into human motivation.
+he reality of what game designers actually understand is somewhat murkier,
+it is this murkiness that makes game design so challenging. In truth, most
+ners create systems of motivation less through masterful understanding o
+ntricacies of psychology and more through gut instinct and experimentation,
+sionally stumbling into success. However, any insights about motivation ar
+itially useful, and this is one of the rare areas where psychological research i
+aligned with our design goals, so let’s start there.
+
+43, psychologist Abraham Maslow wrote a paper titled “A Theory of Huma
+ation,” which proposed a hierarchy of human needs. This is often presented as a
+pyramid:
+
+-- AND MORE NEEDS
+
+and social belonging, they aren’t §0ing to pursue things that will boost their selfesteem. And if they don’t have good self-esteem, they will not be able to pursue
+If you think hard, you can come up With some Possible exceptions to this model,
+
+ovel + enough to be a very useful tool for discussing player’s
+motivations in games. It is Interesting to think about different game activities and
+
+but overall, it works well eno
+
+where they fall on this hierarchy. Many game activities are abo
+
+(you are trying to gather
+
+lesources to build safe shelter), and it covers the top three levels by being a multiplayer game about mastery and creativity.
+
+S you with other people lets you feel a sense of accomPlishment, and lets you build and create things that let you express yourself fulfills
+
+Any game that connects you to
+the needs on the third, fourth,
+and fifth levels. Viewed from this perspective,
+popularity and staying power of game
+tfeation tools makes a lot of sense. It i
+pil levels can feed into one another. B
+
+An interesting as Maslow’s point of view is, more modern Psychologists have ta
+ip hew points of view on the question of needs. Particular]
+
+s with both online communities and content
+s also interesting to consider how the differut there are other ways to think about needs.
+
+(he work of Edward Deci and Richard Ryan, who have done a great deal to develop
+
+they are saying is that just as humans have physical needs, we also have mental
+
+we become mentally unhealthy.
+Hecisely three mental needs:
+
+Competence: I need to feel good at something.
+Autonomy: I need freedom to do things my own Way.
+Relatedness: I need to connect with other people.
+
+‘feds—not just wants or desires, but actual needs. When these needs are unmet,
+. Surprisingly, Ryan and Deci suggest that we h

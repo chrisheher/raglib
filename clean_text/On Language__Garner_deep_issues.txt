@@ -1,0 +1,73 @@
+### METADATA ###
+# source_file: On Language__Garner_deep_issues.txt
+# char_count: 4569
+# word_count: 787
+### END METADATA ###
+
+
+The Clarity of a Deep Issue
+
+A “deep” issue, always very tangible, sums up a case in a nutshell, 
+and so is hard to frame but easy to understand. By contrast, a 
+“surface” issue is abstract: it requires the reader to know everything 
+about the case before it can be fully comprehended, and so is easy to 
+frame but hard to understand.
+
+Say a defendant is moving for summary judgment. Which of the
+lowing statements is more helpful?
+
+‘The first is a dry legal question seemingly devoid of any real interest
+ anyone but oil-and-gas experts. The second, in addressing what are
+probably the judges’ true concerns, defines the issue in a way that 
+anyHie can understand: its premises are explicit.
+
+
+1. Can Jones maintain an action for fraud?
+
+The shorter version sends us elsewhere to learn what, precisely, the
+issue is; the longer version asks us to do considerably less work. Whereas
+the surface issue says next to nothing about what the court is really
+being asked to decide, the deep issue explains precisely what that something is.
+ To put it differently, the surface issue does not disclose the decisional 
+premises; the deep issue makes them explicit. It yields up what
+Justice Oliver Wendell Holmes called the “implements of decision.”?
+
+The goal is ease of understanding. Generally speaking, the more
+abstract the issue, the more superficial it is: the reader must learn much,
+more to make any sense of it. The more concrete the issue, the deeper it
+is: the reader need hardly exercise the brain to understand. ;
+
+Consider another set of examples—different versions of the same
+issue considered from the same side of the case:
+
+How Deep Issues Work in Memos
+
+how all the examples so far have been persuasive issues—written to
+Wyiive an advocate’s point of view. But we should back up to the pre stage, when the lawyer is first analyzing a problem. For the analytilime differs markedly from the persuasive issue.
+
+1 The analytical issue is open-ended. It doesn’t have an implicit answer.
+Hl ii Wakes the reader yearn to know the answer—e.¢.:
+
+1. Does the cessation-of-production clause modify the habendum clause
+in an oil-and-gas lease?
+
+2. Since first considering the issue 30 years ago, this Court 
+has consistently held that the word “produced”—as used in the habendum
+clause of an oil-and-gas lease—means “capable of being produced in
+paying quantities.” Should this Court now adopt a novel interpretation that would cast doubt on the validity of tens of thousands of
+leases in the State? [61 words]
+
+1 Section 273 of the Immigration Act makes it a crime to bring an
+ilepal alien to the US. Meanwhile, section 2304 of the Maritime
+ACL takes it a crime for the master of a vessel to fail to rescue per-
+ aboard a vessel in distress. Does a master commit a crime under
+the immigration Act when he rescues illegal aliens aboard a ship in
+Distress and brings them to the U.S.? [71 words]
+
+Mb and Mrs, Zephyr were killed in the crash of an airplane neglitly piloted by Mr, Zephyr. Their daughter, Kate, has sued the
+Hite of her deceased father for the wrongful death of her mother.
+toes the doctrine of interspousal immunity bar Kate’s recovery
+ef) there is no marital harmony to preserve? [52 words]
+
+* Quoted in John W, Davis, “The Argument of an Appeal,” in Advocacy and the King
+English 212, 216 (George Rossman ed., 1960).

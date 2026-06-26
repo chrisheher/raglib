@@ -1,0 +1,73 @@
+### METADATA ###
+# source_file: Toyota Production System__Ohno_14_procurement.txt
+# char_count: 3168
+# word_count: 514
+### END METADATA ###
+
+“14 > TOYOTA PRODUCTION SYSTEM
+
+be implemented easily. It was possible in Japan because we
+lacked function-oriented unions like those in Europe and the
+United States. Consequently, the transition from the single 
+to the multi-skilled operator went relatively smoothly,
+although there was initial resistance from the craftsmen. This
+does not mean, however, that Japanese unions are weaker than
+their American and European counterparts. Much of the difference
+ lies in history and culture.
+
+Some say that trade unions in Japan represent a vertically 
+divided society lacking mobility while function-oriented unions
+of Europe and America exemplify laterally divided societies
+with greater mobility. Is this actually so? I don’t think so.
+
+In the American system, a lathe operator is always a lathe
+operator and a welder is a welder to the end. In the Japanese
+System, an operator has a broad spectrum of skills. He can operate 
+a lathe, handle a drilling machine, and also run a milling
+machine. He can even perform welding. Who is to say which
+system is better? Since many of the differences come from the
+history and culture of the two countries, we should look for
+the merits in both.
+
+In the Japanese system, operators acquire a broad spectrum
+of production skills that I call manufacturing skills and 
+participate in building up a total system in the production plant. 
+Inthis way, the individual can find value in working.
+
+Needs and opportunities are always there. We just have to
+drive ourselves to find the practical ones. What are the essential 
+needs of business under slow growth conditions? In other
+words, how can we raise productivity when the production
+quantity is not increasing?
+
+» A Revolution in Consciousness Is Indispensable
+
+There is no waste in business more terrible than overproduction. Why does it occur?
+
+We naturally feel more secure with a considerable amount
+of inventory. Before, during, and after World War II, buying
+
+Starting from Need « 15
+
+and hoarding were natural behaviors. Even in this more affluent time, people bought up tissue paper and detergent when
+the oil crisis came.
+
+We could say this is the response of a farming society. Our
+ancestors grew rice for subsistence and stored it in preparation
+for times of natural disaster. From our experience during the
+oil crisis, we learned that our basic nature has not changed much.
+
+Modern industry also seems stuck in this way of thinking.
+A person in business may feel uneasy about survival in this
+competitive society without keeping some inventories of raw
+materials, work-in-process, and products.
+
+This type of hoarding, however, is no longer practical. Industrial society must develop the courage, or rather the common sense, to procure only what is needed when it is needed
+and in the amount needed.
+
+This requires what I call a revolution in consciousness, a
+change of attitude and viewpoint by business people. In a
+period of slow growth, holding a large inventory causes the
+waste of overproduction. It also leads to an inventory of defectives, which is a serious business loss. We must understand
+these situations in-depth before we can achieve a revolution
+in consciousness.

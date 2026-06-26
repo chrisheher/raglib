@@ -1,0 +1,102 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_168_relativity.txt
+# char_count: 4944
+# word_count: 855
+### END METADATA ###
+
+* The special theory deals with the unaccelerated (uniform) motion of coordinate systems. 
+The special theory can be used to describe the accelerated
+(non-uniform) motion of objects as long as the co-ordinate system from which
+the object is being observed is itself in uniform motion,
+
++ Some physicists think that general relativity will be useful on the microscale
+of high-energy physics (where the effects of gravity usually are ignored), e.g.,
+strong fluctuations of the gravitational field have been detected at very short
+distances (107'4 em).
+
+The special theory of relativity deals with unaccelerated
+(uniform) motion.* If acceleration is neglected, the special
+theory of relativity applies. However, since gravity and acceleration 
+are equivalent, this is the same as saying that the
+special theory of relativity is applicable whenever gravity is
+neglected. If the effects of gravity are to be considered, then
+we must use the general theory of relativity. In the physical
+world the effects of gravity can be neglected in (1) remote
+regions of space which are far from any centers of gravity
+(matter), and (2) in very small regions of space.
+
+Why gravity can be ignored in very small regions of space
+leads to the most psychedelic aspect of all Einstein’s theories.
+Gravity can be ignored in very small regions of space because,
+if the region is small enough, the mountainous terrain of spacetime is not noticeable. 
+
+The nature of the space-time continuum is like that of a
+hilly countryside. The hills are caused by pieces of matter
+(objects). The larger the piece of matter, the more it curves
+the space-time continuum. In remote regions of space far
+from any matter of significant size, the space-time continuum
+resembles a flat plain. A piece of matter the size of the earth
+causes quite a bump in the space-time continuum, and apiece
+of matter the size of a star causes a relative mountain.
+
+As an object travels through the space-time continuum, it
+takes the easiest path between two points. The easiest path
+between two points in the space-time continuum is called a
+geodesic (geo dee’ sic). A geodesic is not always a straight line
+owing to the nature of the terrain in which the object finds
+itself,
+
+Suppose that we are in a balloon looking down on a mountain
+that has a bright beacon on the top of it. The mountain rises
+gradually out of the plain, and becomes more and more steep
+as its elevation increases, until, close to the top, it rises 
+almost straight up. There are many villages surrounding the
+mountain, and there are footpaths connecting all of the villages
+with each other. As the paths approach the mountain, all of
+them begin to curve in one way or another, to avoid going
+unnecessarily far up the mountain.
+
+Suppose that it is nighttime and that, looking down, we
+can see neither the mountain nor the footpaths. All that we
+can see is the beacon and the torches of the travelers below.
+As we watch, we notice that the torches deflect from a straight
+path when they approach the vicinity of the beacon. Some of
+them curve gently around the beacon in a graceful arc some
+distance away from it. Others approach the beacon more
+directly, but the closer they get to it, the more sharply they
+turn away from it.
+
+From this, we probably would deduce that some force
+emanating from the beacon was repelling all attempts to approach it. 
+For example, we might speculate that the beacon is
+extremely hot and painful to approach.
+
+With the coming of daylight, however, we can see that the
+beacon is situated on the top of a large mountain and that it
+has nothing whatever to do with the movement of the torchbearers. 
+They simply followed the easiest paths available to
+them over the terrain between their points of origin and destination.
+
+This masterful analogy was created by Bertrand Russell. In
+this case, the mountain is the sun, the travelers are the
+planets, asteroids, comets (and debris from the space program),
+the footpaths are their orbits, and the coming daylight is
+the coming of Einstein’s general theory of relativity. 
+
+The point is that the objects in the solar system move as
+they do not because of some mysterious force (gravity) exerted
+upon them at a distance by the sun, but because of the nature
+of the neighborhood through which they are traveling.
+
+Arthur Eddington illustrated this same situation in another
+way. Suppose, he suggested, that we are in a boat looking
+down into clear water. We can see the sand on the bottom
+and the fishes swimming beneath us. As we watch, we notice
+that the fish seem to be repelled from a certain point. As-they
+approach it, they swim either to the right or to the left of it,
+but never over it. From this we probably would deduce that
+there is a repellant force at that point which keeps the fish
+away.
+
+However, if we should go into the water to get a closer
+look, we would see that an enormous sunfish has buried him-

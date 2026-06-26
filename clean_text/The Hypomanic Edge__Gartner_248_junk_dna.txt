@@ -1,0 +1,82 @@
+### METADATA ###
+# source_file: The Hypomanic Edge__Gartner_248_junk_dna.txt
+# char_count: 4298
+# word_count: 745
+### END METADATA ###
+
+THE HYPOMANIC EDGE
+
+Though never boring, Craig was not the easiest person to be
+married to, according to Shreeve. He “made a mess of their finances,” 
+especially on a “speedy little catamaran they couldn’t afford.” 
+Even later, when his income rose into the millions, he
+perpetually overspent them into insolvency. The boats, cars, and
+houses got bigger and more numerous.
+
+When Venter first went to N TH, there was only one man he
+really wanted to impress: James Watson. Watson shared the Nobel
+Prize in 1962 with Francis Crick for their discovery of the shape of
+DNA—a double helix that resembles a twisted ladder. Each rung
+of that ladder, they found, was composed of a pair of nucleotides, of
+which there were four: adenine, guanine, thiamine, and cytosine,
+abbreviated A, G, T, and C. The pairing rule they discovered was
+that A always combines with T and C always with G, leaving four
+possibilities: A-T, T-A, C-G, or G-C. All our genetic information is
+written in this four-letter alphabet. Many rank Watson in the same
+circle as Charles Darwin, and Watson would be the first to agree.
+He takes pains to point out that “There are Nobels, and there are
+Nobels.” When one colleague at a meeting mentioned that he had
+won a Nobel, Watson corrected him: “I did not win a Nobel Prize,
+I won the Nobel Prize.”
+
+Watson was the impresario of genetics at NIH, where he was orchestrating 
+another breakthrough. In 1977, the English biologist
+Frederick Sanger developed a technique for decoding DNA, winning 
+the 1980 Nobel. In 1987, Watson convinced Congress to take
+on a massive project to sequence the entire human genome and
+commit $3 billion over a fifteen-year period. In 1990, the Human
+Genome Project (HGP) was formed by the NIH under Watson’s
+direction.
+
+Venter was also interested in genetic sequencing. A perpetually
+impatient person, he kept thinking about how to do it faster. It had
+taken Venter a year to sequence one gene for his own research—
+after it had taken him ten years to find it. To sequence the DNA of
+the human genome by hand, as Sanger had done, would take
+100,000 years. When Venter heard that there was a prototype of a
+machine that could sequence DNA, he leaped at the chance to buy
+itin February 1987. Watson was delighted to discover Craig Venter,
+whose lab became the official NIH test site for the new machine.
+The machines had problems, but Venter got them to run and became 
+the first person to sequence an entire gene with a machine.
+“The Human Genome Project is going to succeed because I’ve got
+this guy who can get automated sequencers to work,” Watson 
+exuberantly told fellow HGP scientist Gerald Rubin.” But that didn’t
+mean he thought of Venter as a peer or protégé, as Venter had 
+secretly hoped. To the imperious Watson, Venter was just a technician.
+
+By 1990, Venter had four machines running and strutted around
+“like a teenager showing off the latest loudest stereo equipment.” 8
+He applied to NIH for a large intramural grant to sequence the 
+entire X chromosome. The review committee thought the project 
+preposterously grandiose and turned it down. The collective efforts of
+the entire scientific community had mapped only one thousandth
+of a chromosome to that point (there are twenty-three chromosomes 
+in the human genome). Who did this guy think he was?
+
+It is unfortunate that Watson could not see Venter’s talent. He
+should have been tipped off when Venter made a huge scientific
+leap. Only 3 percent of human DNA is made up of genes. The rest,
+called “junk DNA,” has a function we don’t understand, if it has any
+function at all. Venter’s idea was to pan for the 3 percent guaranteed
+gold: the genes. Rather than sequencing the genome line by line, as
+the HGP was doing, Venter developed a way to separate the genes
+from the junk to sequence them first. Genes contain the DNA 
+blueprints for the manufacture of the body’s proteins. But DNA itself
+does no work. Messenger RNA copies the code and transports it to
+the ribosome, the cell’s protein factory. Venter extracted this RNA
+and used it as a template to make a DNA copy. He knew these pieces
+of genetic code were genes because junk DNA isn’t copied by RNA.
+
+Next he found another shortcut, a way to identify individual
+genes—to “tag” them without fully decoding them. Each gene has

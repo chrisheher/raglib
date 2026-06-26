@@ -1,0 +1,32 @@
+### METADATA ###
+# source_file: The Elements of Style__Strunk_glossary1.txt
+# char_count: 1031
+# word_count: 165
+### END METADATA ###
+
+Agreement
+
+Glossary
+
+adjectival modifier A word, phrase, or clause that acts as an
+adjective in qualifying the meaning of a noun or pronoun. Your country;
+a turn-of-the-century style; people who are always late.
+
+adjective A word that modifies, quantifies, or otherwise describes
+a noun or pronoun. Drizzly November; midnight dreary; only requirement.
+
+adverb A word that modifies or otherwise qualifies a verb, an
+adjective, or another adverb. Gestures gracefully; exceptionally quiet
+engine.
+
+adverbial phrase A phrase that functions as an adverb. (See
+phrase.) Landon laughs with abandon.
+
+agreement The correspondence of a verb with its subject in person
+and number (Karen goes to Cal Tech; her sisters go to UCLA), and of a
+pronoun with its antecedent in person, number, and gender (As soon as
+Karen finished the exam, she picked up her books and left the room).
+
+antecedent The noun to which a pronoun refers. A pronoun and its
+antecedent must agree in person, number, and gender. Michael and his
+teammates moved off campus.

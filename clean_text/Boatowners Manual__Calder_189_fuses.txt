@@ -1,0 +1,14 @@
+protection “as close as practicable to the
+point of connection to the source of power,
+but not to exceed 40 inches (1.02 m).” Once
+again, the “as close as practicable” phrase is
+relatively new language in contrast to the former blanket acceptance of 40 inches.
+
+“Overcurrent protection is not required in
+conductors from self-limiting alternators with
+integral regulators if the conductor is less than
+40 inches (1.02 m), is connected to a source
+of power other than the battery, and is contained 
+throughout its entire distance in a
+
+PROPER ELECTRICAL INSTALLATIONS

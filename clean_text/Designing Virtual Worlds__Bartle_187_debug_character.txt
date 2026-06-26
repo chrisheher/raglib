@@ -1,0 +1,46 @@
+### METADATA ###
+# source_file: Designing Virtual Worlds__Bartle_187_debug_character.txt
+# char_count: 3347
+# word_count: 601
+### END METADATA ###
+
+Know that people can be connected in the real world and still
+even more opportunity to experiment with identity—precisely
+So, why won't they step over the line?
+
+To role-play.
+
+
+When 1 inherited MUD1 from Roy, it didn’t implement gender. This was entirely due to
+Roy's rush to write as much of the program as possible in the short period of time
+available to him; he felt that gender could easily be added later, whereas things such as
+communication had priority®. As far as both Roy and I were concerned, gender was
+merely a linguistic issue forced on us by the English language; the only changes it
+meant for the virtual world concerned personal pronouns in event descriptions.
+
+Polly may be the stereotypical name for a parrot, but it’s a female name. This gives me
+my excuse. I add gender. Players are asked, “By what name shall I call you?” then
+“What sex do you wish to be?” Naturally, I use Polly to test my new code.
+
+So Polly is no longer a parrot. Polly is a cheerful yet feisty girl who likes
+ helping people but gets cross if they patronize her.
+
+If Pd added gender to MUD and not created Polly, what would have happened? The
+chances are, people would not have played with switched gender, afraid of the 
+disparaging remarks about their sexuality that doing so would attract.
+
+L run that risk, of course, but I’m confident that I’ve designed Polly well enough that
+no one is going to see her as a sexual object, just as an ersatz sister. I also have the
+advantage of not actually caring if people say I’m a transvestite behind my back.
+
+Luckily, Polly works.
+
+People know I’m Polly, but they also know I'm not Polly; I thereby illustrate the 
+massive gulf it’s possible to create between player and character. As MUD’s programmer, my
+kudos is sufficiently strong enough that I pull it off. People think, “If Richard can have
+a female persona, maybe I'll try it myself.”
+
+They do. The gates are open, and new lands await. Players laugh and joke about having 
+female characters, but their other characters also begin to act in smaller, more
+incrementally different ways. Players have a freedom that they couldn’t have in real life.
+

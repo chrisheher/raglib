@@ -1,0 +1,78 @@
+### METADATA ###
+# source_file: The Legacy of DFW_225_philosophy.txt
+# char_count: 4497
+# word_count: 746
+### END METADATA ###
+
+him to “induct trends in percentage, thrust, and retaliatory angle” (9)
+brought about by the wind, which made him a Midwest junior tennis
+winner.
+
+Wallace’s later analysis of mathematical concepts, summarized in
+Everything and More: A Compact History of 0, actually contains a par:
+tial explanation of his footnoting practice. This takes the form of the
+Axiom of Choice, a mathematical concept discussed late in the book,
+The idea is part of Set Theory, explained by Wallace in this way: “from
+any S you can construct a subset S’ with a particular property even if
+you can’t specify a procedure for choosing the individual members of
+5. This may explain the free-wheeling nature of his footnotes, which
+follow no set procedures or rules. The Axiom of Choice allows for the
+digression, divergence, and even humor in his notes. Wittgenstein said
+of philosophy that “it will signify what cannot be said, by presenting
+clearly what can be said” (4.115). This applies as well to Wallace and his
+footnotes, which are analogous to the relationship between a Set S and
+its Subset 5’. His footnotes are subsets of the reality or events he depicts
+in his primary text, although not necessarily the logical extension of
+Set 5,
+
+Footnote 1 in Everything and More encapsulates the Wallace style. It
+begins with his new sign or sigla IYI, meaning “if you're interested.” The
+Note in its entirety conveys the distinctive Wallace method:
+
+IYI Here’s a good example of an IYI factoid. Your author here
+is someone with a medium-strong amateur interest in math and
+formal systems. He is also someone who disliked and did poorly in
+every math course he ever took, save one, which wasn’t even in college, 
+but which was taught by one of those rare specialists who can
+make the abstract alive and urgent, and who actually really talks
+to you when he’s lecturing, and of whom anything that’s good
+about this booklet is a pale and well-meant imitation. (EM 2)
+
+The informality and tone immediately ease the reader into complicated
+ideas. And the [YI designation becomes an aid for the reader because, as
+Wallace writes, the sign designates “bits of material that can be perused,
+glanced at, or skipped altogether if the reader wants,” Over half the document’s 
+footnotes, he adds, “are probably IYI” (EM 2). This allows the
+reader to disregard or study or even laugh at his notes, Footnote 46 in
+section 2d, for example, reads: “A bit of drollery among math historians
+is that killing Archimedes was the only truly significant mathematical thing 
+the Romans ever did” (EM 87). And he prefers the direct address. Writing that 
+Indian math introduced zero as the tenth numeral
+and used the familiar goose egg as its symbol, his footnote reads “if you
+learned in school that the symbol came from the Greek omicron, you
+got lied to” (EM 91).
+
+Wallace’s goal is to make math beautiful as he explains the history 
+and concept of infinity with characteristic panache and yet self
+criticism. Footnote 4 in section 4 reads: “Sorry about the hideous 
+syntax here; there’s no nice way to compress [G. P. de] Roberval” (EM 127).
+Roberval discovered that the tangent of a curve could be “expressed as
+a function of the velocity of a moving point whose path composed the
+curve” (EM 127). Of Leibniz, who was a lawyer, diplomat, courtier, and
+philosopher “for whom math was soit of an offshoot hobby,” Wallace’s
+note reads “surely we all hate people like this” (EM 129). And after a 
+particularly complex sentence explaining differential equations and problems 
+that pertain to the Fourier Series, his note reads: “There’s really
+nothing to be done about the preceding sentence except apologize” (EM
+164). This engaging, personal tone, almost a dialogue with the reader,
+runs through most of the 408 footnotes in the 319-page book, contributing 
+to its dazzling and inviting style and suggesting a kind of double
+consciousness at work: one a high-level articulate exposition of dense
+mathematical ideas, the other a self-commentary on the very manner of
+the primary statements.
+
+The footnote for Wallace revises usability theory, replacing an information-based
+ functionality, represented through the standardization of the footnote, with an
+ emotional design that creates an affective reading stemming from a purposeful, 
+if at times confusing, navigation (the unexpected in content and design of his footnotes). 
+An interactive exchange  between the note and text often occurs

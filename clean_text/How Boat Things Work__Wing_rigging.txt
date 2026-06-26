@@ -1,0 +1,70 @@
+### METADATA ###
+# source_file: How Boat Things Work__Wing_rigging.txt
+# char_count: 1626
+# word_count: 271
+### END METADATA ###
+
+Masthead Rig
+
+While there exist unstayed rigs (rigs where the mast
+is strong enough to be supported only at the keel and
+deck), the majority of production sailboats today
+employ the stayed Bermuda rig, where the luff of a
+triangular mainsail slides up and down the mast in or
+on a continuous groove or track. Two subgroups of
+the Bermuda rig are the masthead rig (below) and
+the fractional rig (facing page).
+
+In both rigs the mast is stabilized athwartships by
+shrouds. Cap shrouds run from the masthead all the
+way to the deck. Horizontal spreaders stiffen the mast
+by introducing larger angles between mast and
+shroud. Most often forward and aft lower shrouds
+prevent athwartship bending of the mast and a degree 
+of fore-and-aft stability as well. A few modern
+
+Masthead
+
+Forestay
+
+Backstay
+
+Forward
+
+Mast step
+
+STANDING RIGGING
+
+rigs, however, have only single lowers. Rigs with
+more than a single pair of spreaders employ intermediate shrouds.
+
+Fore and aft the mast is stabilized by a backstay
+and a forestay, both running from masthead to the ~
+deck. A baby stay (sometimes missing or removable)
+runs from the base of the spreaders to the foredeck.
+
+Both the advantage and the disadvantage of the
+masthead rig lie in its symmetry of support. With
+both its base and head supported in all four directions, 
+the masthead rig is less likely than the fractional 
+rig to collapse. However, the ability to bend a
+mast fore and aft is an advantage in shaping the
+mainsail, accounting for the popularity of the 
+fractional rig among racers.
+
+Masthead
+
+Cap shroud
+
+Spreaders
+
+Spreaders
+
+Intermediate
+
+shroud
+
+Spreaders
+
+Lower
+shroud

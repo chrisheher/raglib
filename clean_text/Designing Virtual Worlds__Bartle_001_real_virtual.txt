@@ -1,0 +1,12 @@
+
+
+Viriual worlds are implemented by a computer (or network
+I computers) that simulates an environment. Some—but
+tot all the entities in this environment act under the direct
+control of individual people. Because several such people can
+the same environment simultaneously, the world is
+ to be shared or multi-user. The environment continues to
+»( ind develop internally (at least to some degree) even
+ii there are no people interacting with it; this means it
+
+persistent,

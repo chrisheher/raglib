@@ -1,0 +1,88 @@
+ But if a cell contains a time bomb, then what is the fuse? We now know.
+
+In the 1970s, it was noticed that the ends of our chromosomes have 4
+“cap” on them called telomeres, much like the plastic tips on the ends of
+shoelaces that prevent them from getting frayed. If these telomeres are
+lost, then the chromosomes stick to each other and the cell eventually
+dies. In a normal cell, the telomere fuse gradually becomes shorter and
+shorter, until the cell commits suicide. When the fuse is gone, that is the
+end of the cell. But certain abnormal cells, we now understand, have the
+remarkable ability to keep the telomere fuse perpetually long. They be
+come immortal. Such cells are called cancer cells.
+
+Close examination of the telomeres showed they consisted of the ge:
+netic sequence: TTAGGG . . . repeated over and over again, up to
+2,000 times. It was found that the older the cell, the shorter the telomere,
+The cell loses about 10 to 20 of these segments every time it divides—the
+fuse gets shorter after each division. It was theorized, therefore, that
+when the fuse (telomere) gets too short after too many cell divisions, the
+telomere disappears and the cell dies.
+
+In 1984, the enzyme “telomerase” was discovered; this enzyme could
+reverse the process and lengthen the telomeres, thereby preventing cell
+suicide. Telomerase, however, is absent in’ most cells of the body.
+
+In 1994, Christopher M. Counter, Silvia Bacchetti, and their colleagues
+at McMaster University made a crucial discovery. They showed that
+telomerase is found in a wide variety of cancers, which have a genetic
+mutation allowing them to manufacture telomerase. This, in turn, prevented 
+their telomeres from disappearing and thereby made them immortal.
+
+With these discoveries, we now have a working hypothesis about cell
+aging, cell death, and cancers. The telomere acts like a clock which 
+measures the process of cell aging and death. The shorter the telomere, the
+older the cell. Cancer cells, because they can manufacture telomerase,
+which freezes the contraction of the telomeres, “have forgotten how to
+die,” as Samuel Broder, director of the National Cancer Institute, puts it.
+
+This discovery opens up new avenues for cancer detection and therapies in 
+the twenty-first century. One method would be to detect telomer
+ase in the body. S normal cells lack telomerase, the presence of this
+enzyme would signal the presence oF rowing cance celle kook
+normally. Since telomerase is not found in normal cells, this therapy
+
+would target only cancer cells. (Chemotherapy, by contrast, acts more
+like a blunderbuss, striking normal and cancer cells alike.)
+
+Cancer is a crazy quilt of at least 200 different kinds of diseases, 
+one for every kind of human tissue, will not be cured in its entirety
+2020. As Richard Klausner of the National Cancer Institute says:
+here will never be a single cure for cancer.”
+
+However, by 2020 scientists should have an almost complete catalog of
+he mutations involved in these 200 cancers, which will trigger an explosive
+growth in radically new cancer therapies and detections, including a
+variety of startling new strategies for attacking cancer’s molecular weak
+pots and vulnerabilities.
+
+There are several new avenues generating intense interest, many of
+yhich should reach fruition by 2020.
+
+The first has to do with cancer detection. Imagine being able to detect a
+iny colony of cancer cells a decade before a visible tumor forms. Exremely 
+sensitive tests are now being devised (and will soon hit the maret) which 
+can detect infinitesimal amounts of proteins that are emitted
+by only a few hundred cancer cells as they grow and eventually create
+lood vessels. These proteins can be detected by analyzing one’s urine
+nd blood. Similarly, doctors will be able to test directly for the presence
+if cancer genes in our genetic makeup. About half of all cancers are found
+I our hollow organs (lung, colon, bladder), which often have a mutant
+gene. By devising simple tests in our urine and blood for the ras gene
+which in the future will be performed in our own home), we will be able
+
+The second approach has to do with the development of natural cancer
+fighters. Science is beginning to understand at the molecular level why
+certain natural products and vitamins help guard against cancer. Genisein, 
+which is found in soybeans and cabbage, is found in high concentrations in 
+the Japanese diet and is known to suppress the formation of blood
+vessels in cancer tumors. (The Japanese, in fact, have concentrations of
+renistein in their urine 30 times that of Westerners.) Antioxidants in
+foods (like vitamin C and E, and lycopene in tomatoes, catechins in berries, 
+and carotenoids in carrots) are known to reduce the mutation rate in
+cells by suppressing free radicals. Other vegetables contain chemicals that
+create enzymes which protect against cancer (such as indoles in cabbage,
+imonoids in citrus fruits, isothlocyanates in mustard).
+
+The third approach is enhancing the immune system. Normally, the antibodies 
+created by the immune system are not sufficiently powerful to
+target a cancer cell. One can, however, create “monoclonal antibodies,”

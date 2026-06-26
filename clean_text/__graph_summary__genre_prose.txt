@@ -1,0 +1,181 @@
+GENRE CLUSTER: Prose
+
+This cluster groups 176 literary works in the genre of prose.
+
+Works in this cluster:
+  - A Fans Notes | themes: identity, dream and vision, time, memory, nature and cosmos, language and narrative, journey and quest, mortality, transformation, madness and obsession
+  - A History of the Senses | themes: dream and vision, nature and cosmos, transformation, time, identity, mortality, language and narrative, madness and obsession, journey and quest, memory
+  - A Pocket Book for Heroes | themes: language and narrative, nature and cosmos, time, identity, memory, mortality, dream and vision, journey and quest, transformation
+  - A Walker in the City | themes: identity, memory, dream and vision, nature and cosmos, time, mortality, journey and quest, language and narrative, madness and obsession
+  - Act of Creation | themes: nature and cosmos, identity, memory, mortality, transformation, time, dream and vision, journey and quest, language and narrative, madness and obsession
+  - Art As a Way | themes: transformation, dream and vision, nature and cosmos, identity, journey and quest, language and narrative, memory, madness and obsession
+  - Art and Fear | themes: dream and vision, journey and quest, nature and cosmos, transformation, time, identity, language and narrative, memory, mortality, madness and obsession
+  - Art and the Creative Unconscious | themes: identity, mortality, journey and quest, language and narrative, nature and cosmos, transformation, time, madness and obsession, dream and vision, memory
+  - Assorted Writings
+  - Beyond Discontent | themes: identity, memory, dream and vision, nature and cosmos, time, mortality, journey and quest, language and narrative, transformation, madness and obsession
+  - Boatowners Manual | themes: transformation, time, identity, memory, language and narrative, nature and cosmos, journey and quest, mortality
+  - Carnival of Repetition | themes: identity, journey and quest, language and narrative, nature and cosmos, madness and obsession, time, transformation, memory, mortality, dream and vision
+  - Cinematography field of view.txt
+  - Code | themes: memory, dream and vision, time, language and narrative, transformation, identity, nature and cosmos, mortality, journey and quest
+  - Collected Works | themes: nature and cosmos, identity, language and narrative, time
+  - Coming Into Being | themes: identity, memory, dream and vision, language and narrative, nature and cosmos, transformation, time, mortality, journey and quest, madness and obsession
+  - Copywriting amnesty longform.txt
+  - Copywriting simple apples.txt | themes: language and narrative
+  - Creators on Creating 191 stravinsky.txt | themes: nature and cosmos
+  - Crime-Punishment | themes: identity, dream and vision, time, language and narrative, transformation
+  - D AD balloon sex.txt
+  - D AD benjamin reproduction.txt
+  - D AD financial times.txt | themes: time
+  - D AD half art direction.txt
+  - D AD rose billboard.txt
+  - D AD surfrider.txt
+  - D AD tide tshirt.txt
+  - D AD vinyl card.txt
+  - D AD wwf tictactoe.txt
+  - Daily Rituals | themes: identity, memory, time, dream and vision, language and narrative, nature and cosmos, mortality
+  - Dead Souls | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Dream Work | themes: identity, dream and vision, mortality, journey and quest, language and narrative, transformation, time, nature and cosmos, memory, madness and obsession
+  - Examined Lives | themes: identity, journey and quest, nature and cosmos, time, dream and vision, language and narrative, memory, mortality
+  - Facing The Shadow | themes: nature and cosmos, transformation, identity, time, language and narrative, madness and obsession, memory, journey and quest, mortality, dream and vision
+  - Flee | themes: identity, dream and vision, language and narrative, nature and cosmos, time, memory, transformation, journey and quest
+  - Food of the Gods | themes: dream and vision, mortality, nature and cosmos, time, identity, language and narrative, transformation, madness and obsession, journey and quest, memory
+  - Genius | themes: identity, language and narrative, nature and cosmos, madness and obsession, mortality, journey and quest, transformation, time, memory
+  - Harold Pinter freud.txt
+  - Harold Pinter notes.txt
+  - Hiawatha | themes: memory, nature and cosmos, time, journey and quest, dream and vision, mortality, language and narrative, identity, transformation
+  - History of Consciousness | themes: nature and cosmos, identity, mortality, language and narrative, transformation, time, journey and quest, dream and vision
+  - How Boat Things Work | themes: identity, time, nature and cosmos, transformation
+  - How Literature Works | themes: identity, journey and quest, language and narrative, time, nature and cosmos, memory, dream and vision, mortality
+  - Hunger | themes: identity, dream and vision, language and narrative, time, mortality, journey and quest, nature and cosmos, transformation, memory, madness and obsession
+  - IF Handbook ifiction notes1.txt
+  - IF Handbook ifiction notes2.txt
+  - III Aion | themes: dream and vision, mortality, journey and quest, language and narrative, nature and cosmos, transformation, time, identity, memory, madness and obsession
+  - III Art and the Creative Unconscious | themes: identity, language and narrative, transformation, mortality, nature and cosmos, memory, time, journey and quest, dream and vision, madness and obsession
+  - III Food of the Gods | themes: identity, dream and vision, language and narrative, nature and cosmos, time, memory, journey and quest, transformation, mortality, madness and obsession
+  - III Hunger | themes: identity, memory, language and narrative, time, dream and vision, nature and cosmos, mortality, journey and quest, madness and obsession, transformation
+  - III John Barleycorn | themes: memory, mortality, journey and quest, language and narrative, nature and cosmos, time, identity, dream and vision, transformation, madness and obsession
+  - III Laocoon | themes: identity, memory, mortality, nature and cosmos, time, journey and quest, madness and obsession, language and narrative, transformation
+  - III Poetics of Myth | themes: identity, dream and vision, mortality, journey and quest, language and narrative, nature and cosmos, time, memory, transformation, madness and obsession
+  - III Seaworthy | themes: identity, transformation, time, nature and cosmos, journey and quest, mortality, memory
+  - III The Courage to Be | themes: time, identity, mortality, journey and quest, transformation, nature and cosmos, language and narrative, dream and vision, memory
+  - III The Cure At Troy | themes: identity, time, dream and vision, nature and cosmos, mortality, memory, transformation
+  - III The Letters of Vincent Van Gogh 094 win nature over.txt | themes: identity, nature and cosmos, time
+  - III The Letters of Vincent Van Gogh notes3.txt
+  - Illuminations | themes: identity, journey and quest, language and narrative, time, nature and cosmos, memory, mortality, transformation, dream and vision
+  - Infinite Jest Guide | themes: identity, memory, language and narrative, time, nature and cosmos, madness and obsession, dream and vision, journey and quest, mortality, transformation
+  - Information Multiplicity | themes: identity, journey and quest, language and narrative, time, memory, dream and vision, mortality, nature and cosmos, transformation
+  - John Barleycorn | themes: identity, language and narrative, nature and cosmos, madness and obsession, dream and vision, time, memory, journey and quest, mortality, transformation
+  - Knowledge Painfully Acquired | themes: identity, dream and vision, journey and quest, language and narrative, nature and cosmos, transformation, time, mortality
+  - Laocoon | themes: identity, language and narrative, nature and cosmos, time, memory, mortality, journey and quest, transformation, madness and obsession
+  - Learn to Program Ruby | themes: language and narrative, transformation, identity, nature and cosmos, time, memory
+  - Letters of William Gaddis | themes: identity, memory, dream and vision, journey and quest, language and narrative, nature and cosmos, transformation, time, madness and obsession, mortality
+  - Letters to a Young Poet | themes: identity, language and narrative, time, nature and cosmos, memory, transformation, mortality, journey and quest, dream and vision
+  - Lost Art of Walking on Water | themes: identity, dream and vision, mortality, language and narrative, transformation, time, memory, journey and quest, nature and cosmos
+  - Manhattan Transfer | themes: identity, nature and cosmos, language and narrative, time, transformation, mortality, memory
+  - Morphology of the Folktale | themes: identity, nature and cosmos, time, journey and quest, language and narrative, transformation, memory, dream and vision, mortality
+  - Much Ado about Loving zzcover.txt | themes: time
+  - Narratology | themes: language and narrative, identity, dream and vision, time, journey and quest, nature and cosmos, memory, transformation
+  - Notes from Underground | themes: identity, nature and cosmos, time, mortality, journey and quest, memory, dream and vision, language and narrative, transformation
+  - On Language | themes: identity, dream and vision, language and narrative, nature and cosmos, journey and quest, time, mortality, transformation
+  - One Show 2009 bath feet.txt | themes: time
+  - One Show 2009 cough syrup.txt | themes: dream and vision
+  - One Show 2009 fun symbols.txt
+  - One Show 2009 harvey nichols.txt
+  - One Show 2009 interactive.txt | themes: identity, nature and cosmos
+  - One Show 2009 plantable paper.txt | themes: dream and vision
+  - One Show 2009 shiner print.txt
+  - One Show 2009 third world purse.txt
+  - One Show 2009 wwf print.txt
+  - Origin of Inspiration | themes: identity, journey and quest, language and narrative, nature and cosmos, transformation, time, dream and vision, mortality, memory
+  - Out of Work | themes: time, language and narrative, identity, nature and cosmos, memory, mortality, journey and quest, transformation
+  - Pages on a Cold Island | themes: identity, language and narrative, nature and cosmos, time, journey and quest, mortality, madness and obsession
+  - Paper Empire | themes: identity, language and narrative, nature and cosmos, time, dream and vision, journey and quest, transformation, madness and obsession, mortality, memory
+  - Perl notes2.txt
+  - Perl zzcover.txt
+  - Philokalia 243 athletes.txt
+  - Philokalia zzcover.txt
+  - Primal Branding | themes: identity, language and narrative, time, dream and vision, journey and quest, mortality, nature and cosmos, transformation
+  - Problem Solving Therapy | themes: identity, language and narrative, transformation, time, journey and quest, nature and cosmos, dream and vision, memory
+  - Producing Ideas | themes: language and narrative, nature and cosmos, time, journey and quest, identity
+  - Psycho-Cybernetics | themes: identity, memory, dream and vision, nature and cosmos, time, journey and quest, language and narrative, mortality, transformation, madness and obsession
+  - Scientific American Creativity savants.txt | themes: nature and cosmos
+  - Seaworthy | themes: journey and quest, nature and cosmos, identity, time, transformation, mortality, memory
+  - Shambala | themes: nature and cosmos, time, identity, dream and vision, journey and quest, transformation, madness and obsession
+  - Society and Solitude | themes: identity, memory, mortality, nature and cosmos, time, language and narrative, madness and obsession, journey and quest, transformation, dream and vision
+  - Sonnets to Orpheus | themes: identity, nature and cosmos, transformation, mortality, language and narrative, journey and quest, memory, time, dream and vision
+  - Stand Up Speak Out Talk Back | themes: identity, memory, time, transformation, journey and quest, dream and vision, language and narrative, nature and cosmos
+  - Texas Handbook 030 type texan.txt
+  - Texas Handbook 034 type fratty.txt | themes: nature and cosmos, time
+  - Texas Handbook 054 type queen.txt
+  - Texas Handbook 202 bbq.txt | themes: memory
+  - The Advertising Concept Book | themes: journey and quest, language and narrative, nature and cosmos, transformation, time, identity, memory, mortality, dream and vision
+  - The Art of Game Design | themes: memory, language and narrative, time, journey and quest, transformation, identity, mortality, dream and vision, nature and cosmos
+  - The Art of Zen | themes: identity, memory, dream and vision, language and narrative, nature and cosmos, time, journey and quest, transformation
+  - The Courage to Be | themes: identity, journey and quest, language and narrative, nature and cosmos, time, mortality, transformation, dream and vision, memory
+  - The Cure At Troy | themes: identity, mortality, time, nature and cosmos, transformation, memory, dream and vision
+  - The Elements of Style | themes: transformation, identity, memory, language and narrative, time, dream and vision, journey and quest, nature and cosmos, mortality
+  - The Eye | themes: identity, dream and vision, language and narrative, nature and cosmos, time, mortality, transformation
+  - The Golden Baugh | themes: language and narrative, nature and cosmos, identity, memory, mortality, time, journey and quest, transformation
+  - The Heart Aroused | themes: identity, dream and vision, journey and quest, language and narrative, transformation, time, mortality, nature and cosmos, memory
+  - The Heart of God | themes: nature and cosmos, identity, language and narrative, dream and vision, journey and quest, madness and obsession, time, mortality
+  - The Hypomanic Edge | themes: identity, nature and cosmos, dream and vision, language and narrative, transformation, journey and quest, madness and obsession, time, mortality, memory
+  - The Information Bomb | themes: identity, dream and vision, language and narrative, nature and cosmos, time, mortality, journey and quest, transformation, memory, madness and obsession
+  - The Letters of Vincent Van Gogh 094 win nature over.txt | themes: identity, nature and cosmos, time
+  - The Letters of Vincent Van Gogh notes3.txt
+  - The Little English Handbook | themes: language and narrative, nature and cosmos, time, transformation, identity, memory, dream and vision, journey and quest, mortality
+  - The Little Prince | themes: identity, journey and quest, language and narrative, transformation, time, nature and cosmos
+  - The Lost Scrapbook | themes: transformation, time, language and narrative, nature and cosmos, identity, dream and vision, mortality, journey and quest, memory, madness and obsession
+  - The Natural | themes: identity, nature and cosmos, transformation, time, memory, language and narrative, mortality, journey and quest
+  - The Pale King | themes: identity, memory, dream and vision, mortality, language and narrative, nature and cosmos, time, journey and quest, transformation, madness and obsession
+  - The Picaresque Saint | themes: identity, dream and vision, journey and quest, language and narrative, nature and cosmos, mortality, madness and obsession, memory, transformation, time
+  - The Pugilist at Rest | themes: time, language and narrative, journey and quest, identity, nature and cosmos, mortality
+  - The Rebel | themes: identity, dream and vision, mortality, language and narrative, nature and cosmos, time, madness and obsession, transformation, journey and quest, memory
+  - The Recognitions | themes: identity, dream and vision, language and narrative, nature and cosmos, madness and obsession, time, journey and quest, memory, transformation, mortality
+  - The Rhetoric of Fiction rhetoric notes1.txt
+  - The Rhetoric of Fiction rhetoric notes2.txt
+  - The Rise | themes: memory, journey and quest, time, language and narrative, transformation, identity, nature and cosmos, dream and vision, mortality, madness and obsession
+  - The Self-Conscious Novel self conscious notes.txt | themes: identity
+  - The Seven Story Mountain | themes: language and narrative, time, identity, memory, journey and quest, transformation, mortality, nature and cosmos, madness and obsession
+  - The Spooky Art | themes: identity, dream and vision, journey and quest, language and narrative, nature and cosmos, transformation, time, madness and obsession, memory, mortality
+  - The Story of Philosophy | themes: language and narrative, time, identity, memory, transformation, madness and obsession, mortality, nature and cosmos, dream and vision, journey and quest
+  - This is Story of Happy Marriage calling.txt | themes: identity, language and narrative, time
+  - Too Loud A Solitude | themes: identity, dream and vision, language and narrative, nature and cosmos, time, transformation, mortality, journey and quest, memory
+  - Troubleshooting Marine Diesels | themes: identity, nature and cosmos, time, transformation, memory, language and narrative, mortality
+  - Twisty Little Passages | themes: nature and cosmos, time, identity, language and narrative, journey and quest, memory, dream and vision, mortality, madness and obsession
+  - Under The Volcano | themes: identity, transformation, madness and obsession, time, mortality, nature and cosmos, language and narrative, journey and quest, memory, dream and vision
+  - Varieties of Religious Experience | themes: identity, memory, journey and quest, language and narrative, time, mortality, transformation, nature and cosmos, dream and vision, madness and obsession
+  - Vector Narratives vector notes2.txt
+  - Visions | themes: identity, language and narrative, nature and cosmos, memory, dream and vision, journey and quest, time, transformation, madness and obsession, mortality
+  - What It Is Like | themes: mortality, identity, dream and vision, nature and cosmos, time, journey and quest, transformation, language and narrative
+  - What Work Is | themes: identity, transformation, time, dream and vision, nature and cosmos, language and narrative, memory, journey and quest
+  - Win Without Pitching | themes: identity, nature and cosmos, time, mortality, transformation
+  - Word Painting | themes: memory, language and narrative, nature and cosmos, transformation, time, dream and vision, mortality, identity
+  - Writers Art notes.txt
+  - Writers Art writestyle notes1.txt
+  - Youre Not Into Him Either | themes: identity, language and narrative, transformation, time, madness and obsession, journey and quest
+  - img glyphicons-halflings.txt
+  - notesbook ansel.txt | themes: memory
+  - notesbook art consciousness.txt | themes: memory, language and narrative
+  - notesbook art knowing.txt
+  - notesbook beginnings.txt | themes: nature and cosmos
+  - notesbook donjuan.txt
+  - notesbook emergingmind.txt
+  - notesbook emerson.txt
+  - notesbook franch.txt | themes: nature and cosmos
+  - notesbook humanuse.txt | themes: identity
+  - notesbook hypomanic.txt | themes: nature and cosmos
+  - notesbook info multiple.txt | themes: memory
+  - notesbook knut hunger.txt | themes: nature and cosmos
+  - notesbook ladder notes.txt
+  - notesbook magic notes.txt
+  - notesbook morphology.txt
+  - notesbook north notes.txt
+  - notesbook notes.txt
+  - notesbook notes1-2.txt
+  - notesbook piedra.txt
+  - notesbook poetics.txt
+  - notesbook rustle.txt
+  - notesbook sevenstorey.txt
+  - notesbook soulofman.txt | themes: language and narrative
+  - notesbook trust process.txt | themes: nature and cosmos, time
+  - notesbook youngpoet.txt

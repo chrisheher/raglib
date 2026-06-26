@@ -1,0 +1,20 @@
+
+
+VoiceXML is processed by a VoiceXML interpreter or VoiceXML browser; Web
+browsers might incorporate these interpreters in the future. Because VoiceXML is derived
+from XML it is platform independent. When a VoiceXML document is loaded, a voice
+server sends a message to the VoiceXML browser and begins a conversation between the
+user and the computer.
+
+Voice Server SDK, which was developed by IBM, is a free beta version of a
+VoiceXML interpreter and can be used for desktop testing of VoiceXML documents. Visit
+www.alphaworks.ibm.com for hardware and software specifications and for more
+information on Voice Server SDK. Instructions on how to run VoiceXML documents can
+be obtained along with the software.
+
+Figure 23.5 is an example of a VoiceXML document. The document’s text is spoken
+to the user and the text embedded within the VoiceXML tags will allow for interactivity
+between the user and their browser. The output included in Fig. 23.5 demonstrates a 
+conversation that might take place between the user and the computer when this document is
+loaded:
+

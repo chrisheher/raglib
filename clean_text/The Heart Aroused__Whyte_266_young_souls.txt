@@ -1,0 +1,72 @@
+### METADATA ###
+# source_file: The Heart Aroused__Whyte_266_young_souls.txt
+# char_count: 2746
+# word_count: 457
+### END METADATA ###
+
+THE HEART AROUSED vW_ 266
+
+fuel of our deeper personal desires, becomes an unconscious
+ way to commit suicide. The soul bereft of
+meaningful experience begins to engineer its escape
+from the structures holding it in check, by dying to
+itself. The person bereft of imagination interprets the
+soul’s wish literally and begins to look for a full bottle
+of sleeping tablets. Besides, choosing a gray, loveless
+life, bereft of the soul’s desires, might be the unconscious 
+punishment we seek, having shamefully given
+up on desire itself. We achieve what seems to be the
+best and deserved revenge of both worlds, a living
+death played out behind a desk or a sales sheet.
+
+Without a soulful entanglement with the world we
+experience a poverty that no amount of material reward
+ or recognition will ameliorate. Vachel Lindsay,
+a now almost forgotten poet who in the early years of
+this century went from the open road, swapping
+poems for bread, to the equivalent of a poetic superstar, 
+drawing huge crowds across the cities of
+America, emphasized the integrity of work combined
+with the intuition of the universal story of which work
+is a part. “The Leaden Eyed” takes a hard look at the
+inner poverty resulting from the refusal to develop
+that intuition.
+
+THE LEADEN EYED
+
+Let not young souls be smothered out before
+They do quaint deeds and fully flaunt their pride.
+It is the world’s sore crime its babes grow dull,
+Its poor are ox-like, limp and leaden eyed.
+
+Not that they starve, but starve so dreamlessly,
+Not that they sow, but they seldom reap.
+
+Not that they serve, but have no gods to serve
+Not that they die, but that they die like sheep.
+
+THE SECRET OF THE STARLINGS
+
+The interesting thing about the flowing geometries of
+flocking starlings or the way that organisms evolve
+and adapt to changing environments is that they do
+not behave and therefore die like domesticated sheep.
+Wild sheep perhaps, but not ones held under the
+watchful crook of a common shepherd. For the starlings, 
+for instance, there is no overarching order
+which a flock follows, only simple elements of behavior 
+that each bird embodies in its own way.
+
+A startlingly clear simulation of this phenomenon
+was put together by a computer scientist, Craig
+Reynolds, in 1987. Humorously termed “boids,
+Reynolds’s program attempted to understand, like
+Coleridge, the flocking abilities of wild birds. The
+fascinating thing about Reynolds’s program is that not
+once did he include the overarching command “Stay
+together at all costs.”
+
+Reynolds’s program depicted a large collection of
+individual birds, or boids, attempting to fly around a
+screen full of walls and obstacles. Each boid followed
+three simple rules of behavior; M. Mitchell Waldrop,

@@ -1,0 +1,53 @@
+### METADATA ###
+# source_file: Hamlet on the Holodeck__Murray_ambition.txt
+# char_count: 3483
+# word_count: 576
+### END METADATA ###
+
+hard liquor while twirling his six-shooter might become involved in a
+Gunsmoke-style fight that would end in a citizen’s death and the escape 
+of the killer, whom the marshal would then be asked to track
+down. A player who dressed up fancy and sat down to gamble might
+experience a comic saloon fight and many opportunities to outsmart
+the aggressor and avoid a fight. A player who started with target practice
+ and stopped outside the saloon to help an old man cross the
+street might be offered a saloon fight in which no one would get hurt
+but the villains could be subdued by trick shooting. All of these
+scenes would have common elements—bad guy, citizen, insult, challenge
+—from the generic Western fight frame.
+
+A frame-based authoring system would allow a writer to enter
+each element in its generic and particular forms and would keep
+track of the connections between them, for example, which kinds of
+characters fit into which kinds of events. It would allow the writer to
+cycle through the possible plot possibilities, eliminating many of them
+and specifying appropriate choices or priorities for situations where
+the story pulls in multiple directions. The off-the-shelf elements
+would provide most of the story for a purely formulaic writer, but they
+would provide only the palette for a more inventive one. As in any
+genre, the more original the writer the more she would have to in:
+vent her own elements and the more actively she would inflect the
+conventional formulas. What the computer would provide would be
+a means for using formulaic patterning, in much the same way the
+oral bards did, as a system for assembling multiform plots. The 
+electronic system might be able to generate more variants than the au
+thor could ever read in a lifetime (let alone write individually), but
+since she would have specified all the important details and all the
+tules of variation, the computer would be merely the instrument «if
+the author, an extension of her memory and narrating voice.
+Digital plot making, like other aspects of the medium, is still in wi
+incunabular stage. The technological resources of the game makeis
+are directed toward rapidly transforming visuals rather than expressive storytelling. 
+The self-conscious webs of the postmodernists the link-happy exhibitionism of the
+ Web soaps send us hopping from xscreen to screen in search of a coherent story. The more filmic CDROMs offer more extended story segments but embed them in a shallow branching structure that frustrates our desire for participation
+and agency. The MUDs offer extensive opportunities for participation in formulaic narrative environments, but the collectively generted stories are diffuse and repetitive. None of these formats puts the
+processing power of the computer directly into the hands of the
+writer. The experiments of the computer lab point to the possibility of
+Much more powerful narrative tools, but they are still very remote
+om the storyteller’s desire to simply enchant us or to grab us by the
+ollar and tell us something more real than reality. Only when these
+isparate efforts begin to converge will the medium come into its own
+san expressive art form. It seems to me quite possible that a future
+ligital Homer will arise who combines literary ambition, a conneclon with a wide audience, and computational expertise. But for now
+¢ have to listen very, very carefully to hear, amid the cacophony of
+herspace, the first fumbling chords of the awakening bard.

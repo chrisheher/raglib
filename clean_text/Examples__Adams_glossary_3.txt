@@ -1,0 +1,79 @@
+### METADATA ###
+# source_file: Examples__Adams_glossary_3.txt
+# char_count: 2787
+# word_count: 452
+### END METADATA ###
+
+175 Glossary
+
+c/ft* placed on Zone V represents 1/30-second
+exposure time.
+
+FILM SPEED. A rating of how sensitive to light a
+film is. The ASA speed rating (published by the
+American National Standards Institute, ANSI,
+successor to the American Standards Association) 
+provides that a doubling of the film speed
+index number represents a doubling of the sensitivity, 
+and this corresponds to a one-stop
+change in exposure. The European DIN speed
+rating has numbers that express the geometric
+relationship in arithmetic sequence, relating to
+a log increment of 0.10, as follows:
+
+ASA 64 DIN 19 t/8 log 0.10
+80 20 t/9 0.20
+100 21 f/10 0.30
+125 22 f/11 0.40
+
+FILTER. Optical glass or gel filters containing colored 
+dyes are often used in black-and-white photography to modify 
+the image values. A red filter, for example, withholds blue 
+and green light,
+so that blue or green subject areas, like the sky
+or foliage, become darker than they would
+otherwise be. Kodak filters are identified with a
+Wratten number that has become a standard
+designation.
+
+FILTER FACTOR. Because a filter reduces the
+amount of light reaching the film, a factor is
+usually applied to correct the exposure. The normal 
+exposure time (i.e., the shutter speed] can be
+multiplied directly by the factor to give a corrected 
+exposure time, or the aperture can be
+changed by an equivalent amount.
+
+FOCAL LENGTH. The distance “behind” a lens at
+which it brings to focus light from a distant subject. 
+Used as a measure of image size, since, all
+other things being equal (such as distance to
+subject and film format], doubling the focal
+length doubles the size of the image of any subject.
+ Lenses commonly referred to as “telephoto” have long 
+effective focal lengths, and produce large images of 
+any subject, thus making distant objects appear closer. 
+Lenses referred to as “wide angle” have shorter than normal 
+focal lengths and encompass a broad subject area.
+
+FOCUS sHIFT. The undesirable property of some
+lenses of shifting their focus when they are
+stopped down, thus requiring that focus be
+checked at the aperture to be used for exposure.
+
+F-STOP. See APERTURE.
+
+GRAIN. The clumps of metallic silver that make
+up photographic images, whether negatives or
+prints. Some films have more visible graininess
+than others, and this property can also be influenced by
+the processing of the film and the degree of enlargement.
+
+GRoupP F/64. An informal association founded in
+response to the prevailing Pictorialist school of
+the early twentieth century. The members of
+Group £{/64, which included, Edward Weston,
+Imogen Cunningham, Willard Van Dyke, myself and others, declared themselves in favor of
+sharply focused images that exploited to the
+fullest the characteristics of photographic
+images, rather than attempting to make

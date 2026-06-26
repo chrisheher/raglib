@@ -1,0 +1,67 @@
+### METADATA ###
+# source_file: Craving for Ecstasy__Milkman_08_neurons_101.txt
+# char_count: 3488
+# word_count: 571
+### END METADATA ###
+
+
+
+Dendrite of
+Receiving
+Neuron
+
+THE ELECTROCHEMICAL JOLT
+
+
+The brain’s neurons are composed of three basic parts: the soma
+or cell body, the axon, which carries impulses away from the soma,
+and the dendrites, which receive impulses from other neurons. The
+soma acts as a small computer. It must decide from a “discussion”
+with a multitude of surrounding neurons whether to “fire” and send
+the impulse to the axon, or to remain dormant. Since this is the
+soma’s only decision, and it is made very quickly, we may think of
+the soma as a “fast idiot.” As with pregnancy, firing either occurs or
+it does not, in accord with the “all or nothing” principle. There are
+no weak or strong impulses; all impulses are of the same magnitude.
+The intensity of feeling is determined by the frequency of neuronal
+living rather than by the strength of the electrochemical jolt.
+
+One of the more interesting facts about the brain is that it is not
+lurd-wired. That is, unlike the telephone system, the brain has no
+physical contacts among its trillions of interconnecting neurons.
+Hach nerve cell is physically separated from the fifty billion other
+collaborating brain units by a small space called a synapse. When
+the soma fires, the impulse travels down the long fiber of the axon
+to the synapse separating the axon of one neuron from the dendrites
+of another. The impulse is carried across the synapse to the receiving
+neuron by small molecules that are released into the synapse. These
+molecules, known as neurotransmitters, move across the synapse and
+attach themselves to sites known as receptors, which are embedded
+in the membrane of the postsynaptic terminals of the dendrites. The
+receptors are tailor-made to receive only neurotransmitters that have
+a shape that complements that of the receptor. This relationship between 
+neurotransmitter and receptor is very much like a lock and
+key. Just as only a key with the correct shape will work in a given
+lock, only those neurotransmitters with the right shape will activate
+the specific receptors designed for them.
+
+If a sufficient number of receptors on the postsynaptic membrane 
+become occupied by neurotransmitters, there is a change in
+the electrical balance of this membrane that results in a transfer of
+the impulse from the presynaptic neuron to the postsynaptic neuron.
+‘The impulse then travels to the soma of the postsynaptic neuron,
+where it is combined with inputs from many other synaptic junctions. 
+The soma of the postsynaptic neuron must now make its own
+“decision” of whether to fire based upon the multitude of synaptic
+inputs.
+
+Just as it is possible to put keys of slightly different shapes into
+a given lock, it is possible to introduce into the synapse molecules
+with shapes similar to neurotransmitters that will attach to the receptor sites. 
+However, these pseudo-neurotransmitters (chemical
+prostitutes) do not change the electrical balance of the postsynaptic
+membrane, and in fact block the receptor sites from receiving neurotransmitters 
+that transfer the nerve impulse. The blocking of the
+receptor sites with phony neurotransmitters is much like putting a
+Ford key in a Mercury ignition. The key will fit but will not turn
+the switch and in fact will prevent inserting the Mercury key that

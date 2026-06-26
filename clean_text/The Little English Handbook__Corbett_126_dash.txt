@@ -1,0 +1,74 @@
+
+Use a dash when the word or word-group that
+follows it constitutes a summation, an
+amplification, or a reversal of what went before it.
+
+Examples of sentences that need to be punctuated with a
+dash:
+
+1. Statistics 502, Mathematics 421, Computer Graphics 542, and
+Economics 448, these are the courses that I regard as being
+pertinent to the job for which I am applying.
+
+rewrite:
+
+Statistics 502, Mathematics 421, Computer Graphics 542, and
+Economics 448—these are the courses that I regard as being
+pertinent to the job for which I am applying. (a summation)
+
+2. If he was criticized, he would become sullen and tight-lipped, a
+reaction that did not endear him to his colleagues.
+rewrite:
+
+If he was criticized, he would become sullen and tight-lipped—
+a reaction that did not endear him to his colleagues. (a commentary)
+
+3. The basic material is constructed of composite synthetics, a
+graphite fabric wrapped around a hollow rod made of nylon.
+
+rewrite:
+
+The basic material is constructed of composite synthetics—a
+graphite fabric wrapped around a hollow rod made of nylon.
+(an amplification) — 7
+4. She kneads the ball of, clay, centers the clay on the potter’s
+wheel, shapes the clay in the form of an urn, and then flattens
+the urn with a wooden mallet.
+rewrite:
+She kneads the ball of clay, centers the clay on the potter’s
+wheel, shapes the clay in the form of an urn—and then flattens 
+the urn with a wooden mallet. (a reversal)
+
+
+Unlike the colon (see 68), which directs the reader’s
+attention forward, the dash usually directs the reader’s 
+attention backward. at follows the dash, when it 1s use
+a Tinking device, looks back to what preceded it for the
+particulars or the details that spell out the meaning or
+invest the meaning with pungency or irony.
+
+The colon and the dash are usually not interchangeable
+marks of punctuation. They signal a different relationship
+between the word-groups that precede them and those that
+follow them. After much practice in reading and writing,
+one develops a sense for the subtle distinction in relationships 
+signaled by the punctuation in the following sentences:
+
+The reaction of the crowd signified only one thing: apathy.
+
+The people clearly indicated their indifference to the
+provocative speech—an apathy that later came back to haunt
+them,
+
+In the first sentence, the lead-in clause before the colon
+clearly alerts the reader to expect a specification of what is
+hinted at in that lead-in clause. In the second sentence,
+there is no such alerting of the reader in the lead-in clause;
+but following the dash, there is an unexpected commentary on 
+what was said in the lead-in clause, a summary
+commentary that forces the reader to look backward and
+that receives a special emphasis by being set off with a dash.
+The colon and the dash are both linking devices, but they
+signal different kinds of thought relationships between the
+parts of the sentence. Frequently, the signals a less
+formal relationship than the colon does.

@@ -1,0 +1,101 @@
+### METADATA ###
+# source_file: Piloting__Chapman_511_beach_piloting.txt
+# char_count: 4134
+# word_count: 733
+### END METADATA ###
+
+It is possible, for your height of eye on your boat, to determine the distance at
+which you can see the beach, and certain features of buildings. 
+These distances should not vary
+much from those shown here for a typical boat.
+events should happen and when they actually do, the
+reading of the clock or watch can be shifted as needed.
+
+Night Coastwise Piloting by Shore Lights
+
+For night piloting alongshore, the lights of towns and
+settlements along the beach can be used to estimate 
+distances offshore. An experienced boatman reports that he
+has been able to maintain a course approximately 5’ miles
+offshore going down the New Jersey Coast simply by
+keeping in sight of the reflected glow in the sky above
+lights in towns along the shore.
+
+The appearance of direct rays of light would be a signal
+indicating that the distance offshore was decreasing to 5
+miles or less, whereupon it would be advisable to haul
+off until just the reflected glow was visible once more.
+The objective of keeping so far offshore here is to avoid
+the extensive areas of fish net stakes, and yet not lose
+contact with land.
+
+The distance that the direct rays will be seen will be
+determined by the height of the observer's eye, and should
+be determined by the individual skipper for his own boat.
+The principles involved remain the same for all vessels.
+
+Following the Beach
+
+Elsewhere, we have considered how a boat may be piloted 
+along a coast by following a constant depth, or fathom
+curve. You may not have a sounder, however, or it might
+be broken or not available for some other reason. It is well
+to have another means of following the shoreline approximately 
+when visibility conditions permit the observation
+_ of objects on the beach.
+
+Let’s say that you wish to parallel the New Jersey or
+Long Island beach (or any approximately straight coast
+where there are no hills or mountains ashore to stand out
+prominently at long range). Figure 2146 shows such a
+coastline. From the deck of a typical small boat at sea,
+you will be unable to see the beach if you are more than
+about 4% miles offshore, due to the earth’s curvature. If
+you can just see the beach, you are roughly 4 miles out.
+This, of course, will not hold true if there is fog or haze.
+
+Distance Off by Visibility of Details As you follow
+the coast, you may trend in closer without realizing that
+you are off your intended track. Buildings appear, and
+you find that you can distinguish detail enough to make
+out individual windows of houses. This means that you
+are within roughly 2 miles of the beach.
+
+Thus you have established two limits—by keeping within
+sight of the beach, but far enough off that you cannot
+count windows, you are averaging 2-4 miles off shore.
+Meticulous pilots may object that this is too imprecise,
+but there are many cruises that do not require any higher
+degree of precision.
+
+Check for Your Height-of-Eye The 2-mile distance at
+which windows can be counted will not vary with the
+observer's height of eye. This is a matter of distance and
+detail. The 4- to 414-mile limits of visibility for the beach,
+however, are subject to variation from one boat to another. 
+These are average figures; for reasonable accuracy,
+establish more exact distances for your own boat by using
+the bow-and-beam technique or any other positioning
+procedure.
+
+Echo Piloting
+
+An approximate method of determining distance, in
+passages on bodies of water where there are sheer cliffs
+that will produce echoes, is to sound a short blast of the
+whistle or horn, and, preferably with a stop watch, time
+the interval before the echo is received.
+
+Divide this interval in seconds by two (because the sound
+has to travel to the shore and return as the echo), and
+multiply that figure by 1100, a rough value for the speed
+of sound in air in feet per second. (Multiply by 340 for
+distance in meters.)
+
+For example, you sound a short blast on your horn and
+time the interval until the return of the echo as five seconds. 
+Half of this time is 2% seconds; multiply by 1100,
+and you have 2650 feet or a distance off of slightly less
+than one-half nautical mile.
+
+I il

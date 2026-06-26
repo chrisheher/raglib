@@ -1,0 +1,84 @@
+### METADATA ###
+# source_file: The Little English Handbook__Corbett_012_subject_verb.txt
+# char_count: 3177
+# word_count: 541
+### END METADATA ###
+
+12 GRAMMAR
+
+4. The jury has reached their decision.
+rewrite:
+
+The jury have reached their decision.
+
+5. You can easily avoid most of the headaches that comes from
+dealing with the Division of Traffic and Parking.
+
+rewrite:
+You can easily avoid most of the headaches that come from
+dealing with the Division of Traffic and Parking.
+
+6. If any one of these directions are unclear, you are likely to end
+up in the wrong place.
+
+rewrite:
+If any one of these directions is unclear, you are likely to end
+up in the wrong place.
+
+Expressions like He don’t wear a hat even in zero
+weather are not so much “mistakes” in agreement as carryovers 
+from the dialect that people speak, quite acceptably,
+
+in their own communities. Writers should be aware of the
+standard form of the verb in written prose: He doesn’t
+wear a hat even in zero weather (a singular verb with a
+singular subject).
+
+Most errors of agreement in written prose are the result
+of carelessness, inadvertence, or uncertainty. The writer
+often knows better but merely slips up. Errors in agreement 
+often occur when several words intervene between
+the simple subject of the sentence and the predicate verb,
+as in sentence 2: The instructor’s lack of teaching skills
+hinder the students’ learning. The simple subject of that
+sentence is lack, but because the plural noun skills (the
+object of the preposition of) intervened between that singular 
+subject and the verb, the writer was influenced to use
+the plural form of the verb (hinder) instead of the correct
+singular form (hinders). Careful proofreading will often
+catch such inadvertent errors of agreement.
+
+SUBJECT/VERB AGREEMENT I 13
+
+Errors due to uncertainty are another matter. Uncertainty 
+about whether the verb should be singular or plural
+arises in cases where (1) the subject is compound, (2) the
+subject is a collective noun, (3) the subject follows the
+structure there is/there are, and (4) the subject takes
+the form of a special structure, such as one of those who or
+this man as well as. Here are some guidelines for these
+puzzling cases:
+
+(a) Compound subject
+(1) Singular subjects joined by and usually take a plural verb.
+John and his sister were questioned by the police.
+I hope you will find that my training and experience fit the
+opening that you advertised in the newspaper.
+(2) Singular subjects joined by or or by the correlative
+conjunctions either ... or, neither ... nor take a singular verb.
+John or his sister runs the store during the week.
+Neither the nurse nor Dr. Bruce is worried about the patient’s condition.
+(3) When both subjects are plural, the verb is plural.
+The detectives and the insurance agents have expressed
+their belief in the innocence of the brother and sister.
+Neither the detectives nor the insurance agents have expressed 
+any doubts about the innocence of the brother and
+sister.
+
+(4) When one subject is singular and the other subject
+is plural and the subjects are joined by or or by the
+correlative conjunctions either ... or, neither ... nor,
+the verb agrees in number with the closer subject]
+
+Either John or his parents work in the store on Sunday.
+Neither the brothers nor the sister appears to be cooperative.

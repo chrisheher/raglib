@@ -1,0 +1,127 @@
+### METADATA ###
+# source_file: Piloting__Chapman_267_fuel_fire.txt
+# char_count: 6156
+# word_count: 1052
+### END METADATA ###
+
+Geference Department of larger local libraries, as
+ter 33, Part 183, Subpart J.
+
+> Prevention
+
+boat's entire fuel system must be liquid- and vapor 
+with respect to the hull interior. Gasoline fumes mixed
+air are an explosive combination. These fumes, seven 
+times heavier than air, settle to the bottom of the
+A concentration of gasoline in air as low as 1%4%—
+-teacup, a few ounces of gasoline—can create enough
+ vapor to totally destroy a large boat.
+
+obvious answer is prevention—make it impossible
+gesoline, either in liquid or gaseous form, to get into
+bilge in the first place. Then keep the bilge clean and
+alate the engine compartment thoroughly, and there
+de nothing that can be ignited.
+
+Leakage of liquid gasoline into the bilge can be pre-
+~*<d by a properly installed fuel system that uses strongly
+“= gasoline tanks, approved tubing for fuel lines, leak-
+"sf connections, tight fittings, and lengths of flexible
+“2ilic fuel hose to take care of vibration. As discussed
+"Ser, keep gasoline vapors created when the tanks are
+from finding their way down through open hatches
+companionways. Finally, do not permit sparks and
+ses in the engine room.
+
+a
+uel Tanks
+
+Permanent fuel tanks must be installed securely, to pre-
+=>t any motion in a seaway. Using portable tanks below-
+=<ks is not good practice.
+
+Fuel tanks must be constructed of a metal that is comble with both the fuel and a normal marine environsent. Copper, copper alloys of certain specific composiss, hot-dipped galvanized sheet steel, and aluminum
+ail used for gasoline tanks. In each case, construction,
+allation, and inspections should be in accordance with
+dards of the American Boat & Yacht Council. Terne-
+= steel should be used only on outboard boats and
+=n only for tanks that will be above cockpit decks; an2! inspections are a must.
+
+Gasoline tanks must not be integral with the hull. The
+=ape of the tank should be such that there are no exterior
+sckets that would trap moisture after the tank is in its
+stalled position. Tank bottoms must not have sumps or
+-kets in which water could accumulate.
+
+Internal stiffeners and baffle plates are used to provide
+scessary rigidity and resistance to surging of liquid in
+= tanks. Baffles must meet certain specified design cria2 to prevent formation of liquid pockets in the bottom
+tanks and vapor pockets in the tops.
+
+There should be no drains or outlets for drawing off
+“sel from the tank, nor outlets or fittings of any type in
+she bottom, sides, or ends of tanks. Fuel lines to the en-
+
+SAFETY AFLOAT 12
+
+gine should enter the tank at its top and internally extend
+nearly to the bottom.
+
+Fuel Filler Pipes and Vents
+
+One of the most essential requirements in the proper
+installation of a fuel system is that there be a completely
+tight connection between the gasoline tank and the filling
+plate on deck. The fuel fill must be located so any spillage
+will go overboard, not inside the hull, and tight pipe connections between deck plate and tank will prevent leakage
+or spillage below. Fill pipes, at least 1%-inch (3.8 cm) inside diameter, should run down inside the tank nearly to
+the bottom to lessen the production of vapors.
+
+A suitable vent pipe for each tank should lead outside
+the hull; vents should never terminate in closed spaces such
+as the engine compartment or under the deck. Minimum
+inside diameter of vent pipes should be + inch (11 mm).
+Where a vent ends on the hull, the outlet should be fitted
+with a removable flame screen to protect against flashbacks from the outside sources of ignition. In boats that
+normally heel, such as auxiliary sailboats, it may be necessary to have dual vents with the port tank vent led to
+the starboard side and vice versa.
+
+Non-metallic hose may be used as a coupling between
+sections of metallic fill piping. The hose must be reinforced or of sufficient thickness to prevent collapse. A
+grounding jumper wire must be installed across the nonconducting section to provide a complete electrical path
+from the deck fitting to the fuel tank, which in turn is
+grounded.
+
+A fuel level indicator, if used, should be of an approved
+type. If the fuel supply for an auxiliary electric plant is
+not drawn from the main tank, the separate tank should
+be installed with its own filler and vent.
+
+Fuel Lines
+
+Fuel lines should be of seamless copper tubing, run in
+sight as much as possible for ease of inspection, protected
+from possible damage, and secured against vibration by
+soft non-ferrous metal clips with rounded edges. A short
+length of flexible tubing with suitable fittings should be
+used between that part of the fuel line that is secured to
+the hull and that part which is secured to the engine itself;
+this will prevent leakage or breakage as a result of vibration.
+
+Reinforced non-metallic hose may be used for the full
+distance from the tank shutoff valve to the engine only if
+the line is fully visible and accessible for its entire length.
+Wherever used, non-metallic hose must be dated by the
+manufacturer and not used for a period longer than that
+recommended by the maker. With the increasing use of
+alcohol additives to gasoline, increased caution and more
+frequent inspections are necessary.
+
+Tube fittings should be of non-ferrous drawn or forged
+metal of the flared type, and tubing should be properly
+flared by tools designed for the purpose.
+
+A shut-off valve should be installed in the fuel line directly at the tank connection. Arrangements should be
+provided for ready access and operation of this valve from
+outside the compartment in which tanks are located, preferably from above deck. Where engine and fuel tank are
+separated by a distance exceeding 12 feet (3.7 m), an approved-type manual stop-valve should be installed at the

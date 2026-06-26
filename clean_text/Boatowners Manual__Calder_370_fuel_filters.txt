@@ -1,0 +1,77 @@
+
+
+ Any especially dirty batch of fuel should be completely
+discarded—it’s not worth risking the engine
+for the sake of a tankful of fuel. (On our own
+boats, and all others with which I am involved
+in the design process, I always include a fuel 
+sampling pump that is permanently plumbed
+to the lowest point in the main fuel tank—
+Figure 9-7C. This allows me to withdraw a
+fuel sample at any time and pump it into a
+see-through container, such as an old plastic
+milk jug or jam jar; all I need is I cup of fuel,
+and serious contamination is immediately
+apparent. This inexpensive measure will do
+
+‘I more to protect your fuel system than anything
+else you can do. We have twice found contamination 
+that we were able to remove before
+it did any damage.)
+
+e When leaving the boat unused for long periods 
+(e.g., when it is laid up over the winter),
+fill the fuel tank to the top. This eliminates
+the air space and cuts down on condensation
+in the tank. Also add a biocide. When returning 
+the boat to service and before you crank
+the engine, pump a fuel sample from the base
+of the tank to remove any condensates.
+
+¢ Periodically flush the fuel tank(s) to remove
+accumulated sediment.
+
+-Fuel filters. Most people regard fuel filters as
+the first line of defense against contaminated
+fuel. As should be clear by now, I regard them as
+the last line of defense, whose function is to deal
+with any minor contamination that escapes the
+preventive measures designed to keep the fuel
+tank clean.
+
+DIESEL ENGINES
+
+ Without exception, every marine diesel engine
+ should have both a primary and a secondary fuel
+ filter. All engines come from the manufacturer
+with an engine-mounted secondary filter located
+somewhere just before the fuel injection pump
+If this is the only filter, a primary filter MUST be
+installed (Figures 9-8A and 9-8B). It needs to be
+mounted between the fuel tank and the lif
+pump, not after the lift pump, because any water
+in the fuel supply that passes through a lift pumr
+gets broken up into small droplets that are harc
+to filter out.
+
+Primary and secondary filters do not have the
+same function. A primary filter is the mair
+defense against water and larger particles in the
+fuel supply, but it does not guard against micro
+scopic particles of dirt and water. These are fil
+tered out by the secondary filter.
+
+A primary filter needs to be a sedimenter typ
+that is specifically designed to separate wate
+from fuel. Sedimenters are extremely simple
+generally consisting of little more than a bow
+and deflector plate. The incoming fuel hits the
+deflector plate, then flows around and under it t
+the filter outlet. Water droplets and large parti
+cles of dirt settle out. The better-quality filter
+then pass the fuel through a relatively coarse fil
+ter element (10 to 30 microns).
+
+A primary filter should have a see-throug]
+bowl with a drain plug or valve so that water cai
+be rapidly detected and removed. 

@@ -1,0 +1,74 @@
+### METADATA ###
+# source_file: The Pun Also Rises__Pollack_010_definition.txt
+# char_count: 3722
+# word_count: 600
+### END METADATA ###
+
+10 The Pun Also Rises
+
+In other words, a pun transforms one thing into another by relating 
+them through sound or, in the case of visual uns, sight. A
+play on words only works if the two things it relates are already
+intrinsically connected, either by etymology or function. Three
+examples illustrate this. “The excitement at the circus is in tents,”
+Hughes and Hammond write, pointing out the two obvious
+meanings a listener is likely to hear: “in tents” and “intense.” This
+is a homophonic pun—one based on homophones, or words that
+sound alike but have different meanings.
+
+The next example they give is subtly different: “An architect
+in prison complained that the walls were not built to scale.” In
+this case, the dual meanings depend on how a listener interprets 
+the word scale. Does “scale” refer to a building’s relative
+proportions, as an architect might see them? Or does “scale”
+refer to the difficulty someone might encounter were they to
+attempt an escape by climbing over the prison walls?
+
+The circus example is a pure homophonic pun. The prison
+example, Hammond and Hughes argue, is a mere play on
+words. The difference is that intense and in tents are completely
+unrelated words, except through an accident of sound. By contrast, 
+the alternate meanings of scale stem from the same etymological root, the Latin scala, meaning “ladder.”
+
+A third example Hughes and Hammond offer concerns a
+cruise director who says that “rumors about sex orgies aboard
+the ship are all bunk.” Unlike the previous wordplay on scale,
+this one is a true pun because bunk has two meanings, each
+deriving from different etymological roots. The first meaning
+is “a type of stacked bed often found on ships,” which the authors 
+trace back to the Old Swedish word bunke. The second
+meaning is “windbaggery or nonsense,” and is short for bunkum, 
+itself a bastardization of Buncombe County, North Carolina. 
+As the story goes, a long-winded congressman from the
+area named Felix Walker gave a lengthy and vacuous speech in
+the House chamber in 1820, apologizing to his colleagues for its
+emptiness but explaining that his constituents expected him “to
+make a speech for Buncombe.”
+
+To most punsters, such distinctions don’t even register, let
+alone matter. As the polymath writer Arthur Koestler noted,
+the etymological roots of any given pun are irrelevant “provided 
+the two derivations have drifted apart far enough to become incompatible.” 
+And while punning might have once been a life-or-death business to ancient
+ Babylonians and later to a few European hotheads, it has long since 
+entered the realm of humor and, over the past century, serious academic study.
+
+In one particularly rigorous deconstruction of humor entitled 
+The Linguistic Analysis of Jokes, artificial intelligence researcher
+ Graeme Ritchie critiques linguists’ competing theories
+of verbal humor and punning, and even offers an appendix of
+mathematical formulas for certain types of jokes and “linguistically normal” puns. 
+Yet, despite such extensive efforts by such accomplished thinkers to corral the
+pun within precise definitions, formulas and theories, it always seems to jump the fence.
+
+Still, those holding pens offer us a useful guide to the pun and its penumbra.
+
+Some linguists divide puns into two principal categories: homophonic and 
+homographic. Homophonic puns exploit words
+that sound alike, either generally or identically, such as “in
+tents” and “intense.” By contrast, homographic puns are based
+on etymologically distinct words, spelled the same, that have
+more than one meaning, such as bunk.
+
+Others suggest still different categories. One is a paradigmatic pun, 
+which depends on the listener grasping a greater

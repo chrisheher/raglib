@@ -1,0 +1,27 @@
+### METADATA ###
+# source_file: Perl_168_craps_game.txt
+# char_count: 2355
+# word_count: 497
+### END METADATA ###
+
+
+
+Game of craps (part 2 of 2).
+
+We define two other subroutines—ro11Die andmessage. S
+called by rollDice to generate a random number from I through 6. Subroutine 
+message takes a single argument (WON or LOST) and returns an appropriate message 
+indi-cating whether the game was won or lost.
+
+The game is reasonably involved. The player could win or lose at any point in the
+game, after any roll. The variable $status keeps track of the current state of the game.
+We assign the strings "WON", "LOST" or "CONTINUE" to $status, which helps direct
+program execution (controlled by lines 5 through 32).
+
+th the roll of the dice at line 5. The if/elsif/else structure at 
+
+The game begins with
+lines 9-19 determines the status of the game after the first roll. If the game is over after the
+first roll (i.e., the sum of the dice is 7, 11, 2, 3 or 12), variable $status is set to "WON"
+
+or "LOST" and the body of the while structure (lines 21-30) is skipped, because

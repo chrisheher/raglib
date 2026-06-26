@@ -1,0 +1,150 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_052_failure_to_fire.txt
+# char_count: 5395
+# word_count: 890
+### END METADATA ###
+
+Troubleshooting, Part One: Failure to Start
+
+Troubleshooting Chart 4-2.
+Engine Cranks but Won’t Fire.
+Note: See Chart 4-1 if engine won’t crank.
+
+lis the air flow obstructed? Check any air flaps, air
+filter, and exhaust seacock for blockage or closure.
+
+Is the engine cranking slowly? Note: Stop cranking
+and save the battery!
+
+Is the engine too cold?
+
+And Check cold-start devices. If glow plugs and
+manifold heaters are working, the cylinder head
+will be noticeably warmer. Plugs can be tested
+by using a multimeter, or unscrewing the plug
+and holding it against a good ground. See text
+under ‘‘Cold Start Devices” for details.
+
+Is the compression inadequate to achieve ignition
+temperature?
+
+Ro (a) Suspect inadequate cylinder lubrication or
+piston blow-by... .
+
+(b) Suspect valve blow-by or blown cylinder
+head gasket....
+
+(c) On Detroit Diesels, is the blower defective?
+
+Is the fuel level too low? Check the fuel level in the
+tank.
+
+Is the fuel delivery to the engine obstructed?
+
+Bod Check to see that no kill devices are in operation; all fuel valves are open; no fuel filters are
+plugged; the remote throttle is actually advancing the throttle lever on the engine; and any
+fuel solenoid valve is functioning.
+
+Is the fuel delivery to the injectors obstructed?
+
+aod TEST: Open throttle wide, loosen an injector
+nut and crank the engine. (But not on Detroit
+Diesels—see text)
+
+Note: If fluid spurts out when conducting previous test, make sure it is fuel, not water,
+
+Hf you have exhausted these tests, you can suspect
+tnaorrect timing. a worn fueakiniaation BuMmA. warm ar
+
+Open air flap; replace air filter element; open exhaust
+seacock.
+
+Check for: low battery, voltage drop, improper oil viscosity.
+
+Try the five methods for boosting speed listed in the text
+under ‘‘Cranking Speed’’. If slow cranking is due to cold,
+see below. If these fail, recharge the batteries.
+
+Replace faulty glow plugs or manifold heaters; warm the
+engine, inlet manifold, fuel lines, and battery using a hair
+dryer, light bulb or kerosene lantern. Raise temperature
+slowly and evenly—concentrated heat can crack the engine
+castings.
+
+FIX: On engines with custom-fitted oil cups on the inlet
+manifold, fill cups with oil and then crank engine. On others
+remove air filter and squirt oil into the inlet manifold as close
+to the cylinders as possible while cranking. See ‘‘Compression” in text.
+
+Check for incorrect valve clearance or head gasket blown.
+
+FIX: If valves are poorly seated, a top-end overhaul is
+needed.
+
+FIX: Consult a Detroit Diesel manual.
+
+Add fuel. It will probably also be necessary to bleed the fuel
+system (see page 58).
+
+If stop or kill control has been pulled out, push it in. Check
+power supply to and operation of fuel shutdown solenoid
+valve by connecting it directly to the battery with a jumper
+wire. If see-through fuel filters are plugged, change filters.
+Open the throttle wide.
+
+Push in the fuel knob on a Detroit Diesel hydraulic governor.
+
+If no fuel spurts out, check primary, secondary, and lift pump
+filters and bleed the system (page 58). Check fuel lift pump
+for diaphragm failure. If fuel still does not flow, go back and
+check system for fuel level, blockages, and air leaks. Only
+after all else has been eliminated, suspect injection pump
+failure,exhaust piping or in the turbocharger. 
+
+In cold weather, there could be frozen water in a 
+water-lift-type mufler, which has the same effect 
+as a closed seacock,
+
+The point is, take nothing for granted. A problem
+with the airflow is unlikely, but you need only a few
+Minutes to check it out.
+
+2. Ignition Temperatures
+
+you find no obstruction in the airflow, perhaps the
+air charge is not being adequately compressed to
+achieve ignition temperatures. Although numerous
+variables may be at work here, you must attempt to
+isolate them to identify problems.
+
+Cold-Start Devices
+
+‘The colder the ambient air, the lower its temperature
+when compressed, and the harder it is to get it up to
+ignition temperatures. As if this were not problem
+enough, cold thickens engine oil, which makes the
+engine crank sluggishly. Slower cranking gives the air
+ii the cylinders more time to dissipate heat to cold
+engine surfaces and more time to escape past poorly
+seated valves and piston rings. A battery that puts out
+100% at 80°F (27°C) will put out 65% at 32°F
+(°C), and only 40% at 0°F (—18°C).
+
+Cold is a major obstacle to reliable engine starting; therefore, most engines incorporate some form of
+4 cold-start device to boost the temperature of the air
+charge during initial cranking. The most common
+device is a glow plug—a small heater installed in a
+fire-combustion chamber. Glow plugs are run off the
+engine-cranking battery, becoming red hot when activated,
+
+Direct-combustion engines generally cannot use
+glow plugs because the combustion chamber doesn’t
+live enough room for them. In this case the incoming
+ charge generally passes over some kind of a heater
+in the air inlet manifold—perhaps a heating element,
+out a flame primer (a device that ignites a diesel spray
+in the inlet manifold, thus warming the entering air—
+see Figure 4-22), Other engines (particularly Detroit
+Diesels) use a carefully metered shot of starting fluid
+
+a ee ee on ee ee Tk ee wes. etm ers I

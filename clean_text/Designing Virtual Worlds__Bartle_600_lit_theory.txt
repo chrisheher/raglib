@@ -1,0 +1,76 @@
+Interestingly, her own experience reads very much like the hero’s journey.
+
+Mikael Cardell, 199429. In this early attempt to look at virtual worlds from the
+point of view of literary theory, Cardell compares the processes involved in the
+construction of virtual worlds with those of a literary world (that of Lord of the
+Rings) and concludes that they are fundamentally the same. Nevertheless, altho
+virtual worlds are used as locations for storytelling—quests in particular—he se
+little evidence of contextual role-playing in most of them except for social 
+experimentation (for example, cross-gender play).
+
+Role-Playing Game Theory
+
+Role-playing gamers have theories of role-play, Acti "
+course, but players of role-playing games (RPGs) do ii
+ate to their particular circumstances. Instead, they've 1h
+origins of which lie in the discussions of role-playing
+Phil Goetz, 19942. This is a classic article that shows how 
+virtual worlds can b rec.games.frp.advocacy. Most of this work was done Wit
+games, whether face-to-face or live action; nevertheless
+virtual worlds (and to single-player computer role players
+
+(here are two key aspects to the theories: mode and sf
+
+Mode is the style of play that players adopt, and concert
+in role-playing games. The usual answer they gives”
+ers of virtual worlds reply. The RPG categorization ol 1
+the one I derived for virtual world player types, In tie
+The GDS and GNS models, named after the initial let
+Dramatist, Simulationist, and Gamism, Narrativisim, Wi
+
+Catherine Wylie, 1999°°!. In this paper, Wylie argues that virtual worlds are the nati
+ral successors of the ancient “memory theatre” approach to storytelling, where st
+ries were told aloud rather than being written down. Such stories evolved in the
+telling, as the storyteller and listeners engaged in a dialogue. She sees virtual world
+as offering the same opportunity for their communities to direct the moral tide,
+which are unavailable in other common examples of post-modernism in action,
+
+Torill Mortensen, 200232, Mortensen’s concern is that literary theorists have diffi
+culty understanding virtual worlds because they are removed from them, they
+speak with experience of literature, but not of virtual worlds. She suggests that
+instead of looking at virtual worlds remotely, researchers should roll up their
+sleeves and agtually play them?°3. Only through such ethnography-like fieldwork
+
+is described in the rec.games.frp.advocacy FAQ™, GN!
+I'll outline GNS here:
+
+» Game mode. This concerns competition betwee
+ters. Players create victory/loss conditions lor I
+
+Mikael Cardell, Computers, Storytelling and World Creation: The Reader as Writer in Multi-Participant
+Interactive Fiction. Department of Language and Literature, Linképing University, 1994.
+http: //www.hack. org/~me/writings/world2.txt.
+
+their playing strategies.
+
+» Narrative mode. Here, the idea is the creation o
+Characters are protagonists, and the referee i
+which the players cut the story. The GDS model
+
+Phil Goetz, Literary Role-Play in Cyberspace. Andrew Rilstone (editor), Interactive Fantasy 4. London,
+Hogshead Publishing, 1995. http: //www.mud.co.uk/richard/ifan295.htm.
+
+Catherine Wylie, MUDs, Memories and Morals: A Revisioning of Primary Orality and Late Literacy. Denvel.
+University, 1999. 5
+404, John H. Kim, The rec.games.frp.advocacy FAQ, http) / / www.
+
+Torill Mortensen, Playing with Players: Potential Methodologies for MUDs. Game Studies Vol. 2 (1), July
+faq vil/faql.art.
+
+2002. http: //www.gamestudies. org/0102/mortensen/,
+405, Ron Edwards, GNS and Other Matters of Role-Playing Theaty ?
+
+A tiny minority of literary theorists do have meaningful experience of virtual worlds, of course, Aarseth
+Indie-rpgs,com/articles/1/,
+
+being the most notable example,

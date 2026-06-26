@@ -1,0 +1,76 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_577_pump_types.txt
+# char_count: 1698
+# word_count: 303
+### END METADATA ###
+
+13-2. Pump Types and Common Applications
+
+on Flexible
+
+ation Impeller Vane Rotary
+
+Centrifugal’
+
+Electric
+Diaphragm
+
+Manual
+
+Diaphragm Piston
+
+me cooling
+water xX
+=7 water _
+=geration conensers and air
+sonditioners
+
+=< washdown
+
+citric
+
+discharge
+
+ectric
+=nual
+wers
+=7 water
+=ssurized x
+al _—
+transfer? _ xX
+
+3st be installed below the waterline.
+St be compatible with diesel.
+
+= a pressure cutoff switch to protect the pump
+its plumbing.
+
+ad Pressure and Centrifugal
+mp Installations
+
+head pressure refers to the resistance
+to flow that a pump must overcome. Head
+pressure includes (1) the vertical height the fluid
+be lifted (from the suction intake to the dis-
+ point), and (2) the effect of resistance
+n the piping or tubing runs. This latter aspect
+frequently ignored but can in fact cause more
+ than the vertical lift itself.
+
+ Vertical lift is easy to measure. It is
+simply the difference in the height of the suction
+and discharge points. One foot of vertical lift is
+equal to 0.433 psi of back pressure, which is to say
+that 2.3 feet of lift results in approximately 1 psi
+of pressure. When thinking about vertical lift, it
+is important to remember the effects of heeling.
+Let’s say we have a submersible bilge pump
+mounted on the centerline of a boat with a 14foot beam. 
+The discharge fitting is 5 feet above
+the pump, in the side of the boat. If the boat is
+heeled 30 degrees, this vertical lift will decrease
+to 1.5 feet on one tack, but will increase to 8.5 feet
+on the other tack. (Note that if the discharge line
+is looped up under the deck, the vertical lift will
+be the height to the top of the loop rather than to
+the discharge point in the side of the hull.)

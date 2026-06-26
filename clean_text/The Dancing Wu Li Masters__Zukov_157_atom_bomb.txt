@@ -1,0 +1,106 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_157_atom_bomb.txt
+# char_count: 4974
+# word_count: 851
+### END METADATA ###
+
+
+
+The formula E = mc2’ also resulted in the atomic bomb.
+Atomic bombs and atomic reactors obtain energy from mass
+by the process of fission, which is the opposite of fusion.
+Instead of fusing smaller atoms into larger ones, the process of
+fission splits atoms of uranium, which are quite large, into
+atoms which are smaller.
+
+This is done by firing a subatomic particle, a neutron, at an
+atom of uranium. When the neutron hits the uranium atom, it
+splits it into lighter atoms, but the mass of these smaller
+atoms together is less than the mass of the parent atom of
+uranium. The difference in mass explodes into energy. This
+process also produces additional neutrons which fly off to strike
+other uranium atoms, creating more fissions, more light atoms,
+more energy, and more neutrons. The whole phenomenon is
+called a chain reaction. An atomic bomb is an uncontrolled
+chain reaction.
+
+A hydrogen (fusion) bomb is produced by detonating an
+atomic (fission) bomb in the midst of hydrogen. The heat from
+the atomic explosion (in place of the heat of friction caused by
+gravity) fuses hydrogen atoms into helium atoms and releases
+heat in the process which fuses together more hydrogen atoms,
+releasing more heat, and so on. There is no limit to the size of
+a potential hydrogen bomb, and it is constructed from the
+most plentiful element in the universe.
+
+For better or worse, a major revelation of the special theory
+of relativity is that mass and energy are different forms of the
+same thing. Like space and time, they are not separate entities.
+There is no qualitative difference between mass and energy;
+there is only mass-energy. Mathematically, this discovery meant
+that the two conservation laws of mass and energy could be
+replaced by a single conservation law of mass-energy.
+
+A conservation law is a simple statement that a quantity of
+something, whatever it may be, never changes no matter what
+happens. For example, suppose that there were a conservation law 
+governing the number of guests at a party. If such a
+thing were true, we would notice that every time a new guest
+arrived at the party, some other guest would leave. Similarly,
+every time a guest at the party left, another one would arrive.
+
+* As its hydrogen becomes exhausted, a star begins to fuse the helium at its
+core. Helium fusion is hotter than hydrogen fusion and produces heavier elements,
+such as neon, oxygen, and carbon, which, in turn, becomes the solar fuel as its
+helium becomes exhausted.
+
+
+
+The rate of guest turnover at the party might be great or
+small, and the guests might arrive and depart singly or in
+groups, but in all circumstances the number of guests at the
+party would remain the same.
+
+The conservation law concerning energy says that the total
+amount of energy in the universe always has been and always
+will be the same. We can convert energy from one form to
+another (like mechanical energy to thermal energy via friction), 
+but the total amount of energy in the universe does not
+change. Similarly, the law of the conservation of matter says
+that the total amount of matter in the universe always has
+been and always will be the same. We can convert matter
+from one form to another (like ice to water or water to steam),
+but the total amount of matter in the universe does not change.
+
+When the special theory of relativity combined mass and
+energy into mass-energy, it also combined the law of the
+conservation of mass and the law of the conservation of energy
+into the law of the conservation of mass-energy. The law of
+the conservation of mass-energy says that the total amount of
+mass-energy in the universe always has been and always will
+be the same. Mass may be converted into energy and energy
+may be converted into mass, but the total amount of mass 
+energy in the universe does not change.
+
+The sun, the stars, even wood burning in the fireplace, are
+examples of mass being converted into energy. Physicists who
+study subatomic particles are so familiar with the concept of
+exchanging mass for energy and energy for mass that they
+routinely designate the mass size of particles in terms of their
+energy content.
+
+In all, there are roughly twelve conservation laws. These
+simple laws are becoming more and more important, especially
+in high-energy particle physics, because they are derived from
+what physicists now believe to be the ultimate principles (latest
+dance) governing the physical world. These are the laws of
+symmetry.
+
+The laws of symmetry are pretty much what they sound
+like. Something is symmetrical if certain aspects of it remain
+the same under varying conditions. For example, one half of a
+circle mirrors the other half, no matter how we cut it.
+Regardless of how we turn a circle, the right half always mirrors 
+the left half. The position of the circle changes, but its
+symmetry remains.
+

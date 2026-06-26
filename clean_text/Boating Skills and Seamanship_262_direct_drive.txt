@@ -1,0 +1,65 @@
+### METADATA ###
+# source_file: Boating Skills and Seamanship_262_direct_drive.txt
+# char_count: 2637
+# word_count: 422
+### END METADATA ###
+
+MORE BOATING SKILLS
+
+their greater fuel efficiency, reliability, durability, and
+safety. In addition, a diesel engine can run continuously 
+at 90% of its maximum rated engine speed
+without ill effects, whereas a gas engine burns excessive 
+fuel and wears out prematurely when run
+continuously at such high speeds. Further, a diesel
+develops more torque at cruising speeds than a gas
+engine. The net result is that a 200-horsepower
+(hp) diesel can cruise a 35-foot boat as fast as a 300
+hp gas engine.
+
+Diesel and gasoline engines are about equally
+popular in inboard boats between 28 and 35 feet
+long, each having distinct advantages and disadvantages. 
+But gasoline remains the dominant fuel
+for the outboard, stern-drive, and smaller inboard
+boats that are the main focus of this book. Gasoline
+engines are quieter, less smelly, less expensive, and
+lighter than diesels, and in lightly used recreational
+boats the greater durability and operating economy
+of a diesel fail to outweigh its higher initial cost.
+For the balance of this chapter, therefore, although
+we will call attention to key distinctions between
+diesel and gasoline engines where appropriate, our
+discussion will center on gasoline engines.
+
+Figure 10-1 0. Typical components of a direct-drive 
+installation: (1) propeller; (2) retaining nut, (3) cotter pin; (4) zinc anode
+
+
+Inboard Engines
+
+An inboard engine is usually installed close the
+amidships and faces forward, as in an automobile
+with rear-wheel drive. It is connected to a propeller
+shaft by a clutch and a system of reduction and re
+verse gears housed in a marine transmission, OF
+gearbox, at the back end of the engine. The clute®
+serves to disengage the crankshaft from the propeller 
+shaft so that the engine can run without
+moving the boat. The clutch and associated gears
+also enable the boat to go forward or in reverss.
+This type of inboard drivetrain is termed an in-line
+or direct-drive inboard, with the engine, gearbox.
+and propeller shaft laid out in a straight line thee
+often extends half the boat’s length (Figure 10-10)
+
+In some instances, the inboard engine faces ai
+and its crankshaft is connected to a gearbox at the
+
+forward end of the engine. The gearbox redirects
+
+rubber sleeve (Cutless) bearing; (6) bearing; (7) stern tube; (8) propeller shaft; (9) flexible stuffing box; (10) packing rings; (11) loose
+nut; (12) compression spacer; (13) adjusting nut; (14) shaft coupling; (15) output shaft; (16) transmission, OF gearbox; (17) ina
+shaft: (18) clutch discs. (COURTESY JIM SOLLERS; REPRINTED WITH PERMISSION EROM BOATOWNER'S MECHANICAL AND ELECTRICAL MANUAL, THIRD EDITION, BY Si
+
+CALDER)

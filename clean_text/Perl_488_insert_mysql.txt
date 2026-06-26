@@ -1,0 +1,80 @@
+### METADATA ###
+# source_file: Perl_488_insert_mysql.txt
+# char_count: 3246
+# word_count: 527
+# date_found: 99-85-3698
+### END METADATA ###
+
+488 Databases: sai and Perl Database Interface (DBI) Chapter 15 Chapter 15 Databases: SQL and Per! Database Inlerfaen (
+
+INSERT INTO Employee ( EmployeeID, FirstName, Laatn
+
+YearBorn, SocialSecurity )
+VALUES ( 0005,
+
+'Iris', 'Indigo', 1960, "333-66-9900%
+
+Michael Black 1965 222-44-8888 inserts a record into the Employee table. The statement indicates (hit valu
+0001 Jim Blue 1943 999-85-3698 serted for the EmployeeIp, FirstName, LastName, YearBorn
+0002 Kate Green 1977 111-21-7454 curity fields. The corresponding values to insert are 0005,'Tris' + VEE
+0003 Wendy White 1959 000-84-3 196
+
+and '333-66-9999'. Figure 15.15 shows the Employee table after the
+Operation.
+
+Common Programming Error 15.4
+
+The single quote (*) character is used as a delimiter for strings betiy ins
+base. Therefore, to insert a name containing quotes (such as O Malley) inte
+
+name must contain two single quotes in the Position where the quote ChAPICTED
+name (e.g., 'O" "Malley' ).
+
+
+
+15.4.5 Updating a Record
+
+Often it is necessary to modify data in a table (e.g., update a record), This is ae
+
+i i by using an UPDATE operation. The simplest form for an UPDATE statement
+Good Programming Practice 15.3 y using Pp
+
+Spread long S\ QL statements over multiple lines, using indentation to maximize readability,
+
+UPDATE TableName
+
+SET fieldNamel = yaluel, fieldName2 = value2, -7 fleldNameN = 4
+WHERE criteria
+
+15.4.4 Inserting a Record
+
+where TableName is the table in which the record will be updated, The Tablen
+lowed by keyword SET and a comma-separated list of field name/value pairs inthe
+fieldName = value. The WHERE clause specifies the criteria used to det aT
+record(s) to update. The UPDATE statement
+
+-., add anew record). This is accomplished
+n. The simplest form for an INSERT INTO statement is
+
+INSERT INTO TableName ( fieldNamel, fieldName2, ..., fieldNameN )
+VALUES ( value] , value2, ..., valueN )
+
+where TableName is the table into which the record will be i
+lowed by a comma-separated list of field names in
+
+F UPDATE Employee
+nserted. The TableName is fol-
+
+SET YearBorn = '1969' ; ; ,
+parentheses (this list is not required if the WHERE LastName = 'Green' aNp FirstName = 'Kate
+INSERT INTO operation fills a complete row in the table). 
+
+
+The list of field names is followed
+by the SOL keyword VALUES and a comma-separated list of values in parentheses. The values specified here should match the field names Specified after the table name in order and
+type (.e., if fieldName! is Supposed to be the FirstName field, then value! should be a
+string in single quotes representing the first name). The INSERT INTO statement
+
+Indigo 1960 33366-9999
+he Employee table whose Socialsecurity ————E————
+number ends in an 8,

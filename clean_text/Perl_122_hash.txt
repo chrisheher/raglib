@@ -1,0 +1,67 @@
+##Arrays and Hashes Chapter 4
+
+variable’s value equals $§middleIndex, then the middle element of the subarray is
+output, followed by an asterisk (*) to highlight that element as the middle element. 
+For allother control variable values, that element of the subarray is displayed. 
+Notice in line 33 the new operator I I —the logical OR operator.
+
+The if/elsif/else structure in lines 51-60 performs the most important logic of
+the binary search. If $searchKey equals the middle of the current subarray, the search is
+complete, so $index is assigned $middleIndex and $found is assigned I (true). If
+$searchKey is less than the middle element’s value, then the search must continue in the
+first half of the subarray. So, line 56 adjusts the $highIndex by assigning it the index
+one less than $middleIndex. For all other $searchKey values, line 59 adjusts the
+$LowIndex by assigning it the index one greater than $middleIndex, which enables
+the search to continue in the second half of the subarray. When the while loop at line 28
+terminates, lines 64 through 69 display an appropriate message indicating whether or not
+the $searchKey was found.
+
+Introduction to Hashes
+
+The second multivalued (nonscalar) data type that is fundamental to the Perl language is
+the hash, or associative array. A hash is an unordered collection of key-value pairs. Rather
+than accessing a hash element with a subscript like an array, elements in a hash are accessed
+using a string known as a key. Each key must be unique. Hashes are sometimes known as
+associative arrays, because they define associations between keys and their values.
+
+Common Programming Error 4.12
+
+The keys in a hash must be unique. Using the same key more than once in a hash causes the
+original value for that key to be replaced with a new value; this situation could be a logic
+error, or it could be a normal update operation.
+
+The special symbol for a hash is %. Hashes are implementations of a data structure
+known as a hash table. Chapter 20, “Data Structures,” provides more insight into the inner
+workings of hashes. For now, we simply show you how to use them.
+
+Because each value has an associated key, hashes take up more space than arrays.
+However, the internal structure of a hash provides fast lookup capabilities through which a
+value can often be located in one operation. ;
+
+Hashes are particularly useful in situations where extremely fast retrieval of values is 
+reaquired.
+
+
+Hashes require more memory than arrays. Often, there is a delicate balance between the time
+SES" I i+ takes to locate values and the amount of memory required to maintain the data. These issues are normally categorized as space-time trade-offs.
+
+4.13 Creating and Manipulating a Hash
+
+Like arrays, hashes can be created in two ways: either by assigning a list to the hash variable
+or by assigning values to single elements. Figure 4.15 shows the creation of a hash and the
+tle me tee me ameratar.auhioh we: havannauanuarad vet.
+
+
+
+Fig. 4.15 Creating and using hashes,
+
+Lines 6 and 7 define a hash by assigning a list to a hash variable (%hash). As with
+arrays, a hash variable can have any valid identifier as a name, including the same
+used here. Here, we introduce the “corresponds to” operator, =>. This operator is simil
+(o the comma operator, except that it interprets its left-side operand as a string, so no —
+ane to be placed around the string. The first value in this list (width) is the key of the
+lirst element to be created in the hash, and the second value in the list ("300") is the val
+that corresponds to that key. The list elements are grouped this way into key-value - a,
+So, the value height is the key for the second element in the hash, and the amettty fa
+responding value is '150'. Lines 8 and 9 display the individual hash elements Note tha t
+you can access a key’s corresponding value by preceding the hash name with a$ and

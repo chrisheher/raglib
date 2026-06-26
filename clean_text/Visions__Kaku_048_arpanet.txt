@@ -1,0 +1,86 @@
+### METADATA ###
+# source_file: Visions__Kaku_048_arpanet.txt
+# char_count: 4982
+# word_count: 838
+# date_found: November 21, 1961
+### END METADATA ###
+
+a “policeman.” Bureaucratic rules, censorship, and governmental meddling 
+would only retard the rebuilding of America in the race with the
+Soviet Union (to fight World War IV!). It was partly for this reason
+that the Internet was built without censors, rules, and regulations.
+
+ARPANET, which was conceived to link up the scientists and universities 
+of the country, was modified to serve in this role. Eventually
+ARPANET became the Internet.
+
+The Mother of All Nets
+
+In 1844, when Samuel Morse telegraphed the immortal words “What’
+hath God wrought?” from Washington to Baltimore, he helped to usher
+in the age of electronic communication. On November 21, 1961, there
+were no prophets or sages invoking the wisdom of the information age
+when a half dozen scientists gathered at Boelter Hall, home of the 
+computer science department at UCLA, to connect their computer with the
+computer at the Stanford Research Institute near Palo Alto.
+
+“There wasn’t a photographer present, and it didn’t even occur to us
+that we should have one,” recalled Steve Crocker, who was a graduate
+student at that time. No one, in fact, even remembers what was said in the
+first historic message linking two distant computers.
+
+ARPANET initially connected only four sites (UCLA, the University
+of California at Santa Barbara, the Stanford Research Institute, and the
+University of Utah). ARPANET grew slowly, hindered at every turn because
+ of the hush-hush nature of the project, and because computers back
+then were mostly incompatible. By 1971, there were only two dozen sites,
+By 1974, the ARPANET had grown to 62. By 1981, the number exceeded
+200. Only in the mid-1980s did ARPANET finally reach critical mass
+among universities and scientific laboratories.
+
+When the ARPANET finally took off, it was so successful that it was
+formally discontinued in 1990, having completed its original mission,
+With the ending of the Cold War, the baton was passed from the military
+to the National Science Foundation. ARPANET, once the private prov:
+ince of physicists and computer scientists, finally exploded into the public
+domain as people got wind of this marvelous technology.
+
+By 1994, more than 45,000 smaller networks had joined the Internet,
+That year, physicists finally brought some order to the unruly, wild and
+woolly Internet. With the Cold War over, there was no longer any incentive
+to keep the Internet as unregulated as possible. Tim Berners-Lee, a
+mathematician working at CERN, the sprawling European physics re
+search center in Geneva, Switzerland, created the World Wide Web iii
+1991, which made multimedia accessible on the Internet. Like
+the world is roughly 40 million.
+
+Mnton Cerf, one of the pioneers of the Internet, predicts that if the
+rent rate of growth continues, by the year 2000, 160 million people
+ibe on the Internet. Nicholas Negroponte of MIT estimates optimisly 
+that perhaps up to a billion people could be surfing the Net by that
+. Certainly the potential is there; in 1995, 65 million 
+merers, by 2005 the Internet will be ae tle as the mene
+lay. (There are 600 million telephone lines installed worldwide.)
+cause the landmark Federal Communications Commission filing in
+will eventually pave the way for the merger of television with the
+het, and since 99 percent of all U.S. homes have TVs (more than
+telephones, flush toilets, or computers), we may actually have 99
+n of the population wired to the Internet early in the next century.
+¢ information stored on the Internet is also increasing at breakneck
+In 1996, one could access about 70 million pages on the Internet
+fe eved that by 2020 the Internet will access the sum total of the
+il experience on this planet, the collective knowledge and wisdom of
+t 5,000 years of recorded history.
+
+the switching station in San Jose was almost overwhen Internet traffic 
+reached 95 megabits per second, which
+the system’s capacity of 100 megabits per second.) ;
+
+ANET, which could hook up physicists and technicians together
+g and after a nuclear war, the Web was originally designed to hook
+1 day, the Internet is growing at the phenomenal rate of 20 percent
+r quarter, almost doubling every year since 1988. At this rate, it is
+" ally exceeding the growth rate of computers according to Mocte's
+vs It is truly the “mother of all networks,” with 10 million servers
+lectable on the Internet today. If we count those who dial up these
+vers from their home or work PC, the total number of Internet users

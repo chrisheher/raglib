@@ -1,0 +1,94 @@
+### METADATA ###
+# source_file: Story and Discourse__Chatman_172_diary_on_film.txt
+# char_count: 4619
+# word_count: 784
+### END METADATA ###
+
+172 STORY AND DISCOURSE
+
+strongly presuppose an audience. Interior monologue, on the
+other hand, has no conscious sense of audience. It is expressive,
+not communicative, of the character’s thoughts.
+
+The diary narrative differs from the epistolary in its narratee,
+The narratee of a letter is the addressed correspondent; the narratee 
+of a private diary is usually the writer himself, though the
+diary may ultimately be intended for someone else’s eyes (Noeud
+de viperes, The Key, Abel Sanchez). The diarist may narrate events
+for his own edification and memory. But he may also be working out
+his problems on paper. Still, he is talking to himself.
+
+Most of the entries in Roquentin’s diary in La Nausée are of an
+expository, not a narrative cast:
+
+I don’t think the historian’s trade is much given to psychological analysis. 
+In our work we have to do only with sentiments in the whole to
+which we give generic titles such as Ambition and Interest.
+
+When narrative does appear, it often serves the function of
+example:
+
+The thing is that I rarely think; a crowd of small metamorphoses 
+accumulate in me without my noticing it, and then, one fine day, a
+veritable revolution takes place. This is what has given my life such
+a jerky, incoherent aspect. For instance, when I left France, there were
+a lot of people who said I left for a whim. And when I suddenly came
+back after six years of traveling, they still could call it a whim. I see
+myself with Mercier again in the office of that French functionary who
+resigned after the Petrou business last year. Mercier was going to
+Bengal and he pressed me to go with him: Now I wonder why. ‘7
+
+Film offers some interesting twists on the diary convention.
+The best example I have seen is Robert Bresson’s version of
+Georges Bernanos’ Le Journal d’un curé de campagne (1950).18
+Especially at the beginning, brief shots illustrating the quality
+
+17. Translated by Lloyd Alexander.
+
+18. In the novel, according to Raymond Durgnat, “the diary is ‘transparent,’
+a convention, [since] the priest would a) have had to have been born a novelist
+and b) spent most of the day writing up his diary” (The Films of Robert Bresson,
+New York, 1969, p. 46). Durgnat argues that the film journal is more realistic
+in this respect. The visual image of the curé scribbling a “few trite words” can
+be followed instantaneously by a cut, a purely “showing” cinematic device,
+which takes over the burden of exposition.
+
+\ DISCOURSE: NONNARRATED STORIES 173
+
+of the curé’s bleak life in his tiny vicarage are interlaced with
+shots of his hand writing the journal (his physical and mental
+distress reflected in frequent blottings). At the same time his
+own voice-over reads what the hand is writing in the diary. But
+the diary can continue to “speak,” by the voice-over effect, even
+when the camera leaves it, and returns to the action, “back
+then,” which it recounts. At such moments the actions that we
+see, in the screen’s usual “present tense,”’ are the visual counterpart
+ of what we hear, in the past tense, as the curé’s offscreen
+voice speaks the diary. The words are kept, yet also transformed, 
+by a routine cinematic convention, into their corresponding flashbacked 
+images. And certain odder effects are also possible. At one point, 
+accompanying the visual image of his hand writing the diary, his 
+voice-over breaks off and says that he must write down immediately 
+what is happening. But as the voice-over describes that current action, 
+the visuals show the action itself, not his hand writing in the diary. 
+The account of ‘life’ is suppressed by “‘life” itself.
+
+Another interesting effect is utilized several times to show
+that the mind of the curé is unable to grasp what is being said to
+him (not only illness but naiveté plagues him: he says, plaintively, 
+that he will never understand human beings). The action
+proceeds in the completely dramatic mode, that is, the narrative
+voice-over is still, for instance, as the curé (as character) talks
+with the countess. The camera focuses on him as he listens to
+her, though it is her voice we hear. Then her voice becomes
+weaker, though still audible, and the curé’s diary voice-over
+starts speaking conjointly with it, though louder, explaining
+why, at that moment in the story, he could not understand
+what she was saying.
+
+A step further, the transcription of speech presupposes not
+only a collator but a stenographer. The record of speech can be
+that of a single character, the classic dramatic monologue, or
+of two or more, that is, unmediated dialogue.
+
+Dramatic monologues subsume that a character speaks to an-

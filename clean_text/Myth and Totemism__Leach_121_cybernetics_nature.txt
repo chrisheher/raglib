@@ -1,0 +1,88 @@
+### METADATA ###
+# source_file: Myth and Totemism__Leach_121_cybernetics_nature.txt
+# char_count: 4868
+# word_count: 769
+### END METADATA ###
+
+
+surrounding distortion, the power of expression of the second
+something and power of comprehension of the third are all
+taken into account. This is all mathematically rigorous and concerns 
+anthropology very little in that such ‘how much’ questions
+are relatively far from our basically qualitative concerns.
+
+Examined in these terms, linguistics reveals itself as a branch
+of semiotic, the theory of signs, a sign being defined as ‘a
+transmission, or construct, by which one organism affects the
+behaviour or state of another, in a communication situation’
+(Cherry, 1957, p. 306). Three levels of study for signs are set in
+decreasing order of abstraction from. real life: syntactics (signs
+and their interrelations), semantics (relations between signs and
+their designata), and pragmatics (signs in relation to their
+users). Linguistics, then, deals with communication events
+between emitters, senders, or speakers and receivers or listeners.
+The structure of the language communicated offers the speaker
+a particular choice of patterns which he selects to fit his
+intention. The patterns are picked up by the listener from his
+own knowledge of the structure. For practical purposes we can
+replace ‘structure of the language’ here by the word ‘code’,
+defined as ‘an agreed transformation, or set of unambiguous
+rules, whereby messages are converted from one representation
+to another’ (Cherry, 1957, p. 303, see also p. 7). To prevent
+confusion, another distinction is necessary at this point. In
+communication theory, a language is an organically developed
+primary instrument of communication which need not necessarily 
+‘talk’ logically: indeed, most humans are not notorious
+for cold logic. One refers to a language under observation as an
+‘object-language’. In order to talk about language, however, the
+scientist needs a rigorous, logical language, which, for the sake
+of convenience, is baptized a ‘metalanguage’. Clearly, the term
+‘code’ has relevance only in the context of metalanguage: we
+do not, for instance, converse with friends entirely in ‘yeses’ or
+‘nos’. With his theory of models and ‘transformation systems’,
+it is quite clear that Lévi-Strauss intends to create for anthropology 
+a metalanguage: empirical observation as such remains
+below the metalinguistic level and does not accede to science.
+For this reason all our classifying of classifications to date, our
+whole theory of totemism, is, as it were, pre-scientific.
+
+
+The point about the code being known to sender and receiver
+should be clear: your most frantic messages in morse would not
+reach me if I did not know morse. Mention of morse will
+remind you that the elements of this code are basically two:
+short dashes and long dashes form the alphabet. In a similar
+fashion, Jakobson (the linguist who has had the greatest
+influence on Lévi-Strauss) shows that the basic constituents of
+a human language — phonemes, can be shown to pair off into
+groups of two according to articulatory distinctive features:
+they are either vocalic/non-vocalic, voiced/unvoiced, grave/
+acute, etc., up to twelve sets.1 We are here in the presence of
+the famous ‘binary opposition’ principle upon which centres a
+great deal of communication theory. It is with binary codes
+(whose recognition is older than we sometimes suspect) that
+complex messages are fed into computers, bounced off Telstar,
+transmitted within the brain or along the genetic chain from
+parent to offspring. Binary opposition is the basis of Boolean
+algebra and thus, through Russell and Moore, of modern logic
+and mathematical thinking. We are obviously dealing here
+with something of great importance.
+
+We are aware that life is an endless process of making choices
+between alternatives and hardly need a psychologist to tell us
+that ‘discrimination is the simplest and most basic operation
+performable’ (Steyens, in Cherry, 1957, p. 168). Life of itself,
+the brute stuff of Nature, cannot be held, after Darwin, to be
+exempt from the process of selection and, indeed, cyberneticians
+have been known to move from studies of feedback in machines
+to a view of natural organisms as maintaining themselves by
+the same process.” All this, however, has no direct effect on
+the human selector: ‘the stimuli received from Nature — the
+sights and sounds — are not pictures of reality but are the
+evidence from which we build our personal models, or impressions, 
+of reality’. Observing Nature is not communicating with
+her. When as scientists we observe her, she is ‘uncooperative in
+the sense that she does not select the signs to suit our particular
+difficulties of observation at any time’ (Cherry, 1957, p. 62).
+
+

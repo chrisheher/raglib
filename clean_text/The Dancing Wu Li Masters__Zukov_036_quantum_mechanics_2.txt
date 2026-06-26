@@ -1,0 +1,101 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_036_quantum_mechanics_2.txt
+# char_count: 5034
+# word_count: 833
+### END METADATA ###
+
+
+
+are located only in shells which are specific distances from the
+nucleus (page 12). Normally, the single electron of a hydrogen
+atom remains in the shell closest to the nucleus (the ground
+state). If we excite it (add energy to it) we cause it to jump to
+a shell farther out. The more energy we give it, the farther
+out it jumps. If we stop exciting it, the electron jumps inward
+to a shell closer to the nucleus, eventually returning all the
+way to the innermost shell. With each jump from an outer
+shell to an inner shell, the electron emits an energy amount
+equal to the energy amount that it absorbed when we caused
+it to jump outward. These emitted energy packets (photons)
+constitute the light which, when dispersed through a prism,
+forms the spectrum of one hundred or so colored lines that is
+peculiar to hydrogen. Each colored line in the hydrogen
+spectrum is made from the light emitted from hydrogen
+electrons as they jump from a particular outer shell to a particular 
+inner shell.
+
+What we did not mention earlier is that some of the lines in
+the hydrogen spectrum are more pronounced than others.
+The lines that are more pronounced are always more pronounced 
+and the lines that are faint are always faint. The
+intensity of the lines in the hydrogen spectrum varies because
+hydrogen electrons returning to the ground state do not always 
+take the same route.
+
+Shell five, for example, may be a more popular stopover
+than shell three. In that case, the spectrum produced by
+millions of excited hydrogen atoms will show a more pronounced 
+spectral line corresponding to electron jumps from
+shell five to shell one and a less pronounced spectral line
+corresponding to electron jumps from, say, shell three to shell
+one. That is because, in this example, more electrons stop
+over at shell five before jumping to shell one than stop over at
+shell three before jumping to shell one.
+
+In other words, the probability is very high, in this example,
+that the electrons of excited hydrogen atoms will stop at shell
+five on their way back to shell one, and the probability is
+lower that they will stop at shell three. Said another way, we
+know that a certain number of electrons probably will stop at
+shell five and that a certain lesser number of electrons probably
+will stop at shell three. Still, we have no way of knowing
+which electrons will stop where. As before, we can describe
+precisely an overall behavior without being able to predict a
+single one of the individual events which comprise it.
+
+
+This brings us to the central philosophical issue of quantum
+mechanics, namely, “What is it that quantum mechanics describes?” 
+Put another way, quantum mechanics statistically
+describes the overall behavior and/or predicts the probabilities
+of the individual behavior of what?
+
+In the autumn of 1927, physicists working with the new
+physics met in Brussels, Belgium, to ask themselves this question,
+ among others. What they decided there became known
+as the Copenhagen Interpretation of Quantum Mechanics.*
+Other interpretations developed later, but the Copenhagen
+Interpretation marks the emergence of the new physics as a
+consistent way of viewing the world. It is still the most prevalent
+interpretation of the mathematical formalism of quantum mechanics. 
+The upheaval in physics following the discovery of
+the inadequacies of Newtonian physics was all but complete.
+The question among the physicists at Brussels was not whether
+Newtonian mechanics could be adapted to subatomic phenomena 
+(it was clear that it could not be), but rather, what
+was to replace it.
+
+The Copenhagen Interpretation was the first consistent formulation 
+of quantum mechanics. Einstein opposed it in 1927
+and he argued against it until his death, although he, like all
+physicists, was forced to acknowledge its advantages in
+explaining subatomic phenomena.
+
+The important thing is that it works in all possible experimental situations.
+This is one of the most important statements in the history of
+science. The Copenhagen Interpretation of Quantum Mechanics began a monumental 
+reunion which was all but unnoticed at the time. The rational part of our psyche, 
+typified by science, began to merge again with that other part of us which we had
+ignored since the 1700s, our irrational side.
+
+The scientific idea of truth traditionally had been anchored
+in‘an absolute truth somewhere “out there’ —that is, an absolute
+ truth with an independent existence. The closer that we
+came in our approximations to the absolute truth, the truer
+
+ This was the 5th Solvay Congress at which Bohr and Einstein conducted their
+now-famous debates. The term “Copenhagen Interpretation” reflects the dominant
+influence of Niels Bohr (from Copenhagen) and his school of thought.
+
++ The Copenhagen Interpretation says that quantum theory is about correlations in
+our experiences. It is about what will be observed under specified conditions.

@@ -1,0 +1,84 @@
+### METADATA ###
+# source_file: Perl_010_ARPA_packet_switching.txt
+# char_count: 7087
+# word_count: 1095
+### END METADATA ###
+
+
+
+1.10 History of the Internet
+
+In the late 1960s, one of the authors (HMD) was a graduate student at MIT. 
+His research at MIT's Project Mac (now the Laboratory for Computer Science
+—the home of the World Wide Web Consortium) was funded by ARPA—the Advanced 
+Research Projects Agency of the Department of Defense. ARPA sponsored a 
+conference at which several dozen ARPA-funded graduate students were brought 
+together at the University of Illinois at Urbana-Champaign to meet and share ideas. 
+
+During this conference, ARPA rolled out the blueprints for networking the main 
+computer systems of about a dozen ARPA-funded universities and research institutions. 
+They were to be connected with communications lines operating at a then-stunning 56KB 
+(i.e., 56,000 bits per second), at a time when most people (of the few who could) were 
+connecting over telephone lines to computers at a rate of 110 bits per second. 
+HMD vividly recalls the excitement at that conference. Researchers at Harvard in
+ Massachusetts talked about communication with the Univac 1108 “supercomputer”
+across the country at the University of Utah to handle calculations related to their computer
+graphics research. Many other intriguing possibilities were raised. Academic research was
+about to take a giant leap forward. Shortly after this conference, ARPA proceeded to 
+implement what quickly became called the ARPAnet, the grandparent of today’s Internet.
+
+Things worked out differently than originally planned. Although the ARPAnet did
+enable researchers to share each others’ computers, its chief benefit proved 
+to be its capability of quick and easy communication via what came to be known 
+as electronic mail (email). This is true even today on the Internet, with e-mail
+ facilitating communications of all kinds among hundreds of millions of people worldwide.
+
+One of ARPA’s primary goals for the network was to allow multiple users to send and
+receive information at the same time over the same communications paths (such as phone
+lines). The network operated with a technique called packet switching in which digital data
+was sent in small packages called packets. The packets contained data, address information,
+error-control information and sequencing information. The address information was used to
+route the packets of data to their destination. The sequencing information was used to help
+reassemble the packets (which—because of complex routing mechanisms—could actually
+arrive out of order) into their original order for presentation to the recipient. Packets of many
+people were intermixed on the same lines. This packet-switching technique greatly reduced
+transmission costs as compared to those of dedicated communications lines.
+
+The network was designed to operate without centralized control. This meant that if a
+portion of the network should fail, the remaining working portions would still be able to
+route packets from senders to receivers over alternate paths.
+
+The protocol for communicating over the ARPAnet became known as TCP—the
+transmission Control Protocol. TCP ensured that messages were properly routed from
+sender to receiver and that those messages arrived intact.
+
+In parallel with the early evolution of the Internet, organizations worldwide were
+implementing their own networks for both intra-organization (i.e., within the organization)
+ind inter-organization (i.e., between organizations) communication. A huge variety 
+of networking hardware and software appeared. One challenge was to get these to intercommunicate,
+ ARPA accomplished this with the development of /P—the  Protocol, truly creating a “network of networks,” 
+the current architecture of the combined set of protocols is now commonly called TCP/IP.
+
+
+
+1.11. History of the World Wide Web
+
+The World Wide Web allows computer users to locate and view, over the Internet
+media-based documents (i.e., documents with text, graphics, animations, audios and
+cos) on almost any subject. Even though the Internet was developed 
+decades ago, the introduction of the World Wide Web was are relatively recent even p
+lim Berners-Lee of CERN (the European Laboratory for Particle Physics) develop
+World Wide Web and several communication protocols that form its backbone,
+The Internet and the World Wide Web will surely be listed among the mont Wy
+and profound creations of humankind. In the past, most computer applications 
+a lone” computers, i.e., computers that were not connected to one another, Today 4 4
+ions can be written to communicate among the world’s hundreds of millions of COnD
+. The Internet mixes computing and communications technologies. It makes cup
+easier, It makes information instantly and conveniently accessible worldwide. IV iN
+possible for individuals and small businesses to get worldwide exposure, It is changing
+way business is done. People can search for the best prices on virtually any product
+vice. Special-interest communities can stay in touch with one another, Researchers ;
+made instantly aware of the latest breakthroughs worldwide,
+. We have written two books for academic courses that convey fund
+of computing in the context of Internet and World W
+World Wide Web How to Program and e-Business 

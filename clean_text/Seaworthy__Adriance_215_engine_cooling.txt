@@ -1,0 +1,99 @@
+### METADATA ###
+# source_file: Seaworthy__Adriance_215_engine_cooling.txt
+# char_count: 5787
+# word_count: 958
+### END METADATA ###
+
+keep moisture out of cylinders. Drain and clean all fuel filters. 
+Replace fuel elements and gaskets. Bleed air from the fuel system.
+
+Diesel fuel is even more vulnerable than gasoline when the boat is laid up for
+several months; the most common headache is the formation of microbes
+(“bugs”). Idleness encourages condensation, which is what microbes need for
+spawning. In the spring, the engine may run OK for awhile, but the first time the
+boat and the fuel tank get bounced around, the microbes will be stirred up, 
+resulting in clogged fuel filters and no fuel to the engine. 
+In a few cases, this scenario has led to damaged injectors. 
+Add a microbiocide to the fuel to inhibit the formation of microbes, 
+preferably each time you fill the tank.
+
+In addition, diesel fuel can break down over the winter; therefore, also add a
+diesel fuel stabilizer to the fuel when you lay up the boat in the fall. (The two
+treatments should be poured into the tank separately.) There are also various
+water absorbing products that you should pour into the tank periodically—
+follow the manufacturer’ instructions.
+
+Transmissions Check the dipstick. If the oil looks milky (indicating water) or
+dirty, drain and add fresh lubricant.
+
+Outboards Cooling system. Start the engine and flush the cooling system with
+fresh water until it reaches normal operating temperatures. (Various devices are
+available to adapt a garden hose to the engine intake.) Make sure all gear housing
+drain holes are open. An alternative to draining the system is to add antifreeze
+using a gadget that connects the engine intake to a jug of antifreeze.
+
+Fuel system and powerhead. Disconnect the fuel line from the tank, start the
+motor, and inject fogging fluid (a light lubricating oil) into the carburetor just
+before the motor stops. This procedure prevents corrosion of the powerhead
+parts. (Fogging fluid has rust inhibitors that are lacking in regular two-cycle
+motor oil.) Next, remove the spark plugs; clean and replace any that look worn.
+Clean the fuel pump filter. Lubricate the carburetor and choke linkage, 
+cam follower, starter spindle, throttle shaft bearings, and gears. 
+Consult the manufacturer’s lubricating chart for specifics.
+
+Lower unit. This is a job best done on land. With the bow of the boat slightly up,
+lower the outdrive unit as far as possible. Drain the gear case and add fresh 
+lubricant (from the lower drain hole to eliminate air pockets). When you loosen the
+drain plug, watch to see if water or oil comes out first; water or metallic shavings
+indicate a broken seal. If you’re not sure, have a mechanic pressure-test the unit.
+
+Outdrives are expensive and have become a frequent target for thieves. Even if
+you keep your boat in your driveway, consider taking the outdrive off and storing
+it in your garage or basement for the winter.
+
+A difference in pitch of only quarter inch can affect performance, cause vibration,
+and eventually lead to engine problems.
+
+Cooling Systems
+
+Gasoline and Diesel Ensuring the longevity of the cooling system (and, hence,
+the engine) involves more than just making sure the water doesn’t freeze,
+although this is obviously critical. Winterizing chores are predicated on the type
+of cooling system. Some engines only have raw-water cooling systems, whereas
+others have both raw-water and freshwater systems. With the latter, the 
+manifolds and risers are raw-water cooled, while the block and head 
+are fresh-water cooled.
+
+Step 1: Winterizing the freshwater cooling system. If your engine has a 
+freshwater cooling system, check the antifreeze with a hydrometer. 
+(Follow any manufacturer’s recommendations for a specific type of antifreeze.) 
+If you top off the system (you shouldn't have to do this very often), 
+use a premixed solution of water and antifreeze. Many skippers simply 
+add antifreeze, and over time this increases the percentage of antifreeze 
+in the system. Using a solution that is more than 70% antifreeze can 
+leave a residue that will damage your engine. A 50-50 solution
+works best.
+
+Antifreeze has rust inhibitors, which lose effectiveness over time. Even though
+the antifreeze itself will still prevent freezing, its a good idea to change the
+antifreeze-water solution every two years to help prevent rust buildup. 
+Any system will also benefit from a periodic squirt of rust inhibitor.
+
+Step 2: Winterizing the raw-water system. Open the petcocks and 
+drain the system to make sure the flow of water is not being restricted. 
+According to the BoatU.S. claim files, one of the most common ways engines 
+are damaged over the winter is from muck—salt, silt, rust, seaweed, soap etc.
+—hardening and clogging the raw-water cooling system. If the system fails 
+to drain when the petcocks are opened (a weak dribble is not sufficient), 
+you can use a garden hose, under pressure, to blast the muck out. If that fails, 
+try using a coat hanger. Either way, muck must be loosened and flushed out or 
+the engine will be ruined, if not during a hard freeze over the winter then 
+in summer when the flow of cooling water is severely restricted. Don’t forget 
+to drain the seacock body and the water-lift muffler (if installed). 
+This is also a good time to replace zinc anodes, if any, that are
+more than 50% wasted away (check your manual for locations).
+
+And don't forget to drain the sea strainer! This is located in the engine's raw 
+water intake line, where it filters out debris before it gets to the engine. Like the
+engine, the sea strainer must be drained or residual water could freeze and rupture the watertight seal,
+A 40-foot sailboat that sank in Rhode Island is a typical example, The bronze

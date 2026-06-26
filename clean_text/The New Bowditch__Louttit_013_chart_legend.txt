@@ -1,0 +1,63 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_013_chart_legend.txt
+# char_count: 3683
+# word_count: 638
+### END METADATA ###
+
+THE NEw-SKIPPER’S BowbitcH / 12
+Danger Signs
+
+Learn each of the danger signs; they are the ‘‘enemy.’’ The danger
+symbols are shown in part O of Chart No. 1. Take rocks, for example.
+A rock that uncovers itself at mean high water may be shown as an
+islet, while an offshore rock that is covered at high water but exposed
+at low will have its own symbol and possibly a statement such as
+“Uncov 2 ft’ or the figure in feet underlined and enclosed in parentheses, (2). 
+For a rock that does not uncover but is considered dangerous,
+the symbol will be enclosed by a dotted curve for emphasis.
+
+Another unpleasant underwater hazard—a wreck—will have its own
+distinctive symbol. The usual symbol for a visible wreck is shown
+below. A sunken wreck with less than IT fathoms of water over it is
+considered dangerous and its symbol is surrounded by a dotted curve.
+The safe clearance depth found over a wreck is indicated by a standard
+sounding number placed at the wreck.
+
+As if rocks and wrecks aren’t bad enough, keep in mind the shoals,
+reefs, fish stakes, and submerged pilings that are waiting out there for
+the unwary. Study their symbols in Chart No. 1 until you know them
+by heart.
+
+
+A rock awash. A visible wreck.
+
+Piles, dolphins (clusters of piles), snags, and stumps are shown as
+small circles with a label identifying the type of obstruction. If such
+dangers are submerged, the letters ““Subm’” precede the label. Fish
+stakes and traps are shown when they are known to be permanent or
+hazardous to navigation. Most dangers are emphasized with a blue tint
+and dotted line surrounding the danger.
+
+
+Ihese are the ‘‘good guys” that have been placed out there by the
+(oust Guard or private sources to help keep you out of harm’s way.
+iheir symbols, which are also shown in Chart No. TI, are usually 
+supplemented by abbreviations and sometimes by additional descriptive
+‘cat. The size of these symbols on your charts is exaggerated for
+eimphasis. It is important to know which part of the symbol represents
+‘he actual position of the aid. For floating aids (lightships and buoys),
+the position part of the symbol marks the approximate location of the
+anchor or sinker, the aid swinging in an orbit around this position.
+
+the principal charted aids to navigation are lighthouses, other lights
+on fixed structures, beacons, lightships, radio beacons, and buoys. The
+umber of aids shown and the amount of information concerning them
+aries with the scale of the chart. Unless otherwise indicated, lights
+‘hat do not alternate in color are white, and alternating lights are red
+snd white. Light lists give complete navigational information concerning them.
+
+Lighthouses and other lights on fixed structures are shown as black
+dots surrounded by nautical purple disks or as black dots with purple
+(lave symbols. The center of the black dot is the position of the light.
+Oy large-scale charts the characteristics of lights are shown in the order
+shown in Table 1. The legend for this light would appear on the chart:

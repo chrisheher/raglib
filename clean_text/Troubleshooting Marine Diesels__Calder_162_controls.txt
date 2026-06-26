@@ -1,0 +1,73 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_162_controls.txt
+# char_count: 3068
+# word_count: 507
+### END METADATA ###
+
+162 Marine Transmissions
+
+
+Control Cables
+
+With the exception of manual boxes, which have 4
+pear shift handle, most transmissions today use
+iish-pull cable to move the shift lever on the box (see
+igure 8-11). A push-pull cable is one that pushes the
+lever in one direction, and pulls it in the other. More
+Huansmission problems are caused by cable malfunc—
+Hons than anything else. Faced with difficulties, I
+always suspect the cable before blaming the box.
+
+If the transmission operates stiffly, fails to fo into
+siiler or both gears, stays in one gear, or slowly turns
+tie propeller when in neutral (clutch drag), make the
+Wllowing checks:
+
+* See that the transmission actuating lever (on the
+side of the transmission) is in the neutral posi
+tion when the remote control lever (in the cock:
+pit or wheelhouse) is in neutral.
+
+Ensure that the actuating lever is moving fully
+forward and backward when you put the remote
+control into forward and reverse. This is particularly important on Hurth boxes.
+
+Disconnect the cable at the transmission and
+double-check that the actuating lever on the box
+is clicking into forward, neutral, and reverse.
+Note: Hurth boxes do not have a distinet click
+when a clutch is engaged. However, the lever
+must move through a minimum are of 40
+degrees in either direction, Less movement will
+eause the clutches to slip. More is OK, As the
+clutches wear, the lever must be free to travel
+farther, If the transmission actuating lever is
+stiff, or not traveling far enough in cither direc
+
+Figure 8-11. (Top left) Typical remote engine u
+transmission controls. These can comprise three \¢
+tions: (I) the pilothouse control; (2) the cable syst
+and (3) the engine control unit. Input motion is
+mitted from the pilothouse control via the cables to I
+actuating mechanisms on the engine and transmissii
+This setup uses Morse’s enclosed cable-over-pull
+system. (Top right) A dual-station installation, with
+main station controlled by push-pull cables,
+Es ope dais remote station using cable-over-pulley, (Bottom lef
+dual-station installation using remote bellcrank , "
+and single-lever controls. (Courtesy Morse Contral\
+
+throttle cable
+
+clutch cable
+
+selector
+
+throttle dual station unit
+
+do ae = = ‘ae
+oS. 0 yl
+ea a ” eluteh
+7 he ee ene Tee yee ye mms ay vy I
+
+selector cablo

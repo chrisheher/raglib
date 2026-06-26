@@ -1,0 +1,42 @@
+### METADATA ###
+# source_file: Cinematography_lens_snorkel.txt
+# char_count: 2112
+# word_count: 382
+### END METADATA ###
+
+
+LENS CARE
+
+* Never clean a lens with dry lens tissue.
+
+* Never put lens fluid on a lens; put it on the lens tissue.
+
+* Brush or blow off loose grit before wiping with lens tissue.
+
+* Never use eyeglass cleaning cloth; it may contain silicone.
+
+* In dusty or sandy conditions, try to keep a filter on the lens.
+Optical flats are clear optical grade glass that can be used for this
+purpose.
+
+* Never use rubber cement to attach a filter to a lens. Use Scotch
+ATG-924, otherwise known as transfer tape or snot tape.
+
+* Be careful when mounting a net to the rear of the lens; it can
+get snagged or torn and this will affect the image.
+
+* Always close at least one latch on a lens case.
+
+* Protect all lenses from shock.
+
+ENS ADAPTERS FOR VIDEO
+
+= we have seen, video cameras with sensors smaller than a 35mm
+sme have more depth-of-field, which may not be desirable for
+istic reasons. To deal with this, several companies have built
+septers that allow film-style latiees to be mounted on video cams. Contrary to a popular belief, it is not the lens itself that cre-
+“es the depth-of-field look associated with 35mm film. The lenses
+encrally are superior quality, but what gives the image that reduced
+oth-of-field is governed by another optical mechanism in the
+“2pter itself. In most of these units, the image formed by the lens is
+proj jected onto a ground glass. It is this projected image that is then

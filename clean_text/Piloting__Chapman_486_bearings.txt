@@ -1,0 +1,78 @@
+### METADATA ###
+# source_file: Piloting__Chapman_486_bearings.txt
+# char_count: 3312
+# word_count: 590
+### END METADATA ###
+
+Using a sextant, the vertical angle is measured between
+the base and the top or other part of the structure. This
+angle (A) and the known height (h) can be used to determine 
+the distance (d) from the observer to the object
+by a simple trigonometric equation: d = h + tan A. Use
+trig tables from Bowditch, Volume II, or an electronic calculator.
+
+Special range-finder instruments are marketed which
+use the principle of matching images much like the f
+ocusing mechanism of many cameras.
+
+Danger Bearings and Angles
+
+The safety of navigation often can be ensured without
+a complete fix. As noted earlier, a single line of position
+has value—if it is of reasonable accuracy, it can assure
+you that you are somewhere along it and not elsewhere.
+A line of position can be chosen, in many piloting situations, 
+that will keep a boat in safe water without precisely
+defining its position.
+
+Danger Bearings
+
+A bearing line can be established so that positions on
+one side will assure the boat's being in safe waters, while
+a position on the other side may signify a hazardous situation; 
+such a danger bearing is shown in Figure 2118A.
+Here, a shoal, unmarked by any aid to navigation, lies
+offshore; the problem is to pass it safely. A lighthouse is
+observed on shore just beyond the shoal, and is identified
+on the chart. The danger bearing is a line from the lighthouse
+ just tangent to the shoal on the safe side. This line
+is drawn on the chart and its direction is measured. The
+line is labeled with the direction preceded by the letters
+“NMT” (not more than). No time is shown as it is not an
+actual observation. For emphasis, hachures can be added
+on the side toward the danger, and using a red pencil
+will make it stand out from other lines on the chart.
+
+As the boat approaches the hazardous area to port, a
+series of observations are made on the selected object. In
+the example shown, any bearing on the lighthouse numerically 
+less than the danger bearing indicates a safe
+position; any bearing greater than the danger bearing in-
+
+Figure 2117 A marine sextant, left, most commonly used
+taking celestial navigation sights, may also be used in
+piloting for the measurement of horizontal or vertical anz
+If the vertical or horizontal dimension of an object is k
+this optical rangefinger, above, can make an accurate
+measurement of the distance up to a mile.
+
+Indicates that the boat is in or approaching the shoal ar
+if it continues on the same course. Should the danger =
+lie to starboard, rather than to port as in Figure 2118
+the “greater” and “less” factors above would be reves
+and the label on the line would be “NLT” (not less =
+
+Danger bearings cannot always be established, but =
+use should be considered whenever conditions perms ©
+is necessary to have a prominent object, although it =
+not be an aid to navigation, that can be seen from
+boat and positively identified on the chart. This ob
+should lie beyond the danger area in the same gen=
+direction as the course of the boat as it approaches
+passes the area to be avoided.
+
+Figure 2118 A danger bearing can be established to avoid =
+unmarked hazardous area. In A, any bearing on object X
+is more than 337° indicates potential danger for the boat. > 3
+the reverse is true; a bearing less than 008° indicates possi==
+danger if the boat continues on course.

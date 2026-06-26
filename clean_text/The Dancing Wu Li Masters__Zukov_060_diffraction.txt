@@ -1,0 +1,50 @@
+### METADATA ###
+# source_file: The Dancing Wu Li Masters__Zukov_060_diffraction.txt
+# char_count: 1931
+# word_count: 350
+### END METADATA ###
+
+GO / PATTERNS OF ORGANIC ENERGY
+
+If we make the cut-out no larger than a razor slit so that its
+width is roughly as small as the wavelength of the incoming
+light, the light diffracts. Now the sharp boundary between the
+light area and the dark area disappears and we see a bright
+area that fades into darkness at the edges. Instead of proceeding
+in a straight line to the wall, the light beam has spread out
+like a fan. This is diffracted light.
+
+Now that you know the punch line, here comes the story.
+
+In 1803, Thomas Young settled once and for all (he thought)
+the question of the nature of light. He used an experiment that
+was both simple and dramatic. In front of a light source (Young
+used sunlight coming through a hole in a screen) he placed a
+screen with two vertical slits in it. Each slit could be covered
+over with a piece of material.
+
+LIGHT SOURCE
+
+
+On the other side of the double-slit screen was a wall against
+which the light coming through the double slits could shine.
+When the light source was turned on and one of the slits was
+covered up, the wall was illuminated like the first drawing on
+the next page.
+
+When both slits were uncovered, however, Young made
+history. The projection on the wall should have been the sum
+of the light from the two slits, but it wasn’t. Instead, the wall
+was illuminated with alternating bands of light and darkness!
+The center band was the brightest. On both sides of the
+center band of light were bands of darkness; then bands of
+light, but less intense than the center band; then bands of
+darkness, ete., as below.
+
+How could this happen?
+
+The simplicity of the answer is what makes this experiment
+a great one. The alternating light and dark bands are a wellknown 
+phenomenon of wave mechanics called interference.
+Interference results when the waves of light diffracting from
+the two slits interfere with each other. In some places these

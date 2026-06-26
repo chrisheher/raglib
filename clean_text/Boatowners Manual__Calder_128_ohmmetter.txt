@@ -1,0 +1,35 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_128_ohmmetter.txt
+# char_count: 1669
+# word_count: 282
+### END METADATA ###
+
+meter probes at the two ends of the positive
+supply circuit and then on the two ends of the
+negative circuit to reveal any problem in the
+circuit (Troubleshooting Chart 4-2). A break in
+the circuit will produce a reading of infinite
+small-gauge wires).
+
+Breaks and high resistance in circuit can
+also be isolated in much the same way as with a
+voltmeter by bridging individual lengths of wire
+and components (switches, fuses, and terminal
+blocks) in turn, Any break will show up as a reading 
+of infinite ohms; excessive resistance will show
+as a specific ohms reading, not the power switch —turned on). 
+Some resistance is to be expected; how much depends ¢
+the nature of the equipment, with low-pows
+items showing a higher resistance than heap
+duty equipment.
+
+
+A reading of infinite ohms indicates an open
+circuit inside the equipment: a lightbulb
+ing element is burned out; an electric mot
+may simply have a blown fuse, a problem with -
+tushes, or a dirty commutator (Chapter 7), be
+otherwise it is also burned out, A reading of
+ohms indicates a dead short (except on certain
+very heavy draw DC motors, such as a start
+motor, which have such low internal resistance

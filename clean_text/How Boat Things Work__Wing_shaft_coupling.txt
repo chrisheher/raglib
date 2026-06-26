@@ -1,0 +1,71 @@
+### METADATA ###
+# source_file: How Boat Things Work__Wing_shaft_coupling.txt
+# char_count: 2505
+# word_count: 426
+### END METADATA ###
+
+The shaft coupling mates the propeller shaft to the
+output shaft of the transmission, allowing the propeller 
+shaft to be removed for servicing or replacement
+of engine, transmission, shaft, stuffing box, or Cutless
+bearing.
+
+Since the coupling is solid steel, if the two shafts
+aren't aligned perfectly, something has to give. If
+you're lucky, what gives is the relatively inexpensive
+stern bearing or, even better, the Cutless bearing. If
+youre less fortunate, you are looking at a very expensive
+ transmission repair.
+
+What constitutes perfect alignment?
+
+1. First, the coupling must be concentric with,
+and its face perpendicular to, the centerline of the
+shaft. It is a good idea to have a machine shop fit the
+coupling to the shaft to be certain.
+
+2. Next, the diameters of the coupling faces must
+match, and when brought together without bolting,
+the edges must match (dimension A below). If the
+shaft is long and unsupported at the coupling end, its
+end should be supported by a fishing scale tensioned
+to the weight of the coupling half plus half of the unsupported shaft.
+
+3. Finally, with the two couplings nearly touching, the gap
+ between faces (dimension B below)
+should be the same all around. The difference should
+be no more than 0.001 inch per inch of diameter.
+
+Shaft alignment should be checked once per year.
+Since a hull changes shape when placed in the water
+and, in the case of a sailboat, when the rigging is tensioned, 
+alignment should be delayed until the boat is
+ready to go.
+
+Aside from misalignment, the weak point in most
+shaft couplings is the method of attaching the
+coupling to the shaft. Were the shaft to slip out of the
+coupling, nothing except possibly the propeller running 
+up against the rudder would stop the shaft from
+exiting the boat and leaving a considerable hole for
+water to enter.
+
+All couplings have keyways that match an identical
+keyway machined into the end of the shaft. The purpose of 
+the bronze or stainless key is to transmit
+torque, not hold the coupling on the shaft.
+Inexpensive couplings may have a single setscrew that
+seats in a dimple in the shaft. At the least, the head of
+the setscrew should be drilled, and a stainless wire
+passed through the head and wrapped around the
+coupling to prevent the screw from loosening. Much
+better would be a solid pin through both coupling
+and shaft plus two or three setscrews set deeply into
+the shaft, with all screw heads wired together.
+
+Machined recess
+
+Coupling
+Setscrew bolt
+
+Through pin

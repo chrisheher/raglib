@@ -1,0 +1,101 @@
+### METADATA ###
+# source_file: On Language__Garner_flowers_2.txt
+# char_count: 5100
+# word_count: 859
+### END METADATA ###
+
+4 CHAPTER ONE
+
+The Flowers Paradigm:
+Madman-—Architect-Carpenter—Judge
+
+Several years ago Dr. Betty S. Flowers, a LawProse instructor who teaches
+in the University of Texas English Department, devised a shrewd new
+way of dramatizing the writing process. Her approach helps minimize
+common problems and maximize both efficiency and effectiveness.
+
+It breaks down the writing process into four sequential steps—each
+one based on a “character” or personality that we all have within us: Madman, 
+Architect, Carpenter, and Judge.!
+
+The Madman “‘s full of ideas, writes crazily and perhaps rather sloppily, 
+gets carried away by enthusiasm and desire, and if really let loose,
+could turn out ten pages an hour.’ Typically, the legal writer doesn’t
+really “write” at all during this stage, but instead takes copious notes, 
+jotting down ideas and possible approaches to a problem.
+
+The Madman’s nemesis is the Judge—one’s skeptical, hypercritical self,
+who must be reined in until the final step. But many of us have an 
+out-ofcontrol Judge, who is easily recognizable. As Flowers describes the Judge,
+he’s been educated and knows a sentence fragment when he sees one.
+He peers over your shoulder and says, ““That’s trash!” with such authority 
+that the madman loses his crazy confidence and shrivels up. You
+know the judge is right; after all, he speaks with the voice of an
+ English teacher. But for all his sharpness of eye, he can’t create anything.
+
+The key to defusing this battle between Madman and Judge is to keep the
+Judge at bay until the end of the writing process. Otherwise, the Judge
+will stifle the Madman altogether.
+
+But what about the other two steps?
+
+Once the Madman has generated lots of ideas, the Architect takes
+them, makes connections between them, and starts planning their structure. 
+Initially, the Architect’s work is nonlinear, but it will end up as an
+outline, possessing an arrangement that seems obvious to most people
+today but was a great insight when Aristotle devised it: a beginning, a
+middle, and an end. And if the Architect functions satisfactorily, you’ll
+know each intermediate point—step by step—while writing the middle
+parts of the piece. In fact, the more explicit the architecture, the better.
+
+Then comes the Carpenter, who starts actually building the draft.
+Here, the writing begins in earnest. And because the draft has a logical
+plan, the Carpenter’s work is greatly eased: it’s like filling in the blanks.
+You simplify the process of building when you have the Architect's specifications 
+laid out before you.
+
+Charles Alan Wright, the eminent legal scholar and outstanding
+writer, made this very point in a Scribes Journal essay in which he described
+his writing process:
+
+For my kind of nonfiction it is necessary first to have a complete grasp
+of whatever subject it is I am going to be writing about. This we can
+take for granted, though the research is often long and tedious. The next
+stage, and to me the hardest of all, is organization. I never sit down to
+the keyboard—in the old days it was a typewriter, then an electronic
+typewriter, and in recent years it has been a computer—until I am clear
+in my mind how I am going to organize whatever it is that I am doing.
+
+That’s why, earlier in his essay, Wright said that writing is easy—it’s the
+preparation that’s difficult.
+
+The most important thing about the Carpenter stage is to write freely,
+simply filling in the details according to the architectural specs. If you
+stop to edit, you open the door for the Judge, and this is just the type of
+interference your Carpenter doesn’t need. But suppose you get stuck in
+a certain part. Just move on to the next section: you may have to leave a
+little hole here and there.
+
+Understand that the carpenter has some discretion—deciding how
+to finish off a corner, how to build the passage from one room to the
+next. Some architectural details, in other words, are left to the Carpenter.
+
+Once your Carpenter has built a draft, you can call in your Judge,
+who will look for problems as well as ways to refine the draft. The Judge
+will check for many things: whether there are transitions between paragraphs, 
+whether the verbs need strengthening, and so on. And the Judge
+will check many grammatical points, too—everything from comma splices
+to misplaced modifiers to subject-verb agreement problems. The Judge is
+an inspector for quality control.
+
+Each of these four characters needs time alone on the stage. If you
+shortchange any of them, your writing will suffer.
+
+Two Qualms Answered
+
+Is it possible, in the hurly-burly of a busy law practice, to go through
+these four steps with every writing project? Perhaps not with every one.
+But surely in the space of an hourlong writing project, you can spend
+10 minutes on Madman, 5 on Architect, 25 on Carpenter, and 10 on
+
+* Charles Alan Wright, How I Write, 4 Scribes J. Legal Writing 87, 88 (1993),

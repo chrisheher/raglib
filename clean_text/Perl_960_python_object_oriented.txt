@@ -1,0 +1,82 @@
+### METADATA ###
+# source_file: Perl_960_python_object_oriented.txt
+# char_count: 3960
+# word_count: 646
+### END METADATA ###
+
+960 Bonus: Introduction to Python Programming Chapter 27
+
+If the script successfully executes the queryString on the database, the code in
+lines 48-62 executes. The cursor’s fetchall method retrieves all the records that
+match the query. This method returns a list of tuples. Each tuple in the list is one row of the
+results, and each value in the tuple corresponds to a column in that row.
+
+Lines 51-62 display the query results in the browser. We first display a 
+line that indicates from which database the results were retrieved (lines 52-54). Lines 56-60 print a row
+in an HTML table for each row in the query results.
+
+After the script completes its output (e.g., error messages or results), we close the
+cursor and the connection and set both variables to None.
+
+y, Good Programming Practice 27.2
+
+The Python DB-API implementation automatically closes a connection to a database when
+; the program exits, still, we include this code as a matter of good practice.
+
+27.10 Object-Oriented Programming
+
+This section presents a brief overview of Python object-oriented constructs;
+ we assume the reader has basic knowledge of object-oriented programming (OOP) concepts, 
+including inheritance. Our examples present a simple class Employee that contains information about
+a company employee and a class Hourly that inherits from class Employee
+begins the class definition. All methods and data are placed within this class block,
+Line 5
+
+def init ( self, first, last ):
+
+declares method ___ini t__.Method__init isa special method defined by Python;
+this method is called when an object of class Employee is created. Python classes may
+define any of several special methods. For a complete list of these special methods and their
+purposes, see the official Python documentation at www.python.org/doc/current /ref/customization.html.
+
+The first parameter of method__init __ is called self Unlike some programming
+languages (e.g., C++), methods of a Python class need an object with which to reference
+data and methods of that class. This object is passed in as the first parameter of every
+Python method. By convention, this parameter is named self.
+
+# Fig: 27.24: Employee .py
+# An employee class
+
+class Employee:
+def init ( self, first, last ):
+self.firstName = first
+self.lastName = last
+
+def _str_( self ):
+return "%s, %s" % ( self.lastName, self.firstName )
+
+SCVOnNAnGRwWDH—
+
+ig. 27.24 Python base class Employee.
+
+Chapter 27 Bonus: Introduction to Python Programmmilr
+
+The remaining two parameters in the constructor correspond to the employer
+and last name, respectively. Lines 6 and 7
+
+I sete. tizetwane = first
+self.lastName = last
+
+initialize data members £irstName and lastName using the corresponding:
+values. To add a data member to a class, the data member must be assigned fy)
+members may be assigned a value anywhere within the class block. Once the data
+has been assigned a value, it may be accessed by any method, via the se1 £ para
+
+def str ( self )s
+
+begins the definition of the special Python method ——str_. This method is called rT
+era print statement is executed on the class. This method returns a string that cor
+Employee’s last name, followed by a comma, followed by the Employee’, fivat
+Figure 27.25 contains the definition for class Hourly, which inherits (rom;
+Employee. The output from an interactive session is displayed after the class « of fm
+

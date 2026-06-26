@@ -1,0 +1,49 @@
+### METADATA ###
+# source_file: Visions__Kaku_language.txt
+# char_count: 5230
+# word_count: 936
+### END METADATA ###
+
+highly select computer scientists located in Silicon Valley and Cambridge 
+who have the rare knack of combining raw technical ability with creative, 
+artistic virtuosity. Weiser is short, with thinning hair, with an animated, 
+engaging style and an impish smile. (He also has a mischievous side; 
+he bangs on the drums for a raucous rock and roll band—appropriately 
+called Severe Tire Damage— which is famous for its prankster-like 
+antics on the Internet.) When he is not jamming with his rock and 
+roll band, he is busily constructing the architecture of the 
+twenty-first century. The goal of his team'is evolution of the computer.
+
+so powerful and so cheap, Weiser and computer scientists like him 
+believe that microchips will quietly disappear by the thousands 
+into the fabric of our lives, and will be incorporated into the walls, 
+the furniture, our appliances, our home, our car, even
+our jewelry. A simple necktie may one day contain more computing
+power than today’s supercomputer. Already, prototypes of these devices
+have been built which silently follow our movements from room to room
+and building to building, seamlessly carrying out our commands invisibly.
+
+‘The computer, far from being the demanding taskmaster it can be
+today, will be a truly liberating force in our lives. As Weiser notes:
+ “Machines that fit the human environment instead of forcing humans to enter
+theirs will make using a computer as refreshing as taking a walk in the
+woods.” These invisible devices will communicate with each other and
+tap in automatically to the Internet; gradually, they will become intelligent 
+and will be able to anticipate our wishes and, by accessing the Internet,
+ bring the wisdom of The full implications of this vision are astounding. 
+
+By comparison, the PC is just a computing appliance.
+The ideas of the people at places like Xerox PARC have attracted 
+enormous attention because the fortunes of a multibillion-dollar industry may
+one day ride on the silly doodlings and idle daydreams of these engineering wizards. 
+A consensus is growing among America’s top computer experts. 
+Computers, instead of becoming the rapacious monsters featured in
+science fiction movies, will become so small and ubiquitous that they will
+be invisible, everywhere and nowhere, so powerful that they will disappear
+ from view. Weiser has christened this idea ““abiquitous computingcomputer
+to foresee the next stage in the Because microchips are becoming
+This push toward invisibility may well be
+ior. As Weiser says: “Disappearance isa
+ universal law of human behavior fundamental consequence nol al
+
+cy. Ubiquitous computing

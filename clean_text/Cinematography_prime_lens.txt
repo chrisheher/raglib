@@ -1,0 +1,52 @@
+### METADATA ###
+# source_file: Cinematography_prime_lens.txt
+# char_count: 2049
+# word_count: 369
+### END METADATA ###
+
+such as glass, the speed of the wave decreases. Conversely, when
+light passes from a more dense medium to a less dense medium, the
+speed of the wave increases. The angle of refracted light is dependent 
+upon both the angle of incidence and the composition of the
+=material into which it is entering. We can define the normal as a line
+perpendicular to the boundary between two substances.
+
+The concept of refractive index is illustrated in Figure 14.4 for the
+=se of light passing from air through both glass and water. Notice
+stat while both beams enter the denser material through the same
+angle of incidence with respect to the normal (60 degrees), the
+refraction for glass is almost 6 degrees more than that for water
+due to the higher refractive index of glass. The index of refraction
+ with the frequency of radiation (or wavelength) of light. This
+recurs with all transparent media and is called dispersion. Dispersion
+=2 problem because it makes the image less sharp and contrasty.
+
+Stop one thing to have the lens form an image on the focal plane, but
+the amount of light that reaches it must be controlled. This is done
+with an aperture, which is nothing more than a variable size hole
+==2t is placed in the optical axis.
+
+The f/number or f/stop of a lens is a measure of its ability to pass light.
+
+The f/stop is the ratio of the focal length of a lens to the diameter of
+== entrance pupil. However, this is a purely mathematical calculason that 
+does not account for the varying efficiency of different lens
+signs.
+
+Fstop (true stop) is a measurement of actual light transmission as
+measured on an optical bench. F/ stops are used in depth-of-field and
+focal calculations, and T-stops are used in setting exposure.
+
+When setting the aperture on a lens, never go backward. Most apertures have a 
+certain amount of backlash that must be compensated
+
+Sec. If it is necessary to go to a larger stop (open up), open the lens all
+Se way up and then reset the stop.
+
+Figure 14
+one focal
+which is ve
+lens is a 25
+is defined
+its maxim
+(Photo cou

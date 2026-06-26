@@ -1,0 +1,123 @@
+### METADATA ###
+# source_file: Perl_06_languages.txt
+# char_count: 6086
+# word_count: 886
+### END METADATA ###
+
+6} Introduction to Computers, the Internet and the World Wide Web Chapter 1
+
+These computers were “stand-alone” units—people did their work on their own
+machines and then transported disks back and forth to share information
+ (often called “sneakernet”). Although early personal computers were not
+ powerful enough to timeshare several users, these machines could be linked 
+together in computer networks, sometimes over telephone lines and sometimes in 
+local area networks (LANs) within an organization. This led to
+the phenomenon of distributed computing, in which an organization’s computing, instead of
+being performed strictly at a central computer installation, is distributed over networks to the
+sites at which the work of the organization is performed. Personal computers were powerful
+enough to handle the computing requirements of individual users and to handle the basic
+communications tasks of passing information back and forth electronically.
+
+Today’s most powerful personal computers are as powerful as the million dollar
+machines of just a decade ago. The most powerful desktop machines—called
+ workstations—provide individual users with enormous capabilities. Information is easily shared
+across computer networks, where computers called file Servers offer a common store of
+programs and data that may be used by client computers distributed throughout the network, 
+hence the term client/server computing. C and C++ have become the programming
+languages of choice for writing software for operating systems, computer networking and
+distributed client/server applications.
+
+1.6 Machine Languages, Assembly Languages and High-level
+Languages
+
+Programmers write instructions in various programming languages, 
+some directly understandable by the computer and others that require
+ intermediate translation steps. Hundreds of computer languages are in use today. 
+
+These may be divided into three general types:
+
+1. Machine languages
+2. Assembly languages
+3. High-level languages.
+
+Any computer can directly understand only its own machine language. 
+Machine language is the “natural language” of a particular computer. 
+It is defined by the hardware design of that computer. Machine languages 
+generally consist of strings of numbers (ultimately reduced to 1s and Qs)
+ that instruct computers to perform their most elementary operations one 
+at a time. Machine languages are machine-dependent, ic., a particular machine
+language can be used on only one type of computer. Machine languages are cumbersome
+for humans, as can be seen by the following section of a machine language program that
+adds overtime pay to base pay-and stores the result in gross pay.
+
++1300042774
++1400593419
++1200274027
+
+As computers became more popular, it became apparent that machine
+ language programming was too slow, tedious and error prone. Instead of 
+using the strings of numbers that computers could directly understand, 
+programmers began using English-like abbreviations to represent the 
+elementary operations of the computer. These abbreviations formed
+he basis of assembly languages. Translator programs called assemblers were developed
+convert assembly language programs to machine language at computer speeds. 
+
+The following section of an assembly language program also adds overtime
+stores the result in gross pay, but does it more clearly than its machine
+
+
+Although such code is clearer to humans, it lated to machine language.
+
+Computer usage increased rapidly with the advent of assembly languages, but thear
+required many instructions to accomplish even the simplest tasks. To speed the propramni
+process, high-level languages, in which single statements accomplish substantial tasks,
+is incomprehensible to computers wWitil
+
+grossPay = basePay + overTimePay
+
+Obviously, high-level languages are much more desirable from the programme
+point than either machine languages or assembly languages. C, C++, J
+among the most powerful and most widely used high-level languages.
+
+The process of compilin g a high-level language program into machine I
+a considerable amount of computer time. This problem was solved by the
+interpreter programs that can directly execute high-level language program
+to compile them into machine language. Although compiled programs execute faster the
+Interpreted programs, interpreters are popular in program development environments.
+which programs are changed frequently as new features are added and errors are corerty
+Once a program is developed, a compiled version can be produced to run n
+
+Hundreds of high-level languages have been developed, but only a few have achieve
+broad acceptance. FORTRAN (FORmula TRAN slator) was developed by IBM Corporation
+between 1954 and 1957 to be used for scientific and engineering applications
+complex mathematical computations. FORTRAN is still widely used,
+neering applications.
+
+COBOL (Common Business Oriented Language) was developed in 1959 by compute
+manufacturers, government and industrial computer users. COBOL is used primarily {i
+commercial applications that require precise and efficient manipulation of large amour
+of data. Today, more than half of all business software is still programmed in COBO! ‘1
+
+We will introduce other high-level programming languages in our discussions of AU
+tured and object-oriented programming.
+
+rs alii
+ava and Perl
+
+anguape Oni ti
+e development
+s without need
+
+ost efficiently
+
+ations.that requi
+especially in eny
+
+1.7 Structured Programming
+
+During the 1960s, many large software development efforts encountered severe dilhiont
+ties. Software schedules were typically late, costs greatly exceeded budgets and the tin
+ished products were unreliable. People began to realize that software development was I
+far more complex activity than they had imagined. Research activity in the 1960s rewultes
+in the evolution of structured programming—a disciplined approach to writing propeann
+that are clear, demonstrably correct and easy to modify. “al

@@ -1,0 +1,60 @@
+### METADATA ###
+# source_file: The Creative Mind__Boden_075_mapmaking.txt
+# char_count: 3215
+# word_count: 497
+### END METADATA ###
+
+Maps of the Mind
+
+For example, the work on children’s drawing described above was
+strongly influenced by such ideas. Karmiloff-Smith compares the
+four-year-olds’ drawing-skills (and early skills in general) to the kind of
+computer program called a compiled procedure}? a sequence of
+instructions whose internal stricture is not accessible to any higherlevel 
+routine, so cannot be altered. Again, she sums up her theory of
+representational change by saying that ‘knowledge embedded in
+procedures gradually becomes available, after redescription, as part of
+the system’s data-structures’. In other words (using the terms introduced in Chapter 3), 
+a generative system which actually produces structures comes to be treated as 
+a generative system which describes them. The ‘passive’ system can be examined, 
+and transformed, by an ‘active’ system on a higher level.
+
+Artificial intelligence can not only describe conceptual spaces: it can
+actively explore them, too. A program, when run on a computer, is a
+dynamic chart of the computational space concerned, a rambler’s map
+that actually goes on a ramble. And the footsteps by which this
+exploration takes place can be precisely identified, as specific computational processes.
+
+This is not to say that all the necessary sorts of footwear have yet been
+designed. To ramble through the human mind we may well need
+seven-league boots. But current AI can take us further than a Japanese
+lady’s sandals, as we shall see.
+
+‘There are maps, and there is map-making. A map can be inadequate in
+many different ways: a village omitted, a river misplaced, the contours too
+coarse-grained to help the rambler. But inadequate maps do not show
+map-making to be a waste of time, and clumsy contours do not prevent
+‘contours’ from being a useful concept. Furthermore, maps improve, as
+cartographers increase their geographical knowledge and think up new
+ways of charting it. By today’s standards, a mediaeval Mappa Mundi is
+inadequate on many counts. But a map it is, even without Mercator’s
+projection or lines of latitude. In short, ifwe want a systematic description
+of our landscape, map-making is the relevant activity. Cows<sjvEst
+
+Likewise, there are computer programs, and there are computational concepts. 
+The programs discussed in this book have many
+weaknesses. But if current programs fail to match human thought, it
+does not follow that the theoretical concepts involved are psychologically irrelevant. 
+Indeed, many of these concepts are more precisely defined versions of psychological 
+notions that existed years before AT came on the scene.
+
+Moreover, Al-workers are as creative as anyone else. New computational concepts, 
+and new sorts of program, are continually being developed. For instance, ‘neural network’ 
+systems (described in Chapter 6) illuminate certain aspects of creative thought better than
+early Al-work did. This is a new science, barely half-a-century old. But
+even a computational Mappa Mundi is a worthwhile achievement, as we
+shall see.
+
+Two computational concepts with which to map the changing contours
+of the mind have already been introduced (in Chapters 3 and 4
+respectively): generative system and heuristic.

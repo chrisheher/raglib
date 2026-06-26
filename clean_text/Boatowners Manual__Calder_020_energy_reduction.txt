@@ -1,0 +1,66 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_020_energy_reduction.txt
+# char_count: 2413
+# word_count: 395
+### END METADATA ###
+
+is to estimate the highest-sustained load which
+the battery is likely to be subjected to (generally a
+DC-to-AC inverter running at full output) and
+ensure that this is no more than 25% of the rated
+capacity of the battery bank. If the inverter load
+exceeds this, protect the batteries from potential
+damage caused by high-rate discharges (which
+can heat the plates and buckle them) by 
+increasing the size of the battery bank.
+
+Series and parallel. In the example above, we
+are using two 8D batteries. When you include
+more than one battery in an electrical system,
+you can hook each battery into the boat's circuits
+independently via a suitable battery isolation
+switch (see pages 37-38), or you can connect
+them all together to boost output, either in series
+or parallel.
+
+‘To make a series connection, tie the positive
+post of one battery to the negative post of another
+and then use the remaining positive terminal
+on one and negative terminal on the other to
+make the connection to the boat's circuits (Figure I-16).
+
+When in series, the total amp-hour capacity of
+the two batteries together remains the same as the
+
+amp-hour rating of either one, but the output voltage 
+is doubled. In our example, with two 200 Ah,
+12-volt batteries, a series connection would still
+give us a 200 Ah capacity, but at 24 volts. Note:
+Never connect 12-volt batteries in series on a 
+12volt electrical system —the resulting high voltage
+will damage equipment.
+
+To make a parallel connection, tie together
+the positive posts on two or more batteries and
+also tie together the negative posts, Then connect 
+the boat's circuit to these combined positive
+and negative posts (Figure 1-17).
+
+[,. Paralleling batteries leaves the system voltage
+
+unchanged, but doubles the amp-hour capacity.
+Connecting two 200 Ah, 12-volt batteries in parallel 
+produces only 12 volts, but has a 400 Ah
+capacity. Connecting additional batteries in parallel 
+increases system capacity at a given voltage.
+The Ah capacity of all the paralleled batteries is
+added to find the system’s total Ah capacity.
+
+Both series and parallel connections are often
+made where a large storage capacity is needed
+but single batteries would be too cumbersome to
+handle. Typically in a 12-volt system, two 6-volt
+batteries are placed in series to give 12 volts, and
+then another two 6-volt batteries, also in series,
+
+ESTABLISHING A BALANCED BATTERY-POWERED ELECTRICAL SYSTEM

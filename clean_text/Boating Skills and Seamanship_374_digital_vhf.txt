@@ -1,0 +1,48 @@
+
+
+Digital Selective Calling Radios
+
+Digital Selective Calling (DSC) is a VHF radio technology 
+that provides recreational boaters with two
+unique features that will be discussed below. 
+To be fully functional three items must be available:
+
+* A DSC radio
+= A Maritime Mobile Service Identity (MMSI) number
+* A compatible GPS or Loran unit
+
+The MMSI is a unique nine (9) digit number that is assigned to a DSC 
+radio station. If the boater has 4 valid Federal Communications Commission 
+(FCC) station license or plans to operate in international
+waters they need to contact the FCC to get an MMSI. Otherwise, 
+they can register with BoatU.S. or SEA
+TOW Services by obtaining an MMSI Assignment form. 
+Forms are available on the BoatU.S. website
+www.BoatUS.com/mmsi or by calling 1-800-563-1536 
+and the SEA TOW Services website --.
+
+Some important points to consider are:
+
+» Each vessel you own needs to have a discrete MMSI to be properly identified.
+The boater needs to keep their MMS! Assignment data current.
+Depending on the make and model of the DSC radio, it may limit 
+the number of times you can try % program your MMSsI number into the radio. 
+Typically the radios offer you two (2) chances before loc
+ing out future attempts, forcing you to send the radio back to the manufacturer.
+
+DSC technology makes a VHF radio function more like a telephone. It allows boaters to send a digital ca"
+directly to another DSC-equipped vessel or shore station.
+
+* In an emergency, one push of a button and the DSC radio will send an automated digital distress ales
+consisting of your identification (MMSI), and position (if the radio is connected to a GPS or loran or
+to other DSC-equipped vessels and rescue facilities.
+
+* You can privately hail another DSC-equipped vessel, or shore station, if you know their MMSI. It is similar
+to having a VHF phone number that “rings” the radio called and then automatically switches you 103
+predetermined working channel.
+
+Rescue 21 is the Coast Guard system that will provide the Mayday response capability described abe 8
+For more details on the Rescue 21 System and its availability in your area visit www.uscg.mil/rescue2?
+
+The Global Maritime Distress and Safety System (GMDSS) is the international system governing saree
+radio equipment on commercial ships. For more information on GMDSS visit www.NAVCEN.USCG. gow

@@ -1,0 +1,79 @@
+### METADATA ###
+# source_file: Cognition In The Wild__Hutchins_203_hierarchy_goal.txt
+# char_count: 4270
+# word_count: 700
+### END METADATA ###
+
+recorder coordinates his (recording) behavior with the pal
+Operator, His other activities are on hold while he attends (a.
+(perhaps simultaneously) records the bearing.
+
+The problems of coordination in the solo performance 
+the control of the change in roles and the meta-coordination
+required to move through the sequence of steps required. It is a
+consideration of solo performances that the apparent important
+executive function emerges. This is to be expected because, from
+the point of view of the individual, the task in the solo performance
+is sequentially constrained in a way that the modular tasks fi
+by the individual team members in the distributed performu
+are not. There are certainly still sequential constraints in the (
+tributed form, but each individual is responsible for satisfy
+fewer of these constraints than in Standard Steaming Watch. In I
+place of an executive we find a continual collision of interest »
+negotiation of coordination status.
+
+The quartermasters align themselves as a coordinating struct
+that passes information from one transforming device to another.
+The people are the glue that sticks the hardware of the system 
+together. What is the relationship between the position of the ship in
+the world and the location of the fix on the chart? The formal 
+relationship is one of spatial correspondence. The causal relationship
+is a tissue of human relationships in which individual 
+bystanders consent to have their behavior constrained by others,
+
+tional technologies. The sequential constraints of the procedure
+which are in part determined by the representation of the problem
+constrain the universe of social arrangements in which the procedure
+ can be performed. That is, they specify a coordination tauk
+that must be solved by the social organization of work.
+
+SOCIAL STRUCTURE AND GOAL STRUCTURE
+The distribution of labor in Sea and Anchor Detail creates a diy.
+tribution of attention to goals such that the system is unlikely to
+halt before completing a task. Imagine a problem described by tha
+goal tree shown in figure 4.3a. Individuals engaged in problems
+with deep goal trees sometimes lose sight of higher-level goals and
+halt after satisfying a lower-level goal. This is the sort of problem
+faced by the solo watchstander in Standard Steaming Watch: Hav-.
+ing shot a bearing, what should I do next? Now, suppose that rather
+than a single watchstander we have a team, and we give each
+
+Goal hierarchy and distribution of responsibility for goal satisfaction. 
+Responsibility for the satisfaction of the goals shown in panel a can 
+be allocated to agents (the enclosed shapes in panel b)
+in such a way that social dependencies provide control structure.
+
+A member of the team responsibility for a main goal and for tha
+goals required to achieve the main goal. The areas of se npn 3
+of the members of the team are superimposed on the goal tree in
+figure 4.3b. Let the social contract between the agents be such = a
+subordinate can halt only when his superior determines that the
+responsibilities of the subordinate have been met. Agent A2, for
+example, can halt only when agent A1 judges subgoal tae to be
+satisfied. Each agent is responsible only for a shallow section ot the
+goal hierarchy, so goal stack depth is not a problem for individual
+processors. Such a setup results in computational control through
+a network of social relationships. When a problem has a deeply
+nested goal structure, a social hierarchy can provide a mechanism
+for distributing the attention to various parts of the goal ae
+Social structure and problem representation both interact with
+goal structure in the implementations of solutions ts the problem of
+sequential control of action. These things constrain the computational 
+properties of systems of socially distributed cities and
+cannot be excluded from an understanding of human cognition as
+it is manifested in such systems. '
+The fit between the computational dependencies and the
+organization is an important property of the system. ain might
+imagine a situation in which those of higher rank ee input
+to a lower-ranking individual, who integrates the iceumaiios
+and makes decisions. That would be a very strange relationship

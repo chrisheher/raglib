@@ -1,0 +1,131 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_194_power_distribution.txt
+# char_count: 5259
+# word_count: 846
+### END METADATA ###
+
+In the kind of system envisaged, with direct
+connection of branch circuits to a two-wire bus
+via remotely operated switches, the switches
+must provide branch circuit protection as defined 
+in UL, ABYC, and other standards (the
+principal relevant standards are UL 1077, UL
+489, and ABYC E-11). As noted above, there is
+ongoing discussion within the ABYC and other
+standards-writing organizations as to what these
+requirements mean in the context of solid-state
+switching (as opposed to conventional switching,
+which operates by making and closing an air gap
+between two points). In any event, it seems that
+in and of themselves most of the existing (2005)
+MOSFET-based electronic circuit breakers
+(ECBs) do not meet these requirements (in particular, 
+when they fail, they tend to fail shorted
+and not open), and as such do not qualify as
+branch circuit breakers: additional circuit 
+protection is needed for standards compliance.
+
+As a result, in order to ensure compliance
+with branch circuit breaker requirements, most
+solid-state circuit breaker manufacturers 
+are currently moving down a similar path, 
+which is to cluster a number of ECBs in a 
+power distribution module. In these modules, 
+each ECB circuit is protected by a conventional circuit
+breaker and/or a fuse that meets the AIC and
+other requirements, with the ECB serving as a
+switching relay and overload protector. This 
+represents a halfway technology on the road 
+to economical, standards-compliant, remotely operated, 
+stand-alone electronic circuit breakers.
+
+Power distribution modules (PDMs).
+Although power distribution modules as currently 
+manufactured are conceptually similar to
+a conventional subpanel on a boat, there are
+some important differences. Because the individual 
+electronic circuit breakers in such a box
+can be remotely operated from any appropriate
+panel wired into the data circuit (and even with
+wireless devices, or through a cell phone or the
+Internet, given the appropriate bridges or gateways), 
+unlike a subpanel these boxes do not need
+to be readily accessible: they can be placed at
+any convenient location close to the loads they
+are controlling, with significant potential savings
+in cabling and installation time.
+
+When it comes to the circuit breakers within
+these boxes, a manufacturer typically uses a 
+single electronic circuit breaker design that has a
+maximum amperage rating (determined by the
+ampacity of the MOSFETs within it) high
+enough to handle the highest load it is intended
+to protect and/or switch (i.e., it is designed for
+the worst-case amps load). The breaker circuitry
+includes a device that measures current flow
+through the circuit. The breaker control circuit
+
+‘5 such that it can be programmed to trip at any
+amperage up to the breaker’s maximum amp T2=
+ing. This enables the exact same breaker to be
+used for multiple amp ratings, with the rating
+determined through the software program, not
+through the breaker’s physical construction.
+
+Most of these breakers can be reprogrammers
+to a different trip value or a different set of trip
+characteristics (e.g., time delay) in situ, either viz
+the data bus control panel or by plugging the
+appropriate device into the data circuit. A boat
+builder can build a boat with all the same break
+ers, and then program them individually to
+appropriate trip characteristics once the boat ss
+fished —and change the trip characteristics if
+the equipment on the circuit is modified. The
+nature of the control circuits is such that much
+more precise trip characteristics are possible
+than with conventional magnetic or thermal 
+circuit breakers.
+
+The current (amperage) measuring device
+and small microprocessor found in electronic
+circuit breakers result in the opportunity for
+some really interesting and creative uses for
+these breakers. For example, a bilge pump
+breaker might be programmed to:
+
+-Intermittently turn on the bilge pump and
+monitor the current (amp) draw. If it is above
+a certain level, it signifies water in the bilge, so
+the pump stays on until the current draw
+drops to a dry bilge level. This gets rid of those
+troublesome float switches.
+
+-Shut down the pump and trigger an alarm if
+the current draw goes too high, signifying 
+locked rotor or some other problem. This eliminates 
+the primary cause of motor burnout.
+
+-Trigger an alarm if the pump stays on for
+more than a certain length of time, indicating
+excess water in the bilge.
+
+e Log whenever the pump comes on, and for
+how long, and store this data to be displayed
+later at the boat's control panel, sounding an
+alarm if the pump comes on more often than
+usual (signifying water ingress of some sort).
+
+In other words, unlike traditional circuit
+breakers, electronic breakers have the potential
+to operate as “smart” devices, with powerful 
+circuit control and diagnostic features. At the most
+basic level, anytime the current flow on a circuit 
+goes above normal, the operator can be
+alerted. The greater the number of sensing
+devices wired into the data bus shared by the 
+circuit breaker, and the more information there is
+on the bus, the greater the potential for creative
+engineering in terms of what remotely operated
+electronic circuit breakers and switches can be

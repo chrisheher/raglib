@@ -1,0 +1,98 @@
+
+
+Over thirty years ago, a program was co-writing poems in the form of
+Japanese haiku, a highly economical genre that constrains the poet as
+much as possible.° The program contained a three-line frame, with
+nine slots for which the human operator would choose words:
+
+All [1] in the [2]
+1 [3] [4] [5] in the [6]
+[7] the [8] has [9]
+
+Sometimes, the human operator was given a free choice: any word
+could be chosen for any slot. But sometimes the program constrained
+the choice.
+
+The haiku-program contained a simple semantic net, built on the
+principles of a thesaurus. The available words (about one hundred and
+forty in all) were grouped into nine separate lists, each numbered for
+the relevant slot. The list for slot-7 contained eleven words (including
+Bang, Hush, Pfft, Whirr and Look), while the list for slot-5 contained
+twenty-three words (such as Trees, Peaks, Streams, Specks, Stars, Pools and
+Trails). A few words appeared on two different lists (thus White could fill ;
+slot-1 and slot-4).
+
+When choosing a word for slot-n, the human operator was forced to _
+go to list-n. Moreover, each slot in the haiku-frame was semantically
+connected (by one or more links) to another slot (or slots). The
+semantically central word was slot-5, which was directly linked to five
+others, and indirectly linked to the rest. The operator had to obey these
+semantic constraints also, when choosing words from the lists.
+
+‘This man-machine procedure produced the following two examples:
+
+All green in the leaves
+I smell dark pools in the trees
+Crash the moon has fled
+
+All white in the buds
+I flash snow peaks in the spring
+Bang the sun has fogged
+
+For comparison, here are two haikus of the same form where the human
+operator was allowed to choose words freely:
+
+Eons deep in the ice
+I paint all time in a whorl
+Bang the sludge has cracked
+
+Eons deep in the ice
+I see gelled time in a whorl
+Pflit the sludge has cracked
+
+Unromantic Artists 159
+
+Can you see a significant aesthetic difference? I cannot. I see no
+evidence that the human’s creativity is diminished by having to follow
+explicit semantic constraints, instead of implicit ones. (The operator
+breaks a rule, to be sure, in omitting A/Z; but only seven of his freely
+chosen words are foreign to the program’s list, and he seems to be
+temporarily fixated on Eons deep in the ice.)
+
+‘The reason for the apparent success of this very early program lies less
+in the program itself than in its audience. In other words, readers of this
+particular literary form are prepared to do considerable interpretative
+work. The program’s gnomic poems are acceptable to us accordingly.
+—th general, the more the audience is prepared to contribute in
+responding to a work of art, the more chance there is that a computer's
+performance (or, for that matter, a human artist’s) may be acknowledged 
+as aesthetically valuable. We have already seen this process at
+work with respect to abstract-AARON’s ‘landscapes’. The scare quotes 
+are there because it is the viewer, not the program, who gives its
+designs this interpretation. Much of the beauty, one might say, lies in
+the eye of the beholder.
+
+Certainly, the beholder is sometimes the program (or human artist)
+itself, functioning in the self-reflective ‘evaluative’ mode. But the
+audience may be prepared to supply meaning which the creator does
+not — or even-cannot. (This fact is stressed in much recent literary
+theory, wherein the text alone, not_the author's conscious or un- Fotnsuins!
+conscious intentions, regarded as the proper focus of interpretation. 
+The more economical the artistic style, the more interpretative work
+the audience has to do. Hence poetry, especially poetry of a highly
+minimalist type (such as haiku), is more tolerant of programmed
+production than prose is. 
+
+As an illustration of this point, consider the prose authored by a (very
+early) program designed to write detective stories. Although this
+system was a near-contemporary of the haiku-program, the aesthetic
+value of its productions was very much less. Instead of seventeen-word
+snippets, this program generated texts of over 2,000 words. Here are
+two extracts from one of them:
+
+‘The day was Monday. The pleasant weather was sunny. Lady Buxley was in a
+park, James ran into Lady Buxley. James talked with Lady Buxley. Lady Buxley
+flirted with James. James invited Lady Buxley. James liked Lady Buxley. Lady
+Buxley liked James. Lady Buxley was with James in a hotel. Lady Buxley was
+near James. James caressed Lady Buxley with passion. James was Lady Buxley’s
+lover. Marion following them saw the affair. Marion was jealous.

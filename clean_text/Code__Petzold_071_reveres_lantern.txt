@@ -1,0 +1,67 @@
+### METADATA ###
+# source_file: Code__Petzold_071_reveres_lantern.txt
+# char_count: 3244
+# word_count: 574
+### END METADATA ###
+
+Chapter Nin hy Bit by Bit
+
+Let's assume that the two lanterns are actually permanent fixtures in the
+the number of fingers we have. We could just as reasonably base our num ns
+Nivel tower. Normally they aren’t lit:
+
+A number system on eight (if we were cartoon characters) or four
+(if we were lobsters) or even two (if we were dolphins).
+
+But there is something special about the binary number system. What!
+special about binary is that it’s the simplest number system possible. There
+are only two binary digits—O and 1. If we want something simpler than
+binary, we'll have to get rid of the 1, and then we'll be left with just a 0, We
+can’t do much of anything with just a 0.
+
+The word bit, coined to mean binary digit, is surely one of the loveliest
+words invented in connection with computers. Of course, the word has the
+normal meaning, “a small portion, degree, or amount,” and that normal
+meaning is perfect because a bit—one binary digit—is a very small quantity
+indeed.
+
+Sometimes when a new word is invented, it also assumes a new meaning,
+That’s certainly true in this case. A bit has a meaning beyond the binary digits
+used by dolphins for counting. In the computer age, the bit has come to be
+regarded as the basic building block of information. i
+
+Now that’s a bold statement, and of course, bits aren’t the only things that
+convey information. Letters and words and Morse code and Braille and
+decimal digits convey information as well. The thing about the bit is that it
+conveys very little information. A bit of information is the tiniest amount
+of information possible. Anything less than a bit is no information at all. But
+because a bit represents the smallest amount of information possible, more
+complex information can be conveyed with multiple bits. (By saying that a
+bit conveys a “small” amount of information, I surely don’t mean that the
+information borders on the unimportant. Indeed, the yellow ribbon is an
+important bit to the two people concerned with it.)
+
+“Listen, my children, and you shall hear / Of the midnight ride of Paul
+Revere,” wrote Henry Wadsworth Longfellow, and while he might not have
+been historically accurate when describing how Paul Revere alerted the
+American colonies that the British had invaded, he did provide a thought
+provoking example of the use of bits to communicate important information}
+
+He said to his friend “If the British march
+By land or sea from the town to-night,
+Hang a lantern aloft in the belfry arch
+
+Of the North Church tower as a special light,—
+» One, if by land, and two, if by sea...”
+
+To summarize, Paul Revere’s friend has two lanterns. If the British are 
+invading by land, he will put just one lantern in the church tower. 
+If the British are coming by sea, he will put both lanterns in the church tower.
+
+However, Longfellow isn’t explicitly mentioning all the possibilities, He
+left unspoken a third possibility, which is that the British aren’t invading just
+yet. Longfellow implies that this possibility will be conveyed by the absence
+of lanterns in the church tower.
+
+No lantern is a bit. A lit lantern is a 1 bit and an unlit lantern is a 0 bit.
+‘Tiiy Orlando demonstrated to us that only one bit is necessary to convey

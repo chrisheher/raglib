@@ -1,0 +1,64 @@
+### METADATA ###
+# source_file: Learn to Program Ruby__Pine_017_storing_strings.txt
+# char_count: 2211
+# word_count: 395
+### END METADATA ###
+
+In other words, if you have a backslash
+somelines (ranalated into a new character.
+seapes, (hough, are the apostrophe and the
+iil il, eseape Characters must always escape
+construction of any string. Why is that?)
+
+ping in atrings:
+
+string: \\'
+
+sape ad but does escape itself, those last two
+they don’t look the same in the code, but
+inning, those are just two ways of describing
+
+rt doing something slightly more clever....
+
+CHAPTER 4
+
+______ Variables and Assignment
+
+So far, whenever we have putsed a string or a number, the thing we putsed is
+gone. What I mean is, if we wanted to print something out twice, we would
+have to type it in twice:
+
+puts '...you can say that again...'
+puts '..,.you can say that again...'
+
+It would be nice if we could just type it in once and then hang on to it...store
+it somewhere. Well, we can, of course. It would have been insensitive to bring
+it up otherwise.
+
+To store the string in your computer's memory for use later in your program,
+you need to give the string a name. Programmers often refer to this process
+as assignment, and they call the names variables. A variable name can usually 
+be just about any sequence of letters and numbers, but in Ruby the first
+character of this name needs to be a lowercase letter. Let’s try that last 
+program again, but this time I will give the string the name my string (though I
+could just as well have named it str or myOwnLittleString or henry_the 8th):
+
+my_string = '...you can say that again...'
+puts my_string
+puts my_string
+
+Whenever you tried to do something to my_string, 
+the program did it to ".you can say that again...’ instead. 
+You can think of the variable my string as “pointing
+to” the string '.,.you can say that again...'. Here’s a slightly more motivated example:
+
+Sure, sure, we could copy and paste that
+line, but that is not maximally lazy: what
+if we want to change one of those lines at
+some point in the future? We don’t
+want to have to change anything
+twice. Copy and paste is the opposite
+of “Don't Repeat Yourself.”
+
+So, is this program prettier than the first
+example? Yes. This is longer but prettier.

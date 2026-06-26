@@ -1,0 +1,54 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_052_fixes.txt
+# char_count: 3577
+# word_count: 636
+### END METADATA ###
+
+
+All too often we underestimate the distance to a fixed object such as 
+a distant harbor light, but overestimate the distance between our vessel 
+and another, especially if the other ship is larger. As much as anything,
+this results from wishful thinking. Practice is the antidote.
+
+The Fix
+
+A line of position, however obtained, represents a series of possible’
+positions, but not a single position. However, if two simultaneous,
+nonparallel lines of position are available, the intersection of the two
+lines is one form of fix. Examples of several types of fix are given in”
+the accompanying illustrations. In the first illustration, a fix was
+obtained from two bearing lines. The fix of the second illustration was
+obtained by two distance circles. The third illustrates a fix from a range
+and a distance. In the fourth, a bearing and distance of a single object
+are used. Use a small circle to indicate the fix at the intersection of the
+lines of position. The time of the fix is the time when the lines of
+position were established. It is essential that you can identify two objects
+for a good two-bearing fix. The angle between lines of position is also
+important. The ideal is 90°. If the angle is small, a slight error in
+measuring or plotting either line results in a relatively large error in the
+indicated position. In the case of a bearing line, nearby objects are
+preferable to those at a considerable distance, because the linear (distance) 
+error resulting from an angular error increases with distance. 
+
+Another consideration is the type of object observed Lighthouses
+spires, and flagpoles are good objects because the point
+is well defined. A large building, nearby mountains, or a plot of land
+leave some reasonable doubt as to the exact point used for observation.
+ If a headland bluff is used, as in the first illustration pin
+there is a possibility that a low spit may extend seaward from the part
+observed. A number of towers or chimneys, close together, reidentification. 
+A buoy or a lightship may drag anchor change position. 
+Most buoys are secured by a single anchor and at the tide, current, and wind change.
+
+
+“Rule of Sixty.’’ Bowditch states:
+
+A single bearing line of an accurately charted object will be offset from the
+observer's actual position by an amount dependent upon the net angle,
+error of the observation and plot, and distance of the charted object from
+the observer. The amount of offset is expressed approximately in the “Rule
+ol Sixty, which may be stated as follows: The offset of the plotted being
+line from the observer’s actual position is 1/6oth of the distance rk
+abject observed for each degree of error. In the derivation of the Rul f
+Sixty, the assumption is made that the angular error is small,
+than the small errors normally associated with compass 

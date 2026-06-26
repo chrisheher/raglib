@@ -1,0 +1,480 @@
+
+GAME MECHANICS SUPPORT PUZZLES
+
+Puzzles are wonderful mechanisms that form key parts of many games. Sometimes
+they are very visible, and other times they are so enmeshed into the gameplay as
+to make them hidden, but what all puzzles have in common is that they make the
+player stop and think. Examining with the Lens #35: The Lens of Head and Hands,
+puzzles are firmly on the “head” side. It can be argued that any time a player stops
+during gameplay to think, they are solving a puzzle. The relationship between
+puzzles and games is tricky. In Chapter 3, we talked about how every game is “a
+problem-solving activity, approached playfully.” Puzzles, too, are problem-solving
+activities — does this make them games? In this chapter we will explore how to
+make good puzzles, and the best ways incorporate puzzles into games. But first, we
+too should stop and think, to better understand the puzzle-game relationship.
+
+The Puzzle of Puzzles
+
+There is much debate about whether puzzles are “really games.” Certainly, puzzles
+are often part of games, but does that mean they are games? In a sense, puzzles are
+just “fun problems.” If you go back and review Chapter 3, you will find that, surprisingly, “fun problem” meets the many qualifications that we listed for the definition of a game. So, maybe each puzzle is really a kind of game?
+
+Something bothers people about calling puzzles games. A jigsaw puzzle doesn’t
+feel like a game, nor does a crossword puzzle. Would you call Rubik’s Cube a game?
+Probably not. So, what is missing from puzzles that we are inclined to exclude them
+from our definition of games? First of all, most puzzles are just single-player, but
+that can hardly be an objection — many things we immediately classify as games,
+from solitaire to Final Fantasy, are single-player. They still have conflict, it is just
+between the player and system, not between player and player.
+
+A young Chris Crawford once made the bold statement that puzzles are not even
+really interactive, since they don’t actively respond to the player. This is questionable, partly because some puzzles do indeed respond to the player, particularly puzzles in videogames. Some people have suggested that any game that has both an
+ending and is guaranteed to give the same output to a player who always gives the
+same input is really a puzzle, and not a game. This would mean many story-based
+adventure games, such as Zork, Zelda, or Final Fantasy might not qualify as games
+at all, but only as puzzles. But this doesn’t really ring true.
+
+Perhaps puzzles are kind of like penguins. The first explorers to see penguins
+must have been kind of surprised, and probably at a loss as to how to classify them,
+thinking something like “Well, they kind of look like birds, but they can’t be birds,
+because birds can fly. They must be something else.” But further examination leads
+to the conclusion that penguins are indeed birds: just birds that can’t fly. So what is
+it that puzzles can’t do?
+
+--- Page 3 --AREN’T PUZZLES DEAD?
+
+Puzzlemaster Scott Kim once said that “A puzzle is fun, and has a right answer.”
+The irony of that is that once you find that right answer, the puzzle ceases to be
+fun. Or as Emily Dickinson once put it:
+
+The Riddle we can guess
+We speedily despise —
+Not anything is stale so long
+As Yesterday’s surprise.
+
+The thing that really seems to bother people about calling puzzles games is
+that they are not replayable. Once you figure out the best strategy, you can
+solve the puzzle every time, and it is no longer fun. Games are not usually this
+way. Most games have enough dynamic elements that each time you play you are
+confronted again with a new set of problems to solve. Sometimes this is because
+you have an intelligent human opponent (checkers, chess, backgammon, etc.), and
+sometimes it is because the game is able to generate lots of different challenges
+for you, either through ever-advancing goals (setting a new high score record) or
+through some kind of rich challenge-generation mechanism (solitaire, Rubik’s Cube,
+Tetris, etc.)
+
+In Chapter 10, we gave a name to the situation when a single strategy will defeat
+a game every time: a “dominant strategy.” When a game has a dominant strategy,
+it doesn’t cease to be a game, it just isn’t a very good game. Children like tic-tactoe until they find the dominant strategy. At that point, the puzzle of tic-tac-toe has
+been solved, and the game ceases to be interesting. So usually, we say games that
+have dominant strategies are bad. Unless, of course, the whole point of the game is
+to find that dominant strategy. This leads to an interesting definition of a puzzle:
+
+A puzzle is a game with a dominant strategy.
+
+From this point of view, puzzles are just games that aren’t fun to replay, just
+as penguins are birds that cannot fly. This is why both puzzles and games have
+problem-solving at their core — puzzles are just miniature games whose goal is to
+find the dominant strategy.
+
+Aren't Puzzles Dead?
+
+When I discuss the importance of puzzles with students, there is always someone
+who asks “Aren’t puzzles old-fashioned? I mean, sure they were a part of adventure
+games twenty years ago, but modern videogames are based on action, not puzzles,
+right? Besides, with all the walkthroughs on the Web, everyone can get the answers
+to puzzles easily — so what’s the point?”
+
+And this is an understandable point of view. In the 1980s and even early
+1990s, adventure games (Zork, Myst, Monkey Island, King’s Quest, etc.) were very
+popular, and these usually featured very explicit puzzles. With the rise of console
+gaming, games that slid a bit more toward the “hands” side of the spectrum and away
+from the “head” side became more popular. But did the puzzles go away?
+No. Remember — a puzzle is anything that makes you stop and think, and mental
+challenges can add significant variety to an action-based game. As game designers
+grew more experienced, and games developed more fluid and continuous control
+schemes, the puzzles became less explicit and more woven into the fabric of the
+gameplay. Instead of completely stopping play, and demanding that the player slide
+around pieces of a puzzle before they could continue, modern games integrate the
+puzzles into their environment.
+
+For example, The 7th Guest, a popular game released in 1992, featured puzzles
+that, though interesting, were often completely incongruous. While walking through
+a house, you find cans on a shelf, and you need to rearrange them so that the letters
+on them form a sentence. Then you would suddenly find a giant chessboard and be
+told that to continue in the game, you must find a way to exchange the positions of
+all the black pieces and the white pieces. Then you would look through a telescope
+and do a puzzle about connecting planets with lines.
+
+Contrast that to Legend of Zelda: The Wind Waker, which has as many puzzles,
+but smoothly integrates them into environments in the game. When confronted
+with a river of lava, you have to figure out how to throw water jugs in the right pattern so that you can cross the river. When you are in a dungeon where the doors are
+opened and closed by a complex series of switches, you must figure out how to use
+items found in the dungeon (statues, etc.) to flip the switches so you can successfully get through all the doors. Some of these are quite complex; for example, some
+enemies in the dungeon are paralyzed when light falls on them. To get the doors
+open, you must lure the enemies onto the right switches, and then shoot flaming
+arrows near enough to paralyze them to keep the door open so you can run out.
+But in all cases, the puzzle elements are natural parts of the environment, and the
+goals of solving the puzzle are direct goals of the player’s avatar.
+
+This gradual change from explicit, incongruous puzzles to implicit, wellintegrated 
+ones is less because of a change in the tastes of the gaming audience, and
+more because game designers have matured in their skills. Look at the two puzzles
+below with Lens #43: The Lens of Elegance, and notice how many more purposes
+the implicit puzzle serves as opposed to the explicit one.
+
+Our two examples were adventure games. Can other genres include puzzles?
+Absolutely. When you play a fighting game, and you have to stop and think about
+which strategies are going to work best against a particular opponent, you are 
+solving a puzzle. When you play a racing game, and trying figure out where on the
+track to use your turbo booster to finish the race in under a minute, you are solving
+a puzzle. When you play a first person shooter, and you think about which order
+you should shoot the enemies so that you take the least damage, you are solving
+a puzzle.
+
+But what about walkthroughs on the Web? Haven’t they spoiled videogame
+puzzles forever? They have not. We’ll see why in the next section.
+
+
+Good Puzzles
+
+Okay — so, puzzles are everywhere. The thing we really care about is how to create
+good puzzles that will improve our games. Here are ten principles of puzzle design
+that can be useful in any game genre.
+
+Puzzle Principle #1: Make the Goal Easily Understood
+
+To get people interested in your puzzle at all, they have to know what 
+they are supposed to do.
+
+
+The same thing applies to puzzles in videogames. If players aren’t sure what they
+are supposed to do, they will quickly lose interest, unless figuring out what to do is
+actually fun. And there are a lot of puzzles where figuring out what to do is part
+of the puzzle. But you must use caution with these kind of puzzles — generally,
+only diehard puzzle fans like that kind of challenge. Consider the fate of Hasbro’s
+Nemesis Factor. This ingenious puzzle is much revered by puzzle fanatics for being
+creative, interesting, and challenging — it challenges the player with one hundred
+puzzles, gradually increasing in difficulty. Its design is incredible, and Hasbro surely
+hoped they might have another Rubik’s Cube on their hands. But sadly, it did not
+sell well. Why? It violated our first puzzle principle — the goal was not clear. Its
+curious stair-step design made it difficult to guess the goal, or even guess how you
+might interact with it at all, just by looking at it. Even after you have purchased it,
+the game still tells you little about what you are supposed to do. The player must
+figure out the goal of each puzzle, and then try to solve it, and each of the one hundred puzzles has a different goal. It’s the sort of thing that hardcore puzzle freaks
+love, but a more general audience finds frustrating, because it is a very open-ended
+kind of problem that gives little feedback about whether you are on the right track.
+
+When designing puzzles, make sure to view them through Lens #25: The Lens of
+Goals, and make sure that you are clear to the player about what you want them to
+know about the goals of your puzzle.
+
+Puzzle Principle #2: Make It Easy to Get Started
+
+Once a player understands the goal of your puzzle, then they need to get started
+solving it. With some puzzles, it is quite clear how to begin. Consider Sam Loyd’s
+famous “15 Puzzle,” whose goal is to slide the tiles back into numerical order from
+1 to 15.
+
+Although the series of moves to solve the puzzle is not obvious, how you would
+get started manipulating it is very clear to most players. Contrast that to this puzzle,
+where the goal is to figure how which digit each letter represents:
+
+X DA
+
++DFB
+
+ADFH
+
+--- Page 7 --GOOD PUZZLES
+
+Like the 15 puzzle, the goal is very clear. However, most players are at a complete
+loss as to how to begin solving a puzzle like this. Hardcore puzzle solvers will likely
+begin a lengthy trial-and-error session to figure out how they might approach it, but
+most players will just abandon it as “too hard.”
+
+Another piece of wisdom from Scott Kim is “To design a good puzzle, first build
+a good toy.” And it makes sense to pull out Lens #15: The Lens of the Toy when
+designing your puzzle, for good toys make it obvious how to manipulate them.
+More than that, the player is drawn toward manipulating them. This is one of the
+things that made Rubik’s Cube so successful: even someone who has no intention
+of trying to solve the puzzle wants to see what it feels like to touch it, hold it, and
+twist it.
+
+Lens #48: The Lens of Accessibility
+
+When you present a puzzle to players (or a game of any kind), they should be
+able to clearly visualize what their first few steps would be. Ask yourself these
+questions:
+
+e How will players know how to begin solving my puzzle, or playing my
+game? Do I need to explain it, or is it self-evident?
+
+e Does my puzzle or game act like something they have seen before? If it
+does, how can I draw attention to that similarity. If it does not, how can I
+make them understand how it does behave?
+
+e@ Does my puzzle or game draw people in, and make them want to touch it
+and manipulate it? If not, how I can I change it so that it does?
+
+Puzzle Principle #3: Give a Sense of Progress
+
+What is the difference between a riddle and a puzzle? In most cases, the big difference is progress. A riddle is just a question that demands an answer. A puzzle
+also demands an answer, but frequently involves manipulating something so that
+you can see or feel yourself getting closer to the solution, bit by bit. Players like this
+sense of progress — it gives them hope that they may actually arrive at an answer.
+Riddles are not this way — you just have to think and think, and maybe start making guesses, which are either right or wrong. In early computer adventure games,
+riddles were frequently encountered, since they were so easy to put into a game —
+but the “stone wall” they give to the player is so frustrating that they are virtually
+absent from modern adventure games.
+
+But there is a way to turn a riddle into a puzzle — it’s a game we call “Twenty
+Questions.” This is the game where one player thinks of a thing or a person, and
+
+--- Page 8 --CHAPTER TWELVE ¢ GAME MECHANICS SUPPORT PUZZLES
+
+the other player gets to ask twenty yes/no questions in an attempt to learn what the
+first player is thinking of.
+
+The great thing about the game of Twenty Questions is the sense of progress that
+a player gets. By using their questions to gradually narrow down the space of possible answers, they can get closer and closer to a solution — after all, 29 is over
+one million, and this means that twenty well-crafted yes/no questions could home
+in on one answer out of a million possibilities. When players get frustrated playing
+Twenty Questions, it is because they feel like they aren’t getting any closer to an
+answer.
+
+One of the things that made players persistently try to solve Rubik’s Cube is the
+sense of progress it gives. Gradually, a novice player is able to add more and more
+colors to one side, until, voila! An entire side is completed! This is a clear sign of
+progress, and something that makes players quite proud! Now they just have to do
+that five more times, right?
+
+Visible progress is so important in puzzles that it becomes our next lens.
+
+Lens #49: The Lens of Visible Progress
+
+Players need to see that they are making progress when solving a difficult problem. To make sure they are getting this feedback, ask yourself these questions:
+
+e@ What does it mean to make progress in my game or puzzle?
+
+e Is there enough progress in my game? Is there a way I can add more interim
+steps of progressive success?
+
+e What progress is visible, and what progress is hidden? Can I find a way to
+reveal what is hidden?
+
+Puzzle Principle #4: Give a Sense of Solvability
+
+Related to a sense of progress is a sense of solvability. If players begin to suspect
+that your puzzle is not solvable, they will become afraid that they are hopelessly
+wasting their time and give up in disgust. You need to convince them that it is solvable. Visible progress is a good way to do this, but so is outright stating that your
+puzzle has an answer. Returning to Rubik’s Cube, it had a very elegant method of
+making it clear to the player that it was a solvable puzzle — when purchased, it is
+already in the solved state — the player then scrambles it up, usually by twisting
+it about a dozen times. At this point, it is quite obviously solvable — in as many
+moves as it took to scramble it, just backwards! But of course, most players find
+that solving it takes many more twists than that. But as frustrated as they may get,
+they never have any doubt that it can be solved.
+
+--- Page 9 --GOOD PUZZLES
+
+Puzzle Principle #5: Increase Difficulty Gradually
+
+We’ve already discussed the fact that difficulty in games should increase gradually (Lens #31: The Lens of Challenge), and successful puzzles also adhere to this
+maxim. But how can a puzzle increase in difficulty? Isn’t it either solved or not
+solved? Most puzzles are solved by taking a series of actions that are often small
+steps toward a chain of goals that leads to solving the puzzle. It is these actions that
+should gradually increase in difficulty. The classic jigsaw puzzle provides a naturally
+balanced series of these steps. A player who tries to solve a jigsaw puzzle doesn’t
+just start sticking pieces together until it is solved; instead they usually follow this
+sequence of steps:
+
+1. Flip all the pieces so that the picture side is up (mindlessly easy)
+2. Find the corner pieces (very easy)
+
+3. Find the edge pieces (easy)
+
+. Connect the edge pieces into a frame (a slight challenge, rewarding when
+completed)
+
+. Sort the remaining pieces by color (easy)
+
+6. Start assembling sections that are obviously near each other (a moderate
+challenge)
+
+7. Assemble the pieces that could go anywhere (a significant challenge)
+
+This gradual increase in difficulty is part of what gives jigsaw puzzles lasting appeal. Now and then, someone releases a jigsaw puzzle that is meant to be
+tougher than normal, and they usually do it by changing the properties of the puzzle so that some (or all) of steps 1 through 6 are eliminated.
+
+One Tough Puzzle, shown below, does just that. And while it is interesting as
+a novelty, the only interesting part about it is how immediately difficult it is. The
+pleasing nature of gradually increasing difficulty that makes jigsaw puzzles a perennial favorite is absent.
+
+FIGURE
+12.6
+
+--- Page 10 --CHAPTER TWELVE ¢ GAME MECHANICS SUPPORT PUZZLES
+
+One easy way to ensure that difficulty increases gradually is to give the players
+control over the order of the steps to your puzzle. Consider the crossword puzzle —
+players have dozens of questions to answer, with each one answered giving hints
+about the unanswered ones. Players naturally gravitate toward answering the questions that are easiest for them and slowly work their way up toward harder questions. Giving the player this kind of choice is called parallelism, and it has another
+excellent property.
+
+Puzzle Principle #6: Parallelism Lets the Player Rest
+
+Puzzles make a player stop and think. A real danger is that the player will be unable
+to think their way past your puzzle and, unable to make progress, will abandon the
+game entirely. A good way to safeguard against this is to give them several different
+related puzzles at once. This way, if they get tired of banging their head on one of
+them, they can go off and try another for a while. In the process of doing that, they
+will have taken a break from the first puzzle, and they may be ready to try it again
+with the renewed vigor that a break can provide. The old saying that “A change is
+as good as a rest” applies perfectly here. Games like crossword puzzles and Sudoku
+do this naturally. But videogames can do it as well. It is the rare RPG that gives
+puzzles and challenges to a player one at a time — much more common is to give
+two or more parallel challenges at once, since the player is much less likely to grow
+frustrated this way.
+
+Lens #50: The Lens of Parallelism
+
+Parallelism in your puzzle brings parallel benefits to the player’s experience.
+To use this lens, ask yourself these questions:
+
+e Are there bottlenecks in my design where players are unable to proceed if
+they cannot solve a particular challenge? If so, can I add parallel challenges
+for a player to work on when this challenge stumps them?
+
+e If parallel challenges are too similar, the parallelism offers little benefit. Are
+my parallel challenges different enough from each other to give players the
+benefit of variety?
+
+e Can my parallel challenges be connected somehow? Is there a way that
+making progress on one can make it easier to solve the others?
+
+Puzzle Principle #7: Pyramid Structure Extends Interest
+
+One more thing that parallelism lends itself to is pyramid puzzle structure.
+This means a series of small puzzles that each give some kind of clue to a larger
+
+--- Page 11 --GOOD PUZZLES
+
+puzzle. A classic example is the Jumble scrambled word game frequently seen in
+newspapers.
+
+FIGURE
+12.7
+
+© Tribune Media Services, Inc. All Rights Reserved. Reprinted with permission
+
+This puzzle could be made simpler by just asking you to unscramble the four
+words. But by having each unscrambled word give a few more letters for a more
+difficult scrambled phrase, the game combines short- and long-term goals. It gradually increases difficulty, and most important, a pyramid has a point: this game
+has a single clear and meaningful goal — to figure out the punch line of the joke
+presented by the cartoon.
+
+Lens #51:The Lens of the Pyramid
+
+Pyramids fascinate us because they have a singular highest point. To give your
+puzzle the allure of the ancient pyramids, ask yourself these questions:
+
+e Is there a way all the pieces of my puzzle can feed into a singular challenge
+at the end?
+
+e Big pyramids are often made of little pyramids — can I have a hierarchy
+of ever more challenging puzzle elements, gradually leading to a final
+challenge?
+
+e Is the challenge at the top of my pyramid interesting, compelling, and clear?
+Does it make people want to work in order to get to it?
+
+Puzzle Principle #8: Hints Extend Interest
+
+“Hints?! What is the point of even having a puzzle if we are going to give hints?” I
+hear you cry. Well, sometimes when a player is about to give up on your puzzle in
+frustration and disgust, a well-timed hint can renew their hope and their curiosity.
+
+--- Page 12 --CHAPTER TWELVE ¢ GAME MECHANICS SUPPORT PUZZLES
+
+And while it “cheapens” the puzzle-solving experience somewhat, solving a puzzle with a hint is much better than not solving it at all. One thing Hasbro’s Nemesis
+Factor did brilliantly was to include a hint system. It featured a “hint” button, and
+the player who presses it gets to hear a brief one- or two-word hint about the puzzle
+they are currently working on like “staircase” or “music.” Pushing it a second time
+gives another less cryptic hint. To help balance this hint system, there is a slight
+points penalty for asking for hints, but generally players are willing to take the hit
+and get a hint than give up on the puzzle altogether!
+
+Today, with walkthroughs of virtually every game available on the Internet, you
+can argue that hints are not really necessary for hard videogame puzzles. But still,
+you might consider them, since solving a puzzle based on a hint can be more enjoyable than just cribbing the answer from someone else.
+
+Puzzle Principle #9: Give the Answer!
+
+No, seriously, hear me out on this one. Ask yourself this question: What is it that
+is so pleasurable about solving puzzles? Most people answer that it is the “Aha!”
+experience you get when you figure out the answer. But the funny thing is that
+experience is triggered not by solving the puzzle, but by seeing the answer. Sure, it’s
+a little sweeter if you solved it yourself, but if you have given serious consideration
+to a problem, your problem-solving brain is primed for a rush of pleasure at merely
+seeing or hearing the answer. Think about mystery novels — they are just big puzzles in book form. And sometimes readers guess the ending ahead of time, but more
+often, they are surprised (Oh! The butler did it! I see now!), which is just as pleasurable, or weirdly, more pleasurable than if they had figured it out themselves.
+
+So, how can you put this into practice? In the age of the Internet, you probably
+won't have to — if your game is known at all, answers to your puzzles will quickly
+be posted online. But why not consider saving your players the trouble, and give
+them a way to find out the answers to your puzzles from within your game, if they
+are truly stumped?
+
+Puzzle Principle #10: Perceptual Shifts are a
+Double-Edged Sword
+Consider this puzzle:
+
+Can you arrange six matchsticks so they form four equilateral triangles?
+
+No, seriously, consider it. And by that, I mean, try to solve it.
+
+Need a hint? You can find one at www.artofgamedesign.com if you need it.
+
+I’m guessing one of three things happened. Either (A) you’ve seen this one
+before, and solving it involved no pleasurable “Aha,” although maybe there was a
+
+--- Page 13 --A FINAL PIECE
+
+little pleasurable smugness; or (B) you had a “perceptual shift,” that is, a big leap in
+your assumptions, and came up with the right answer, which was very exciting; or
+(C) someone told you the answer, and you had a little bit of “Aha!” combined with
+a little bit of shame for not figuring it out yourself; or (D) you gave up in frustration,
+feeling kind of ashamed.
+
+The point I want to make with this is that puzzles like this, that involve a perceptual shift where “either you get it or you don’t,” are a problematic double-edged
+sword. When a player is able to make the perceptual shift, they receive a great deal
+of pleasure and solve the puzzle. But if they are not able to make the perceptual
+shift, they get nothing. Puzzles like this involve almost no possibility of progress
+or gradual increase in difficulty — just a lot of staring, and straining for inspiration
+to come. They are almost like riddles in this way, and generally, you will find they
+should be used sparingly in videogames or in any other medium where the player
+expects to be able to make continual progress.
+
+A Final Piece
+
+This concludes the ten principles of puzzle design. There are certainly others, but
+these ten can take you a long way if you use them in your designs. Puzzles can add
+a meaningful mental dimension to any game. Before we move on to a new topic, I’ll
+leave you with a final lens that is useful to see if your game has enough puzzles of
+the right kind.
+
+Lens #52: The Lens of the Puzzle
+
+Puzzles make the player stop and think. To ensure your puzzles are doing everything you want to shape the player experience, ask yourself these questions:
+e@ What are the puzzles in my game?
+
+e Should I have more puzzles, or less? Why?
+
+e Which of the ten puzzle principles apply to each of my puzzles?
+
+e@ Do I have any incongruous puzzles? How can I better integrate them into
+the game? (Use Lens #43: The Lens of Elegance to help do this).
+
+In the last few chapters, we have focused on game internals — it is now time
+to consider an external element — the interface of the game.?

@@ -1,0 +1,74 @@
+### METADATA ###
+# source_file: Piloting__Chapman_377_right_of_way.txt
+# char_count: 2843
+# word_count: 492
+### END METADATA ###
+
+AIDS TO NAVIGATION 16
+
+Aids to Navigation
+
+The second category of marker in the USWMS is the
+“1D TO NAVIGATION having lateral or cardinal meaning. In
+selecting types of buoys for use on waters not marked by
+she Coast Guard, the principal objective was to make the
+state system compatible with the federal.
+
+On a well-defined channel, including a river or other
+relatively narrow natural or improved waterway, an aid
+*2 navigation of the USWMS is normally a solid-colored
+buoy. A buoy that marks the left side of a channel viewed
+looking upstream or toward the head of navigation is colored 
+solid black. A buoy that marks the right side, looking
+m the same direction, is colored solid red. (No plans have
+yet been made to change to the green of the IALA-B system.) 
+
+On a well-defined channel, solid-colored buoys will
+be found in pairs, one for each side of the channel that
+they mark, and opposite each other, leaving no doubt that
+the channel lies between the red and the black buoys.
+
+On irregularly defined channels, solid-colored buoys
+may be used singly in staggered fashion on alternate sides
+provided that they are spaced at sufficiently close intervals 
+to clearly inform the skipper that the channel lies
+between the buoys and that he should pass between them.
+In the USWMS, shape is less important than color. 
+Occasionally, solid red buoys will be of can shape 
+rather than nun.
+
+Figure 1613 Running upstream in state-marked waters,
+port and red buoys to starboard, outboard of a red-and-white o
+bstruction buoy, south or west ofa red-topped white buoy, 
+and north or east of a white buoy with a black top.
+
+
+Where there is no well-defined channel, or when a body
+of water is obstructed by objects whose nature or location
+is such that the hazard might be approached from more
+than one direction, a cardinal system is used. The use of
+the cardinal system is strictly limited to waters wholly
+subject to state jurisdiction or waters covered by a Coast
+Guard-state agreement.
+
+A white buoy with red top indicates that a boat must
+pass to the south or west of the buoy.
+
+A white buoy with black top indicates that the safe
+water is to the north or east of the buoy.
+
+A buoy with alternate red and white vertical stripes
+indicates that an obstruction extends between that buoy
+and the nearest shore. The number of red and white stripes
+may ‘vary, but the width of the white stripes will always
+be twice that of the red ones. See Figure 1613.
+
+Characteristics of Markers and Aids
+
+The size, shape, material, and construction of all markers, fixed or floating, is at the discretion of the state authorities. They must, however, be visible under normal
+conditions from a safe distance.
+
+Numbers
+
+State aids and regulatory markers may carry numbers,
+letters, or words. These are placed so they are clearly

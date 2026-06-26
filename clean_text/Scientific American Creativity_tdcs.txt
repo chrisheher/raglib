@@ -1,0 +1,87 @@
+
+Participants were first given 27 problems that all involved 
+one type of solution, namely changing an “X” to a “V.”
+The goal was to prime the subjects to become fixed in one 
+way of solving problems. Once people have learned to solve
+a problem, past research has shown, they often struggle to 
+generate solutions using a different approach. As economist John
+Maynard Keynes put it, “The difficulty lies not in grasping the new ideas but
+rather in escaping from the old ones.” The participants then received five
+minutes of DC stimulation. For one third of the group, we placed the cathode 
+on the left anterior temporal lobe (to decrease the likelihood of neurons firing
+in that area) and the anode on the right anterior temporal lobe (to boost the
+chances of neuronal activity there). For another 20 participants, we switched
+the cathode and the anode. The final third received sham stimulation.
+
+Next the subjects had six minutes to
+solve another problem. This task required 
+a different kind of solution. As we
+had expected, many people were stuck.
+Yet 60 percent of those in the group that
+received stimulation according to our 
+parameters solved the problem. Only 20
+percent of those in the placebo group
+solved the new problem, and reversing
+the direction of stimulation did not have
+a significant effect on performance.
+
+We did a follow-up study to ensure
+that our results were not a fluke. This
+time we used a notoriously difficult
+task—the classic nine-dots problem. The
+goal is to connect all nine dots with four
+straight lines, drawn without lifting pen
+from paper or retracing a line. A century
+of research has established that in the lab
+setting, at most 5 percent of participants
+manage to crack it, and very likely fewer
+manage to do so. Most people fail to 
+decipher it even with hints and plenty of
+time. The reason is that the problem activates 
+seemingly relevant prior knowledge
+that obstructs the solution. We tend to see
+the dots as a square, with rigid boundaries. 
+
+Solving the puzzle requires the examinee to do 
+away with false constraints and view the problem in a new light.
+Subjects were given three opportunities to solve the nine-dots problem: 
+they tackled it for three minutes before brain stimulation, 
+three minutes during stimulation and three minutes immediately 
+after the current was turned off. None of our participants solved 
+the problem before stimulation or in the sham condition.
+
+"Yet 14 out of 33 individuals did so as a result
+of receiving stimulation at the anterior temporal 
+lobes according to our protocol. We calculated that the probability
+that this fraction of people could solve it
+by chance is less than one in a billion.
+
+FURTHER READING
+
+Many questions remain unanswered,
+of course. The precise effects of tDCS inside the brain are not completely understood, so mechanisms other than the
+ones we theorize might explain our results. The outcome of DC stimulation
+also depends on various factors, including which hemisphere is dominant and
+what the recipient’s mental state is. Furthermore, problems are often difficult in
+multiple ways, and tDCS may only help
+with overcoming one of the many bottlenecks. 
+In addition to ironing out these issues, we are now 
+testing whether we can induce the ability to formulate 
+new questions—another critical component of genius. 
+
+
+Questioning is exemplary of receptiveness to novelty and 
+is often obstructed by our preconceptions.
+
+We want to emphasize that our approach aims not to enhance an existing
+ability but to reduce the limitations of
+prior knowledge. This type of cognitive
+enhancement is qualitatively different
+from what scientists normally seek to
+develop. Ultimately our goal is to develop 
+a device that circumvents mental
+blocks to creativity. Having at our disposal 
+two approaches—the usual way of
+thinking and the autistic focus on detail
+could facilitate the ability to make
+truly novel connections, which is the essence of creative genius. 

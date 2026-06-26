@@ -1,0 +1,39 @@
+### METADATA ###
+# source_file: The Elements of Style__Strunk_glossary5.txt
+# char_count: 1609
+# word_count: 274
+### END METADATA ###
+
+subordinate clause -> A clause dependent on the main clause ii
+sentence. After we finish our work, we will go out for dinner.
+
+syntax  --> The order or arrangement of words in a sentence.
+may exhibit parallelism (7 came, I saw, I conquered), inversion (WV
+woods these are I think I know), or other formal characteristics.
+
+tense  -> The time of a verb’s action or state of being, such as pu
+present, or future. Saw, see, will see.
+
+transition -> A word or group of words that aids coherence in wrilin
+by showing the connections between ideas. William Carlos Will
+was influenced by the poetry of Walt Whitman. Moreover, Williamy’
+emphasis on the present and the immediacy of the ordinary represent
+a rejection of the poetic stance and style of his contemporary T.S. Eli
+In addition, Williams’s poetry....
+
+transitive verb -> A verb that requires a direct object to complete il
+meaning: They washed their new car. An intransitive verb does no
+require an object to complete its meaning: The audience laughed. Many
+verbs can be both: The wind blew furiously. My car blew a gasket.
+
+verb -> A word or group of words that expresses the action or indicate:
+the state of being of the subject. Verbs activate sentences.
+
+verbal -> A verb form that functions in a sentence as a noun, an adjec:
+tive, or an adverb rather than as a principal verb. Thinking can be fun,
+An embroidered handkerchief. (See also gerund, infinitive, and participle.)
+
+voice -> The attribute of a verb that indicates whether its subject is
+active (Janet played the guitar) or passive (The guitar was played by
+Janet).
+

@@ -1,0 +1,151 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_114_winterizing.txt
+# char_count: 4455
+# word_count: 771
+### END METADATA ###
+
+Maintenance and Repair Procedures, Part One
+
+Eight taps is far better than a heavy blow.
+
+Au don’t have a ball-peen hammer, you can use
+
+A-end wrench, an upside-down carriage head
+boi, or any other curved metal object. Where the out-
+line of the piece being gasketed is not sharp enough to
+cut the gasket paper, rub an oily finger over it. This
+leaves a clear enough line to follow with a knife or a
+pair of scissors.
+
+Winterizing
+
+Certain aspects of laying up a boat for the winter have
+already been covered. Here is a quick recapitulation
+and a few additional points.
+
+1. All raw-water systems must be drained, with
+particular attention to low spots. Remove the
+impeller from flexible-impeller raw-water
+pumps then run the engine for a second or
+two to drive remaining water out of the
+exhaust system. Lightly lubricate the pump
+impeller with dish-washing liquid and replace
+it, leaving the cover loose. (Put a conspicuous
+notice somewhere to remind yourself that you
+have done this.) Alternatively, close the seawater 
+intake seacock, disconnect the rawwater pump suction line, 
+place it in a bucket
+of 50% water mixed with 50% antifreeze,
+and run the engine until the solution is
+pumped out of the exhaust.
+
+2. Break loose the exhaust and check for carbon
+accumulation. Check the raw-water-injection
+elbow for corrosion.
+
+3. Check the antifreeze in closed cooling systems 
+and preferably renew it.
+
+4. Remove the battery from the boat and put it
+on a float charge.
+
+5. Check the sediment bowl of a primary fuel
+filter for any water and take a sample from
+the bottom of the tank, which should be
+pumped out as necessary. Filling the tank will
+reduce the volume of air in it, cutting down
+
+on condensation.
+
+6. Change the engine oil at the beginning
+winter, not the end. Diesel engine oils burn
+up corrosive acids and some water over time
+
+You don’t want these going to work on the
+bearings all winter long.
+
+7. Squirt a small amount of oil into the air-inlet
+manifold if at all possible and turn over the
+
+engine (without starting) to draw the oil int
+
+the cylinders and spread it around the upper
+cylinder walls. I
+
+8. Grease all grease points. M
+
+9. Remove the inner wires of all engine control!
+from their outer sheaths, clean, inspe
+
+grease, and replace (see Chapter 8). i
+
+10. Inspect all flexible feet and couplings for
+signs of softening (from oil and diesel lea!
+
+11. Inspect all hoses for signs of softening, cracking
+, bulging, or all of these, especially ho:
+
+on the hot side of the cooling system and
+
+the exhaust. Rinse out anti-siphon valves with
+fresh water. Undo all hose clamps a turn ¢
+
+two to check for crevice corrosion under th
+
+clamp, then retighten. i
+
+12. Seal all openings into the engine (air inl
+breathers, exhaust) and the fuel tank vent.
+
+a conspicuous notice somewhere that 4,
+
+have done this so that you remember t
+
+unseal everything at the start of the new se d
+
+son or serious damage may result.
+
+When recommissioning the engine in the spring
+you will need to refill the raw-water system (if it we
+drained), bleeding the pump and piping as necessa
+tighten down the cover on the raw-water pu
+replace the battery; and unseal all the openings
+the engine. Then you must crank the engine for 3(
+seconds, with the throttle closed, to relubricate all
+bearings before you start it. This is particualrly essen
+tial on supercharged engines. i
+
+Chapter 7
+
+Maintenance at.
+Procedures,
+Decarbonizing
+
+Sooner or later carbon build-up in the cylinders, and —
+in the cylinder head, will necessitate decarbonizit
+aid doing a valve job. Decarbonizing consists
+femoving the cylinder head, and perhaps the p
+wid removing baked-on carbon from them and il
+i#sociated parts (valves, etc.). an
+
+In the case of engines whose valves are operated —
+ly push rods, this is well within the capability of an
+fwiateur mechanic and should give no cause [0
+alarm, As in all other areas of maintenance, as long 44
+you keep the work area and engine clean in 2
+
+roach the job calmly and methodically, you
+
+ouldn’t encounter any insurmountable problems, — a
+
+On engines with an overhead camshaft (a @
+shaft in the cylinder head eliminates the need for p
+yods), removing the cylinder head to decarbonize
+ilisturb the valve (and possibly the injection puny me
+timing. At the end of this chapter the general princi
+» that govern pump and valve timing are dese
+
+{ a manufacturer’s manual may be neces
+learn the specific procedure for timing a particular —
+
+pine.

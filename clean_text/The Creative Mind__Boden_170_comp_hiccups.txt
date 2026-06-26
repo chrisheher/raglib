@@ -1,0 +1,99 @@
+### METADATA ###
+# source_file: The Creative Mind__Boden_170_comp_hiccups.txt
+# char_count: 4920
+# word_count: 835
+### END METADATA ###
+
+
+
+Frequently, they fail to make an inference that is so obvious to people
+that the programmer did not think of including any procedure to make
+it possible. Consider this ‘mis-spun’ tale from TALE-SPIN, for
+example:
+
+Henry Ant was thirsty. He walked over to the river bank where his 
+good friend Bill Bird was sitting. Henry slipped and fell in the river. 
+
+This was not the denouement intended by the programmer, who had
+expected that Bill would save Henry (in other words, that Bill would
+cooperate with Henry in solving Henry’s problem). But he had not
+(yet) included any rule which enabled one character to notice what
+nearby character was doing. Because of the rule that being in water
+prevents speech, Henry was unable to ask Bill to save him, or even to tell
+him that he had fallen into the river. So the unfortunate ant went,
+unnoticed, to a watery grave. 1
+
+Many other mis-spun tales could be cited. Lack of elementary
+world-knowledge, on the part of at least one of the procedures within:
+the program, can lead to this sort of thing:
+
+One day Joe Bear was hungry. He asked his friend Irving Bird where some
+honey was, Irving told him there was a beehive in the oak tree. Joc threatened I
+to hit Irving if he didn’t tell him where some honey was. . . . '
+
+Sometimes, a program’s lack of common sense can lead to a story
+containing an infinite loop:
+
+Joe Bear was hungry. He asked Irving Bird where some honey was. I
+refused to tell him, so Joe offered to bring him a worm if he'd tell him where
+some honey was. Irving agreed. But Joe didn’t know where any worms were,
+so he asked Irving, who refused to say. So Joc offered to bring him a worm i
+he'd tell him where a worm was. Irving agreed. But Joe didn’t know where any
+worms were, so he asked Irving, who refused to say. So Joe offered to bring him
+a worm if he'd tell him where a worm was... . .
+
+The problem, here, was the program’s sketchy understanding of goal~
+structure. (What story-writing heuristic — dealing with the attribution
+of goals to characters — do you think was added to prevent this sort of
+absurdity?)
+
+Human authors usually take care of such matters without even
+consciously thinking about them. Occasionally, they slip up: some
+novelists unintentionally ‘jump’ a character from springtime in Paris in
+one chapter to the previous winter on the Adriatic in the next. This is
+why publishers’ editors rqutinel check manuscripts for continuity of
+space, time, apparel mn proper names.
+
+A Story-interpreting program can therefore usually rely on the
+(human) author's having produced something sensible. A storygenerating program,
+ by contrast, has to do everything for itself. No
+wonder, then, if narrative disasters — like the tragedy of the drowning
+ant — crop up on every page.
+
+The third reason for the difficulty of modelling literary creativity in
+computer programs is the complexity and subtlety of natural language:
+grammar, vocabulary and meaning.
+
+Anyone who thinks that grammatical skill has nothing to do with
+creativity should remember the programmed detective-stories quoted
+above. Not even the most unimaginative hack authors write such
+boringly unstructured sentences. Their aesthetic value is nil.
+
+The prose actually produced by TALE-SPIN is no better, for the
+program’s linguistic module (aptly named ‘MU MBLE’) cannot cope
+with compound sentences, or with pronouns. The perfectly acceptable
+sentence ‘But Joe didn’t know where any worms were, So he asked
+Irving, who refused to say’_is a tidied-up version produced by
+programmer. MUMBLE’s equivalent was something like this: “Joe
+Var now where any worms were. Joe asked Irving where the worms
+were. Irving refused to tell Joe where the worms were.”
+
+In fairness, the programmers concerned were not interested in the
+grammatical capabilities of their programs, only in generating plots.
+But the fact remains that a convincing computer-author would need to
+be able to write grammatically complex prose.
+
+Much as programs for interpreting stories (or melodies) are, in
+general, more successful than programs for writing them, so most
+language-using programs can only parse — not produce — elegant
+syntax. A few, however, can generate sentences with highly complex
+grammatical structure. For instance, a program playing noughts and
+crosses came up with the following passage to describe the game
+indicated in Figure 7.11:
+
+I started the game by taking the middle of an edge, and you took an end of
+the opposite one. I threatened you by taking the square opposite the one Thad
+just taken, but you blocked my line and threatened me. However, I blocked
+your diagonal and threatened you. If you had blocked my edge, you would
+have forked me, but you took the middle of the one opposite the corner I had
+just taken and adjacent to mine and so I won by completing the edge.'*

@@ -1,0 +1,98 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_230_glossary2.txt
+# char_count: 5293
+# word_count: 854
+### END METADATA ###
+
+THe NEWw-SKIPPER’S BowDITcH / 230
+
+acknowledgement of receipt shall not be given before the distress
+message is sent. Follow this procedure: (1) Send the distress call,
+consisting of the distress signal ‘“‘Mayday”’ (spoken three times) and
+the words ‘‘This is’? (spoken once) the call sign or name of the
+vessel in distress (spoken three times). (2) The distress message follows 
+immediately and consists of: the distress signal ‘‘Mayday,”’
+then (a) the call sign and name of the vessel in distress; (b) particulars
+of its position—true bearing and distance from a known geographical position; 
+(c) the nature of the distress; (d) the kind of
+assistance desired; (e) the number of persons aboard and the condition of any injured; 
+(f) present seaworthiness of vessl; (g) description of the vessel (length; type; cabin; masts; power, color of hull,
+superstructure, tri; etc.); (h) any other information that might facilitate the rescue, such as display of a surface-to-air identification signal or a radar reflector; and (i) your listening frequency and schedule;
+finally, ‘“This is’’ (call sign and name of vessel in distress). ‘‘Over.””
+Complete radio preedures are given in Coast Pilots, under ‘*‘General
+Information.”’
+
+radio operating procedures (General)—(1) Keep your transmissions
+brief. (2) Identify your vessel—name and call sign. (3) Listen before
+transmitting. (4) Give priority to distress or safety communications.
+(5) Speak normally—don’t shout or whisper. (6) Signify you are
+finished by saying ‘‘Over.’’ (7) Signify that no response is necessary
+by saying ‘‘Out.’’ (8) Signify that you are a decent, thoughtful skip
+per by keeping your kids off the air and away from your radiotelephone.
+
+radiobeacon—a radio transmitter emitting a characteristic signal to
+permit a craft with suitable equipment to determine its position relative to the beacon.
+
+radionavigation—navigation using radio waves for determination of
+position or of a line of position. Radar navigation and satellite nav:
+igation are parts of the radionavigation division. Radar navigation
+involves the use of radio waves, usually in the centimeter band, to
+determine the distance and direction of an object reflecting the wave®
+to the sender. Satellite navigation involves the use of artificial earth
+satellites for determination of position. The term electronic Navigd
+tion is used to refer to navigation involving the use of electronics im
+any way. Thus the term includes the use of the gyrocompass for
+steering and the echo sounder when piloting.
+
+range—1, two or more objects in line; 2, the extreme distance at which
+an object or light can be seen or a radio signal can be used,
+
+
+range lights—two or more lights in the same horizontal direction,
+particularly those lights so placed as navigational aids to mark any
+line of importance to vessels, as a channel.
+
+red sector—a sector of the circle of visibility of a navigational light
+in which a red light is exhibited.
+
+relative bearing—a bearing relative to the heading, or to the vessel
+itself. It is usually measured from 000° at the heading, clockwise
+through 360°. However, it is sometimes conveniently measured right
+or left from 0° at the ship’s head through 180°. Older methods, such
+as indicating the number of degrees or points from some part of the
+vessel (10° forward of the starboard beam, two points on the port
+quarter, etc.) are seldom used today to indicate precise directions,
+except for bearings ahead or astern, or broad on the bow, beam, or
+quarter. To convert a relative bearing to a bearing from north, express
+the relative bearing in terms of the 0°-360° system and add the heading 
+(true bearing = relative bearing + true heading), Thus if another
+vessel bears 127° relative from your ship whose heading is 140", the
+bearing from north is 127° + 150° = 277°. If the total exceeds 460",
+subtract this amount. To convert a bearing from north to a relative
+bearing, subtract the heading (relative bearing ~ true bearing — true
+heading). Thus a lightship which bears 241° from north bears 241°
+— 137° = 104° relative from your vessel whose heading ts 147°, I
+the heading is larger than the true bearing, add 360° to the true
+bearing before subtracting.
+
+rhumb lines and great circles—the principal advantage of a rhumb
+line is that it maintains constant true direction. A ship following the
+rhumb line between two places does not change true course, A rhumb
+line makes the same angle with all meridians it crosses and appears
+as a straight line on a Mercator chart. It is adequate for most pur
+poses of navigation. Bearing lines (except long ones, like those
+obtained by radio) and course lines are both plotted on a Mereator
+chart as rhumb lines, except in high latitudes. The equator and the
+meridians are great circles, but may be considered special cases of
+the rhumb line.
+
+rotary current—a tidal current which changes direction progressively
+through 360° during a tidal-day cycle, without coming to slack water.
+
+running fix—a position determined by crossing lines of position with
+an appreciable time difference between them and advanced or retired
+to a common time.
+
+sailing chart—a small-scale nautical chart for offshore navigation.
+
+sailing directions—a descriptive book for the use of mariners, con-

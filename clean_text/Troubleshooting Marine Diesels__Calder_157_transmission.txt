@@ -1,0 +1,40 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_157_transmission.txt
+# char_count: 1230
+# word_count: 204
+### END METADATA ###
+
+156 Marine Transmissions
+
+RH rotation of
+input shaft
+
+forward clutch engaged
+reverse clutch disengaged;
+this gear freewheels
+
+reverse clutch engaged
+forward clutch disengaged ;
+coupling output flange this gear freewheels
+
+Figure 8-5. Two-shaft transmission. With the forward clutch engaged (left), the output
+shaft rotates in the direction opposite to the input shaft. With the reverse clutch engaged
+
+
+Shaft Brakes
+
+When a boat is being towed or is under sail with the
+motor shut down, the flow of water over a fixed-blade
+propeller (for more on propellers, see Chapter 9) will
+spin the propeller unless the propeller shaft is locked
+in some way. This is of little concern with manual and
+two-shaft transmissions, except that it creates unned=
+essary wear on bearings, oil seals, and the stuffing
+box. But on some hydraulic transmissions (e.g., Some
+Detroit Diesels), it will lead to a complete failure af
+the transmission since no oil is pumped to the bear:
+ings when the engine isn’t running. Some output-shaft
+oil seals (particularly rawhide seals) also will fail,
+Boats with folding and feathering propellers do
+
+

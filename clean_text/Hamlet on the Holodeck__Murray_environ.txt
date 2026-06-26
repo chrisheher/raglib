@@ -1,0 +1,33 @@
+### METADATA ###
+# source_file: Hamlet on the Holodeck__Murray_environ.txt
+# char_count: 3943
+# word_count: 700
+### END METADATA ###
+
+of what we see in an integrated and shapely manner. The solution is
+the kaleidoscopic canvas that can capture the world as it looks from
+many perspectives—complex and perhaps ultimately unknowable
+but still coherent.
+
+Morphing Story Environments
+
+Another kind of narrative experience that takes advantage of the
+shape-shifting digital medium is one in which interactors are invited
+to enact or construct their own stories out of a set of formulaic 
+elements. We can think of such an environment as not so much a story
+as a narrative world that is capable of supporting many possible stories. 
+Brenda Laurel has suggested that virtual reality is not for passive
+entertainment but for active free-form play and that adults are 
+capable of such play if their imaginations have been “booted up” by 
+an environment with rich narrative possibilities. In chapters 7 and 8 we
+will look at some of the computational and literary techniques that
+might allow us to build such environments. For now, let us assure
+that we have a kind of animated doll’s house with characters who are
+as interesting to adults as the characters on the TV series NYPD Blue
+or ER or One Life to Live. Suppose we could enter such an environment
+not merely as players in a MUD but as a god in control of assembling 
+all the characters. Suppose we could set the story of out
+choice in motion and then observe or participate in it, slipping in and
+out of whichever roles appealed to us. What would such narrative
+play be like? Where would it lead to?
+

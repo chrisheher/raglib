@@ -1,0 +1,69 @@
+ A model of the causal theory of creativity.
+
+Hence the mostly normally distributed conditions for supreme achievement
+interact in such a manner as to produce a J-shaped distribution, with huge
+numbers of non- or poor achievers, a small number of high achievers, and the
+isolated genius at the top.
+
+This, in very rough outline, is the theory here put forward. As discusseil,
+there is some evidence in favour of the theory, and very little against it. Can we
+
+safely say that the theory possesses some scientific credentials, and may be said
+to be to some extent a valid account of reality? There are obvious weaknesses,
+Genius is extremely rare, and no genius has so far been directly studied with
+such a theory in mind. My own tests have been done to study deductions from
+the theory, and these have usually been confirmatory. Is that enough, and how
+far does it get us?
+
+Terms like ‘theory’, of course, are often abused. Thus Koestler (1964)
+attempts to explain creativity in terms of his theory of ‘bisociation’ according
+to which the creative act ‘always operates on more than one plane’ (p. 36). This
+is not a theory, but a description; it cannot be tested, but acts as a definition,
+Within those limits, it is acceptable as a non-contingent proposition (Smets:
+lund, 1984), i.e. necessarily true and not subject to empirical proof. A creative
+
+epts. As an example, consider US Patent 5,163,447, the ‘force-sensitive,
+ind-playing condom’, i.e. an assembly of a piezo-electric sound transducer,
+erochip, power supply and miniature circuitry in the rim of a condom, so
+it when pressure is applied, it emits ‘a predetermined melody or a voice
+sage’. Here is bisociation in its purest form, bringing together mankind’s
+) most pressing needs, safe sex and eternal entertainment. But there is no
+yper theory here; nothing is said that could be disproved by experiment.
+sory implies a lot more than simple description.
+
+The philosophy of science has thrown up several criteria for judging the
+cess of a theory in science. All are agreed that it must be testable, but there
+» two alternative ways of judging the outcome of such tests. Tradition
+pcluding the Vienna school) insists on the importance of confirmation, the
+‘ory is in good shape as long as results of testing deductions are positive
+juppe, 1974). Popper (1959, 1979), on the other hand, uses falsification as his
+iterion, pointing out that theories can never be proved to be correct, because
+* cannot ever test all the deductions that can possibly be made. More recent
+riters like Lakatos (1970, 1978; Lakatos and Musgrave, 1970) have directed
+eir attention rather at a whole research programme, which can be either
+dvancing or degenerating. An advancing research programme records a
+umber of successful predictions which suggest further theoretical advances; a
+legenerating research programme seeks to excuse its failures by appealing to
+reviously unconsidered boundary conditions. On those terms we are surely
+a Ze with an advancing programme shift; building on research already
+lone, many new avenues are opening up for supporting or disproving the
+heories making up our model.
+
+It has always seemed to me that the Viennese School, and Popper, too, were
+yrong in disregarding the evolutionary aspect of scientific theories. Methods
+propriate for dealing with theories having a long history of development
+might not be optimal in dealing with theories in newly developing fields,
+acking the firm sub-structure of the older kind. Newton, as already menioned, succeeded in physics, where much sound knowledge existed in the
+background, as well as good theories; he failed in chemistry/alchemy where
+they did not. Perhaps it may be useful to put forward my faltering steps in this
+yery complex area situated between science and philosophy (Eysenck, 1960,
+[985b).
+
+It is agreed that theories can never be proved right, and equally that they are
+dependent on a variety of facts, hunches and assumptions outside the theory
+itself; these are essential for making the theory testable. Cohen and Nagel
+(1936) put the matter very clearly, and take as their example Foucault’s
+famous experiment in which he showed that light travels faster in air than in
+water. This was considered a crucial experiment to decide between two
+hypotheses: H,, the hypothesis that light consists of very small particles
+travelling with enormous speeds, and H,, the hypothesis that light is a form of

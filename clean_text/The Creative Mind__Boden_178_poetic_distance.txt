@@ -1,0 +1,101 @@
+### METADATA ###
+# source_file: The Creative Mind__Boden_178_poetic_distance.txt
+# char_count: 5374
+# word_count: 887
+### END METADATA ###
+
+
+analogies than an author does in producing them, so the analogy 
+mapping program has less work to do than the analogy-retriever.
+ACME is presented with a specific analogy, and has to make sense of it.
+But ARCS has to find an analogy for a given concept, without any hints
+from outside as to which information in its memory (WordNet again)
+may be relevant. There are always many possible choices. (Open your
+dictionary and pick two concepts at random: very likely, they will have
+some degree of similarity.) Somehow, ARCS must pick the best one.
+
+It does this in two steps. First, it finds a large set of potential
+analogues which are semantically similar to the input-concept, and
+uses multiple constraint-satisfaction to whittle these down to the few
+whose meaning is closest of all. Second, it considers these few in terms
+of all three general constraints: not just meaning, but structure and
+pragmatic importance too. This step, likewise, involves multiple
+constraint-satisfaction. In this way, ARCS finds the best match overall
+(even though other candidates may be better on a single criterion).
+
+You probably feel that the program-generated analogies, and Socrates’
+analogy too, are less creative than the comparisons (in Macbeth’s speech)
+of sleep with a knitter or a hot bath. - Why? How does this literary
+intuition fit with the definition of creativity introduced in Chapter 3? Can
+we say that the program's (and Socrates’) novel ideas could have
+happened before, whereas Shakespeare’s new ideas could not? Or must
+we allow that all these analogies are equally creative? After all, a
+philosopher is not (usually!) a midwife, and sleep is not a hot bath. Why do
+we regard one as more imaginative than the other?
+
+The key, here, is the extent to which the semantically central features
+of one half of an analogy are matched in the other half. In the
+Shakespearean examples, a central feature of one analogue is not
+matched in the other, the analogy being carried only by the more
+peripheral features.
+
+Thus to compare one animate, human being with another
+(midwife/philosopher) is less creative than to compare a mode of
+consciousness (sleep) with a human being (knitter) or an inanimate
+object (bath). To think of a philosopher or midwife—or a knitter—in the
+literal sense, one must think of them as animate. But the literal meaning
+of sleep does not allow us to think of it in that way. To do so, is to do
+something which could not be done according to the normal constraints
+on meaning.
+
+“Poetic licence’ enables poets to ignore familiar constraints of
+meaning (and of truth), at the cost of requiring the reader to do more
+interpretative work. Because its creators are interested in the
+philosophy of science (and have applied ARCS to some historically
+important scientific concepts), ARCS is designed to pick the closest
+analogy, given a certain pragmatic context. But the poet looks for more
+d t analogies, which force us to think about a concept in new ways.
+
+It is precisely Because a knitter is not a close analogue to sleep that
+Shakespeare, like his readers, found the comparison interesting. If
+ARCS were instructed to reject the twenty closest analogies, it would
+come up with some surprising items too.
+
+Moreover, ARCS is designed to highlight one analogy at the expense
+of others. If it found ‘knitter’, ‘death’ and ‘bath’ among the potential
+analogues for ‘sleep’, it would pick death and forget about the rest.
+
+Shakespeare, by contrast, offers us a profusion of intelligible
+analogies. To compare sleep with human beings, death, hot baths,
+ointment and the main course of a meal (not to mention ‘hurt minds’
+and ‘life’s feast’) — all within a single sentence, expressed in a few lines
+of blank verse — is to awaken so many of the ideas latent in our minds
+that we experience a glorious explosion of newly recognized meanings.
+
+Marvellous, this is. But magical, it is not. Shakespeare’s rich store of
+vocabulary, meaning and everyday knowledge — even such mundane
+facts as that meals in England have several courses, of which the second
+is the most sustaining — was an essential source of the lines quoted
+‘above. Inceed;it presumably influenced the sequence in which these
+specific images arose in his mind.
+
+For instance, he often used ‘course’ with reference to the sun’s
+movement, and the phrase ‘death of each day’s life’ may have triggered
+this sense of the word. As he wrote it, however, the food-related sense
+(which was current in his time) may have been excited also, leading in
+turn to the idea of ‘life’s feast’. The expression ‘the course of nature’ (also
+used in Elizabethan times) may have been involved too; once ‘course’ had
+been triggered, it could have been directly associated with ‘nature’.
+
+Shakespeare’s familiarity with the constraints of English grammar
+and iambic pentameter were essential too. Somehow, the computational 
+processes at work in his mind managed to integrate this rich and
+diverse knowledge with general procedures for analogical mapping.
+‘These procedures were certainly much more powerful, and much more
+subtle, than any current program. But they may have been broadly
+comparable.
+
+Analogy is crucial not only to literature, but to the visual and
+performing arts, to science and mathematics, to much humour and to
+everyday chit-chat.
+

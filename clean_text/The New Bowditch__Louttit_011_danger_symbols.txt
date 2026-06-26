@@ -1,0 +1,73 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_011_danger_symbols.txt
+# char_count: 2593
+# word_count: 451
+### END METADATA ###
+
+THe NEW-SKIPPER’S BOWDITCH / 10 Fite: Newitical Chawtul 1
+
+The Bottom’ s Surface
+
+The substance forming the bottom is shown by abbreviation. These
+are listed in part S of Chart No. I. A few of the less well-known terms
+are given below:
+
+Ooze is a soft, slimy, organic sediment composed principally of
+shells or other hard parts of minute organisms.
+
+Marl is a crumbling, earthy deposit, particularly one of clay mixed
+with sand, lime, or decomposed shells. A layer of marl may be quite
+compact.
+
+Shingle consists of small, rounded, water-worn stones, similar to
+gravel but generally larger.
+
+Schist is crystalline rock of a finely laminated nature.
+
+Madrepore is a stony coral.
+
+Lava is rock in the fluid state, or after it has solidified.
+
+Pumice is cooled volcanic glass with a great number of minute cavities. It is very light. i
+
+Tufa is a porous rocky deposit sometimes formed near the mouths
+of rivers.
+
+Scoria (plural: scoriae) is rough, cinderlike lava.
+
+Sea Tangle 1s any of the several species of seaweed, especially those
+of large size.
+
+Spicules are the small skeletons of marine animals such as sponges.
+
+Cirripeda (plural) are barnacles and certain other parasitic marine
+animals.
+
+Fucus is a coarse seaweed growing on rocks.
+
+Matte is a dense, twisted growth of a sea plant such as grass.
+
+Chart Sounding Datum
+
+All depths indicated on charts are reckoned from some selected level 
+symbols shown on Chart No. 1.
+
+For National Ocean — Survey charts of the Atlantic and Gulf Coasts of 
+the United States and Puerto Rico the chart datum is mean low water. 
+Pacific Coast charts of the United States, including Alaska, show mean lower low water.
+Most Defense Mapping Agency Hydrographic Center charts are based
+on mean low water, mean lower low water, or mean lower water
+springs, For charts of the Great Lakes and other areas where tidal
+effects are small or without significance, the datum adopted is 
+approximately the mean water level.
+
+Since the chart datum is generally a computed mean or average height
+ some state of the tide, the depth of water at any particular moment
+muy be less than shown on the chart. For example, if the chart datum
+is mean lower low water, the depth of water at lower low water will
+he less than the charted depth about as often as it is greater. A lower
+Hopth is indicated in the tide tables by a minus sign ( — ). .
+
+The shoreline shown on charts is the high-water line, generally the
+level of mean high water. The heights of lights, rocks, and islets are
+_ generally reckoned from this level. ;

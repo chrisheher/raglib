@@ -1,0 +1,151 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_015_batteries.txt
+# char_count: 4358
+# word_count: 695
+### END METADATA ###
+
+ee _
+TABLE 1-1. Summary of Pros and Cons of Different Battery Technologies
+
+Wet-Cells
+
+SVR/VRLA Batteries
+
+Potentially longer life at lower battery cost
+
+Potentially higher battery cost/shorter life
+
+Tolerant of abuse, including overcharges
+
+Sensitive to overcharging
+
+Slow recharging; if charge times are limited, the total
+cost of the energy produced can be relatively high
+
+Faster recharging; if charge times are limited, this
+helps reduce the total cost of the energy produced
+
+Need periodic equalization
+
+No equalization required
+
+Equalization requires specialized regulator
+
+Specialized regulator advised
+
+Gassing occurs near full charge; explosion risk
+
+No gassing in normal circumstances
+
+Terminal voltage falls under heavy loads
+
+Terminal voltage holds up better
+
+Position-sensitive
+
+Not position-sensitive; can even be upside down
+
+Will vent chlorine gas if submerged
+
+Can be submerged safely
+
+High rate of self-discharge
+
+Low rate of self-discharge
+
+Require regular maintenance
+
+Little maintenance
+
+by the time the engine-running costs are factored
+into the overall cost equation, the cost per amp hour 
+of energy delivered is generally higher than
+that of a gel-cell or AGM, often considerably
+higher. And of course absolute cycle life, and the
+cost per amp-hour delivered, are not the only issues.
+
+If a boat will be left unattended for months at
+afime without the batteries being ChAles* as so
+many are, the lower self-discharge rate of a gelcell 
+or AGM battery will almost certainly make
+~. it the better choice. And if the owner habitually
+iJ neglects even minimal battery maintenance, as
+so many do, the maintenance-free gel-cell or
+AGM is once again the best option. Plus, the
+voltage on a gel-cell or AGM holds up better
+under high-load discharges. The gel-cell or
+AGM gives off no explosive gases or corrosive
+fumes in normal use, and it cannot spill acid into
+the bilges if the boat is well-heeled or knocked
+down. In short, the typical sailor (one who uses
+his or her boat infrequently and does not have
+sophisticated charging devices with equalization
+capability) will find gel-cells or AGMs hard
+to beat as long as charging devices are properly
+regulated.
+
+On the other hand, when an owner does take
+care of batteries, has the devices to adequately
+charge them, can afford the necessary charging time, 
+does not allow the batteries to selfdischarge over 
+long periods, and does not mind
+the maintenance, wet-cell batteries give a longer
+cycle life at less cost. But it is the rare owner who
+meets these conditions.
+
+Note: I am often asked which is better in
+marine cycling applications, a gel-cell or an
+ACM. East Penn, a high-end manufacturer of
+both gel-cells and AGMs, has cycle life data
+showing a greater life expectancy for gel-cells
+regardless of the depth of discharge (see Table
+1-2). Concorde (the manufacturer of Lifeline
+AGM batteries) challenges this, and in real life
+
+you will sometimes find anecdotal evidence that
+‘AGMs do better. I have seen no data adequate to
+make a definitive judgment. However, it is worth
+noting that AGMSs tend to have a lower internal
+resistance. This means they can be charged
+faster, which reduces engine-running times if
+the engine is run solely for battery charging, and
+thus reduces the overall cost of maintaining the
+batteries.
+
+Golf-cart batteries. Finally, golf-cart batteries
+should be mentioned. These are constructed
+similarly to wet-cell deep-cycle batteries and
+have similar operating characteristics. They do
+not have as high a cycle life, but on the other
+hand they take a charge a little faster, are far
+more readily available, and are considerably
+cheaper. In terms of amp-hours per dollar in
+cycling applications, in some applications
+(notably for liveaboard cruisers), they may well
+be the best value for the money of any battery on
+the market.
+
+Other lead-acid batteries. The Optima battery is a
+ variation on AGM technology. It has
+tightly packed, spirally wound plates that have a
+low internal resistance, allowing them to accept
+high recharge rates and to pack a tremendous
+cranking punch into a small envelope with a
+
+TABLE 1-2. Life Cycles Versus Depth of Discharge
+for East Penn Gel-Cells and AGMs
+
+Capacity
+Withdrawn Gel-Cell AGM
+at Each Cycle Life Cycles Life Cycles
+
+10% 3,800 3,100
+
+25% 1,500 925
+50% 650 370
+80% 390 200
+100% 300 150
+
+(Courtesy East Penn)
+
+BATTERIES

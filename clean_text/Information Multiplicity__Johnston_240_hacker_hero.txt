@@ -1,0 +1,87 @@
+### METADATA ###
+# source_file: Information Multiplicity__Johnston_240_hacker_hero.txt
+# char_count: 5277
+# word_count: 843
+### END METADATA ###
+
+240 = The Novel of Media Assemblages
+
+at the same time, which has probably always been the name of that
+ particular game, even before we had the neuroelectronics to enable them to have
+it both ways. (BC 191)
+
+By allowing her body to be rented out in simulated sex at the House of Blue
+Lights, Rikki is finally able to purchase for herself a set of Zeiss Ikon corneal
+transplants made famous by her simstim idol Tally Isham, as well as a oneway ticket to Hollywood.
+
+Ironically, Rikki’s escape from the street and the House of Blue Lights
+occurs on the same night that Bobby and Jack destroy it by “burning”
+Chrome. Thanks to a Russian virus-program that Jack obtains almost by
+accident from Finn, a black market dealer in odds and ends (who reappears
+in the novels), they are able to penetrate Chrome’s data banks and 
+redistribute her assets, with a large chunk of capital for themselves. 
+Successfully back on line, Bobby no longer needs Rikki, and it is curiously
+ fitting as well that Rikki’s departure should coincide with Chrome’s murder, 
+as Jack thinks of it, since for him the two are closely associated: at the story’s outset,
+not wanting to think about Chrome, Jack “blotted her out with a picture of
+Rikki” (BC 169). Now that Rikki is gone, when he sees the identically beautiful eyes of the simstim stars on the posters in the street, he thinks: “some
+of the eyes are hers, but none of the faces are” (BC 191). The story concludes with this image of desire, the force (F which resides in the barely
+perceptible difference between human eyes and their technological replacement.
+
+By drawing attention to such differences, “Burning Chrome” develops a
+structure of parallels and constrasts, of which the most significant 
+is between simstim and cyberspace. You jack in to both by putting “trodes”
+on your temples; when you open your eyes you are “in” a virtual world,
+constructed neuro-electronically. But the obvious difference is that while
+simstim is passive and anodyne, a vicarious experience, cyberspace is 
+interactive and dangerous, requiring the intense focus of a disembodied consciousness. 
+In contrast to the sad dispersion of Rikki into a variety of simulations, Bobby and Jack must maintain a sharply focused integrity, or edge.
+
+Cyberspace cowboys, consequently, are viewed as a heroic type, their existential
+ albeit criminal exploits being one of the few ways in which individuals can 
+confront forces more powerful than themselves and still make an
+effective difference.
+
+These more powerful forces are congealed in the data banks of advanced
+capitalism, arrayed architecturally in a highly protected electronic simulation. 
+
+Here is how Gibson first introduces the cyberspace cowboy and his element:
+
+Bobby was a cowboy, and ice was the nature of his game, ice from ICE,
+Intrusive Countermeasures Electronics. The matrix is an abstract 
+representation of the relationships between data systems. Legitimate programmers
+jack into their employers’ sector of the matrix and find themselves surrounded 
+by bright geometries representing the corporate data.
+
+Towers and fields of it ranged in the colorless nonspace of the simulation matrix, 
+the electronic consensus-hallucination that facilitates the handling and exchange 
+of massive quantities of data. Legitimate programmers never see the walls of ice 
+they work behind, the walls of shadow that screen their operations from others, 
+from industrial-espionage artists and hustlers like Bobby Quine.
+
+Bobby was a cowboy. Bobby was a cracksman, a burglar, casing mattkind’s 
+extended electronic nervous system, rustling data and credit in the
+crowded matrix, monochrome nonspace where the only stars are dense
+concentrations of information, and high above it all burn corporate galaxies 
+and the cold spiral arms of military systems. (BC 169-170)
+
+Having accessed the matrix through a cyberspace deck or “matrix simulator” 
+resembling a computer with a monitor, the cowboy maneuvres in the
+matrix as a bodiless point on a “3-D chessboard, infinite and transparent”
+(BC 168). By punching in coordinates on a keyboard, he moves through
+different sectors of cyberspace. In order to penetrate to the large corporate
+data cores where information can be accessed and manipulated, however,
+the cowboys must rely on “icebreakers,” virus-programs usually of Soviet
+military origin which can dissolve the ICE, or allow their intrusions to
+ masquerade as official inspection probes or legitimate exchanges of data. The
+danger is that some of the protective ICE programs—such as the infamous
+“black ICE”—are deadly “neural feedback weapons” and can cause the
+cowboy to flatline in brain death.
+
+In Neuromancer and its successors, Gibson continues to build the cyberspace cowboy 
+into a recognizable figure, replete with an oral tradition and
+associated mythology. Although his origins are traced back to the military
+technology developed for a special mission in the recent wat against Russia
+(see N 28 for details), the figure of the cyberspace cowboy is something of a
+throwback, an attempt both to glamorize the hacker-as-outlaw and to represent a new and unfamiliar experience by giving its agent a local habitation
+and a name. But however interesting as a fictional type, the cyberspace cow-

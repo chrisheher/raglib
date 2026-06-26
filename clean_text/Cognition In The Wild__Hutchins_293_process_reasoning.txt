@@ -1,0 +1,89 @@
+
+
+
+The proper unit of analysis is, thus, not bounded by the skin of
+skull. It includes the socio-material environment of the person,
+the boundaries of the system may shift during the course. 
+Temporal boundaries are important too. As the analysis of
+construction of the task environment in chapter 3 showed, 
+boundaries on the temporal extent of the unit of analysis also r
+cutting pathways in ways that leave things inexplicable. In 1]
+present context, many things remain inexplicable until we consider
+the history of the person in the task environment. This seems
+epecially pertinent to the nature of learning, since learning must Wy
+consequence of interaction with an environment through time.
+
+In a section titled ‘External Representation and Formal Reasoning
+,” Rumelhart et al. (1986) sketch a proposal for a view of symbolic
+ processing that fits well with what has been proposed 
+They describe doing place-value multiplication with paper am
+pencil as follows:
+
+Each cycle of this operation involves first creating a representatiol
+through manipulation of the environment, then a processing of th
+(actual physical) representation by means of our well-tuned pet
+ceptual apparatus leading to further modification of this repré
+sentation. By doing this we reduce a very abstract_conceptud
+problem_ to_a_series of operations that are very concrete and at
+. 
+This is real symbol processing and, we are beginning to think,
+ the primary symbol processing that
+we are able to do.
+
+They account for internal symbol processing as follows:
+
+Not only can we manipulate the physical environment and then
+process it, we can also learn to internalize the representations we
+create, “imagine” them, and then process these imagined 
+representations—just as if they were external.
+
+With experience we learn about the regularities of the world
+of external symbolic tokens and we form mental models of the
+behaviors of these symbolic tokens that permit us to perform the
+manipulations and to anticipate the possible manipulations. With
+even more experience, we can imagine the symbolic world and
+
+apply our knowledge, gained from interactions with real physical
+symbol tokens, to the manipulations of the imagined symbolic
+worlds. “Indeed,’’ Rumelhart et al. note, “we think that the idea
+that we reason with mental models is a powerful one precisely 
+because it is about this process of imagining an external 
+representation and operating on that.”
+
+These ideas also apply to interactions among individuals.
+Rumelhart et al. propose that we can also imagine aspects of
+interactions and then operate on or with the image of external
+representations:
+
+We can be instructed to behave in a particular way. Responding to
+instructions in this way can be viewed simply as responding to
+some environmental event. We can also remember such an instruction 
+and “tell ourselves” what to do. We have, in this way, internalized 
+the instruction. We believe that the process of following
+instructions is essentially the same whether we have told ourselves
+or have been told what to do. Thus, even here, we have a kind
+of internalization of an external representational format (i.e.,
+language).
+
+The practice of navigation includes many instances of this kind of
+instruction. In an example given at the end of chapter 6, a novice
+and an expert quartermaster organized their activity around a
+written form. That example was actually more complex than any
+considered by Rumelhart et al., but the processes they propose
+should apply here too. In that example, the novice organized his
+own actions by coordinating them with the actions of the expert.
+The development of sequential control of action also concerns the
+relationship of public and private symbol systems and the processes 
+that link them.
+
+In this chapter I will integrate the functional-systems perspective
+with Bateson’s unit of analysis and Rumelhart’s notions of imagining 
+external representations into an account of how internal structures 
+may form as a consequence of experience.
+
+Constructing Action Sequences
+
+There are many ways to construct the sequence of actions that
+constitutes the fix cycle. Quartermasters who get navigation 
+training in school first encounter the sequence of actions of the fix cycle
+as a written list of steps to be performed.

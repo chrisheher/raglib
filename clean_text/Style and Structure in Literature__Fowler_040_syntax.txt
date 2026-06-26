@@ -1,0 +1,73 @@
+### METADATA ###
+# source_file: Style and Structure in Literature__Fowler_040_syntax.txt
+# char_count: 3405
+# word_count: 556
+### END METADATA ###
+
+Larntny 42
+
+CHAPTER TWO
+
+THE SELF-REFLEXIVE ARTEFACT:
+THE FUNCTION OF MIMESIS IN AN
+APPROACH TO A THEORY OF
+VALUE FOR LITERATURE
+
+
+
+The two pillars upon which a theory of criticism must rest 
+are an account of value and an account of communication.
+
+It will, I imagine, seem ridiculous that things are made manifest
+through imitations in letters and syllables; nevertheless it cannot be
+otherwise.
+
+Plato, Cratylus 425d?
+
+In the model of language-production that is assumed for the
+purposes of this paper, a speaker or writer first constructs a
+lexical constellation which mimes a state of affairs; this 
+constellation is then realized in linear and segmental form 
+syntactically, and then either phonologically or graphemically.
+This realization may be produced automatically, that is, with no
+principle of selection operating among its linear elements other
+than the style of the speaker or writer (and that style operating
+outside of awareness), in which case the final speech-act is
+casual prose. On the other hand, there may be conscious or 
+quasiconscious selection and arrangement of syntactic and 
+phonological linear elements of form, in which case a ‘poetic function’
+is operating.
+
+In this paper, the second type of speech-act will be closely
+examined and analysed, to observe the relationship or lack of
+relationship between the principles of selection and arrangement 
+operating on the elements of form to see whether they are
+determined or not determined by the particular state of affairs
+conveyed by the lexical constellation chosen, and also to suggest
+a reason for formal mimesis of content as part of a criterion of
+value for literature.
+
+‘The relation of content to form in poetry is one of the perennial 
+issues of criticism. Some critics deny the existence of the
+problem; ‘meaning’ for them is a term describing the global
+and indivisible effect of a work of verbal art. Others find in the
+‘poetic function’ of language a degree of organization of form
+that in casual discourse usually operates only in the choice of
+expressions of content. However, even among these critics,
+descriptions of relationships between content and form in
+poetry are rare.
+
+The clearest description of a possible reflection of content in
+form is to be found in Donald Davie’s Articulate Energy (1955).
+Davie describes five types of organization of syntax in poetry,
+four of which bear a direct positive relationship to content:
+(1) subjective, whose ‘function is to please us by the fidelity with
+which it follows the “form of thought” in the poet’s mind’;
+(2) dramatic, whose ‘function is to please us by the fidelity with
+which it follows the ‘form of thought” in some mind other than
+the poet’s, which the poet imagines’; (3) objective, whose
+‘function is to please us by the fidelity with which it follows a
+form of action, a movement not through any mind, but in the
+world at large’; (4) ‘syntax like music’, whose ‘function is to
+please us by the fidelity with which it follows a “form of
+thought” through the poet’s mind but without defining that thought’ ;

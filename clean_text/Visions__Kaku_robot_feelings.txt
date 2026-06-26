@@ -1,0 +1,100 @@
+### METADATA ###
+# source_file: Visions__Kaku_robot_feelings.txt
+# char_count: 5702
+# word_count: 972
+### END METADATA ###
+
+90 Visions
+
+Brooks even toyed with the idea of calling his android Psych! 
+[pronounced the same as Cyc] just to get Lenat’s goat.)
+
+It is likely that androids such as Cog and top-down common-sense
+programs such as Cyc will be primarily experimental in nature until
+sometime in the middle of the twenty-first century. Ultimately, there will
+be a merger of the top-down and bottom-up schools, perhaps within forty
+years, before we arrive at a genuine free-thinking robot.
+
+This process, according to Hans Moravec, may take place in stages.
+
+From 2020 to 2030, robots will excel at imagery—i.e., being able to
+simulate a task in its head before carrying it out. These robots will be able
+to model the world and anticipate the consequences of their actions. For
+example, before cooking a meal or crossing the street, a robot will be able
+to simulate the future possibilities many times in its head before acting.
+‘To accomplish this imagery, the robot must combine the strengths of the
+bottom-up approach, which is good at interacting with the real world
+with the top-down school, which is good at creating abstract models of
+the world. By this time, robots should have the intelligence of a monkey.
+
+From 2030 to 2040, a true synthesis may occur, the culmination of
+both schools. Robots with true reasoning capabilities may well be
+achieved by this time, according to Moravec. Given the astronomical rate
+at which computer power increases, the top-down school should be able
+to create robots which far surpass human reasoning abilities. The final
+unification will come when scientists can combine this superhuman reasoning 
+capability with the ability to navigate and function in a real or a
+simulated world. By finally merging these two powerful functions
+Moravec believes, “the combination will create a being that in some ys
+resembles us, but in others is like nothing the world has seen before.”
+
+Can Robots Feel?
+
+It is reasonable to assume that by 2050 we may have robots that can
+interface intelligently with humans, machines with primitive emotions
+speech recognition, and common sense. In other words, we will be able to
+talk to them and have relatively interesting conversations. In order to
+function in modern society, robots will necessarily have emotions and a
+certain amount of common sense, if only because humans will find it
+easier to interact with them; this may increase “bonding” with a robot.
+
+At the very least, however, robots must be able to understand and cope
+with the emotions of their bosses and clients. Mechanical butlers must be
+able to screen pesky visitors and annoying clients for the owner and politely 
+refuse their requests, or make up white lies; mechanical secretaries
+must be able to spot which appointments are critical and which are not;
+mechanical servants must be able to determine when their masters are
+acting irrationally or overreacting to a situation. Not only will robots
+have to anticipate the idiosyncrasies of their masters; they will also have
+to make value judgments as to what is best for them.
+This, of course, flies in the face of the typical stereotype of the robot in
+_ Hollywood movies, robots with flat, monotone voices, incapable of 
+feeling the joy of first love, the beauty of a blazing sunset, or the wonder
+upon gazing at the infinite heavens. Some people say that robots are, after
+all, clumps of wires and steel. It is emotions which distinguish us from
+creations of metal. That is why the Tin Man always wanted a heart.
+
+From the point of view of AI, however, while it is difficult to reproduce
+emotions in a robot, it is not impossible to do so. One purpose of our
+emotions, from the evolutionary point of view, is to increase our chances
+of survival by preparing us for action. This was done via focusing certain
+forms of behavior and by censoring. feset (1 Har;
+
+A “focuser,” for example, is an emotion such as “like.” When we say,
+_ “I like apples,” this narrows the infinite universe of possibilities down to a
+_ few choices. It focuses our attention on a few desirable alternatives which
+increase our chances of survival. Not surprisingly, humans usually “like”
+a small handful of things which are good for them and enhance their
+_ survivability. As Minsky has said: “Liking’s job is shutting off alternatives;
+we ought to understand its role since, unconstrained, it narrows down our
+universe.” “Love” is an even more powerful focuser, since it is important
+in forming pair bonds between humans, which likely increased our reproductive success.
+Moravec envisions providing a robot with the capacity to “love” its
+_ master, which would increase its commercial success and acceptability by
+the owner. He says that “when you bring one into your house, it will
+understand that you’re the person it’s there for, and that it had better
+keep you happy. . . . It will care how you feel about its actions. It will
+try to please you in an apparently selfless manner because it will get a
+thrill out of this positive reinforcement. You can interpret that as a kind of
+- love.”
+
+“Jealousy” is another human focuser because it directs our attention to
+_ potential rivals for our mates. “Anger” is valuable because it warns others
+_ of our kind that we really do not “like” something.
+
+“Fear” is a focuser which channels our behavior in a specified (and
+beneficial) direction. A robot can be programmed to experience “fear” as
+soon as its batteries begin to run low and there is no power source in
+
+sight. Moravec says, “It can’t let its batteries run down to nothing . . . it
+would express agitation, or even panic, with signals that humans can recognize. It would go to the neighbors and ask them to use their plug,

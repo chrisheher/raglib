@@ -1,0 +1,125 @@
+GENRE CLUSTER: Nautical
+
+This cluster groups 414 literary works sharing nautical. Showing 120 representative works.
+
+Works in this cluster:
+  - A Community of Writers | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - A Dolls House | themes: identity, time, nature and cosmos, dream and vision
+  - A Fans Notes | themes: identity, dream and vision, time, memory
+  - A Frolic of His Own | themes: identity, memory, dream and vision, language and narrative
+  - A History of the Senses | themes: dream and vision, nature and cosmos, transformation, time
+  - A Naked Singularity | themes: journey and quest, time, identity, mortality
+  - A Pocket Book for Heroes | themes: language and narrative, nature and cosmos, time, identity
+  - A Walker in the City | themes: identity, memory, dream and vision, nature and cosmos
+  - Act of Creation | themes: nature and cosmos, identity, memory, mortality
+  - Amor and Psyche | themes: identity, mortality, journey and quest, transformation
+  - Anatomy of Criticism | themes: identity, dream and vision, mortality, nature and cosmos
+  - Art As a Way | themes: transformation, dream and vision, nature and cosmos, identity
+  - Art Is A Way of Knowing | themes: identity, dream and vision, nature and cosmos, transformation
+  - Art Matters | themes: identity, mortality, language and narrative, transformation
+  - Art and Fear | themes: dream and vision, journey and quest, nature and cosmos, transformation
+  - Artists Way | themes: identity, dream and vision, mortality, journey and quest
+  - Beyond Discontent | themes: identity, memory, dream and vision, nature and cosmos
+  - Boating Skills and Seamanship 028 seaworthiness.txt | themes: nature and cosmos
+  - Boating Skills and Seamanship 037 ventilation.txt | themes: nature and cosmos, time
+  - Boating Skills and Seamanship 040 reqs.txt
+  - Boating Skills and Seamanship 083 fueling.txt | themes: identity, nature and cosmos
+  - Boating Skills and Seamanship 104 man overboard.txt | themes: memory, time
+  - Boating Skills and Seamanship 114 inlets.txt | themes: nature and cosmos
+  - Boating Skills and Seamanship 126 buoy.txt | themes: nature and cosmos
+  - Boating Skills and Seamanship 132 preferred channel.txt | themes: nature and cosmos, time
+  - Boating Skills and Seamanship 135 buoy lights.txt | themes: identity, nature and cosmos, time
+  - Boating Skills and Seamanship 143 buoy study.txt | themes: time
+  - Boating Skills and Seamanship 160 nav lights.txt | themes: time
+  - Boating Skills and Seamanship 165 day shapes.txt | themes: identity
+  - Boating Skills and Seamanship 167 day shapes.txt
+  - Boating Skills and Seamanship 238 deviation.txt | themes: journey and quest
+  - Boating Skills and Seamanship 242 dr plot.txt | themes: identity, transformation, time
+  - Boating Skills and Seamanship 262 direct drive.txt
+  - Boating Skills and Seamanship 279 winterizing.txt | themes: nature and cosmos, transformation
+  - Boating Skills and Seamanship 282 fitting out.txt | themes: nature and cosmos
+  - Boating Skills and Seamanship 301 clove hitch.txt | themes: identity
+  - Boating Skills and Seamanship 323 air pressure.txt | themes: nature and cosmos
+  - Boating Skills and Seamanship 327 clouds.txt | themes: transformation, time
+  - Boating Skills and Seamanship 328 clouds.txt
+  - Boating Skills and Seamanship 354 vhf.txt | themes: journey and quest, nature and cosmos, time
+  - Boating Skills and Seamanship 357 procedure words.txt | themes: language and narrative, time
+  - Boating Skills and Seamanship 359 distress.txt | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Boating Skills and Seamanship 374 digital vhf.txt | themes: identity, nature and cosmos, time
+  - Boatowners Manual | themes: transformation, time, identity, memory
+  - Burning Down the House | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - By The River Piedra | themes: identity, memory, language and narrative, nature and cosmos
+  - Cinematography 071 light-shadow.txt | themes: identity, memory, mortality, language and narrative
+  - Cinematography 072 natural light.txt | themes: mortality, nature and cosmos
+  - Cinematography bottom line.txt | themes: language and narrative, transformation
+  - Cinematography exposure.txt | themes: identity, time
+  - Cinematography exposure3.txt | themes: transformation, time
+  - Cinematography fstop.txt | themes: identity, dream and vision, nature and cosmos, time
+  - Cinematography lens snorkel.txt | themes: identity
+  - Cinematography notes.txt | themes: language and narrative, nature and cosmos
+  - Clients for Life | themes: identity, transformation, time, memory
+  - Code | themes: memory, dream and vision, time, language and narrative
+  - Cognition In The Wild | themes: journey and quest, nature and cosmos, transformation, time
+  - Collected Works | themes: nature and cosmos, identity, language and narrative, time
+  - Conversations of Goethe 002 trust.txt | themes: identity, time
+  - Conversations of Goethe 114 originality.txt | themes: identity, mortality, nature and cosmos, transformation
+  - Conversations of Goethe 117 background.txt | themes: identity, journey and quest, nature and cosmos, time
+  - Conversations of Goethe 226 moulting.txt | themes: language and narrative, nature and cosmos, time
+  - Conversations of Goethe 314 german freedom.txt | themes: identity, nature and cosmos, time
+  - Conversations of Goethe 398 daemonic.txt | themes: identity, nature and cosmos, transformation, time
+  - Copywriting content planning.txt | themes: language and narrative, nature and cosmos
+  - Cosmos and History | themes: identity, dream and vision, language and narrative, transformation
+  - Craving for Ecstasy | themes: identity, journey and quest, madness and obsession, time
+  - Creative Authenticity | themes: dream and vision, language and narrative, time, identity
+  - Creators on Creating 070 inventory.txt | themes: identity, dream and vision, language and narrative
+  - Crime-Punishment | themes: identity, dream and vision, time, language and narrative
+  - Cupids Arrow | themes: identity, nature and cosmos, time, language and narrative
+  - D AD modernista.txt
+  - D AD pencil calendar.txt | themes: nature and cosmos
+  - D AD real men of genius.txt | themes: identity
+  - D AD vw family predictor.txt
+  - D AD whopper native.txt | themes: nature and cosmos
+  - Daily Rituals | themes: identity, memory, time, dream and vision
+  - Dead Souls | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Designing Virtual Worlds | themes: identity, mortality, language and narrative, time
+  - Designing WIth Type | themes: language and narrative, nature and cosmos, dream and vision, transformation
+  - Doctor Faustus | themes: identity, journey and quest, nature and cosmos, transformation
+  - Don Juan | themes: dream and vision, mortality, nature and cosmos, time
+  - Dumped | themes: identity, dream and vision, transformation, memory
+  - Examined Lives | themes: identity, journey and quest, nature and cosmos, time
+  - Examples | themes: identity, mortality, transformation, time
+  - Facing The Shadow | themes: nature and cosmos, transformation, identity, time
+  - Flee | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - Food of the Gods | themes: dream and vision, mortality, nature and cosmos, time
+  - From Dawn to Decadence | themes: mortality, language and narrative, nature and cosmos, madness and obsession
+  - Genius | themes: identity, language and narrative, nature and cosmos, madness and obsession
+  - Global Hesychasm notes.txt | themes: nature and cosmos, time
+  - Growth of the Soil | themes: identity, language and narrative, nature and cosmos, transformation
+  - Harold Pinter banter.txt | themes: nature and cosmos
+  - Harold Pinter brewing.txt
+  - Harold Pinter butt indent.txt | themes: identity, mortality, journey and quest, time
+  - Harold Pinter doubling 1.txt | themes: identity
+  - Harold Pinter petulant.txt | themes: nature and cosmos
+  - Harold Pinter take a seat.txt | themes: identity, nature and cosmos, time
+  - Harold Pinter usurp 1.txt | themes: identity
+  - Hero of Our Time | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Hero with 1K Faces | themes: identity, dream and vision, journey and quest, language and narrative
+  - Hiawatha | themes: memory, nature and cosmos, time, journey and quest
+  - History of Consciousness | themes: nature and cosmos, identity, mortality, language and narrative
+  - How Boat Things Work | themes: identity, time, nature and cosmos, transformation
+  - How Children Fail | themes: identity, time, memory, language and narrative
+  - How Fiction Works | themes: dream and vision, language and narrative, nature and cosmos, transformation
+  - Human Beginnings | themes: identity, language and narrative, nature and cosmos, mortality
+  - Human Use...Beings | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Hunger | themes: identity, dream and vision, language and narrative, time
+  - I And Thou | themes: identity, transformation, time, memory
+  - IF Handbook 014 characters.txt | themes: journey and quest, language and narrative, transformation, time
+  - IF Handbook 030 session.txt | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - IF Handbook 092 objects.txt | themes: identity, language and narrative, nature and cosmos, time
+  - IF Handbook 182 model theory.txt | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - IF Handbook 224 roads.txt | themes: language and narrative, nature and cosmos, time
+  - IF Handbook 268 rooms.txt | themes: journey and quest, language and narrative, nature and cosmos, transformation
+  - IF Handbook 344 internal convo.txt | themes: language and narrative, nature and cosmos, transformation
+  - IF Handbook 371 hint books.txt | themes: memory, journey and quest, nature and cosmos, transformation
+  - III Amor and Psyche | themes: identity, mortality, journey and quest, language and narrative
+  - III Art Matters | themes: language and narrative, time, identity, memory

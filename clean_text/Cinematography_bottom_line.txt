@@ -1,0 +1,48 @@
+### METADATA ###
+# source_file: Cinematography_bottom_line.txt
+# char_count: 3337
+# word_count: 588
+### END METADATA ###
+
+The Bottom Line
+
+Here’s the key point: exposure is about much more than just it’s “too
+Bark” or-“seenight,” Exposure affects whether or not a image will be 
+noisy or grainy,  it’s about the overall contrast of the image, 
+and it’s about whether or not we will see detail and subtleties in 
+the shadows and in the highlights. It’s also about color saturation 
+and contrast — the colors in the scene will only be fall and rich and 
+reproduced accurately when the exposure is perfect. 
+Overexposure and underexposure will severely desaturate the color
+the scene; this is particularly important in greenscreen and blueseen 
+(see the chapter Technical Issues). In these situations, we want
+ background to be as green (or blue) as possible, in order to get
+=200d matte. This is the main reason we have to be so careful about
+posure when shooting greenscreen or bluescreen. As explained
+Technical Issues, checking exposure of the background is critical
+sen shooting any form of chroma key, the generic name for greenscreen 
+and bluescreen composite matte shooting.
+
+The bottom line is this: you will get the best image possible only
+when your exposure is correct. This is true of stil] photos on film,
+stion picture film, digital photography, Standard Def (SD) video,
+luding DV) and all forms of High Def (HD).
+
+¥ Film and Video Are Different
+
+Thereere is one crucial way in which film and High Def video are different. 
+With HD, it is absolutely critical that you not overexpose. 
+This is not as critical with film. Film stock is fairly tolerant
+to overexposure and doesn’t do as well with underexposure; HD on
+ether hand is very good with underexposure, but remember, you
+ always get a better picture with exposure that is right on the
+this is the crucial thing to remember about exposure,
+should note however, that what we said about film applies only
+egative film (which is what we almost always shoot on music videos, 
+feature films, and short films). There is another
+of film called reversal film (also known as transparency or positive
+
+This is just like slides or transparencies in still film: the same
+Sat ran through the camera comes back from the lab with colors, 
+not reversed like negative film. Reversal film reacts the
+way as HD video: overexposing it is disastrous,

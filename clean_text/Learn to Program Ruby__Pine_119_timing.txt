@@ -1,0 +1,63 @@
+### METADATA ###
+# source_file: Learn to Program Ruby__Pine_119_timing.txt
+# char_count: 2374
+# word_count: 434
+### END METADATA ###
+
+
+I we had to do was stick the block after the
+into any method this way, though many
+In order to make your method not ignore
+into a proc, put the name of the proc at the
+ist, preceded by an ampersand (8). So, that
+id, and you have to do that only once (when
+1 can use the method over and over again,
+hat take blocks, such as each and times.
+uitie....)
+
+e’s this each and its block inside each even),
+apposed to do; call the block passed in with
+every other element in the array. Once you've written 
+it and it works, you don’t need to think about what it’s 
+actually doing under the hood (“which block is called when?”); 
+in fact, that’s exactly why we write methods like
+this—so we never have to think about how they work again. 
+We just use them.
+
+I remember one time I wanted to profile some code I was writing; you know,
+I wanted to time how long it took to run. I wrote a method that takes the time
+before running the code block, then runs it, then takes the time again at the
+end, and finally figures out the difference. And it went a little something like
+this:
+
+def profile block_description, &block
+
+start_time = Time.new
+
+block.call
+
+duration = Time.new - start_time
+
+puts "#{block_description}: #{duration} seconds"
+
+profile '25000 doublings' do
+number = 1
+
+25000.times do number = number + number
+
+puts "#{number.to_s.length} digits"
+# That's the number of digits in this HUGE number.
+
+profile ‘count to a million' do
+number = 0
+1000000.times do
+number = number + 1
+
+How simple! How elegant! Dude, admit it: you think I’m cool. With that tiny
+method, we can now easily time any section of any program; we just throw
+the code in a block, send it to profile, and do a little dance.... What could be
+simpler? Though we didn’t do it, you could find the slow parts of your code
+and add more profiling calls nested inside your original calls! Beautiful! In
+most languages, I would have to explicitly add that timing code (the stuff in
+profile) around every section I wanted to time. What a hassle. In Ruby, however,
+I get to keep it all in one place and (more important) out of my way!

@@ -1,0 +1,50 @@
+### METADATA ###
+# source_file: The Elements of Style__Strunk_022_whom.txt
+# char_count: 1619
+# word_count: 289
+### END METADATA ###
+
+In the last example, whoever is the subject of looks idle; the object of the
+preposition to is the entire clause whoever looks idle. When who introduces
+a subordinate clause, its case depends on its function in that clause.
+
+A pronoun in a comparison is nominative if it is the subject of a stated
+or understood verb.
+
+Sandy writes better than I. (Than I write.)
+
+In general, avoid “understood” verbs by supplying them.
+
+T think Horace admires I think Horace admires
+Jessica more than I. Jessica more than I do.
+
+Polly loves cake more Polly loves cake more than
+than me. she loves me.
+
+The objective case is correct in the following examples.
+
+The ranger offered Shirley and him some advice on campsites.
+They came to meet the Baldwins and us.
+
+Let’s talk it over between us, then, you and me.
+
+Whom should I ask?
+
+A group of us taxpayers protested.
+
+Us in the last example is in apposition to taxpayers, the object of the
+preposition of. The wording, although grammatically defensible, is
+rarely apt. “A group of us protested as taxpayers” is better, if not exactly
+equivalent.
+
+Use the simple personal pronoun as a subject.
+
+Blake and myself stayed Blake and I stayed home.
+home.
+
+Howard and yourself Howard and you brought
+brought the lunch, I thought. the lunch, I thought.
+
+The Elements of Style / 22
+
+Polly loves cake more than she loves me.

@@ -1,0 +1,67 @@
+### METADATA ###
+# source_file: The Art of Plain Talk__Flesch_056_sentence_length.txt
+# char_count: 2314
+# word_count: 396
+### END METADATA ###
+
+56 /. The Art of Plain Talk
+
+average Americans read with ease, and what sentence length
+will fit an audience with a given reading skill. So you get not g
+tule but a set of standards.
+
+you might just as well count syllables, which would give you
+a more exact idea of sentence length: a sentence of twenty
+one-sylable words would then appear shorter than a sentence
+of ten one-syllable words and six two-syllable words. Keep
+that in mind while counting words.
+
+Second, remember Fowler’s definition of a sentence. Count
+two sentences where there are two, even if there is no period
+
+between them but only a semicolon or colon. But don’t bother
+about sorting out sentences with conjunctions between them}
+
+the difference is not worth the added effort.
+Now look at the table:
+
+AVERAGE SENTENCE LENGTH IN Worps
+
+Very Easy 8 or less
+Easy 11
+
+Fairly Easy 14
+Standard 17
+
+Fairly Difficult 21
+
+Difficult 25
+
+Very Difficult 29 or more
+
+Just what Easy and difficult means on this table, I shall
+explain in detail later. For the moment, notice that an avere
+age reader will have no trouble with an average sentence of
+17 words. (In a book or article, shorter sentences will :
+course, cancel out the Jon
+ten in 8 per half of the scale, literary wordds a sentence, and scientific
+english to about 30 words, The average sentence in this book
+has 18 words.
+
+So, if you want to rewrite or edit something for people who
+ive just about average, measure it against the 17-word standind. 
+If the sentences are longer, look for the joints in their
+construction and break them into smaller pieces until they are
+of the right average length.
+
+I said before, you may try your hand at the Proust passage.
+If this seems too forbidding, here is another newspaper lead for you to dissect:
+
+Because Allied postwar planning groups like the United
+Nations Relief and Rehabilitation Administration realize the
+chaotic conditions with which they will be confronted by
+legally unidentifiable persons following the German collapse, leading British and American archivists are here on a
+tour that will probably lead to redefinition within the framework of military necessity of a system of handling damaged
+or newly occupied properties, it was learned today.
+
+Rewrite this in easy 11-word sentences.

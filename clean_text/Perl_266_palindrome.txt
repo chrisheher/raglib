@@ -1,0 +1,36 @@
+### METADATA ###
+# source_file: Perl_266_palindrome.txt
+# char_count: 3862
+# word_count: 674
+### END METADATA ###
+
+
+
+Perl’s regular-expression engine allows you to use values that were previously matches
+These values are called backreferences. The program in Fig. 8.11 shows how to use back
+references in a pattern.
+
+Consider the regular expression in line 20:
+
+
+Let’s examine this expression piece by piece. We are telling the regular-expression 
+engine to match any word character, followed by any number of nonword characters, 
+followed by any word character, etc. Then we reach \4. This expression is called a backreference., In regular expressions, parentheses capture bits of a string that can be referenced later in a pattern with a \, followed by a number that indicates the set of parentheses that captured the value. In this example, the character that the first 
+\w matches inside the parentheses get stored as \1. The next gets stored as \2, the next as \3 and the last as \4. 
+So, when we next ask for \4\W*\3\W*\2\W*\1, we are simply asking for the first 
+four letters in reverse order, with any number of nonword characters between them. 
+So, the whole expression is trying to match an eight-letter palindrome. 
+The second part of the if statement
+(after the or) tries to find a seven-letter palindrome. Put together, these two statements will
+find any palindrome seven letters or eight letters long within the given string (this is to handle the even and odd cases for a palindrome). Note that the palindrome might be even long.
+er; however, this program does not check for that case.
+
+
+,1 Backreferences withi
+
+Within a regular expression, backreferencing is accomplished by using a backslash er
+jawed by a number. Each number represents a set of parentheses that occur earlier in the
+jaliern: The backreference \1 denotes the set of parentheses with the leftmost open pareniliesis; the backreference \2 denotes the set of parentheses with the open parenthesis
+second from the left, and so on. _
+
+(

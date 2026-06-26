@@ -1,0 +1,90 @@
+### METADATA ###
+# source_file: Style and Structure in Literature__Fowler_141_hero_function.txt
+# char_count: 4564
+# word_count: 774
+### END METADATA ###
+
+140 JONATHAN CULLER
+
+plus decision allows us to organize the sentences of the first
+half of the story into an oppositional series, where the salient
+feature of each narrated action is the contribution it makes to
+the debate about the advisability of leaving home. It is because
+our models of narration enable us to proceed in this way that
+we can pick out sentences such as “One time there used to be
+a field there’ as the manifestation of kernels. Without such
+general models, which we apply unconsciously in the process
+of reading, we would simply note that once there used to be a
+field there without knowing how to deal with that fact.
+
+A model of this sort, taken in conjunction with the cultural
+codes which guide us in naming sequences and selecting certain
+actions as significant, might prove more fruitful in accounting
+for plot structure than taxonomic approaches which postulate
+new basic units and proceed to describe plot in these terms.
+For at the very least such a model would lead us to think seriously
+about the expectations of readers and their role in the
+perception of plot structure.
+
+Anyone undertaking investigation of this kind will find a
+distinguished predecessor in the Russian Formalist Victor
+Shklovsky, who is one of the few to have realized that 
+investigation of the construction of the novel and the short story is an
+attempt to explicate the structural intuitions of readers by
+studying their formal expectations. What do we require, he
+asks, in order to feel that a story is completed? In certain cases
+we feel that a story has not really ended; what is responsible for
+this impression? What kind of structure satisfies our formal
+expectations?
+
+Shklovsky investigates some of the types of parallelism which
+seem to produce satisfactory structures: the move from one
+relationship to its opposite, from a prediction or fear to its
+realization, from an enigma or distorted presentation of a
+situation to its resolution. But his most interesting point, which
+illustrates the strength of readers’ expectations, bears on the
+picaresque novel and what he calls the ‘illusory ending’. The
+episodic novel requires an epilogue of some kind which, by
+differentiating itself from the series of events, closes the series
+and shows what kind of series it is (a description of the hero ten
+years later will show us whether the series should be read as
+steps in his decline, in his loss of illusion, in his expenditure of
+energy, etc.). The illusory ending, on the other hand, is a
+conclusion which exploits the reader’s desire to round off the
+story. ‘Generally it is descriptions of nature or of the weather
+that furnish material for these illusory endings. This new motif is
+inscribed in parallel to the preceding story, thanks to which the
+tale seems terminated.’ ??
+
+A description of the weather provides a satisfactory conclusion 
+because the reader can give it a metaphoric or synecdochic
+interpretation and then read this thematic statement against
+the actions themselves. By way of example Shklovsky cites a
+brief passage from Le Diable boiteux in which a passer-by,
+stopping to help a mortally-wounded man, is himself arrested.
+If the reader invents a description of the night in Seville or of
+the indifferent sky and adds it to the passage, Shklovsky argues,
+he will find that the tale seems complete. And certainly he is
+right: such a description gives the story a satisfying structure
+because the indifferent sky presents an image which can be
+read as confirming the implicit names which one might give
+to the preceding event. By confirming the irony of the story it
+isolates as plot the ironic movement of the action.
+
+I cite Shklovsky’s work because he seems one of the few who
+have asked the right kind of question and have sensed where the
+answers lie. He knew, that is to say, that the study of plot
+structure was largely a matter of formulating the expectations
+which guide the reader in structuring elements of the story
+into a plot, and he knew also that one of the best ways of 
+discovering what norms are at work is to try altering the text and
+to see how its effect is changed. The analyst’s task is not simply
+to develop a metalanguage for the description of plots but to
+bring to the surface and make explicit the ‘metalanguage within
+the reader himself’. In evaluating proposals and theories concerning 
+plot structure we must ask not whether every story can
+
+22 ‘Ta construction de la nouvelle et du roman’, in Théorie de la littérature,
+ed. Todorov (Paris: Seuil, 1965), p. 176.
+
+—_—_—_—

@@ -1,0 +1,85 @@
+### METADATA ###
+# source_file: Problem Solving Therapy__Haley_082_digital_communicating.txt
+# char_count: 4243
+# word_count: 697
+### END METADATA ###
+
+
+
+must classify in some kind of language what is happening.
+The ways he describes what he hears and observes will be
+determined by his point of view and by his training. Some
+therapists classify what people say as symbolic communication. 
+Others listen to the frequency of some type of behavior.
+Others will be hearing what happens as a sequence of interpersonal 
+action in an organization. To formulate problems
+and to answer the question whether therapy has been successful or not, 
+one must clarify the different languages in
+which the problem situation is being defined.
+
+Suppose that a woman enters therapy reporting that
+she washes her hands many times a day and would like to
+recover from this affliction. The behavior modifier might
+describe such a person by focusing on her behavior and
+counting the number of ritual washing acts performed per
+hour. Therapy would be defined as a set of operations to
+reduce or eliminate the number of inappropriate acts. The
+premise of this approach is that this person’s behavior can
+be described in terms of “bits” of behavior. A traditional
+dynamic clinician might describe the same person by saying
+she is expiating guilt with this compulsive washing. The
+therapeutic task would be to offer a human encounter that
+would resolve the person’s guilt and change her perception
+of the world. The ritual washing would not be described as
+a “bit” that could be counted. It would be a metaphor, an
+analogy, about her life.
+
+Digital and Analogic Ways of Communicating
+
+The fact that there are two such extreme ways of describing human 
+beings may be based on the fact that the
+human being is capable of communicating in two different
+styles, or languages. Sometimes a person communicates in
+precise and logical ways and sometimes he expresses himself
+ in the language of metaphor. When he is being logical,
+his behavior can be described in a logical, scientific language
+Just as a scientist might describe plants or mollusks. Yet
+when a person is not communicating in terms of logical
+categories, no descriptive system made up of logical categories 
+can encompass what he is doing. The “map” is not
+appropriate for the territory. Describing him in logical 
+categories would be like counting the words in a poem. 
+Conversely, when a person is communicating in terms of discrete
+categories, to describe him in terms of metaphors is not
+appropriate.
+
+One way to characterize the two different modes of
+human communication is in terms of digital and analogic
+communication.* Digital communication consists of that
+class of messages where each statement has a specific 
+referent and only that referent. Something happens or it does
+not happen; there is one stimulus and one response. It is
+possible to make a computer classification of such communication 
+because each message fits into a specific category.
+In this mode, behavior appears to be as logical as the object 
+inguists would like it to be: one can say, “If A, and only if
+A, then Z, and only Z.” Each message is about one thing and
+not about something else as well.
+
+It is because human beings can communicate in digital
+language that they are able to build computers, reshape
+nature, and function in complex organizations. The use of
+digital language to describe human behavior appears most
+appropriate when the subject is the study of a human being
+dealing with the environment—when a person is building
+bridges. This language begins to be problematic when it is
+applied to human beings dealing with one another. To use
+digital language to describe people talking with one another,
+we must expect them to communicate in logical, rational
+ways, speaking words that have specified, previously defined
+referents. From the digital view, the description of a man
+pounding a nail and the description of a man fighting with
+his wife should be synonymous descriptive problems. In
+both cases it would be a matter of phrasing the description
+in a precise language of single referents. Yet describing an
+

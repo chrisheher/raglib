@@ -1,0 +1,59 @@
+### METADATA ###
+# source_file: Code__Petzold_119_inverter.txt
+# char_count: 1985
+# word_count: 388
+### END METADATA ###
+
+What we have here is a situation in which the bulb lights up if the top switel
+or the bottom switch is closed. The key word here is or, so this is called the
+OR gate. Electrical engineers use a symbol for the OR gate that looks like this
+
+Inputs —) eR Output
+
+It’s somewhat similar to the symbol for the AND gate except that the input
+side is rounded, much like the O in OR. (That might help you to keep them
+straight.)
+
+The output of the OR gate supplies a voltage if either of the two input!
+has a voltage. Again, if we say that the absence of a voltage is 0 and the 
+presence of a voltage is 1, the OR gate has four possible states:
+
+— D1 1
+
+In the same way that we summarized the output of the AND gate, we can _
+summarize the output of the OR gate:
+
+OR gates can also have more than two inputs. (The output of such a gate is
+1 if any of the inputs are 1; the output is 0 only if all the outputs are 0.)
+
+Earlier I explained how the relays that we’re using are called double-throw
+relays because an output can be connected two different ways. Normally,
+the bulb isn’t lit when the switch is open:
+
+ites (Not Bill) Li?
+
+When the switch is closed, the bulb lights up.
+Alternatively, you can use the other contact so that the bulb is lit when
+
+the switch is open:
+
+in this case, the lightbulb goes out when you close the switch. 
+A single relay wired in this way is called an inverter. An inverter
+ isn’t a logic gate (logic gates always have two or more inputs), 
+but it’s often very useful nonetheless. It’s represented by a special symbol 
+that looks like this:
+
+Input —I>o— Output
+
+It’s called an inverter because it inverts 0 (no voltage) to 1 (voltage) and
+vice versa:
+
+Q —I>o— 1
+
+1 —>o— Q
+With the inverter, the AND gate, and the OR gate, we can start wiring
+the control panel to automate a choice of the ideal kitty. Let’s begin with the
+switches. The first switch is closed for female and open for male. Thus we
+can generate two signals that we’ll call F and M, like this:
+
+Law .

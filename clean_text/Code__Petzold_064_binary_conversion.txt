@@ -1,0 +1,70 @@
+### METADATA ###
+# source_file: Code__Petzold_064_binary_conversion.txt
+# char_count: 2914
+# word_count: 548
+### END METADATA ###
+
+Chapter Eight
+
+If we just add up the parts in decimal, we get 2048 + 512 + 256+64+16 —
+
++ 8 +2, which is 2,906
+
+TEN’
+
+To convert binary numbers to decimal more concisely, you might prefer _
+
+a method that uses a template I’ve prepared:
+
+
+x128 x64 x32 x16 x8 x4 x2 x1
+C+ +L +++ =
+
+This template allows you to convert numbers up to eight binary digits in
+length, but it could easily be extended. To use it, put up to eight binary digits
+in the 8 boxes at the top, one digit to a box. Do the eight multiplications and
+put the products in the 8 lower boxes. Add these eight boxes for the final
+result. This example shows how to find the decimal equivalent of 10010110:
+
+Converting from decimal to binary isn’t quite as straightforward, but
+here’s a template that let’s you convert decimal numbers from 0 through
+255 to binary:
+
+
+
+The conversion is actually trickier than it appears, so follow the directions
+carefully. Put the entire decimal number (less than or equal to 255) in the
+box in the upper left corner. Divide that number (the dividend) by the first
+divisor (128), as indicated. Put the quotient in the box below (the box at the
+lower left corner), and the remainder in the box to the right (the second box
+on the top row). That first remainder is the dividend for the next calculation,
+which uses a divisor of 64. Continue in the same manner through the template.
+
+Keep in mind that each quotient will be either 0 or 1. If the dividend is
+less than the divisor, the quotient is 0 and the remainder is simply the dividend.
+If the dividend is greater than or equal to the divisor, the quotient is 1 and the
+remainder is the dividend minus the divisor. Here’s how it’s done with 150:
+
+
+
+If you need to add or multiply two binary numbers, it’s probably easier
+iw do the calculation in binary rather than convert to decimal. This is the
+part you’re really going to like. Imagine how quickly you could have 
+mastered addition if the only thing you had to memorize was this:
+
+Let’s use this table to add two binary numbers:
+1100/01
+
++ 0110/10
+1001 1011
+
+Starting at the right column: 1 plus 0 equals 1. Second column from right: 0
+plus 1 equals 1. Third column: 1 plus 1 equals 0, carry the 1. Fourth column:
+I (carried) plus 0 plus 0 equals 1. Fifth column: 0 plus 1 equals 1. Sixth column: 1 plus 1 equals 0, carry the 1. Seventh column: 1 (carried) plus 1 plus
+0 equals 10. '
+
+The multiplication table is even simpler than the addition table because
+it can be entirely derived by using two of the very basic rules of multiplication: 
+Multiplying anything by 0 gets you 0, and multiplying any number by
+I has no effect on the number.
+

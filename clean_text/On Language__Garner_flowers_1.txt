@@ -1,0 +1,35 @@
+### METADATA ###
+# source_file: On Language__Garner_flowers_1.txt
+# char_count: 1166
+# word_count: 195
+### END METADATA ###
+
+Using the Flowers Paradigm
+to Write More Efficiently
+
+MOsT WRITING ADVICE focuses on the end product. But we shouldn’t
+neglect the process by which we produce our words. In important ways,
+the process affects the product.
+
+Now, I can’t tell you what type of pen to use or what to sip on while
+you're working. No one can teach the physical aspects of writing. But
+I’ve learned that it’s quite possible to teach the mental aspects of writing.
+
+Before we get to that, though, think of the ways in which legal writers 
+so frequently get mired:
+
+- By starting to write in earnest before they fully understand what
+they’re writing about—and then treating that draft as something
+sacrosanct.
+
+- By sidestepping the creative stage altogether, so that the final 
+product isn’t nearly as imaginative as it could be.
+
+- By writing and sharpening sentences before knowing what the
+overall structure will be—and thereby wasting valuable time. When
+structural changes later emerge, as they inevitably will, much of
+this early work will have to be either scrapped or modified.
+
+- By allowing their critical side to interrupt throughout the process.
+
+How can you avoid these pitfalls?

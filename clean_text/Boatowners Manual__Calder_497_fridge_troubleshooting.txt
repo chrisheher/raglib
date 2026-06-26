@@ -1,0 +1,69 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_497_fridge_troubleshooting.txt
+# char_count: 2663
+# word_count: 432
+### END METADATA ###
+
+3. Multiply your result from step I by your result
+from step 2, then multiply that figure by 60.
+This will give you the approximate rate of heat
+removal in Btu per hour (it can be converted
+to watts per hour by dividing by 3.41 3). The
+figure will overstate performance; to improve
+accuracy multiply by 0.9 if the cooling water
+is salt water, then by 0.75 to take account of
+various extraneous heat sources, This will give
+you a fairly conservative approximation of system 
+performance. The unit will probably be
+well short of its advertised capabilities —this is
+quite normal!
+
+Pressures. Before problems develop, the
+adventurous may want to hook up a set of gauges
+(see below) and get an idea of normal operating
+pressures under different conditions.
+
+Initial pressures. Suction and discharge (head)
+pressures are affected by a dozen different factors.
+ Nevertheless, a few broad generalizations
+can be made. Let’s look first at refrigerators and
+freezers using HFC-134a. If an icebox and evaporator
+ are warm to start with, initial suction pressures 
+will probably run around 30 psi, discharge
+pressures around 175 psi. The pressures in a
+small, constant-cycling water-cooled unit will
+come down gradually, perhaps to about 10 psi
+and 140 psi (air-cooled units in hot climates may
+have discharge pressures as high as 180 psi).
+Large-capacity units with holding plates will
+keep coming down steadily. Suction pressures at
+the cold part of the cycle may range anywhere
+from 10 psi down to —10 inches of mercury (a
+considerable vacuum); discharge pressures range
+from 125 psi to as low as 100 psi.
+
+These numbers can be more precisely quantified by 
+referring to Table 11-7, With air cooling,
+the high-side temperature should be somewhere
+between 20°F/11°C and 30°F/17°C above that of
+the temperature of the cooling air. Let's say the
+cooling air is 90°F/33°C. The high-side temperature 
+will be 110°F/43°C to 120°F/ 49°F. Referring now to 
+the pressure-temperature chart for
+HFC-134a, we see the pressure should be
+between 145 psi and 175 psi. With water cooling,
+the high-side temperature should be around
+15°F/8°C more than the water temperature. Let’s
+say the water is 84°F/29°C (the Caribbean). The
+high-side temperature will be around 99°F/37°,
+The pressure should be around 125 psi.
+
+If pressures are higher than expected, an aircooled 
+condenser may be clogged or the flow
+of cooling air otherwise restricted, or the fan
+may be defective; a water-cooled condenser may
+have a restricted water flow or poor heat transfer
+due to scaling or fouling (for more on this, see
+the Condenser Problems section later in the
+chapter).
+

@@ -1,0 +1,97 @@
+But it sits uneasily with cases like Hadamard’s, who
+reported finding a solution ‘quite different’ from any he 
+had previously tried. If the gnat-like ideas, originally 
+activated by conscious intent, are only ‘those from which we 
+might reasonably expect the desiredsolution’, then how could such a thing happen?
+
+Moreover, his image cannot explain why it is that combinations of
+elements drawn from different domains may be more creative, as
+opposed to more unnatural or absurd. Both these difficulties recall the
+paradox mentioned in Chapter 1, and they can be resolved only when
+we are clearer about the difference between creativity and mere
+novelty.
+
+A third caveat is that Poincaré was not Epicurean enough. Epicurus,
+suggested that different material atoms have different shapes, and
+differently shaped hooks, so that certain combinations are more likely
+than others. But Poincaré put the hooks on the wall, not on the atoms,
+and (since he ignored the shapes of atoms and hooks) implied nothing
+about differential affinities between ideas — still less, how normal
+affinities can be fruitfully overcome.
+
+Finally, this picture of the chance impacts of undifferentiated atoms
+leads to a fourth problem: Poincaré’s insistence on ‘the automatism of
+the subliminal self’. —.
+
+~ You may think it strange that I call this a ‘problem’, given my claim
+(in Chapter 1) that ideas about computing can illuminate creativity. If
+a computer is not an automaton, what is? Surely, someone favouring a
+computational account of creativity must believe in the automatism of
+the subliminal self (and, for that matter, of the conscious self too) ?
+“Noriiecessarily, for ‘automatism’ can mean two different things. It
+
+may mean (positively) that the system in question functions according
+to scientifically intelligible principles which, together with its 
+inputhistory, determine what it does."To speak of automatism in this sense is
+to assert that something is a principled, and perhaps largely autonomous,
+ system (or mechanism) _{ Alternatively, the term may be used
+(negatively) to deny that the system enjoys properties such as choice,
+discernment and judgment.
+
+These two senses do not entail one another. They may not even apply
+to exactly the same class of things, because it might be possible to
+explain choice and judgment themselves in scientific terms. Whereas
+my claim was positive (that creativity can be computationally understood) 
+Poincaré’s was negative. In describing the subliminal self as
+‘purely automatic’, he denied that it ‘is capable of discernment; [that] it
+has tact, delicacy; [that] it knows how to choose, to divine’. In short, he
+meant that the unconscious self, like a crowd of gas-molecules, is blind.
+
+The Story So Far
+
+Poincaré’s view that incubation is automatic, or blindly undiscriminating, 
+was criticized by Koestler. Although agreeing on the importance of
+the unconscious, Koestler did not see the random concourse ofa host of
+separate gas-molecules as a helpful metaphor. Citing a rich and diverse
+harvest of historical examples, he concluded:
+
+The most fertile region [in the mind’s inner landscape] seems to be the
+marshy shore, the borderline between sleep and full awakening — where the
+Matrices of disciplined thought are already operating but~have not yet
+sufficiently hardened to obstruct the dreamlike fluidity of imagination. '!
+
+By ‘the matrices of disciplined thought’, he meant the ordered
+conceptual structures which he assumed to underlie conscious
+reasoning.
+
+( Koestler explained creativity as the ‘bisociation’ of two conceptual
+matrices which are not normally associated, and which may even seem
+incompatible: “The basic bisociative pattern of the creative synthesis
+[is] the sudden interlocking of two previously unrelated skills, or
+matrices of thought.’'* [The more unusual the bisociation, the é
+scope there is for truly creative ideas. Various types of unconscious
+thinking may be involved, including visual imagery; concrete (sometimes 
+personal) exemplars of abstract ideas; shifting emphasis;
+reasoning backwards; and generating analogies of diverse kinds. In
+addition, he emphasized the importance of long apprenticeship and
+expertise, Whether m science or in art. 44. 7-—
+~Boih Koestler and Poincaré, then, explained creativity in terms of
+the unconscious combination of ideas drawn from different domains.
+But only Koestler mentioned mental structure. He saw creativity as
+exploiting, and being somehow unconsciously guided by, specific
+conceptual matrices. yin
+
+That is why Koestler rejected Poincaré’s explanation as
+‘mechanistic’. Nothing guides one gnat to fly towards another, nothing
+causes one gas-molecule to move nearer to another — and nothing
+prevents their random dancing from falling into madness. Creativity
+requires more than the mere automatic mixing of ideas. Even an
+unguided bisociation of matrices is not enough:
+
+{The} rebellion against constraints which are necessary to maintain the
+order and discipline of conventional thought, but an impediment to the
+creative leap, is symptomatic both of the genius and the crank; what
+ilistinguishes them is the intuitive guidance which only the former enjoys.
+
+As for how this intuitive guidance works, Koestler recognized the
+need for a detailed explanation, of which (as he was well aware) he

@@ -1,0 +1,37 @@
+### METADATA ###
+# source_file: Designing Virtual Worlds__Bartle_150_user_circles.txt
+# char_count: 3995
+# word_count: 613
+### END METADATA ###
+
+Fifth Circle—Seek New Challenges. Players feel that they have exhausted everything 
+that the virtual world has programmed in for them to do. The only entertainment 
+left is interaction with other players.
+
+Sixth Circle—Everything Is One. Players recognize all ways that people can play
+the virtual world, and have a full understanding of the merits of them all. Players
+accept and appreciate each other, the virtual world, and the way things are.
+
+Hedron’s article goes into some depth about the options available to players at the fifth
+circle, at least one of which (leaving to play some other virtual world) does not necessarily 
+lead to the sixth circle. There’s no need to discuss that here, however.
+
+All three of the approaches discussed so far rely on the observations of individuals for
+their substance. There is a more scientific approach available, however: statistics.
+
+
+The most extensive study of the player base for any individual virtual world is Nick
+Yee’s The Norrathian Scrolls?°. This important survey is famed for both its extensiveness
+and its statistical rigor. It considers the real-world and in-game demographics for
+EverQuest, and correlates the two. For example, it provided concrete evidence that (on
+the whole) male players tend more toward achievement than female players and that
+(on the whole) female players tended more toward socializing. Its scope also considered 
+other issues of use to academic researchers (for example virtual gender-bending).
+
+Although The Norrathian Scrolls found differences among players based on their realworld 
+demographics, they were not strong enough to be of use to designers. Yes, on
+the whole male players are more driven by achievement than female players, but there
+are nevertheless plenty of female players who are achievers and plenty of male ones
+who are socializers. Nick therefore decided to undertake a second survey to look for
+more fundamental differences—ones that did not make reference to real-world
+demographics.

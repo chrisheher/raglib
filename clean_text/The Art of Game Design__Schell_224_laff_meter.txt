@@ -1,0 +1,91 @@
+### METADATA ###
+# source_file: The Art of Game Design__Schell_224_laff_meter.txt
+# char_count: 5536
+# word_count: 974
+### END METADATA ###
+
+CHAPTER THIRTEEN * GAME MECHANICS MUST BE IN BALANCE THE TWELVE MOST COMMON TYPES OF GAME BALANCE
+
+One thing that psychological study has shown is that reward is always a bet
+tool for reinforcement than punishment. Whenever possible, if you need to engage
+a player to do something, it is better to use a reward than a punishment, if you
+can. One great example from Blizzard’s game Diablo is the business of gather/
+food in games. Many game designers at one time or another get the idea that they
+would like to make a game with a “realistic” system of food gathering. That is
+you do not gather food, your character suffers from diminished powers becatl
+of hunger. Blizzard implemented this and found that players considered it a nu
+sance—they must perform a fairly boring activity or suffer a penalty. So, Blizzal
+turned it around and implemented a system where your player never gets hung?
+but if they do eat food, they get a temporary boost in abilities. Players liked th
+much better. By changing a punishment into a reward, they were able to turn tI
+same activity from a negative to a positive.
+
+When punishment is necessary, however, how much to use is a delicate question.
+When developing Toontown Online, we had to face the question of what we
+to be the harshest punishment in a light, fun MMORPG for kids. We ultimate!
+decided on a combination of light punishments for “dying,” which in Toontown I
+called “becoming sad,” for the game is so lighthearted that players do not have a life
+meter, but rather a laff meter, and the enemy’s goal is not to kill the player outright
+but just to make him sad enough to stop acting like a cartoon character. When the
+laff meter goes to zero in Toontown, these things happen: 
+punishment must be used delicately, since after all, players are in a game of :
+their own free will. Balanced appropriately, it will give everything in your
+game more meaning, and players will have a real sense of pride when they
+succeed at your game. To examine the punishment in your game, ask yourself
+these questions:
+
+whether will quickly label the game “unfair.” Once this happens, a player is seldom
+Willing to engage in a game further. Players dislike punishment, of course, and you must be 
+thoughtful about whether there are tricky ways that players can avoid your punishment. Richard Garriott’s
+ Ultima I, though greatly beloved, contained very strict punishment. It was a
+that took close to hundred hours to complete, and if your four characters perished
+ while you were playing, your game state was completely erased, and you had
++ heyin the game again! Players generally felt this was unfair, and as a result, it was
+winon practice if your characters were near death to shut off the computer before
+ie fame had a chance to erase the saved game, effectively dodging the punishment.
+ls worth mentioning that there is a certain class of player that lives for games
+Jiil.are insanely challenging and loves games that have strong punishments (cough,
+Wilion Souls, cough), because they can feel so proud about having beaten such a difof same. 
+These players are a fringe group, though, and even they have their limits.
+‘they will quickly call a game “unfair” if they cannot see how to prevent punishment.
+
+Lens #47: The Lens of Punishment
+
+ You are teleported from the battle area back to a playground zone (setback). This
+setback is very minor—the distance is usually only a minute’s walk.
+
+All the items you are carrying disappear (resource depletion). This is also minor
+the items are inexpensive and can be earned again in about 10 minutes of play. - {What are the punishments i in my game?
+
+Your character hangs his or her head sadly (shame). Why am I punishing the players? What do I hope to achieve by it?
+
+I For about 30 seconds, your character walks at a painfully slow pace and is unable : Do my punishments seem fair to the players? Why or why not? — to leave the playground zone or engage in any meaningful gameplay (temporary
+
+Is there a way to turn these punishments into rewards and get the same or
+removal of powers).
+
+
+e Your laff meter (hit points) goes to zero (resource depletion), and the player will
+probably want to wait for it to increase (it increases over time in a playground
+zone) before exploring again.
+
+This combination of light punishments is just enough to make players use caution in battles. 
+We tried lighter versions, and it made battles boring—there was no
+risk in them. We tried tougher versions, and it made players too cautious in battles.
+Eventually we settled on a combination that struck an appropriate balance between _
+encouraging caution and risk in the players.
+
+It is crucial that all punishment in a game is for things that the player is able —
+to understand and prevent. When punishment feels random and unstoppable, it
+makes the player feel a complete lack of control, which is a very bad feeling, and the
+
+I Balance Type #10: Freedom vs. Controlled Experience
+
+Games are interactive, and the point of interactivity is to give the player control,
+or freedom, over the experience. But how much control? Giving the player con-
+(rol over everything is not only more work for the game developer; it can also
+be boring for the player! After-all, a game isn’t meant to be a simulation of real
+life, but rather more interesting than real life—this sometimes means cutting
+oul boring, complex, or unnecessary decisions and actions. One simple kind
+
+224 295

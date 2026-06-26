@@ -1,0 +1,80 @@
+### METADATA ###
+# source_file: Art Matters__Lamb_088_three_speeches.txt
+# char_count: 5628
+# word_count: 952
+### END METADATA ###
+
+88 Art Matters
+
+direct speech, free indirect speech, and summarized speech. Let’s say this
+in the fabula, an employee enters his boss’s office and says: “You can take
+this lousy job and shove it. Pl be damned if Pll work for a hypocritical
+coward like you anymore. I quit.” In the text, if the author writes thew
+exact words, i we have direct speech. If, on the other hand, the author
+were to write: CHe told his boss how he felt about both him and the job
+and resigned,3 then we have summarized speech. The gist of the character's
+words has been summarized by the narrator in his own words, aint
+we have no idea what the character’s actual words were. 
+Between these extremes, however, we have a vast middle ground—free indirect speech
+which combines the character’s and narrator’s words. Sometimes, free ili
+direct speech is closer to the character, as in: “He told the head where Ih
+could shove his lousy job. He’d be damned if he’d work for a hypocritial
+cal coward anymore, and he quit.” This gives a lot of the flavor of what t
+character actually said, but it merges the narrator’s voice with the character's
+
+On the other hand, free indirect speech can be closer to the narrator
+than to the character, as in: “He told his boss where he could put his lousy
+job and also just what he thought of liars and cowards, and then resigned,”
+Here, too, the voices merge, but the narrator's voice is stronger. In addition
+to these three ways of rendering thought or spoken words from the
+fabula, there is another technique that is a subset of direct speech, 
+immediate speech, which eliminates the narrator entirely by removing 
+the identification tag (e.g., “He said” or “He thought”). This technique, closely 
+associated with James Joyce, who even removed the quotation marks that
+indicate direct speech, has the effect of “obliterating the last traces of the
+narrating instance and giving the floor to the character right away”.
+
+To return to our analysis, in sentences 9 through 11, the camera angle
+is Nick’s perspective, what he sees, but the voice is more that of the 
+narrator (as it has been since the start of the text). Nick may indeed see that “two
+Austrian dead lay in the rubble in the shade of the house,” yet it is highly
+unlikely that these are the words he would be thinking. But it is impossible
+to tell if sentence 12—“Things were getting forward in the town.”—are
+Nick’s thoughts in his voice (except for the verb tense) or Nick’s thoughts in
+the narrator’s voice (it can be free indirect or summarized speech). By the
+time we get to sentences 13 and 14, however, we are clearly in Nick’s consciousness, 
+with Nick thinking that it is going well and that the stretcher
+bearers will be along shortly. As for voice, only the verb tenses keep this
+from being direct speech; Nick would have conjugated “to be” in the present 
+(Things are” and “Tt is”). Other than that, we would have direct speech,
+ail Hemingway indicates this by employing the gist of immediate speech,
+‘liminating identification tags (e.g., “It was going well.”). 
+
+Although he has technical access to Nick’s consciousness, Hemingway
+refrains from using it, so as to keep the narrator completely effaced and
+the reader fully immersed in the scene. He reveals Nick’s feelings about his
+eluation through his sardonic words to Rinaldi (sentences 16-18 and 20)
+will, even more, in the superbly rendered ending. Sentence 21 has two verbs
+avid two adverbs: “turned” his head away “carefully” and “smiling sweatily,” 
+
+‘The main thing being conveyed here is Nick’s physical condition (pain,
+discomfort, sweating), but that unobtrusive second verb—smiling—points
+io something else. The mystery of Nick’s smile is revealed in the final sentence, 
+the wonderful understatement that “Rinaldi was a disappointing
+audience.” Had Hemingway not handled his focalization with such a perfect 
+touch, had he allowed the narrator to hold forth on Nick’s thoughts
+iid feelings, had he not, within a narration that is technically fixed 
+internal focalization, done all he could to make it closer to external focalization, 
+this last sentence would have been less effective because it could just
+us easily have been attributed to the narrator as to Nick. But Hemingway
+kept his narrator hidden, gave us our glimpse into Nick’s mind through
+immediate speech, and, with the word smiling, set up our attribution of
+the final sentence to Nick’s sense of irony rather than the narrator’s. This
+Spartan restraint of the third-person narrator, as much as any other technique, 
+is a sine qua non of Hemingway’s unique style, a style that has impressed but 
+baffled so many readers. Only two of his fifty-three stories are
+fully in external focalization. Nevertheless, in his internally focalized stories, 
+in third-person and even in first-person, we find a preponderance of
+external focalization, the effect of which is to give the stories a new kind
+of immediacy by removing the narrator from sight and allowing readers
+io pick up on the impressionist details Hemingway has carefully—as care-

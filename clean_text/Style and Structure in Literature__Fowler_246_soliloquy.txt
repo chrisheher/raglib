@@ -1,0 +1,91 @@
+### METADATA ###
+# source_file: Style and Structure in Literature__Fowler_246_soliloquy.txt
+# char_count: 4171
+# word_count: 735
+### END METADATA ###
+
+
+
+and Faulkner’s As I Lay Dying. Is the transfer of the term to
+narrative structure useful? Is this a separate narrative category?
+Let us recall its meaning in the drama. The standard examples
+—Hamlet’s and Macbeth’s soliloquies—contain at least the
+following features:
+
+(a) the character does in fact speak (in the cinematic version, by a
+technical trick, his lips remain closed but we hear his voice);
+(8) either he is alone, on stage, or if there are others they show by
+their demeanor and actions that they do not hear him;
+
+(c) he traditionally faces the audience;
+
+(d) but he does not necessarily name the audience; the second person
+pronoun or the imperative, if used, are addressed either to himself or, in formal apostrophe, to someone not present (‘Oh ye
+Gods,’ or the like);
+
+(e) thus the audience is not being addressed, but rather overhears
+the character’s address to himself or to someone not present;
+
+(f) the style and diction of the soliloquy tend to be very much of a
+piece with the character’s ordinary dialogue; thus if he speaksin
+a formal and poetic manner to the other characters, that is the
+style of the soliloquy, too; there is no attempt to modify his
+language to show that it is an inner phenomenon;
+
+(g) the content often constitutes an explanation of or comment on
+the character’s situation. “ Jle jousaed 4
+
+Features (a) and (b) are obligatory, the rest optional but usual.
+Now in what sense can passages in narrative be called
+soliloquies? The Waves and As I Lay Dying do in fact exhibit
+some of these features.2® In The Waves characters are said to
+Speak: the tag ‘he (she) said’ is usually present, and passages
+attributed to each character are always in quotation marks:
+
+‘Susan has passed us,’ said Bernard. ‘She has passed the tool-house
+door with her handkerchief screwed into a ball. She was not crying,
+but her eyes, which are so beautiful, were narrow as cats’ eyes before
+they spring. I shall follow her, Neville. I shall go gently behind her,
+to be at hand, with my curiosity, to comfort her when she bursts out
+in a rage and thinks, “I am alone”’.’
+
+As I Lay Dying does not use tags, but name-captions are used to
+identify each speaker, as in a playscript.
+
+Jewel and I come up from the field, following the path in single file.
+Although I am fifteen feet ahead of him, anyone watching us from
+the cotton-house can see Jewel’s frayed and broken straw hat a full
+head above my own.
+
+In neither novel do other characters respond directly to the
+statements of the speaker; thus we infer that the others have
+not ‘heard’ them. Thus the form cannot be ‘dramatic monologue’ 
+or the like. Though Bernard seems to be addressing
+Neville directly, there is nothing in Neville’s next speech (which
+occurs no less than four pages and ten speakers later) to suggest
+an acknowledgement of what Bernard has said; indeed, there
+is no way of knowing whether Bernard is even present at the
+moment he speaks (the scenic sense is very weak in The Waves
+in any case):
+
+“Where is Bernard?’ said Neville. ‘He has my knife. We were in the
+tool-shed making boats, and Susan came past the door... .
+
+The same thing is true of As I Lay Dying; the only time there is
+an interchange between characters is when their conversation
+is reported by the soliloquizer, in which case the soliloquy itself
+has become a narrative within a narrative:
+
+CORA
+... ‘She ought to taken those cakes anyway,’ Kate says.
+‘Well,’ I say, ‘reckon she never had no use for them now’. ‘She
+ought to taken them,’ Kate says...
+
+As for the optional features of soliloquy, discussed above, 
+I cannot recall an instance where the reader is named or addressed
+in either The Waves or As I Lay Dying. In the rare cases tha you’
+occurs in the former, it serves very much the apostrophe effect,
+as in Louis’ speech upon finishing school:
+
+‘I am most grateful to you men in black gowns, and you, dead, for
+your leading, for your guardianship .. .’

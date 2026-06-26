@@ -1,0 +1,63 @@
+### METADATA ###
+# source_file: Writing With Style__Trimble_131_modifier.txt
+# char_count: 3785
+# word_count: 648
+### END METADATA ###
+
+130 Odds & Ends
+
+Now some longer ones, where things get rougher still:
+
+stickler for the rules attitude
+one day at a time plan
+fast food chain operation
+do it yourself mentality
+trial and error analysis
+three steps to success model
+stickler-for-the-rules attitude
+one-day-at-a-time plan
+fast-food-chain operation
+do-it-yourself mentality
+trial-and-error analysis
+three-steps-to-success model
+
+Imagine yourself reading along and suddenly coming upon each of the
+items in the left column. What happens? Well, with no cue that you're em
+barking on a compound modifier, you press merrily on, only to arrive at
+juxtaposition of words that makes no sense whatsoever: “over lake,” “ditch
+stand,” “track mind,” “rules attitude,” etc. What do you do? You stop, double 
+back a few words, check to see if you've overlooked something, decide
+you haven’t, and then parse the whole phrase for some latent meaning,
+Oh! you eventually say, grimly, I get it now.
+
+But sometimes you don’t. Consider these puzzlers. Can you say with
+perfect confidence what the writer meant?
+
+long-dead fish
+light-red shirt
+
+rare book store
+first floor plan
+
+When one of my students confessed to having had “little hands on writing experience,” 
+was she making a statement about her small hands or was
+she confessing how little actual writing experience she’d had? When the
+army ordered “20 foot long rods of plutonium,” did it actually want 
+“20foot-long rods of plutonium” (i.e., rods that were 20 feet long, but no
+telling how many) or “20 foot-long rods of plutonium” (i.¢., 20 rods, each
+a foot long)? When the Texas state senator made some “last minute objections” 
+to a bill, were these objections offered at the last minute, or
+were they some pretty tiny objections on top of ones he or others had already made?
+
+Well, you get the point. So start schooling yourself to watch for where good 
+writers hyphenate. (As writers, we learn most of what we know just by watching pros,
+don’t we?) And I also suggest that you start worrying about where your
+own phrasing might need hyphens. Try my simple two-part test:
+
+Hyphenate your modifiers if you can’t
+
+1. reverse their order
+
+2. remove one of them
+
+without damaging the sense.

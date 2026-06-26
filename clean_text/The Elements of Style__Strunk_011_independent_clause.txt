@@ -1,0 +1,55 @@
+### METADATA ###
+# source_file: The Elements of Style__Strunk_011_independent_clause.txt
+# char_count: 1823
+# word_count: 314
+### END METADATA ###
+
+People who live in glass houses shouldn’t throw stones.
+
+I. Place a comma before a conjunction introducing an
+lndependent clause.
+
+The early records of the city have disappeared, and the story of its
+first years can no longer be reconstructed.
+
+‘The situation is perilous, but there is still one chance of escape.
+
+Two-part sentences of which the second member is introduced by as
+( the sense of “because”), for, or, nor, or while (in the sense of “and at
+tlie same time”) likewise require a comma before the conjunction.
+
+If a dependent clause, or an introductory phrase requiring to be set
+olf by a comma, precedes the second independent clause, no comma is
+weeded after the conjunction.
+
+The situation is perilous, but if we are prepared to act promptly,
+there is still one chance of escape.
+
+When the subject is the same for both clauses and is expressed only
+once, a comma is useful if the connective is but. When the connective
+is and, the comma should be omitted if the relation between the two
+slutements is close or immediate. ~
+
+I have heard the arguments, but am still unconvinced.
+
+He has had several years’ experience and is thoroughly competent.
+
+5. Deo not join independent clauses with a comma.
+
+If two or more clauses grammatically complete and not joined by a
+conjunction are to form a single compound sentence, the proper mark
+of punctuation is a semicolon.
+
+Mary Shelley’s works are entertaining; they are full of engaging
+ideas.
+
+It is nearly half past five; we cannot reach town before dark.
+
+It is of course, equally, correct to write each of these as two sentences,
+replacing the semicolons with periods.
+
+Mary Shelley’s works are entertaining. They are full of engaging ideas.
+
+It is nearly half past five. We cannot reach town before dark.
+
+11 I ELEMENTARY RULES OF USAGE

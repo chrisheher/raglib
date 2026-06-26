@@ -1,0 +1,106 @@
+### METADATA ###
+# source_file: Perl_354_file_glob.txt
+# char_count: 6840
+# word_count: 1157
+### END METADATA ###
+
+54 File and Directory Manipulation Chapier 1] —
+
+This function also takes two arguments: the original filename (which does not
+need to exist and could be a directory name) and the name of the symbolic link. Symbolic
+ can be followed using function readlink. Function unlink removes all existing
+hard links to a file, causing the file to be deleted.
+
+1.6 File Globbing
+
+What if your program needs to manipulate a set of files? Perhaps you want to process all
+txt files, or all the files whose name follows a certain format. Most operating systems
+provide a means to do this and Perl does as well. In Perl, this process is called globbing (no
+relation to typeglobs, a data type to be discussed in Chapter 13) and is done using the
+ wildcard character, *, or any other glob character. Perl can be told that it
+ should perrm file globbing two ways. If you enclose the filename in angle brackets, as in <*.txt>,
+srl expands the wildcard character, In scalar context, Perl returns the first file that matches
+e pattern (if such a file exists). In list context, Perl returns all files that match the pattern,
+1is can also be done using the built-in glob function, glob( "* txt" ). Filenames
+t globbing can also be specified using variables, so the following code
+
+$glob = "*.txt";
+@files = glob( $glob );
+
+I function properly. Perl programmers usually prefer to use function glob over the an-
+© brackets.
+
+I.7 Directory Handles and Manipulation
+
+Files have filehandles, and directories have directory handles, which are almost identical
+filehandles. They can be opened, closed and read; however, you cannot
+ write informan using a directory handle. To open and create a directory handle, pass function
+endixr two arguments: the name of the directory handle and the name of the directory,
+like function open for files, you cannot specify modes such as reading, writing, append:
+1, etc. Function closedir closes directory handles.
+
+Once a directory handle is opened, the program can read from the directory by using!
+iction readdir. This function iterates through the directory, returning all files and
+ectories stored in the directory. Function rewinddir resets the directory handle to
+int to the first item in the directory.
+
+Although we cannot use directory handles to write to directories, we can do it in
+other way. Directories can hold files and other directories. So, to write to a directory, all
+have to do is create new files or new directories in the directory. We already know how
+create files, so now we consider how to create directories with Junction mkdir, which
+is two arguments: the name of the new directory and permissions for the directory. What
+wish to change our current directory and create our new directory somewhere else?
+is is done using function chdir. Directories can also be deleted using function rmdir,
+ese functions should provide all of the capabilities you need to manipulate directories,
+It is important to remember that Windows and UNIX have different path separators
+iracters that separate the directory names when specifying the location of a file or diree.
+y. In UNIX, the path separator character is the forward slash, 7. In Windows, the path
+
+lers. So, how can we write a program that is portable across these platforms? One way to
+work around this limitation is Perl’s $40 special variable. This variable contains the name
+ol (he operating system under which the program is running. Your program can use this
+variable with an if structure and a regular expression to adapt to the current operating
+sysiem and-use the appropriate path separator character.
+
+Portability Tip 11.1
+
+a When programs require different code for different operating systems, use the $40 special
+variable to determine the operating system and enable you to execute the appropriate operating-system-specific code.
+
+11.8 Example: Web Site Recent-Update Page
+
+The program in Fig. 11.10 demonstrates many of the features described in this chapter. It
+recursively searches through a Web site directory and finds all Perl files, HTML files and
+subdirectories (then searches through the subdirectories) and prints them in an HTML page.
+Any file or directory updated within the last seven days is designated as “brand new!”,
+iid anything updated within the last 30 days is designated as “new!”
+
+The main portion of this program (lines 5 through 19) is fairly short: most of the work
+is done by the two functions search (line 21) and printFile (line 42). This program
+provides a good example of modularity. The program begins by declaring four variables
+with the keyword our, so that these values can be accessed by the user-defined functions
+(hut follow. We declare $root (line 10) to hold the value "I: /Apache/cgi-bin/"
+(id use ¢hdix (line 11) to change the working directory to this value. Lines 14-16 start
+\he HTML page, and lines 18-19 end the page.
+
+Line 17 is a call to the function search. Let us focus the rest of our discussion on
+What occurs as a result of this call to search. This function (lines 21-40) begins by
+aissigning the two arguments to $directory and $offset. In this case, $directory
+in"", and $o££set is 1. The $0£f£set variable helps us indent the output of the program
+\0 represent the directory structure. Lines 24 and 25 use opendir to create a directory
+bundle for the current directory to search. The foreach structure in line 27 iterates
+though all the file and directory names in the current directory. The variable $£ile (line
+2) is assigned the directory in which we started ($directory) concatenated with the
+current value returned from readdir. Lines 29 and 30 call the printFile function.
+"his function, which will be discussed in detail shortly, displays the name of a file or directory. 
+The first line calls print File if the file is an HTML file, and the second line calls
+printFile if the file is a Perl program file. The second section of the search function
+recurs in the i£ structure of lines 32-38. If the current file is a directory, then we want to
+irerate through that directory as well. To do this, we use recursion, a concept we introduced
+ii Chapter 6. The directory name is printed by calling printFile (line 33), and then line
+‘1 recursively calls search. In this call to search, we provide the new directory name
+(§£4 Le) concatenated with a path separator. This is because in the next call to search,
+we want the files in this subdirectory to be processed. The next line prints the $indent in
+I for structure based on $o£fset. The variable $of£set is incremented based on the
+current indent level. It begins at 1 when we are in the directory specified by $root and
+iherements every time we move to a subdirectory. If we begin processing files in a subdirectory of "Te /Anaqche /ami chin] rallad webAWh bene fe ek hm.

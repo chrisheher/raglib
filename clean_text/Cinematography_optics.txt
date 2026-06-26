@@ -1,0 +1,53 @@
+### METADATA ###
+# source_file: Cinematography_optics.txt
+# char_count: 2327
+# word_count: 406
+### END METADATA ###
+
+PHYSICAL BASIS OF OPTICS
+
+Except for certain minor differences, the principles of 
+use of lenses are the same for film and video. Nearly ai a
+of optics and optical design are based on a few principles. 
+
+The two most basic are reflection and refraction. The
+things we need to know about the basic behavior of light may
+understand the fundamentals of optics.
+
+Aside from lighting sources, most things in the real world
+emit visible light but reflect natural or artificial light. The sam
+of light can be roughly categorized into two types of =
+specular reflection which is defined as light reflected from ==
+surface at a definite angle, and diffuse reflection, which x
+by rough surfaces that tend to reflect light in all directions. 7
+far more occurrences of diffuse reflection than specular our everyday environment.
+
+The basic rule of reflection, known to any schoolchild, is: =
+of incidence equals the angle of reflection. The amount of light =i
+by an object is dependent upon the texture of the surface. Wee
+face imperfections are smaller than the wavelength of the &
+light (as in the case of a mirror), virtually all of the light is ret
+In everyday language — it’s shiny. However, in the real world
+objects have convoluted surfaces that exhibit a diffuse re
+with the incident light being reflected in all directions.
+
+As will be discussed in the chapter on lighting, diffusion &
+key element in controlling light that is transmitted through =
+namely diffusion materials. In both cases, diffusion means the
+thing: the light rays are more scattered in all directions
+are reflected or transmitted than they were before. The oppossing
+reflection, absorption, is of interest in two ways. First of all
+objects have “color” (see chapter on Color Theory) and secondly =
+how we control light on the set.
+
+Refraction
+
+The refraction of visible light is an important characteristic of l=
+that allows them to focus a beam of light onto a single point. ==
+tion, or bending of the light, occurs as light passes from one med ==
+to another when there is a difference in the index of refraction
+between the two materials.
+
+Refractive index is defined as the relative speed at which light 
+through a material with respect to its speed in a vacuum. When borer
+passes from a less dense medium such as air to a more dense media

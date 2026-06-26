@@ -1,0 +1,70 @@
+### METADATA ###
+# source_file: Human Use...Beings__Weiner_029_entropy.txt
+# char_count: 3515
+# word_count: 610
+### END METADATA ###
+
+PROGRESS AND ENTROPY
+
+As we have said, nature’s statistical tendency to disorder, 
+the tendency for entropy to increase in isolated
+systems, is expressed by the second law of thermodynamics. 
+We, as human beings, are not isolated systems. We take in food, 
+which generates energy, from the outside, and are, as a result, 
+parts of that larger world which contains those sources of our vitality. 
+But even more important is the fact that we take in information 
+through our sense organs, and we act on information received.
+
+Now the physicist is already familiar with the significance of this 
+statement as far as it concerns our relations with the environment. 
+A brilliant expression of the role of information in this respect is 
+provided by Clerk Maxwell, in the form of the so-called “Maxwell
+demon,” which we may describe as follows.
+
+Suppose that we have a container of gas, whose temperature is everywhere 
+the same. Some molecules of this gas will be moving faster than others. 
+Now let us suppose that there is a little door in the container that
+lets the gas into a tube which runs to a heat engine, and that the 
+exhaust of this heat engine is connected by another tube back to the 
+gas chamber, through another door. At each door there is a little being with the
+power of watching the on-coming molecules and of
+opening or closing the doors in accordance with their
+velocity.
+
+The demon at the first door opens it only for high speed molecules 
+and closes it in the face of low-speed molecules coming from the container. 
+The role of the demon at the second door is exactly the opposite: 
+he opens the door only for low-speed molecules coming
+from the container and closes it in the face of highspeed molecules. 
+The result is that the temperature goes up at one end and down 
+at the other thus creating a perpetual motion of “the second kind”: 
+that is, a perpetual motion which does not violate the first law
+of thermodynamics, which tells us that the amount of
+energy within a given system is constant, but does
+violate the second law of thermodynamics, which tells
+us that energy spontaneously runs down hill in temperature. 
+In other words, the Maxwell demon seems to
+overcome the tendency of entropy to increase.
+
+Perhaps I can illustrate this idea still further by considering a crowd 
+milling around in a subway at two turnstiles, one of which will only 
+let people out if they are observed to be running at a certain speed, 
+and the other of which will only let people out if they are
+moving slowly. The fortuitous movement of the people
+in the subway will show itself as a stream of fast-moving
+people coming from the first turnstile, whereas the second turnstile 
+will only let through slow-moving people. If these two turnstiles are 
+connected by a passageway with a treadmill in it, the fast-moving people
+ will have a greater tendency to turn the treadmill in one direction than 
+the slow people to turn it in the other, and we shall gather a source of 
+useful energy in the fortuitous milling around of the crowd.
+
+Here there emerges a very interesting distinction
+between the physics of our grandfathers and that of
+the present day. In nineteenth century physics, it
+seemed to cost nothing to get information. The result is
+that there is nothing in Maxwell’s physics to prevent
+one of his demons from furnishing its own power source.
+Modern physics, however, recognizes that the demon
+can only gain the information with which it opens or
+closes the door from something like a sense organ

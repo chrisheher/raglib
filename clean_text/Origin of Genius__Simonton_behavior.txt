@@ -1,0 +1,93 @@
+### METADATA ###
+# source_file: Origin of Genius__Simonton_behavior.txt
+# char_count: 6211
+# word_count: 1018
+### END METADATA ###
+
+42 ~ Origins of Genius ~
+
+The experimental simulation required that the pigeon learn three behayiors. 
+First, the pigeon learned it would receive food when it successfully
+pushed a box toward a green spot located at random positions on the floor
+of the Skinner box. Second, the pigeon learned it could obtain food by pecking 
+at an object—made to look like a little banana—suspended from the top
+of the chamber. However, it also learned that the food would be delivered
+only if the pigeon’s feet were standing on something. Jumping and flying at
+the toy banana accomplished nothing. Third, the pigeon learned how stepping 
+on a box to peck at the banana was permissible, and the position of the
+banana-box combination was freely varied about the cage. After acquiring
+this behavioral repertoire, the pigeon was confronted with a novel situation;
+A banana was suspended out of reach, with the box located in another part
+of the chamber. None of the pigeon’s learned behaviors will solve the prob-—
+lem, although the right combination will do the trick. So what did the
+pigeon do? It behaved in a manner virtually indistinguishable from Kohler’s _
+chimps. “At first the pigeon looked confused. It stretched toward the banana,
+looked back and forth from the banana to the box, and so on. Then, quite
+suddenly, it began to push the box toward the banana, sighting the banana
+as it pushed. 
+
+Each pigeon stopped pushing when the box was beneath the banana and 
+then immediately climbed and pecked.” Significantly, pigeons
+that did not acquire the full behavioral repertoire either failed to solve the
+problem or solved it only through trial and error (depending on which
+operants had been learned). This replicates what has been found in 
+chimpanzee studies as well. Chimps will show insight only when they have
+learned all the behavioral components required of the solution.
+
+A critic might consider Epstein’s simulation of insight more cute than ~
+convincing. But, on the contrary, Epstein has established the theoretical —
+plausibility of this model in three important ways. First, he has carefully
+studied the behavioral processes that underlie the insight phenomenon in
+order to comprehend precisely how it works. For example, he has advanced
+the “principle of resurgence,” which states, “When, in a given situation, a
+behavior that was previously successful is no longer successful, behavior
+that was previously successful in similar situations tends to recur” Thus, the
+organism begins to generate behavioral variants based on all those past
+circumstances that might bear some relation to the current problem. Second,
+Epstein has cast his explanation in more formal terms, producing equations
+that provide the basis for computer simulations. These equations describe .
+how the probability of the appearance of various behaviors changes over
+the course of the organism’s interactions with the environment. In other
+words, the model describes the manner in which the organism achieves
+increased adaptive fit by generating and testing behavioral variants. Third
+and last, Epstein did not rest content with applying his “generativity theory”
+
+
+\o pigeons. He has applied the same paradigm to human subjects trying to
+solve a classic insight problem. The computer simulation predicts the
+behavior of humans just as well as it does for animals. As a consequence,
+ifisofar as creativity requires insightful behavior, Epstein’s theory can be
+considered a viable Darwinian model of the creative process. Certainly the
+model incorporates a mechanism by which animals can generate behaviors
+that are both original and adaptive.
+
+Human studies. The insight problem that Epstein successfully modded
+ising his generativity theory was the famous two-string problem. The par-
+(icipant in the experiment enters the laboratory and sees two strings hangiig from the ceiling. The subject is told that the object is to tie the two
+‘trings together. In the vicinity are a number of objects that may be used to
+solve the problem, including a pair of pliers. The subject soon learns the
+task is more difficult than first meets the eye. The relationship between the
+‘listance between the strings and their length is such that one cannot simply
+yrab the end of one string, walk over to where the second string hangs, grab
+that second end, and complete the task. Try as he or she might, the other
+string always remains frustratingly beyond reach. The solution requires the
+subject to use the pliers in an unusual fashion—to create a pendulum. Once
+the pliers are tied to the end of one string, and that string is set in oscilla-
+(ion, it is an easy matter for the subject to walk over to the second string,
+pull its end toward the first string, and grab the pliers as they swing toward
+the subject. The rest is simple.
+
+Many subjects experience severe difficulty solving this problem, and
+research has unearthed some of the factors that enhance the odds of successful solution. One factor concerns the nature of the objects availableto
+tackle the task. To use a pair of pliers as a weight requires the subject to perceive that tool in a different manner, as merely a mass suitable for making a
+pendulum. But if the available objects include a plumb bob, the probability
+of a solution increases dramatically. Another factor is even more provocative: The subject may respond to “hints.” In one experimental condition the
+experimenter would casually walk by one of the strings, brush it “accidentally” with his shoulder, and thus set it in motion. Shortly after this clue the
+subject was much more likely to solve the problem. It is interesting to note
+that when subjects were asked how they arrived at the necessary insight,
+they would often fail to report the hint as the precipitating factor—the
+impact of the cue would be subliminal or unconscious.
+
+This is but one example of the kind of problem studied in the rich literature on insightful problem solving. Although the details vary, the findings
+are generally comparable. When an individual first confronts a novel problem, the most obvious responses may utterly fail. To succeed, the various
+features of the problem must be reformulated in a different and often highly

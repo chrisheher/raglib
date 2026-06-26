@@ -1,0 +1,45 @@
+### METADATA ###
+# source_file: Perl_542_IF_python.txt
+# char_count: 4010
+# word_count: 687
+### END METADATA ###
+
+12 my $password = param( "password" );
+13 my Suser = Pparam( "user" );
+14 my $new = param( "new" );
+
+542 Session Tracking and Cookies
+
+Chapter 16
+
+storing them in a file on the server. Normally, we would check for typos, bad data, 
+incomplete data, etc. Second, we have a simple key to our files. If someone knew that all our ID
+numbers were randomly created 10-character strings, it would be relatively easy to access
+someone else’s contact information and change it. One way to work around this problem is
+to send a password to the user at the email address provided. Not only would this method —
+provide a reasonably safe way to send the user a password, but it also would be an indirect
+way of verifying that the email address is valid.
+
+This script is not ready for use in a real server, but it does
+use of server-side files to store information. Once the files are
+cannot change the files unless they are allowed to do so by the server 
+administrator. Thus, these files are one of the safest ways to store user data. 
+Note that many systems store user information in a password-protected database 
+for higher levels of security.
+
+Many businesses now provide Web sites containing shopping-cart applications, 
+which allow customers to buy items conveniently on the Web. The sites record what the consumer
+wants to purchase and provide an easy, understandable way to shop online. They do so by
+using an electronic shopping cart, just as people would use physical shopping carts in retail
+stores. Users can add or remove items from their shopping carts, and the sites will update
+the contents automatically. When users “check out,” they pay for the items currently in their
+shopping carts. To see a real-world electronic shopping cart, we suggest going to the online
+bookstore Amazon.com (www.amazon. com).
+
+The shopping cart implemented in this example (Fig. 16.10, Fig. 16.11, Fig. 16.12 and
+Fig. 16.13 provide the functionality of the shopping cart) allows users to purchase books
+from an online bookstore that sells five books (see Fig. 16.14). This example uses more
+security features than do our earlier examples, which makes the programs in the example
+more complex. This example uses four programs, two server-side files and cookies. Figure
+16.10 shows the first of these programs, the login page.
+

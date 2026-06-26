@@ -1,0 +1,28 @@
+### METADATA ###
+# source_file: D_AD_arcade_fire_interactive_streets.txt
+# char_count: 893
+# word_count: 150
+### END METADATA ###
+
+One Show Interactive
+
+The Wilderness Downtown
+
+“The Wilderness Downtown” is a short interactive film. It allowed us to craft
+an experience that is not only personalized, but also deeply personal for
+each viewer. The project takes you down memory lane through the streets
+you grew up in, set to Arcade Fire’s new song “We Used to Wait” off their
+album “The Suburbs.” The project was built with the latest web technologies
+
+
+An interactive film by Chris Milk
+and includes HTML5, Google Maps, an integrated drawing tool, as well as
+multiple browser windows that move around the screen. “The Wilderness
+Downtown” was inspired by recent developments in modern browsers and
+was built with me ak in mind. As such, it’s best experienced in
+
+
+enter the address of the hone where you grew up
+
+Chrome
+Experiment

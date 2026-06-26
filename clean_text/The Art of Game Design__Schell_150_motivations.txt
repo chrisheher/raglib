@@ -1,0 +1,64 @@
+
+
+Inrinsic vs. Extrinsic Motivation
+
+Another way to think about motivation is by looking at where it comes from
+is particularly relevant for game designers, since games use so many different
+s of motivation to keep players interested. On the surface, it sounds simple;
+n I feel like doing something, we say I am intrinsically motivated, but when
+pone pays me to do something, we say I am extrinsically motivated. It may
+id simple, but in the reality of games, things quickly become tangled. Do I play
+Vian because I enjoy the visceral thrill of racing and chasing through the maze
+
+WANNA VS. HAFTA
+
+(intrinsic) or because the game gives me points (extrinsic)? What if I am truly
+motivated by the excitement of getting a high score? Is that intrinsic, or extrinsic,
+or both? Let’s say that PepsiCo creates a game where you get points and prizes for
+drinking Mountain Dew. That’s clearly a system of extrinsic motivation. But what
+il the game becomes a joke between my friends and I and we have an intrinsically
+fun social experience one-upping each other by winning more points and prizes?
+some are quick to vilify extrinsic motivation as being “cheap” game design, but
+savvy designers know that one motivation can grow on another, like a vine growing on a trellis.
+
+Some psychologists have tried to illustrate the complexity of intrinsic and extrinsic motivations by showing them as a continuum:
+
+External
+
+Intrinsic motivation
+
+Because I feel like doing it for its own sake
+
+Internal Intrinsic
+
+The key idea is that “intrinsic” and “extrinsic” are not binary, but a gradient
+where the more the motivation comes from “your true self,” the more internal it is.
+As a game designer, it is important to have a sense of how internal or external the
+(lifferent motivations in your game really are, for all motivations are not created
+equal, and sometimes they can interact in unexpected ways. In one famous study,
+(wo groups of children were asked to draw pictures. The first group was paid for
+vach picture they created, the second group was not. If you believe the idea that
+‘ore motivation is better, then you might expect that the paid group would draw
+iiore pictures and better pictures. And you would be half right—they did draw
+nore pictures, but the quality was lower—the pictures were not as interesting and
+thoughtful. But here’s the surprising part: when drawing time was up, each group
+Was asked to wait, while the researchers left the room. The unpaid children, with
+crayons _and paper in front_of them naturally kept drawing. The paid children,
+however, did not. They put their crayons down and just waited. It would seem
+motivation is not purely additive; rather, the act of adding extrinsic motivation to
+something that is already intrinsically motivating slides it along the continuum
+loward the external, draining away the intrinsic motivation! This has serious
+iepercussions for those who believe that any activity can be easily “gamified” by
+adding simple points, badges, and rewards.
+
+Wanna vs. Hafta
+
+\n Chapter 4, “Game,” we talked about how a change in attitude can turn work into
+play, and vice versa. This, without a doubt, is meaningfully connected to motivation.
+
+Think back to the example of the factory worker who made a game of trying to beat
+
+FIGURE
+11.3
+
+frac.)

@@ -1,0 +1,89 @@
+
+> Production Leveling
+
+In business, nothing is more pleasing than customer orders.
+With the labor dispute over and the special demands of the
+Korean War beginning, a lively tension filled the production
+plant. How would we handle the demand for trucks? People in
+the production plant were frantic.
+
+There was a shortage of everything from crude materials to
+parts. We could not get things in the quantity or at the time
+needed. Our parts suppliers were also short on equipment
+and manpower.
+
+Because Toyota made chassis, when many parts did not arrive on time 
+or in the right amounts, assembly work was delayed. For this reason,
+ we could not do assembly during the first half of the month. 
+We were forced to gather the parts that were arriving intermittently 
+and irregularly and do the assembly work at the end of the month. 
+Like the old song “dekansho” that tells of sleeping half the year, 
+this was dekansho production
+and the approach nearly did us in.
+
+If a part is needed at the rate of 1,000 per month, we should
+make 40 parts a day for 25 days. Furthermore, we should
+spread production evenly throughout the workday. If the
+workday is 480 minutes, we should average one piece every 12
+minutes. This idea later developed into production leveling.
+
+Establishing (1) a production flow and (2) a way to maintain
+a constant supply of raw materials from outside for parts to be
+machined was the way the Toyota, or Japanese, production
+system should be operated. Our minds were filled with ideas.
+
+Because there were shortages of everything, we must have
+thought it all right to increase manpower and machines 
+to produce and store items. At the time, we were making no more
+than 1,000 to 2,000 cars a month, and keeping a one-month inventory
+ in each process. Except for needing a large
+warehouse, this did not seem too big a burden. We did foresee
+a big problem, however, if and when production increased.
+
+To avoid this potential problem, we looked for ways to
+level all production. We wanted to get away from having to
+produce everything around the end of the month, so we
+started by looking inside Toyota itself. Then, when outside
+suppliers were needed, we first listened to their needs and then
+asked them to cooperate in helping us achieve leveled production.
+ Depending on the situation, we discussed the supplier’s
+cooperation in terms of manpower, materials, and money.
+
+> In the Beginning, There Was Need
+
+So far, I have described, in sequence, the fundamental principles 
+of the Toyota production system and its basic structure. I
+would like to emphasize that it was realized because there were
+always clear purposes and needs.
+
+I strongly believe that “necessity is the mother of invention.” 
+Even today, improvements at Toyota plants are made
+based on need. The key to progress in production improvement,
+I feel, is letting the plant people feel the need.
+
+Even my own efforts to build the Toyota production system
+block by block were also based on the strong need to discover
+anew production method that would eliminate waste and help
+us catch up with America in three years.
+
+For example, the idea of a later process going to an earlier
+process to pick up materials resulted from the following circumstance. 
+In the conventional system, an earlier process forwarded products to a 
+later process continuously regardless of
+the production requirements of that process. Mountains of
+parts, therefore, might pile up at the later process. At that
+point, workers spent their time looking for storage space and
+hunting for parts instead of making progress in the most important 
+part of their jobs — production.
+
+
+Somehow this waste had to be eliminated and it meant immediately 
+stopping the automatic forwarding of parts from
+earlier processes. This strong need made us change our method.
+
+Rearranging the machines on the floor to establish a production 
+flow eliminated the waste of storing parts. It also helped
+us achieve the “one operator, many processes” system and increased 
+production efficiency two and three times.
+
+I already mentioned that in America this system could not

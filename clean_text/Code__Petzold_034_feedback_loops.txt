@@ -1,0 +1,95 @@
+### METADATA ###
+# source_file: Code__Petzold_034_feedback_loops.txt
+# char_count: 3770
+# word_count: 661
+### END METADATA ###
+
+Chapter Five
+
+You also might be clever enough to discover that you can reduce your wire
+requirements by 25 percent by wiring the configuration this way:
+
+Your
+house
+
+Your friend’s
+house
+
+Notice that the negative terminals of the two batteries are now connected.
+The two circular circuits (battery to switch to bulb to battery) still operate
+independently, even though they’re now joined like Siamese twins.
+
+This connection is called a common. In this circuit the common extends
+from the point where the leftmost lightbulb and battery are connected to the
+point where the rightmost lightbulb and battery are connected. These connections
+ are indicated by dots.
+
+Let’s take a closer look to assure ourselves that nothing funny is going on.
+First, when you depress the switch on your side, the bulb in your friend’s
+house lights up. The red wires show the flow of electricity in the circuit:
+
+Your
+
+Your friend’s
+house
+
+house
+
+No electricity flows in the other part of the circuit because there’s no place
+for the electrons to go to complete a circuit.
+
+When you’re not sending but your friend is sending, the switch in your
+friend’s house controls the lightbulb in your house. Once again, the red wires
+show how electricity flows in the circuit:
+
+Your friend’s
+house
+
+Mele Around Corners
+
+When you and your friend both try to send at the same time, sometimes
+hail switches are open, sometimes one switch is closed but the other is open,
+and sometimes both switches are depressed. In-that case, the flow of electicity in the circuit looks like this:
+
+Your Your friend’s
+house house
+
+Me current flows through the common part of the circuit.
+
+ly using a common to join two separate circuits into one circuit, we’ve
+reduced the electrical connection between the two houses from four wires
+io three wires and reduced our wire expenses by 25 percent.
+
+If we had to string the wires for a very long distance, we might be tempted
+to reduce our expenses even more by eliminating another wire. Unfortunately,
+this isn’t feasible with 1.5-volt D cells and small lightbulbs. But if we were
+dealing with 100-volt batteries and much larger lightbulbs, it could certainly
+be done.
+
+Here’s the trick: Once you have established a common part of the circuit,
+you don’t have to use wire for it. You can replace the wire with something
+elae, And what you can replace it with is a giant sphere approximately 7900
+iniles in diameter made up of metal, rock, water, and organic material, most
+of which is dead. The giant sphere is known to us as Earth.
+
+When I described good conductors in the last chapter, I mentioned silver,
+copper, and gold, but not gravel and mulch. In truth, the earth isn’t such
+a hot conductor, although some kinds of earth (damp soil, for example)
+are better than others (such as dry sand). But one thing we learned about
+conductors is this: The larger the better. A very thick wire conducts much
+better than a very thin wire. That’s where the earth excels. It’s really, really,
+really big.
+
+To use the earth as a conductor, you can’t merely stick a little wire into
+the ground next to the tomato plants. You have to use something that maintains a substantial contact with the earth, and by that I mean a conductor
+with a large surface area. One good solution is a copper pole at least 8 feet
+long and 2 inch in diameter. That provides 150 square inches of contact with
+the earth. You can bury the pole into the ground with a sledgehammer and
+then connect a wire to it. Or, if the cold-water pipes in your home are
+made of copper and originate in the ground outside the house, you can
+connect a wire to the pipe.
+
+An electrical contact with the earth is called an earth in Great Britain and
+a ground in America. A bit of confusion surrounds the word ground because
+
+gamt

@@ -1,0 +1,104 @@
+### METADATA ###
+# source_file: The Creative Mind__Boden_162_moptop.txt
+# char_count: 5451
+# word_count: 842
+### END METADATA ###
+
+162 Unromantic Artists
+
+structure of human motivation. It merely uses a few specific facts (that
+flirtation precedes lovemaking, for instance) at various points in the
+text. Consequently, it is not capable of producing genuine stories — no
+even ata childish level. As for the intricate story-line of Emily Bronté’s.
+Wuthering Heights, which involves complex interactions between
+characters of two generations (and the viewpoints of two different
+narrators), these are utterly out of its reach.
+
+Since the detective-novelist program was written, there has been’
+further Al-research on how to model the psychological phenomena
+that lie at the heart of most stories. Various aspects of motivation and
+behaviour can now be represented, at least in crude outline, by
+computational concepts such as scripts, what-ifs, plans, MOPs (memongl
+organization packets), TOPs (thematic organization points) and
+TAUs (thematic abstraction units).
+
+Scripts, what-ifs and plans were mentioned in Chapter 5. A script
+represents a type of social behavior, defining complementary roles
+and sometimes specifying common variations (what-ifs). Scripts of I
+various sorts (involving waiters and customers, doctors and nurses,
+cowboys and Indians . . .) help to shape virtually all stories. ‘
+
+A plan is a hierarchical structure of goals and sub-goals, constructed
+by means-end analysis. It may include contingency plans (what-ifs)
+anticipating certain obstacles. And it may represent some sub-goals
+schematically, leaving the precise details to be worked out at the time of
+execution. The intentions of the characters in a story are comparable to
+plans, and the author can add tension to the story by putting various
+obstacles in the way. (Frederick Forsyth’s thriller The Day of the Jackal
+focuses not on ‘who done it?’ but on ‘how will he manage to do it” The
+villain’s every sub-goal is achieved, largely because of ingenious
+forward-planning, until at the very last minute an unexpected — but
+highly plausible — event defeats him.)
+
+A MOPisa high-level concept denoting the central features (details
+omitted) of a large number of episodes or scripts unified by a common
+theme. One example is ‘requesting service from people whose profession 
+is to provide that service’.
+
+TOPs, too, are high-level schemata that organize memories and
+generate predictions about events unified by a common goal-related
+theme (such as ‘unrequited love’ and ‘revenge against teachers’) But.
+unlike MOPs, they store detailed representations of the episodes
+concerned, rather than their thematic structure alone. (Psychologists
+make a similar distinction between ‘semantic’ and ‘episodic’ memories
+in the human mind.)
+
+TAUs are abstract patterns of planning and plan-adjustment, each
+of which covers multiple instances (so can be used to remind the system
+of another story, superficially different but basically similar). Examples
+include: ‘a stitch in time saves nine’, ‘too many cooks spoil the broth’,
+‘many hands make light work’, ‘red-handed’, ‘hidden blessing’,
+‘hypocrisy’, and ‘incompetent agent’.
+
+The specific aspects of planning which are used to define TA Us, and
+recognize them within stories, are: enablement conditions, cost and
+efficacy, risk, coordination, availability, legitimacy, affect, skill,
+vulnerability and liability. Clearly, then, no program — and no human
+being either — can represent these high-level motivational concepts
+unless it can analyse the abstract structure of plans to this degree of
+detail.
+
+These computational concepts have been implemented in a number
+of programs designed to interpret stories. The most impressive example
+to date is a program called BORIS, which also includes representations 
+of facts about adultery and divorce, and the emotional and legal
+tangles they may involve.® BORIS uses its information about interpersonal 
+phenomena such as anger, jealousy and gratitude to make
+sense of the episodes mentioned in the text.
+
+(You may object to my saying that BORIS ‘makes sense of stories,
+or that it ‘knows’ about anger and jealousy. For BORIS does not really
+understand the stories it processes. I use these words, nevertheless, for
+two reasons. First, it is so much simpler than saying “The program
+associates the word “jealousy”’ with “revenge”, and this word triggers
+the construction of plans involving other words such as “lawyer”.
+Second, our prime interest is in what BORIS can teach us about
+human minds, which can make sense of these words. A program may
+embody psychological hypotheses about how concepts are used by
+people, without understanding those concepts itself.)
+
+BORIS can give sensible answers to questions about a story in
+which a careless waitress, spilling soup on Paul’s clothes, leads to his
+discovery (with a witness) of his wife in flagrante delicto in the conjugal
+bed. (Notice that BORIS, like you, needs to know some mundane
+background-facts in order to be able to do this: that clothes are usually
+kept in bedrooms, and that to get to one’s house from a restaurant one
+may need to drive, or be driven, there.)
+
+On reading the sentence ‘Paul wanted the divorce, but he didn’t
+want to see Mary walk off with everything he had,’ BORIS can
+interpret ‘walk off with’ as meaning possession rather than perambulation. 
+Also, it can see Paul’s distaste for this prospect as a natural
+reaction to his discovery of his wife’s infidelity.
+
+Moreover, BORIS’s knowledge of the origin and psychological

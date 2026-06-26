@@ -1,0 +1,87 @@
+### METADATA ###
+# source_file: Act of Creation__Koestler_565_rules_game.txt
+# char_count: 5175
+# word_count: 842
+### END METADATA ###
+
+
+stimuli and habitual activities; it is, so to speak, isolated under a glass
+bell. This state creates a particular stress in the animal, called the
+dog’s ‘laboratory attitude’, which is sharply distinguished from its
+behaviour outside the lab. Deprived of all other stimuli and activities,
+the ticking of the metronome or the figure on the cardboard are the
+only events on which the dog’s attention can focus; there is no
+competition between different inputs; and thus the originally irrelevant
+stimuli are gradually transformed into relevant stimuli and encoded
+in stable traces. Relevant to what? To the only biologically important
+events which are allowed to occur under the glass bell: the periodic
+appearance of meat-powder by remote control. The dog’s laboratory
+attitude is dominated by this periodically repeated event; and as his
+petceptual hierarchy becomes slowly readapted to pay attention, in
+the absence of other stimuli, to the irrelevant sound of the bell, the
+nascent trace of the bell-sound will become incorporated into the
+feeding hierarchy, If the sound of the bell always overlaps with the
+appearance of the meat-powder, then the sound will eventually trigger
+off the feeding code, as the first two bars of the Marseillaise will trigger
+off the following bars; the dog will begin to salivate. But salivation
+is merely the first, anticipatory act of its feeding behaviour, and if no
+meat-powder is actually presented, it will stop there; the dog will not
+chew and snap at nothing. In the absence of food, the feeding habit
+gets no ‘environmental feedback’, and the activity comes to a halt at
+the expectant, salivatory stage. It is quite untrue, therefore, to say that
+the ‘conditioned stimulus’, e.g. the bell, has been ‘substituted’ for the
+‘unconditioned stimulus’, the meat-powder. What happened was that
+the dog has learned, by the cumulative effect of its past experience,
+to expect the a meat-powder after the bell, because
+
+ We can say that the dog has arrived at a correct empirical
+induction; or with Craik, that the dog’s nervous system is now
+ functioning ‘as a calculating machine capable of modelling or
+paralleling external events’ which is ‘the basic feature of thought and of
+explanation’ ;2° or in our own terms, that the invariant factor in
+a repeated sequence or experiences has been encoded in the dog’s
+brain.
+
+All this is a far cry from the conception of reflex arcs in which USs,
+CSs, URs, and CRs are mechanically coupled together or substituted
+for each other like railway carriages in a shunting yard. In fact, the
+dog’s behaviour in the strange, artificial universe where red lights
+portend food and metronomes electric shocks, is eminently ‘logical’;
+and the reason why it takes so long to stamp in the lesson is that the
+dog must readapt its entire attitude and hierarchy of values—of what
+is important in life and what is not—to that universe, where natural
+law is replaced by Pavlov’s law; a kind of Nietzschean Umwertung
+aller Werte. Perhaps the highest achievement of the dog is learning to
+discriminate between more or less flattened ellipses—for unlike its
+sharp pitch-discrimination, based on native equipment, geometrical
+forms must represent the height of irrelevance in canine eyes. Yet once
+relevance has been revalued, and the perceptual analyser-devices have
+been established, the development of sharper sub-analysers or discriminatory 
+filters must follow the stages outlined in Chapter X.*
+
+In a seemingly casual aside, Hebb has remarked that ‘the characteristic 
+adult learning (outside of psychological laboratories) is learning
+that takes place in a few trials, or in one only’.21 The implication is
+that the stamping-in of responses under artificial conditions in dogs,
+cats, or rats is quite uncharacteristic of the normal learning process.
+To try to base a human psychology on these procedures was a rather
+perverse approach.
+
+Do Insects have Insight?
+
+_ The work of Baerends, de Kruyt, Tinbergen, and Thorpe was rarely
+mentioned in the controversies to which I have referred, as if wasps,
+bees, fishes, and birds belonged to the fauna of another planet. As
+_ Thorpe remarked wistfully: ‘Perhaps the arguments as to whether
+certain performances of rats in mazes represent insight or trial-anderror 
+learning would have been somewhat less prolonged if the
+_ abilities of some of the “lower animals”, such as insects, had been
+_known.... While it surprises no one that something like latent
+learning should be displayed by mammals and by birds with their
+_ proverbial powers of orientation, it may come as something of a shock
+_ to comparative psychologists who work primarily with mammals to
+find learning of this kind displayed at a high level among invertebrates. 
+It is true that, with the confirmation of the work of von Frisch
+on the orientation of the hive-bee, we are now prepared to believe
+almost anything of bees, but there are certainly many insects other
+than bees, and many invertebrates other than insects, in which latent

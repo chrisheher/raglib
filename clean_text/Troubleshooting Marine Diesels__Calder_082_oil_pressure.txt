@@ -1,0 +1,164 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_082_oil_pressure.txt
+# char_count: 6740
+# word_count: 1208
+### END METADATA ###
+
+82 Troubleshooting, Part Two: Overheating, Smoke, Knocks, and Other Problems
+
+in as little as 30 days—be sure to bring a good supply
+of spares (for more on zincs, see page 92).
+
+When an oil cooler tube fails during engine operation, oil is 
+likely to be pumped into the cooling system. On a raw-water 
+oil cooler, the oil will show itself
+as an overboard slick. On a freshwater oil cooler, the
+oil will appear in the header tank. When the engine is
+at rest, water from the cooling system may find its
+way into the oil side of the cooler and siphon into the
+crankcase.
+
+If fittings can be found to by-pass the oil and water
+sides of a failed oil cooler, the engine can still be run
+until you find a replacement cooler, but only at low
+loadings and only after changing the engine oil and
+filter (see below). Keep a close eye on the oil-pressure
+and engine-temperature gauges.
+
+You may encounter one condition that is sometimes mistaken for 
+a water leak into the engine but in
+fact is not. This is condensation in the valve cover,
+leading to emulsification of the oil in the valve cover
+(it goes gooey and turns a creamy color), and rusting
+of the valve springs and other parts in the valve train.
+This happens from time to time when the owner periodically 
+runs the engine for relatively short periods of
+time to charge a battery, or just to make sure it is still
+working. The engine never warms up properly, but it
+generates enough heat to create condensation in the
+valve cover.
+
+If an engine is started, it should be allowed to run
+long enough to thoroughly warm it up and allow the
+hot engine oil to cook out all the moisture in it. What
+is more, the engine should be given some work to do.
+As noted previously, lightly-loaded diesels run erratically
+ (due to the difficulty of accurately metering the
+minute quantities of fuel required at each injection),
+and tend to carbon up. If possible, tie off the boat
+firmly, put the engine in gear, and open the throttle a
+little.
+
+Flushing the Lubricating System. If an oil
+cooler is cooled from an enclosed engine-cooling circuit 
+and if the engine has ethylene glycol in the cooling circuit 
+(as it should have), a failed oil cooler tube
+will allow the glycol into the crankcase (as may a
+blown head gasket), When mixed with oil, ethylene
+glycol-forms a varnish that coats bearing surfaces and
+may lead to engine seizure. It also forms a soft, sticky
+
+
+Drain the oil, change the filter, and flush the
+engine with a solution of two parts Butyl Cellosolve to
+one part SAE 10 engine oil at the earliest possibl
+opportunity. Fill the engine to its normal level,
+it, and run it at a fast idle (with no load) for 30 mir
+utes. Thoroughly drain it, change the filter, refill j
+with SAE 10 oil, and run it for another 10 minu
+Drain it and change the filter once again, and
+with its normal oil. Even with this procedure, it if
+very hard to remove the varnish.
+
+Flushing the Cooling System. If oil has entered
+an enclosed cooling system, it will show up in th
+header tank. Drain the cooling system and remove th t
+thermostat (on most engines, but not where this pro
+duces a high temperature—e.g., some Caterpillars)
+Flush the system with fresh water to remove as muel
+of the oil as possible. Refill it and run the engine at {
+fast idle until it is warm. Remove the pressure cay
+from the header tank (take care!) and add a cup ¢
+non-foaming detergent (e.g., automatic dishwasher
+soap—use approximately 2 ounces of soap per gallon
+of water). Run the engine another 20 minutes. If ther
+is still undissolved oil on the surface of the water, add
+another cup of soap and run another 10 minutes,
+Drain, and refill. If oil is still present, repeat the pro
+cedure. When the system is clean, replace the thermo:
+stat (if removed), and refill with water and antifreeze.
+
+Low Oil Pressure
+
+Low oil pressure is a serious problem, but occur
+infrequently. Many people, confronted with low oil
+pressure, assume that the gauge or warning light i
+malfunctioning and ignore the warning. Given thi
+massive amount of damage that can be caused by rt ns
+ning an engine with inadequate oil pressure, this is th
+height of foolishness. Any time low oil pressure is
+indicated, immediately shut down the engine, find th
+cause, and fix it. rt!
+The problem is likely to be one of the following:
+
+e Lack of oil—the most common cause of low oil
+pressure and the least forgivable;
+
+* The wrong grade of oil in the engine—may
+lead to the viscosity being too low;
+
+
+Troubleshooting: Part Two, Overheating,
+
+even though the correct grade is in the engine}
+
+* Diesel dilution of the oil—this can occur on
+engines with internal fuel lines. The oil level
+will rise; once enough diesel has found its way
+into the oil to lower the pressure to a noticeable
+extent, it will be possible to smell the fuel in
+the oil if you take a sample from the dipstick
+and rub it on your fingers.
+
+* Worn bearings. The oil pump feeds oil under
+pressure through holes drilled in the crankease
+(called galleries) and through various pipes (0
+all the engine bearings. Oil squeezes out
+between the two surfaces of the bearings. The
+pump has a large enough capacity to circulate
+more oil than is needed to maintain the correct
+pressure in the system, and the surplus bleeds
+back to the sump via a pressure relief valve, In
+time, wear on the bearings allows the oil to
+flow out more freely. Eventually the rate of
+flow is greater than the pump can sustain at the
+normal operating pressure, and the pressure
+declines.
+
+Worn bearings do not, as a rule, develop
+overnight. A very gradual decline in oil pres:
+sure occurs, especially at low engine speeds
+when the engine is hot. There will also be
+gradual increase in engine noise and knocks,
+By the time a significant loss of oil pressure
+occurs, many other problems are likely to be
+evident, and a major rebuild is called for. Any
+rapid loss of oil pressure accompanied by a
+new engine knock indicates a specific bearing
+failure that needs immediate attention.
+
+* Oil pressure relief valves sometimes malfunction, 
+generally through a broken spring or
+because of trash on the valve seat (especially if
+proper oil change procedures have been
+ignored). In this case, the oil is vented direetly
+back to the sump, with a consequent loss in
+pressure.
+
+Problems with pressure relief valves are
+rare but are simple to check. Almost invariably, 
+the pressure relief valve is screwed into
+the side of the block somewhere or fitted to the
+oil filter mount and can be easily removed, disassembled, 
+cleaned, and put back. The spring
+is liable to be under some tension, so take care

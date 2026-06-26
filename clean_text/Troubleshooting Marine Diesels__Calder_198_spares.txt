@@ -1,0 +1,113 @@
+### METADATA ###
+# source_file: Troubleshooting Marine Diesels__Calder_198_spares.txt
+# char_count: 2384
+# word_count: 458
+### END METADATA ###
+
+Appendix B
+Spares
+
+The extent of your spare parts inventory will
+obviously depend on your cruising plans.
+The following is a fairly comprehensive list
+with an ocean cruising sailboat in mind. If
+your plans are less ambitious it can be scaled
+down appropriately.
+
+1. Oil filters.
+
+2. Fuel filters—quite a number in case a
+dirty batch of fuel is taken on board and
+repeated filter changes are needed.
+
+3. An air filter—one only. This should
+rarely need changing in the marine environment.
+
+4. A raw-water pump overhaul kit, or at
+the very least, a diaphragm or impeller
+(depending on the type of pump).
+
+5. A lift-pump overhaul kit, or at the very
+least, a diaphragm.
+
+6. A fuel injection pump diaphragm if one
+is fitted.
+
+7. A complete set of belts (alternator, plus
+auxiliary equipment).
+
+8. An alternator.
+
+9. A starter motor solenoid and Bendix
+
+unit.
+
+. Two sets of valve springs and keepertil
+
+. A set of connecting rod bearing shells. —
+
+. A gearbox oil seal.
+
+. Assorted hose clamps.
+. Flexible fuel line.
+
+. Hoses.
+
+. Oil and grease.
+
+An inlet and exhaust valve.
+(exhaust and inlet, if they differ).
+A set of piston rings.
+
+One or two injectors, or at the very least
+matched sets of replacement needle .
+valves and seats and nozzles.
+A complete set of high-pressure intel
+lines (from the fuel injection pump I
+to the injectors). ik
+A complete engine gasket set.
+
+An O ring kit with an assortment of 0 ;
+rings may one day be worth its weight in
+gold.
+A roll of high-temperature gasket paper ’
+A roll of cork-type gasket paper. ’
+A tube of gasket compound. i
+Packing for the stern tube stuffing box.
+(Teflon or flax, but not graphite, since
+this can cause electrolysis).
+
+Penetrating oil. i
+
+Appendix C
+
+Useful Tables
+
+This is a rather mixed bag of information
+
+1 HP = 33,000 foot-pounds per minute
+
+Torque X r.p.m. ie 7 ; .
+5,250 any 1
+
+1 Btu = 778 foot-pounds. Ara
+
+1 HP = 2,544 Btus. f
+
+1KW = 1.34h.p.
+
+1 KW = 3,413 Btus.
+
+100 cubic inches = 1.64 liters.
+
+I gallon (U.S.) of pure water weighs 8.34 Ibs,
+
+BHP =
+
+1 cubic foot of pure water weighs 62.4 Iba, : a
+1 imperial gallon (U.K.) = 1.2 gallons (U.5,), ‘4 a]
+Circumference of a circle = 27R or wD, where t fi a
+Area of a circle = wR’. ;
+Volume of a cylinder = mR? * length,
+
+I short ton (U.S.) = 2,000 Ibs.

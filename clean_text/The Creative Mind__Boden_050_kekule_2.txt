@@ -1,0 +1,95 @@
+
+
+noted in Chapter 2, had originated this theory some eight years earlier.)
+The organic chemist’s job was to discover, by experiment, the nature
+and proportions of elements in a given compound, and then to describe
+a carbon-string providing for just those elements, in just those
+proportions. The description must be internally coherent (judged by
+the rules governing atomic combination within molecules), and must
+also fit the compound’s behaviour observed in the test-tube.
+
+This job had been carried out successfully for ethyl alcohol, and for
+many (‘aliphatic’) organic compounds like it. With respect to benzene,
+however, it had not. Indeed, the contradictions involved suggested that
+no such description could possibly be found.
+
+The difficulty concerned the valency of carbon. Chemists had known
+since 1852 that atoms have strictly limited powers of combination, or
+valencies. In developing his string-theory in 1858, Kekulé had taken
+carbon to have a valency of four, and hydrogen a valency of one. (This
+is why the carbon atom in Kekulé’s diagram of Figure 2.1 is represented —
+as being four times larger than the hydrogen atoms.)
+
+A carbon atom in a string of carbon atoms uses up one unit of its
+valency by being connected to another carbon atom, So it has three
+units left over for combination with non-carbon atoms if it is at the end
+of the string, and two if it is inside the string (accordingly, ethyl alcohol
+is often represented as CH;CH,OH rather than C,H;OH).
+
+Experimental evidence had shown that the benzene molecule was
+made up of six carbon atoms and six hydrogen atoms. However, a
+sixfold string of carbon atoms should have a total of fourteen hydrogen
+atoms, not six.
+
+The problem could not be solved by saying that some of the carbon
+atoms within a benzene molecule are linked by double or triple bonds,
+because this was inconsistent with the compound’s chemical properties. 
+(If benzene contained redundant bonds, these should be able to
+‘capture’ monovalent atoms like chlorine or fluorine; but the chlorine
+atoms remained safely uncaptured.)
+
+There seemed to be no way in which benzene could be given a
+chemically intelligible molecular structure. Having wrestled with this
+problem for many months, Kekulé then had the experience described
+in Chapter 2:
+
+I turned my chair to the fire and dozed. Again the atoms were gambolling
+before my eyes. This time the smaller groups kept modestly im the background,
+
+My mental eye, rendered more acute by repeated visions of this kind, could
+now distinguish larger structures, of manifold conformation; long rows,
+sometimes more closely fitted together; all twining and twisting in snakelike
+motion. But look! What was that? One of the snakes had seized hold of its own
+tail, and the form whirled mockingly before my eyes. As if by a flash of
+lightning I awoke.?
+
+It is not clear just what was going on here, even at the conscious level.
+‘This is not (though it is sometimes reported as) a description of seeing
+pictures in the fire, of interpreting flames as snakes. But was ita dream,
+or a reverie? Did Kekulé see snakes, or merely shapes that reminded
+him of snakes —or both? Did he see a snake biting its own tail, or merely
+a snaky shape closing on itself— or, again, both?
+
+As we shall see, it does not matter greatly which account we choose
+(and his experience could just as well have been one of seeing pictures
+in the fire), Whichever phenomenological description of the fleeting,
+shifting images is correct, the closure of one of the ‘snakes’ was clearly the
+significant feature.
+
+But why? Would an image of a circular hoop, a familiar children’s
+toy in Kekulé’s time, have been as fruitful? Would Kekulé’s insight
+have happened even sooner if he had visualized sine-waves, which are
+distinctly serpentine mathematical forms? A snake seizing its own tail is
+admittedly surprising — but so what? Why was it so arresting that
+Kekulé suddenly awoke?
+
+As for the analogous ring-structure, contemporary chemistry
+deemed it impossible. How, then, could Kekulé — aided by a tail-biting
+snake — generate the idea of a ring-molecule? His remark that ‘This
+time the smaller groups kept modestly in the background’ suggests that
+he was specifically concerned with the carbon atoms, leaving the
+hydrogen atoms to take care of themselves. But, faithful to the chemical
+theories of the time, his vision initially depicted ‘long rows’ of atoms.
+How could this string-vision give way to an image like a tail-biting
+snake?
+
+‘There are various ways in which the seminal snake-image could have
+arisen in Kekulé’s mind. Much as a map suggests a number of
+pathways by which to reach a given place, so a highly complex
+computational system — such as a human mind — allows for many
+differing routes by which to generate a certain structure, or idea.
+
+For example, let us suppose two things: that the notion of an open curve
+already existed in Kekulé’s mind, and that the ability to consider the
+negative of various concepts was also available. Each of these suggestions 
+is independently plausible, as the next two sections will show.

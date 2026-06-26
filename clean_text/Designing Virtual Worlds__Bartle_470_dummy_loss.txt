@@ -1,0 +1,46 @@
+### METADATA ###
+# source_file: Designing Virtual Worlds__Bartle_470_dummy_loss.txt
+# char_count: 3663
+# word_count: 645
+### END METADATA ###
+
+Chapter 5
+
+How, though, do you test a design when there’s no world to test it in?
+
+Some facets can be tested by writing quick-and-dirty programs or macros. An econa)
+becomes a spreadsheet; combat becomes a few screens of C. This helps get the num
+bers right, but doesn’t say anything about the gameplay. You could end up with a y :
+balanced virtual world that is an absolute chore to play.
+
+Surprising progress can be made by simulating the virtual world, tabletop style. You
+draw out a rough map of an area, put some tokens on it to represent PCs and monsters, 
+then move them around and do things like you might expect the finished
+product to work. This does, however, require a discipline that is beyond most design.
+ers; although you should really take notes and discuss what happened after the session
+most designers are unable to prevent themselves from launching into a debate the
+instant the first opportunity arises; the result is that such pencil-and-paper simulation!
+are not usually as productive as they might be.
+
+Two things I normally recommend to design teams on new virtual worlds address the
+problems: dummy logs and mock diaries. Both start from the premise of imagining that
+its some time in the future when the virtual world has been implemented and people
+are actually playing it. What will those players be doing?
+
+Dummy logs work better for textual worlds than graphical ones. The idea is to write an
+imaginary transcript of a session as it might be recorded by a stereotypical player. It
+forces the designer to face up to concrete consequences of their decisions: the interface, 
+room descriptions, movement, communication, the general atmosphere, and (crucially) 
+what the player will be doing.  This exercise will typically expose the greatest
+strengths and weaknesses of a design: The designers can then play up to the strengths
+and root out the weaknesses.
+
+For graphical worlds, dummy logs are more like dummy storyboards, and they don’t
+work so well!>. That said, there is still a lot of mileage in asking the enthusiastic,
+wannabe designers of new virtual worlds what they think their players will actually be
+doing once the doors are open.
+
+135. They can look better in a design document, though, 
+if your aim is to impress publishers into giving you
+their money.
+

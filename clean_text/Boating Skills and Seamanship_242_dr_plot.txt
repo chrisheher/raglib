@@ -1,0 +1,111 @@
+### METADATA ###
+# source_file: Boating Skills and Seamanship_242_dr_plot.txt
+# char_count: 3972
+# word_count: 734
+### END METADATA ###
+
+MORE BOATING SKILLS
+
+originally “deduced reckoning,” which may have
+been abbreviated “ded reckoning” and later spelled
+“dead reckoning.” Whatever the origin of the term,
+DR is used to plot cruises of 30 minutes or more.
+
+A DR plot is a drawing on a chart of the
+courses you intend to follow (Figure 9-38), and 
+includes notations of directions, intended speed, and
+DR positions at course changes and at 30-minute
+intervals. Intended speed is written below the line
+in two-digit form.
+
+Drawing a DR Plot
+
+Begin your DR plot at a known position or from
+your last known fix. The mouth of a harbor, an inlet,
+ or a fixed aid to navigation is a good place to
+begin. Mark it on your course line with a dot and a
+full circle and the intended departure time.
+
+If there are no obstructions between where you
+begin your plot and where you intend to go, you
+can draw a straight line between the two. More often, 
+though, there will be obstructions or hazards
+that will cause you to travel an irregular course.
+Use the plotting tools to draw your intended course
+as a series of straight lines between your turning
+points. If possible, select turning points where there
+are suitable landmarks or aids to navigation.
+
+After drawing the legs of your course line, measure their 
+true directions using a course plotter or
+parallel rulers. Write these directions above the line
+for each leg using the three-digit form. If you wish,
+precede each direction with a C (to mean “course”).
+If you want to add compass directions to the course
+plot, follow them with a C for “compass.”
+
+Make your measurements and calculations
+carefully. In navigating, neatness and accuracy are
+essential, and small errors tend to be cumulative.
+
+Now, use the dividers and the latitude scale to
+measure the lengths of the course legs. Using the
+part of the scale that is nearest to the midlatitude of
+each leg, measure carefully to the nearest tenth of a
+nautical mile.
+
+As you travel over your planned course, you may
+be able to obtain intermediate fixes from ranges and
+bearings. Whenever you get the chance, you should
+do so. If you find this means that your DR course is
+
+different from your “real” course, you are most likely
+being set off course by wind or current. Make the
+
+necessary adjustments to your DR plot to compensate
+for these influences. The farther you travel between fixes, 
+the less accurate your DR plot will be
+come, and the less confidence you can place in it
+
+
+
+Labeling a DR Plot
+
+Since you know where you are at point A, you have
+a fix. Note this by a dot with a circle around i
+DR position is denoted by a dot with a half-cim
+around it, and each position is marked with the ti
+
+Now estimate the speed that you intend to
+on each leg of your cruise. Write the number bel
+the course line using the two-digit form. You &
+precede the speeds with an S for “speed.” A ca a
+line of 116° at a speed of 10 knots would look like
+
+C116
+
+If you desire to add compass direction toa
+plot, using a variation of 9°W and a deviation:
+0°, it would look like this:
+
+C116 C125C
+
+Making the Computations
+
+Using the formula T = 60D + S, compute the &
+needed to get from your departure to your first Gl
+ing point at your intended speed. Remember, &
+is always in minutes, rounded off to the neaa
+whole minute, distance is usually in nautical mm
+and tenths of a mile, and speed is in knots.
+
+If operating on the Great Lakes, rivers, or ad
+bodies of water where charted distances at©
+statute miles, speed is in miles per hour. This isg
+fectly acceptable as long as you do not mix ua
+Use statute miles and miles per hour or naus
+miles and knots. Also, if using statute miles, dal
+use latitude scales for measuring distances. )
+
+As shown in Figure 9-38, you expect ¥
+speed on each leg to be 10 knots. The comps

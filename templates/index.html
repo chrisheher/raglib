@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Groaning Shelves</title>
+<script>const BASE = "{{ base_path }}";</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Courier+Prime:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: 'ABC Arizona Flare';
+    src: url('{{ base_path }}/static/fonts/ABCArizonaFlare-Bold-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ABC Arizona Flare';
+    src: url('{{ base_path }}/static/fonts/ABCArizonaFlare-Medium-Trial.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ABC Arizona Flare';
+    src: url('{{ base_path }}/static/fonts/ABCArizonaFlare-Thin-Trial.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+<style>
+  :root {
+    --ink: #000000;
+    --parchment: #f0f0f0;
+    --aged: #c8c8c8;
+    --sepia: #696969;
+    --deep-sea: #343434;
+    --accent-grey: #696969;
+    --gold: #a0a0a0;
+    --rust: #505050;
+    --sage: #505050;
+    --mist: #909090;
+    --jet: #343434;
+    --dark-gray: #3a3a3a;
+    --dim-gray: #696969;
+    --shadow: rgba(0,0,0,0.4);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'ui-monospace', Georgia, serif;
+    background: #000000;
+    color: var(--parchment);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Animated background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+  
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Noise texture overlay */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .app {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+
+  /* ── TICKER FOOTER ── */
+  .ticker-footer {
+    grid-column: 1 / -1;
+    border-top: 1px solid rgba(105,105,105,0.2);
+    background: rgba(0,0,0,0.6);
+    padding: 9px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .ticker-footer::before,
+  .ticker-footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .ticker-footer::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.6), transparent);
+  }
+
+  .ticker-footer::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), transparent);
+  }
+
+  .ticker-track {
+    display: inline-flex;
+    gap: 0;
+    animation: ticker-scroll 60s linear infinite;
+  }
+
+  .ticker-footer:hover .ticker-track {
+    animation-play-state: paused;
+  }
+
+  .ticker-item {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.62rem;
+    color: var(--mist);
+    letter-spacing: 0.06em;
+    padding: 0 28px;
+    opacity: 0.6;
+    transition: opacity 0.2s, color 0.2s;
+    cursor: default;
+  }
+
+  .ticker-item:hover {
+    opacity: 1;
+    color: var(--gold);
+  }
+
+  .ticker-sep {
+    color: rgba(105,105,105,0.4);
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.62rem;
+    align-self: center;
+  }
+
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* ── HEADER ── */
+  header {
+    grid-column: 1 / -1;
+    padding: 16px 32px;
+    border-bottom: 1px solid rgba(105,105,105,0.3);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(20,20,20,0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  .header-left { display: flex; align-items: baseline; gap: 16px; flex-shrink: 0; }
+
+  .header-query {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .header-query .query-input-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .header-query .query-input-wrap {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .header-query textarea {
+    width: 100%;
+    resize: none;
+    min-height: 36px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--parchment);
+    text-shadow: none;
+  }
+
+  .header-sub {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+    color: var(--mist);
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+  }
+
+  .doc-badge {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-grey);
+    padding: 4px 12px;
+    border: 1px solid rgba(136,136,136,0.3);
+    border-radius: 2px;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    border-right: 1px solid rgba(105,105,105,0.2);
+    padding: 28px 24px;
+    overflow-y: auto;
+    background: rgba(20,20,20,0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .panel-label {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    opacity: 0.8;
+  }
+
+  /* System prompts */
+  .prompt-card {
+    padding: 14px 16px;
+    border: 1px solid rgba(105,105,105,0.2);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 8px;
+    background: rgba(20,20,20,0.8);
+  }
+
+  .prompt-card:hover {
+    border-color: rgba(105,105,105,0.5);
+    background: rgba(52,52,52,0.4);
+  }
+
+  .prompt-card.active {
+    border-color: #56534d;
+    background: rgba(105,105,105,0.15);
+    box-shadow: 0 0 20px rgba(105,105,105,0.15);
+  }
+
+  .prompt-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  .prompt-icon { font-size: 1.1rem; }
+
+  .prompt-name {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: var(--parchment);
+  }
+
+  .prompt-desc {
+    font-size: 0.7rem;
+    color: var(--mist);
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  /* Controls */
+  .control-group { margin-bottom: 16px; }
+
+  label {
+    display: block;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.65rem;
+    color: var(--mist);
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+  }
+
+  select, input[type="range"], input[type="number"] {
+    width: 100%;
+    background: rgba(20,20,20,0.9);
+    border: 1px solid rgba(105,105,105,0.3);
+    color: var(--parchment);
+    padding: 8px 10px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.75rem;
+    border-radius: 2px;
+    appearance: none;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  select:focus, input:focus { border-color: rgba(160,160,160,0.6); }
+
+  select option { background: #1a1a1a; }
+
+  input[type="range"] {
+    padding: 4px 0;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  .range-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .range-val {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+    color: var(--gold);
+    min-width: 28px;
+    text-align: right;
+  }
+
+  textarea.custom-prompt {
+    width: 100%;
+    background: rgba(20,20,20,0.9);
+    border: 1px solid rgba(105,105,105,0.3);
+    color: var(--parchment);
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    resize: vertical;
+    min-height: 80px;
+    outline: none;
+    line-height: 1.5;
+    transition: border-color 0.2s;
+  }
+  textarea.custom-prompt:focus { border-color: rgba(160,160,160,0.6); }
+
+  .custom-prompt-note {
+    font-size: 0.62rem;
+    color: var(--mist);
+    margin-top: 5px;
+    font-style: italic;
+    opacity: 0.7;
+  }
+
+  /* Stats panel */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .stat-chip {
+    padding: 5px 8px;
+    background: rgba(136,136,136,0.1);
+    border: 1px solid rgba(136,136,136,0.2);
+    border-radius: 2px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.6rem;
+    color: var(--accent-grey);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stat-chip .count { color: var(--gold); }
+
+  /* ── MAIN ── */
+  .main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .main-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* Genre filter bar */
+  .genre-filter-bar {
+    padding: 10px 32px;
+    border-bottom: 1px solid rgba(105,105,105,0.15);
+    background: rgba(20,20,20,0.5);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .query-input-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .query-input-wrap { flex: 1; position: relative; }
+
+  textarea#queryInput {
+    width: 100%;
+    height: 38px;
+    min-height: 38px;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid rgba(105,105,105,0.35);
+    color: var(--parchment);
+    padding: 8px 14px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.95rem;
+    border-radius: 3px;
+    resize: none;
+    outline: none;
+    line-height: 1.4;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  textarea#queryInput:focus {
+    border-color: rgba(160,160,160,0.6);
+    box-shadow: 0 0 20px rgba(105,105,105,0.1);
+  }
+
+  textarea#queryInput::placeholder { color: rgba(157,176,184,0.4); font-style: italic; }
+
+  .submit-btn {
+    padding: 8px 22px;
+    background: linear-gradient(135deg, #696969, #a0a0a0);
+    border: none;
+    color: var(--ink);
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+    white-space: nowrap;
+    align-self: stretch;
+  }
+
+  .submit-btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  .submit-btn:active { transform: translateY(0); }
+  .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+  .genre-filter-row {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .genre-pill {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.62rem;
+    padding: 4px 12px;
+    border: 1px solid rgba(157,176,184,0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+    color: var(--mist);
+    letter-spacing: 0.05em;
+    background: transparent;
+  }
+
+  .genre-pill:hover { border-color: var(--accent-grey); color: var(--accent-grey); }
+  .genre-pill.active { border-color: var(--accent-grey); background: rgba(136,136,136,0.15); color: var(--accent-grey); }
+
+  .genre-filter-label {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.6rem;
+    color: var(--mist);
+    opacity: 0.6;
+  }
+
+  /* Output area */
+  .output-area {
+    flex: 1;
+    min-width: 0;
+    overflow-y: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+
+  /* Right gutter — source cards */
+  .right-gutter {
+    width: 350px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    border-left: 1px solid rgba(105,105,105,0.15);
+    background: rgba(10,10,10,0.6);
+    padding: 24px 50px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .right-gutter:empty { display: none; }
+
+  /* Graph info bar */
+  .graph-info {
+    display: flex;
+    gap: 16px;
+    padding: 12px 18px;
+    background: rgba(136,136,136,0.07);
+    border: 1px solid rgba(136,136,136,0.2);
+    border-radius: 3px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.65rem;
+    animation: fadeIn 0.3s ease;
+    width: 50%;
+  }
+
+  .graph-stat {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: var(--mist);
+  }
+
+  .graph-stat span { color: var(--accent-grey); font-weight: bold; }
+
+  /* Sources */
+  .sources-panel {
+    animation: fadeIn 0.4s ease;
+  }
+
+  .sources-header {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    margin-bottom: 4px;
+    opacity: 0.7;
+  }
+
+  .sources-header .sources-hint {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.6rem;
+    color: var(--mist);
+    margin-left: 6px;
+    opacity: 0.8;
+  }
+
+  .sources-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .source-card {
+    padding: 20px 18px;
+    background: rgba(20,20,20,0.9);
+    border: 1px solid rgba(105,105,105,0.2);
+    border-radius: 3px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .source-card:hover {
+    border-color: rgba(105,105,105,0.5);
+    background: rgba(52,52,52,0.9);
+  }
+
+  .source-name {
+    color: var(--parchment);
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .source-meta {
+    color: var(--mist);
+    opacity: 0.7;
+    display: flex;
+    gap: 12px;
+    font-size: 0.75rem;
+  }
+
+  .source-score { color: var(--accent-grey); }
+
+  /* Answer */
+  .answer-panel {
+    animation: fadeIn 0.5s ease;
+  }
+
+  .answer-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .answer-label {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    opacity: 0.7;
+  }
+
+  .answer-persona {
+    font-size: 0.65rem;
+    color: var(--mist);
+    font-style: italic;
+  }
+
+  .answer-text {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 1.26rem;
+    line-height: 1.85;
+    color: var(--parchment);
+    font-weight: 300;
+    max-width: 820px;
+    white-space: pre-wrap;
+  }
+
+  .answer-text p { margin-bottom: 1em; }
+
+  .cursor-blink {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: var(--gold);
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+    margin-left: 2px;
+  }
+
+  /* Empty state */
+  .empty-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    pointer-events: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .empty-state-header {
+    padding-top: 28px;
+    text-align: center;
+    opacity: 0.4;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .empty-text {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    color: var(--mist);
+    text-align: center;
+  }
+
+  .empty-sub {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--mist);
+    opacity: 0.6;
+    margin-top: 6px;
+  }
+
+  #promptCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    cursor: default;
+  }
+
+  /* Error */
+  .error-msg {
+    padding: 14px 18px;
+    background: rgba(139,58,42,0.15);
+    border: 1px solid rgba(139,58,42,0.4);
+    border-radius: 3px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.75rem;
+    color: #d4826a;
+  }
+
+  /* Loading */
+  .loading-dots {
+    display: inline-flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .loading-dots span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+    animation: pulse 1.2s ease infinite;
+  }
+
+  .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+  .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(105,105,105,0.3); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(105,105,105,0.5); }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(105,105,105,0.15);
+    margin: 4px 0;
+  }
+
+  /* Toggle for custom prompt */
+  .toggle-custom {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.62rem;
+    color: var(--accent-grey);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  .toggle-custom:hover { opacity: 1; }
+
+  .custom-prompt-area { display: none; margin-top: 10px; }
+  .custom-prompt-area.visible { display: block; }
+
+  /* ── CHUNK MODAL ── */
+  .chunk-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.2s ease;
+  }
+
+  .chunk-modal {
+    background: var(--deep-sea);
+    border: 1px solid rgba(105,105,105,0.5);
+    border-radius: 4px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    max-width: none;
+    width: 55%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .chunk-modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 18px 12px;
+    border-bottom: 1px solid rgba(105,105,105,0.2);
+    gap: 16px;
+    overflow: hidden;
+  }
+
+  .chunk-modal-title {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.625rem;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    margin-bottom: 3px;
+  }
+
+  .chunk-modal-meta {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.52rem;
+    color: var(--mist);
+    opacity: 0.7;
+    display: flex;
+    gap: 12px;
+  }
+
+  .chunk-modal-close {
+    background: none;
+    border: none;
+    color: var(--mist);
+    font-size: 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+    line-height: 1;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .chunk-modal-close:hover { opacity: 1; color: var(--parchment); }
+
+  .chunk-modal-body {
+    flex: 1 1 80%;
+    padding: 50px 55px;
+    overflow-y: auto;
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: var(--parchment);
+    font-weight: 300;
+    white-space: normal;
+    max-width: 48ch;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* ── GENRE LIST MODAL ── */
+  .genre-list {
+    padding: 12px 22px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .genre-list-item {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    color: var(--parchment);
+    font-weight: 300;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(105,105,105,0.1);
+    opacity: 0.85;
+  }
+
+  .genre-list-item:last-child { border-bottom: none; }
+
+  .genre-list-item.clickable {
+    cursor: pointer;
+    transition: color 0.15s, padding-left 0.15s;
+  }
+
+  .genre-list-item.clickable:hover {
+    color: var(--gold);
+    padding-left: 6px;
+  }
+
+  /* ── CAROUSEL NAV ── */
+  .carousel-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-top: 1px solid rgba(105,105,105,0.2);
+    background: rgba(20,20,20,0.8);
+    flex-shrink: 0;
+  }
+
+  .carousel-btn {
+    background: none;
+    border: 1px solid rgba(105,105,105,0.35);
+    color: var(--mist);
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.68rem;
+    padding: 6px 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+    letter-spacing: 0.05em;
+  }
+
+  .carousel-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+  .carousel-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  .carousel-counter {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.65rem;
+    color: var(--mist);
+    opacity: 0.7;
+    letter-spacing: 0.1em;
+  }
+
+  .carousel-back-btn {
+    background: none;
+    border: none;
+    color: var(--mist);
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.62rem;
+    cursor: pointer;
+    padding: 0;
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .carousel-back-btn:hover { opacity: 1; color: var(--gold); }
+
+  .genre-list-count {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.6rem;
+    color: var(--accent-grey);
+    letter-spacing: 0.1em;
+    padding: 14px 22px 8px;
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-left">
+      <h1>Groaning Shelves</h1>
+    </div>
+    <div class="header-query">
+      <div class="query-input-row">
+        <div class="query-input-wrap">
+          <textarea id="queryInput" rows="1"
+            placeholder="What does the sea symbolize across mythological and postmodern texts?"></textarea>
+        </div>
+        <button class="submit-btn" id="submitBtn" onclick="submitQuery()">
+          NAVIGATE
+        </button>
+      </div>
+    </div>
+    <div class="doc-badge" id="docBadge">
+      {{ doc_count }} documents indexed
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <!-- System Prompt -->
+    <div class="panel-section">
+      <div class="panel-label">Interpretive Persona</div>
+      {% for key, prompt in system_prompts.items() %}
+      <div class="prompt-card active">
+        <div class="prompt-card-header">
+          <span class="prompt-icon">{{ prompt.icon if prompt.icon is defined else '' }}</span>
+          <span class="prompt-name">{{ prompt.name }}</span>
+        </div>
+        <div class="prompt-desc">{{ prompt.description }}</div>
+      </div>
+      {% endfor %}
+      <button class="toggle-custom" onclick="toggleCustomPrompt()">+ custom system prompt</button>
+      <div class="custom-prompt-area" id="customPromptArea">
+        <textarea class="custom-prompt" id="customPrompt"
+                  placeholder="Write your own system prompt here. Overrides the persona above..."
+                  rows="5"></textarea>
+        <div class="custom-prompt-note">Leave blank to use the default persona.</div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Reranker -->
+    <div class="panel-section">
+      <div class="panel-label">Reranking Strategy</div>
+      <div class="control-group">
+        <select id="rerankerSelect">
+          {% for key, r in rerankers.items() %}
+          <option value="{{ key }}">{{ r.name }}</option>
+          {% endfor %}
+        </select>
+        <div class="custom-prompt-note" id="rerankerDesc" style="margin-top:6px;">
+          Use raw ChromaDB cosine similarity scores
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Retrieval Settings -->
+    <div class="panel-section">
+      <div class="panel-label">Retrieval Settings</div>
+
+      <div class="control-group">
+        <label>Initial Candidates (n_initial)</label>
+        <div class="range-row">
+          <input type="range" id="nInitial" min="5" max="50" value="15"
+                 oninput="document.getElementById('nInitialVal').textContent=this.value">
+          <span class="range-val" id="nInitialVal">15</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label>Final Context Documents (n_final)</label>
+        <div class="range-row">
+          <input type="range" id="nFinal" min="2" max="15" value="6"
+                 oninput="document.getElementById('nFinalVal').textContent=this.value">
+          <span class="range-val" id="nFinalVal">6</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label>Graph Expansion Depth</label>
+        <div class="range-row">
+          <input type="range" id="graphDepth" min="0" max="3" value="1"
+                 oninput="document.getElementById('graphDepthVal').textContent=this.value">
+          <span class="range-val" id="graphDepthVal">1</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label>Distance Threshold (lower = stricter)</label>
+        <div class="range-row">
+          <input type="range" id="distThreshold" min="0.2" max="1.5" step="0.05" value="0.8"
+                 oninput="document.getElementById('distThresholdVal').textContent=parseFloat(this.value).toFixed(2)">
+          <span class="range-val" id="distThresholdVal">0.80</span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- DB Stats -->
+    <div class="panel-section">
+      <div class="panel-label">Collection Stats</div>
+      <div class="stats-grid" id="statsGrid">
+        <div class="stat-chip" style="grid-column:1/-1; color:var(--mist);">Loading...</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- Genre Filter -->
+    <div class="genre-filter-bar">
+      <span class="genre-filter-label">BROWSE:</span>
+      <div class="genre-pill" onclick="showGenreDocs('postmodern_fiction', 'Postmodern Fiction')">Postmodern</div>
+      <div class="genre-pill" onclick="showGenreDocs('mythology', 'Mythology')">Mythology</div>
+      <div class="genre-pill" onclick="showGenreDocs('consciousness_studies', 'Consciousness Studies')">Consciousness</div>
+      <div class="genre-pill" onclick="showGenreDocs('nautical', 'Nautical')">Nautical</div>
+      <div class="genre-pill" onclick="showGenreDocs('creative_thinking', 'Creative Thinking')">Creative</div>
+      <div class="genre-pill" onclick="showGenreDocs('poetry', 'Poetry')">Poetry</div>
+    </div>
+
+    <div class="main-body">
+      <!-- Output -->
+      <div class="output-area" id="outputArea">
+        <div class="empty-state" id="emptyState">
+          <div class="empty-state-header">
+            <div class="empty-text"></div>
+            <div class="empty-sub"></div>
+          </div>
+          <canvas id="promptCanvas"></canvas>
+        </div>
+      </div>
+
+      <!-- Right Gutter: Sources -->
+      <div class="right-gutter" id="rightGutter"></div>
+    </div>
+
+  </main>
+
+  <!-- TICKER FOOTER -->
+  <footer class="ticker-footer">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item" style="opacity:0.3;font-style:italic;">Loading corpus&hellip;</span>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  const selectedPrompt = '{{ system_prompts.keys()|list|first }}';
+  const rerankerDescs = {
+    {% for key, r in rerankers.items() %}
+    '{{ key }}': '{{ r.description }}'{{ "," if not loop.last else "" }}
+    {% endfor %}
+  };
+
+  // ── GLOBAL FEEDBACK STATE ──
+  let currentSources = [];
+
+  // ── UI STATE ──
+  async function showGenreDocs(genre, label) {
+    document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    const existing = document.getElementById('chunkModal');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'chunk-modal-overlay';
+    overlay.id = 'chunkModal';
+    overlay.addEventListener('click', e => {
+      if (e.target === overlay) {
+        overlay.remove();
+        document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
+      }
+    });
+
+    overlay.innerHTML = `
+      <div class="chunk-modal">
+        <div class="chunk-modal-header">
+          <div>
+            <div class="chunk-modal-title">${label}</div>
+            <div class="chunk-modal-meta"><span>Loading…</span></div>
+          </div>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove();document.querySelectorAll('.genre-pill').forEach(p=>p.classList.remove('active'))">✕</button>
+        </div>
+        <div class="genre-list" id="genreListBody"></div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+
+    try {
+      const res  = await fetch(`${BASE}/api/genre/${genre}`);
+      const data = await res.json();
+      const titles = data.titles || [];
+
+      overlay.querySelector('.chunk-modal-meta').innerHTML =
+        `<span>${titles.length} title${titles.length !== 1 ? 's' : ''}</span>`;
+
+      const body = overlay.querySelector('#genreListBody');
+      if (!titles.length) {
+        body.innerHTML = '<div class="genre-list-item" style="opacity:0.4;font-style:italic;">No documents found.</div>';
+      } else {
+        body.innerHTML = '';
+        titles.forEach(t => {
+          const item = document.createElement('div');
+          item.className = 'genre-list-item clickable';
+          item.textContent = t;
+          item.addEventListener('click', () => showTitleCarousel(t, genre, label));
+          body.appendChild(item);
+        });
+      }
+    } catch(e) {
+      overlay.querySelector('.chunk-modal-meta').innerHTML = '<span style="color:#d4826a">Failed to load</span>';
+    }
+  }
+
+  function toggleCustomPrompt() {
+    const area = document.getElementById('customPromptArea');
+    area.classList.toggle('visible');
+  }
+
+  document.getElementById('rerankerSelect').addEventListener('change', function() {
+    document.getElementById('rerankerDesc').textContent = rerankerDescs[this.value] || '';
+  });
+
+  // Ctrl/Cmd+Enter to submit
+  document.getElementById('queryInput').addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') submitQuery();
+  });
+
+  // ── QUERY ──
+  async function submitQuery() {
+    const query = document.getElementById('queryInput').value.trim();
+    if (!query) return;
+
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<div class="loading-dots"><span></span><span></span><span></span></div>';
+
+    const outputArea = document.getElementById('outputArea');
+    document.getElementById('emptyState')?.remove();
+    outputArea.innerHTML = '';
+    document.getElementById('rightGutter').innerHTML = '';
+
+    const payload = {
+      query,
+      system_prompt: selectedPrompt,
+      reranker: document.getElementById('rerankerSelect').value,
+      n_initial: document.getElementById('nInitial').value,
+      n_final: document.getElementById('nFinal').value,
+      graph_depth: document.getElementById('graphDepth').value,
+      distance_threshold: document.getElementById('distThreshold').value,
+      custom_prompt: document.getElementById('customPrompt').value
+    };
+
+    try {
+      const response = await fetch(`${BASE}/api/query`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        const err = await response.json();
+        showError(err.error || 'Query failed');
+        return;
+      }
+
+      // SSE streaming
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+      let answerEl = null;
+      let answerText = '';
+      let firstSentenceTrimmed = false;
+      currentSources = [];
+
+      function trimFirstSentence(text) {
+        // Match end of first sentence: . ! ? followed by whitespace or end
+        const m = text.match(/^.*?[.!?](\s+|$)/);
+        if (m) return text.slice(m[0].length).trimStart();
+        return text;
+      }
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop();
+
+        for (const line of lines) {
+          if (!line.startsWith('data: ')) continue;
+          const data = JSON.parse(line.slice(6));
+
+          if (data.type === 'graph_info') {
+            renderGraphInfo(data.data);
+
+          } else if (data.type === 'sources') {
+            currentSources = data.data || [];
+            renderSources(data.data);
+            // Create answer panel
+            answerEl = createAnswerPanel();
+
+          } else if (data.type === 'token') {
+            answerText += data.data;
+            if (answerEl) {
+              // Once first sentence boundary is detectable, trim it once
+              if (!firstSentenceTrimmed && /[.!?](\s|$)/.test(answerText)) {
+                answerText = trimFirstSentence(answerText);
+                firstSentenceTrimmed = true;
+              }
+              const display = firstSentenceTrimmed ? answerText : answerText;
+              answerEl.innerHTML = formatAnswer(display) + '<span class="cursor-blink"></span>';
+              outputArea.scrollTop = outputArea.scrollHeight;
+            }
+
+          } else if (data.type === 'done') {
+            if (answerEl) {
+              if (!firstSentenceTrimmed) answerText = trimFirstSentence(answerText);
+              answerEl.innerHTML = formatAnswer(answerText);
+            }
+
+          } else if (data.type === 'error') {
+            showError(data.data);
+          }
+        }
+      }
+
+    } catch (err) {
+      showError('Connection error: ' + err.message);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'NAVIGATE';
+    }
+  }
+
+  function renderGraphInfo(info) {
+    const div = document.createElement('div');
+    div.className = 'graph-info';
+    div.innerHTML = `
+      <div class="graph-stat">Initial Retrieved <span>${info.initial_retrieved}</span></div>
+      <div class="graph-stat">Graph Expanded <span>+${info.graph_expanded}</span></div>
+      <div class="graph-stat">Total Considered <span>${info.total_considered}</span></div>
+      <div class="graph-stat">Final Context <span>${info.final_used}</span></div>
+    `;
+    document.getElementById('outputArea').appendChild(div);
+  }
+
+  function renderSources(sources) {
+    const gutter = document.getElementById('rightGutter');
+    gutter.innerHTML = '';
+
+    const header = document.createElement('div');
+    header.className = 'sources-header';
+    header.innerHTML = `SOURCES <span class="sources-hint">(click to open)</span>`;
+    gutter.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'sources-grid';
+
+    sources.forEach((s, i) => {
+      const card = document.createElement('div');
+      card.className = 'source-card';
+      card.title = 'Click to view document text';
+      const name = s.id.replace(/_/g, ' ');
+      const genre = s.metadata.genre || '—';
+      const score = (s.score * 100).toFixed(0);
+      card.innerHTML = `
+        <div class="source-name">${i+1}. ${name}</div>
+        <div class="source-meta">
+          <span>${genre}</span>
+          <span class="source-score">${score}%</span>
+        </div>
+      `;
+      card.addEventListener('click', () => showChunkModal(s, i + 1));
+      grid.appendChild(card);
+    });
+
+    gutter.appendChild(grid);
+  }
+
+  function showChunkModal(s, num) {
+    const existing = document.getElementById('chunkModal');
+    if (existing) existing.remove();
+
+    const name = s.id.replace(/_/g, ' ');
+    const genre = s.metadata.genre || '—';
+    const themes = s.metadata.themes || '';
+    const score = (s.score * 100).toFixed(0);
+    const source = s.metadata.source || s.id;
+
+    const overlay = document.createElement('div');
+    overlay.className = 'chunk-modal-overlay';
+    overlay.id = 'chunkModal';
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+
+    overlay.innerHTML = `
+      <div class="chunk-modal">
+        <div class="chunk-modal-header">
+          <div>
+            <div class="chunk-modal-title">${num}. ${name}</div>
+            <div class="chunk-modal-meta">
+              <span>${genre}</span>
+              ${themes ? `<span>${themes}</span>` : ''}
+              <span style="color:var(--accent-grey)">${score}% match</span>
+            </div>
+          </div>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
+        </div>
+        <div class="chunk-modal-body">${s.text || '(no text available)'}</div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+
+  function createAnswerPanel() {
+    const panel = document.createElement('div');
+    panel.className = 'answer-panel';
+    panel.innerHTML = `
+      <div class="answer-header">
+        <div class="answer-label">RESPONSE</div>
+        <div class="answer-persona">{% for p in system_prompts.values() %}{{ p.icon }} {{ p.name }}{% endfor %}</div>
+        <button id="saveSelectionBtn" onclick="saveHighlight(this)" style="
+          background:transparent;border:1px solid #444;color:#888;
+          font-family:'Courier New',monospace;font-size:0.68rem;letter-spacing:0.08em;
+          padding:3px 10px;cursor:pointer;margin-left:auto;white-space:nowrap;
+        ">+ MARK SELECTION</button>
+      </div>
+    `;
+
+    const textEl = document.createElement('div');
+    textEl.className = 'answer-text';
+    panel.appendChild(textEl);
+    document.getElementById('outputArea').appendChild(panel);
+    return textEl;
+  }
+
+  function formatAnswer(text) {
+    return text
+      .replace(/\[Document \d+[^\]]*\]/g, m => `<em style="color:var(--accent-grey);font-size:0.85em;">${m}</em>`)
+      .replace(/^#{1,6}\s+(.+)$/gm, '$1')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g, '<em>$1</em>')
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/^/, '<p>')
+      .replace(/$/, '</p>');
+  }
+
+  function showError(msg) {
+    const div = document.createElement('div');
+    div.className = 'error-msg';
+    div.textContent = '⚠ ' + msg;
+    document.getElementById('outputArea').appendChild(div);
+  }
+
+  // ── STATS ──
+  async function loadStats() {
+    try {
+      const res = await fetch(`${BASE}/api/stats`);
+      const data = await res.json();
+      const grid = document.getElementById('statsGrid');
+      grid.innerHTML = '';
+
+      Object.entries(data.genres || {})
+        .sort((a,b) => b[1]-a[1])
+        .slice(0, 8)
+        .forEach(([genre, count]) => {
+          const chip = document.createElement('div');
+          chip.className = 'stat-chip';
+          chip.innerHTML = `<span>${genre.replace('_', ' ')}</span><span class="count">${count}</span>`;
+          grid.appendChild(chip);
+        });
+    } catch(e) {
+      document.getElementById('statsGrid').innerHTML = '<div class="stat-chip" style="grid-column:1/-1">Stats unavailable</div>';
+    }
+  }
+
+  // ── TITLE CAROUSEL ──
+  async function showTitleCarousel(title, fromGenre, fromLabel) {
+    const existing = document.getElementById('chunkModal');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'chunk-modal-overlay';
+    overlay.id = 'chunkModal';
+    overlay.addEventListener('click', e => {
+      if (e.target === overlay) {
+        overlay.remove();
+        document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
+      }
+    });
+
+    const backBtn = fromGenre
+      ? `<button class="carousel-back-btn" id="carouselBackBtn">← ${fromLabel}</button>`
+      : '';
+
+    overlay.innerHTML = `
+      <div class="chunk-modal">
+        <div class="chunk-modal-header">
+          <div style="flex:1;min-width:0;">
+            ${backBtn}
+            <div class="chunk-modal-title" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${title}</div>
+            <div class="chunk-modal-meta" id="carouselMeta"><span>Loading…</span></div>
+          </div>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove();document.querySelectorAll('.genre-pill').forEach(p=>p.classList.remove('active'))">✕</button>
+        </div>
+        <div class="chunk-modal-body" id="carouselBody" style="min-height:280px;">
+          <div style="display:flex;align-items:center;justify-content:center;height:200px;opacity:0.4;">
+            <div class="loading-dots"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="carousel-nav" id="carouselNav" style="display:none;">
+          <button class="carousel-btn" id="carouselPrev" onclick="carouselStep(-1)">← prev</button>
+          <span class="carousel-counter" id="carouselCounter">1 / 1</span>
+          <button class="carousel-btn" id="carouselNext" onclick="carouselStep(1)">next →</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    if (fromGenre) {
+      document.getElementById('carouselBackBtn').addEventListener('click', () => {
+        showGenreDocs(fromGenre, fromLabel);
+      });
+    }
+
+    try {
+      const res = await fetch(`${BASE}/api/title_chunks?title=${encodeURIComponent(title)}`);
+      const data = await res.json();
+      const chunks = data.chunks || [];
+
+      window._carouselChunks = chunks;
+      window._carouselIndex = 0;
+
+      const meta = document.getElementById('carouselMeta');
+      meta.innerHTML = `<span>${chunks.length} chunk${chunks.length !== 1 ? 's' : ''}</span>`;
+
+      if (!chunks.length) {
+        document.getElementById('carouselBody').innerHTML =
+          '<div style="opacity:0.4;font-style:italic;text-align:center;padding:40px;">No documents found.</div>';
+        return;
+      }
+
+      document.getElementById('carouselNav').style.display = 'flex';
+      renderCarouselChunk(0);
+    } catch(e) {
+      document.getElementById('carouselMeta').innerHTML = '<span style="color:#d4826a">Failed to load</span>';
+      document.getElementById('carouselBody').innerHTML =
+        '<div style="color:#d4826a;padding:20px;">Error loading documents.</div>';
+    }
+  }
+
+  function renderCarouselChunk(index) {
+    const chunks = window._carouselChunks || [];
+    if (!chunks.length) return;
+
+    const chunk = chunks[index];
+    const body = document.getElementById('carouselBody');
+    const counter = document.getElementById('carouselCounter');
+    const prev = document.getElementById('carouselPrev');
+    const next = document.getElementById('carouselNext');
+
+    let text = chunk.text || '(no text)';
+    // Strip metadata header if present
+    text = text.replace(/^###\s*METADATA\s*###[\s\S]*?###\s*END METADATA\s*###\s*/i, '').trim();
+
+    const meta = chunk.metadata || {};
+    const genre = (meta.genre || '').replace(/_/g, ' ');
+    const themes = meta.themes || '';
+    const slug = (chunk.id.split('__')[1] || '').replace(/_/g, ' ');
+
+    const tags = [genre, themes, slug].filter(Boolean);
+    const tagHtml = tags.map(t => `<span>${t}</span>`).join('');
+
+    body.innerHTML = `
+      <div style="font-family:'Courier Prime',monospace;font-size:0.6rem;color:var(--mist);opacity:0.6;margin-bottom:14px;display:flex;gap:12px;flex-wrap:wrap;">
+        ${tagHtml}
+      </div>
+      <div style="white-space:pre-wrap;font-family:'Cormorant Garamond',serif;font-size:0.95rem;line-height:1.8;color:var(--parchment);font-weight:300;">${text}</div>
+    `;
+
+    counter.textContent = `${index + 1} / ${chunks.length}`;
+    prev.disabled = index === 0;
+    next.disabled = index === chunks.length - 1;
+    body.scrollTop = 0;
+  }
+
+  function carouselStep(direction) {
+    const chunks = window._carouselChunks || [];
+    const newIndex = (window._carouselIndex || 0) + direction;
+    if (newIndex < 0 || newIndex >= chunks.length) return;
+    window._carouselIndex = newIndex;
+    renderCarouselChunk(newIndex);
+  }
+
+  // Arrow key navigation for carousel
+  document.addEventListener('keydown', e => {
+    if (!document.getElementById('chunkModal')) return;
+    if (!window._carouselChunks) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); carouselStep(1); }
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); carouselStep(-1); }
+  });
+
+  loadStats();
+
+  async function loadSources() {
+    try {
+      const res = await fetch(`${BASE}/api/sources`);
+      const data = await res.json();
+      const sources = data.sources || [];
+      if (!sources.length) return;
+
+      const track = document.getElementById('tickerTrack');
+      track.innerHTML = sources.map((s, i) =>
+        `<span class="ticker-item">${s}</span>${i < sources.length - 1 ? '<span class="ticker-sep">·</span>' : ''}`
+      ).join('');
+
+      // Adjust animation duration to keep a consistent speed regardless of count
+      const duration = Math.max(20, sources.length * 4);
+      track.style.animationDuration = duration + 's';
+    } catch(e) {
+      // silently fail — ticker is decorative
+    }
+  }
+
+  loadSources();
+
+  // ── TUMBLING PROMPTS ──────────────────────────────────────
+  const LITERARY_PROMPTS = [
+    "How does the sea voyage function across myth?",
+    "What is revealed in the creative unconscious?",
+      "Which works predict AI communication?",
+    "What's the deal with the trickster figure?",
+    "What themes connect maximalist novelists?",
+    "What can the creative process tell us about ai?",
+    "Compare a diesel engine to machine learning",
+  ];
+
+  function initTumblingPrompts() {
+    const canvas = document.getElementById('promptCanvas');
+    if (!canvas || typeof Matter === 'undefined') return;
+
+    // Use output-area dimensions since empty-state may not have layout yet
+    const outputArea = document.getElementById('outputArea');
+    const container = outputArea || canvas.parentElement;
+    const W = container.offsetWidth || 800;
+    const H = container.offsetHeight || 520;
+    canvas.width  = W;
+    canvas.height = H;
+
+    const { Engine, Render, Runner, Bodies, Body, Events, Mouse, World, Composite } = Matter;
+
+    const engine = Engine.create({ gravity: { x: 0, y: 0.09 } });
+    const world  = engine.world;
+
+    const render = Render.create({
+      canvas,
+      engine,
+      options: {
+        width: W,
+        height: H,
+        wireframes: false,
+        background: 'transparent',
+      },
+    });
+
+    // Invisible walls
+    const wallOpts = { isStatic: true, render: { fillStyle: 'transparent' } };
+    const thickness = 60;
+    World.add(world, [
+      Bodies.rectangle(W / 2, H - 250 + thickness / 2, W + 200, thickness, wallOpts), // floor (250px padding-bottom)
+      Bodies.rectangle(-thickness / 2, H / 2, thickness, H + 200, wallOpts),    // left
+      Bodies.rectangle(W + thickness / 2, H / 2, thickness, H + 200, wallOpts), // right
+    ]);
+
+    // Colour palette — egg-white light
+    const COLORS = [
+      '#FFFFF0',
+      '#FAF0E6',
+      '#E8DCC8',
+      '#FFFFF0',
+      '#FAF0E6',
+      '#E8DCC8',
+    ];
+
+    // Measure text to size each rectangle
+    const ctx = canvas.getContext('2d');
+    ctx.font = '700 14px "ABC Arizona Flare", serif';
+
+    const rectBodies = [];
+    LITERARY_PROMPTS.forEach((text, i) => {
+      const words = text.split(' ');
+      // Wrap into ~25-char lines (narrow, more lines = taller boxes)
+      const lines = [];
+      let line = '';
+      words.forEach(w => {
+        if ((line + ' ' + w).trim().length > 60) {
+          lines.push(line.trim());
+          line = w;
+        } else {
+          line = (line + ' ' + w).trim();
+        }
+      });
+      if (line) lines.push(line.trim());
+
+      const padX = 36, padY = 16, lineH = 24;
+      const maxW = Math.max(...lines.map(l => ctx.measureText(l).width));
+      const rw = (maxW + padX * 2) * 2;
+      const rh = (lines.length * lineH + padY * 2) * 2 / 3;
+
+      const x = rw / 2 + 20 + Math.random() * Math.max(1, W - rw - 40);
+      const y = -60 - i * 120;
+
+      // Generate rough jagged outline vertices around the rectangle
+      function jaggedRect(w, h, jitter) {
+        const pts = [];
+        const steps = 5;
+        // top edge left→right
+        for (let s = 0; s <= steps; s++) {
+          pts.push({ x: -w/2 + s*(w/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
+                     y: -h/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
+        }
+        // right edge top→bottom
+        for (let s = 1; s <= steps; s++) {
+          pts.push({ x: w/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
+                     y: -h/2 + s*(h/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
+        }
+        // bottom edge right→left
+        for (let s = 1; s <= steps; s++) {
+          pts.push({ x: w/2 - s*(w/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
+                     y: h/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
+        }
+        // left edge bottom→top
+        for (let s = 1; s < steps; s++) {
+          pts.push({ x: -w/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
+                     y: h/2 - s*(h/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
+        }
+        return pts;
+      }
+
+      const body = Bodies.rectangle(x, y, rw, rh, {
+        restitution: 0.46,
+        friction: 0.01,
+        frictionAir: 0.002,
+        density: 0.00008,
+        inertia: Infinity,
+        render: { fillStyle: COLORS[i % COLORS.length] },
+        label: text,
+      });
+      body._promptLines = lines;
+      body._promptRW = rw;
+      body._promptRH = rh;
+      body._promptPadX = padX;
+      body._promptPadY = padY;
+      body._promptLineH = lineH;
+      body._jaggedPts = jaggedRect(rw, rh, 7);
+      rectBodies.push(body);
+    });
+
+    World.add(world, rectBodies);
+
+    // Custom render: draw text on top of each rectangle
+    Events.on(render, 'afterRender', () => {
+      const c = render.context;
+      rectBodies.forEach(b => {
+        const { x, y } = b.position;
+        const angle = b.angle;
+        c.save();
+        c.translate(x, y);
+        c.rotate(angle);
+
+        // Draw jagged irregular shape
+        const pts = b._jaggedPts;
+        c.beginPath();
+        c.moveTo(pts[0].x, pts[0].y);
+        for (let p = 1; p < pts.length; p++) c.lineTo(pts[p].x, pts[p].y);
+        c.closePath();
+        c.fillStyle = b.render.fillStyle;
+        c.fill();
+
+        c.font = '700 20px "ABC Arizona Flare", serif';
+        c.fillStyle = 'rgba(40,30,20,0.85)';
+        c.textAlign = 'center';
+        c.textBaseline = 'middle';
+        const totalH = b._promptLines.length * b._promptLineH;
+        b._promptLines.forEach((line, li) => {
+          const lineY = -totalH / 2 + li * b._promptLineH + b._promptLineH / 2 + b._promptRH * 0.1;
+          c.fillText(line, 0, lineY);
+        });
+        c.restore();
+      });
+    });
+
+    Render.run(render);
+    const runner = Runner.create();
+    Runner.run(runner, engine);
+
+    // Balloon drift — gentle random lateral nudges each frame
+    Events.on(engine, 'beforeUpdate', () => {
+      rectBodies.forEach(b => {
+        if (Math.random() < 0.04) {
+          Body.applyForce(b, b.position, {
+            x: (Math.random() - 0.5) * 0.00003,
+            y: -Math.random() * 0.000015,
+          });
+        }
+      });
+    });
+
+    // Click detection
+    canvas.addEventListener('click', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (const b of rectBodies) {
+        const { x, y } = b.position;
+        const hw = b._promptRW / 2;
+        const hh = b._promptRH / 2;
+        // Rotate click point into body local space
+        const cos = Math.cos(-b.angle);
+        const sin = Math.sin(-b.angle);
+        const lx = cos * (mx - x) - sin * (my - y);
+        const ly = sin * (mx - x) + cos * (my - y);
+        if (Math.abs(lx) <= hw && Math.abs(ly) <= hh) {
+          const ta = document.getElementById('queryInput');
+          if (ta) {
+            ta.value = b.label;
+          }
+          document.getElementById('emptyState').style.display = 'none';
+          submitQuery();
+          break;
+        }
+      }
+    });
+
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      let hit = false;
+      for (const b of rectBodies) {
+        const { x, y } = b.position;
+        const hw = b._promptRW / 2;
+        const hh = b._promptRH / 2;
+        const cos = Math.cos(-b.angle);
+        const sin = Math.sin(-b.angle);
+        const lx = cos * (mx - x) - sin * (my - y);
+        const ly = sin * (mx - x) + cos * (my - y);
+        if (Math.abs(lx) <= hw && Math.abs(ly) <= hh) { hit = true; break; }
+      }
+      canvas.style.cursor = hit ? 'pointer' : 'default';
+    });
+
+  }
+
+  // Run after layout is complete so offsetWidth/Height are available
+  window.addEventListener('load', initTumblingPrompts);
+
+  // ── HIGHLIGHT FEEDBACK ──
+  async function saveHighlight(btn) {
+    const sel = window.getSelection();
+    const text = sel ? sel.toString().trim() : '';
+    const query = document.getElementById('queryInput').value.trim();
+
+    if (!text || text.length < 5) {
+      btn.textContent = 'SELECT TEXT FIRST';
+      btn.style.color = '#a06060';
+      setTimeout(() => { btn.textContent = '+ MARK SELECTION'; btn.style.color = '#888'; }, 1500);
+      return;
+    }
+
+    btn.textContent = 'SAVING...';
+    btn.style.color = '#888';
+    try {
+      const res = await fetch(`${BASE}/api/feedback`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query, highlighted_text: text, sources: currentSources })
+      });
+      if (res.ok) {
+        btn.textContent = '✓ SAVED';
+        btn.style.color = '#8bc98b';
+        btn.style.borderColor = '#4a7a4a';
+      } else {
+        btn.textContent = 'ERROR';
+        btn.style.color = '#a06060';
+      }
+    } catch(e) {
+      btn.textContent = 'ERROR';
+      btn.style.color = '#a06060';
+    }
+    setTimeout(() => {
+      btn.textContent = '+ MARK SELECTION';
+      btn.style.color = '#888';
+      btn.style.borderColor = '#444';
+    }, 2000);
+  }
+</script>
+</body>
+</html>

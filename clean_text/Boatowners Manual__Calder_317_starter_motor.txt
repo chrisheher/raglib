@@ -1,0 +1,20 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_317_starter_motor.txt
+# char_count: 2155
+# word_count: 368
+### END METADATA ###
+
+
+Remember: A battery that is almost dead may
+show nearly full voltage on an open-circuit voltage test. 
+If a starter motor fails to work, turn on
+a couple of lights (wired to the cranking battery)
+and try to crank the engine. The lights should
+dim but still stay lit. If the lights remain
+unchanged, no current is flowing to the starter;
+if the lights go out, the battery is dead or the
+starter is shorted. Check the battery first (see the
+‘Testing a Battery section in Chapter 3).
+
+Note that burned coils in a solenoid or starter
+motor have a distinctive smell; once encountered,

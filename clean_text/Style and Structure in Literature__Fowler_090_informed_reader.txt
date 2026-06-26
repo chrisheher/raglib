@@ -1,0 +1,95 @@
+### METADATA ###
+# source_file: Style and Structure in Literature__Fowler_090_informed_reader.txt
+# char_count: 4607
+# word_count: 733
+### END METADATA ###
+
+go ROGER FOWLER
+
+Who is the reader? Obviously, my reader is a construct, an ideal or
+idealized reader; somewhat like Wardhaugh’s ‘mature reader’ or
+Milton’s ‘fit? reader, or to use a term of my own, the reader is the
+informed reader. The informed reader is someone who
+
+(1) is a competent speaker of the language out of which the text is
+built up.
+
+(2) is in full possession of ‘the semantic knowledge that a mature
+... listener brings to his task of comprehension’. This includes the
+knowledge (that is, the experience, both as a producer and comprehender) 
+of lexical sets, collocation probabilities, idioms, professional
+and other dialects, etc.
+
+(3) has literary competence.
+
+That is, he is sufficiently experienced as a reader to have internalized
+the properties of literary discourses, including everything from the
+most local of devices (figures of speech, etc.) to whole genres. (p. 145)
+
+I find myself in agreement with a good part of Fish’s pro
+gramme, and with some of his principles. His appeal to the
+analogy of generative linguistics, very evident in the wording
+of the three conditions listed in the immediately preceding
+quotation, seems to me a useful point of departure in the progress 
+towards a new stylistics. However, I cannot detect much
+evidence to suggest that Fish takes the analogy of generative
+grammar seriously, and it does not appear that his analyses,
+where they involve syntactic considerations, make any specific
+use of the delicate metalanguage of syntactic description which
+has been developed by Chomsky and by his recent successors
+(e.g. Lees, Rosenbaum, Lakoff, Jackendoff and the contributors
+to anthologies such as those of Reibel and Schane, and Jacobs
+and Rosenbaum—to cite only descriptive work in the syntactic
+compartment of generative grammar, research which would
+naturally nourish a critical programme such as that outlined by
+Fish.*° 
+
+Fish’s theory lacks just the control which is exercised in
+ Robert B. Lees, The Grammar of English Nominalizations (The Hague:
+Mouton, 1960); Peter S. Rosenbaum, The Grammar of English Predicate
+Complement Constructions (Cambridge, Mass.: MIT Press, 1967); George
+Lakoff, Irregularity in Syntax (New York: Holt, Rinehart, and Winston,
+1971); Ray S. Jackendoff, Semantic Interpretation in Generative Grammar,
+Studies in Linguistics No. 2 (Cambridge, Mass.: MIT Press, 1972); David
+Riffaterre’s scrupulous (but cautious) appeal to the facts of
+language: we are invited to witness the reader responding
+sequentially to language in literature, but the reader cannot be
+kept in decent communal order because he is not controlled by
+the constraints of precise communal syntax. The reader is not
+the ‘ideal reader’? we might expect in a generative stylistics
+based on generative grammar, but a less organized, regrettably
+substantial, actual reader—‘a real reader (me) who does everything 
+within his power to make himself informed’ (Fish, op. cit.,
+p. 145). Naturally, the practitioner of stylistic criticism, as a
+fallible mortal, could enjoy no less fleshly a specification; yet
+Fish’s article focusses on stylistic theory, and at that level of
+critical abstraction we could benefit from a conception of an
+ideal reader of Chomskian mould.
+
+One of Stanley Fish’s colleagues at Berkeley, Stephen Booth,
+has applied a technique of affective criticism to Shakespeare’s
+sonnets (see note 12); here are some general remarks from his
+book: .
+
+Where Shakespeare presents a formal pattern, a logical pattern, and
+a syntactical pattern that run simultaneously but not concurrently,
+he forces a reader subject to them all to give the poem some of its
+energy by the act of reading it. (p. 51)
+
+as one reads through a Shakespeare sonnet, the different patterning 
+factors come into focus and out of it constantly, rapidly, and
+almost‘each changing place with that which goes
+before’. /The mind of the reader is kept in constant motion] it is kept
+uneasy as it is made constantly aware of relationships among parts of
+the poem that are clear and firm but in an equally constant state
+of flux. (p. 84)
+
+Booth’s strategy is essentially a response to the fundamental and
+classic interpretative problem of Shakespeare’s sonnets: taken
+all together, the 154 are difficult to make sense of as a sequence,
+or even as a set of sequences; to compound the problem, the
+
+A. Reibel and Sanford A. Schane, eds., Modern Studies in English (Englewood
+Cliffs, N.J.: Prentice-Hall, 1969); Roderick A. Jacobs and Peter S. Rosenbaum, 
+eds., Readings in English Transformational Grammar (Waltham, Mass.:
+Blaisdell, 1970).

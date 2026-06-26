@@ -1,0 +1,60 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_584_bilge_alarm.txt
+# char_count: 2064
+# word_count: 330
+### END METADATA ###
+
+FIGURE 13-12. A typical
+flexible-impeller pump.
+(ITT/Jabsco)
+
+required 7 hours without getting dangerously
+hot, the manufacturer builds a heat-sensitive
+(thermal) trip into the case.
+
+Maintenance, Troubleshooting,
+and Repair
+
+Flexible-impeller pumps (Figure 13-12).
+The principal causes of failure are impeller 
+damage from solids, running dry, and chemicals.
+Flexible-impeller pumps like to be used
+often. If left for long periods without running
+(e.g., over the winter), the impeller vanes have a
+tendency to stick to the pump housing. When
+the pump is restarted, it may blow fuses or strip
+off its vanes. If this is a constant problem, try 
+fitting an overthick gasket (see below—this technique 
+results in a small loss of pump efficiency).
+Otherwise loosen the pump covet until the
+pump starts spinning.
+
+Other common problems are leaking seals
+(again, quite likely as a result of running dry) and
+worn or corroded bearings. Apart from normal
+wear, bearings will be damaged by water (from
+leaking seals), improper belt tension (too tight),
+and misalignment of drive pulleys or couplings.
+Optimum belt tension permits the longest
+stretch of a belt to be depressed 73 to Y2 inch
+with moderate finger pressure. Check pulley
+alignment by removing the belt and placing a
+rod in the groove of the two pulleys; any 
+misalignment will be clearly visible.
+
+Winterizing. Loosen the end cover to drain the
+pump. It is best to leave the cover loose in case
+any more fluid finds its way in. Withdraw the
+impeller, grease it lightly (with petroleum jelly
+or Teflon-based waterproof grease), and put it
+back. This will keep the impeller from sticking
+to the pump body and aid in priming the pump
+the next time it is run.
+
+Impeller removal and inspection. Despite the
+thousands of different flexible-impeller pumps,
+most share many construction similarities (Figure 13-13). 
+Removal of the end cover (four to six
+screws) will expose the impeller. For 
+difficult-toaccess covers, you can make the removal and
+replacement process a lot easier, and with little

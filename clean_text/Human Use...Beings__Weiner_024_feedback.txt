@@ -1,0 +1,77 @@
+### METADATA ###
+# source_file: Human Use...Beings__Weiner_024_feedback.txt
+# char_count: 3930
+# word_count: 699
+### END METADATA ###
+
+
+
+which we call the memory. These are recorded in the
+machine. The most complicated machines yet made
+which transform input data into output data are the
+high-speed electrical computing machines, of which I
+shall speak later in more detail. The determination of
+the mode of conduct of these machines is given through
+
+ Because of the frequent use of punched or magnetic tape 
+in the control, the data which are fed in, and which indicate the
+mode of operation of one of these machines for combining information, 
+are called the taping.
+
+I have said that man and the animal have a kinaesthetic sense, 
+by which they keep a record of the position and tensions of their
+ muscles, For any machine subject to a varied external environment 
+to act effectively it is necessary that information concerning the
+results of its own action be furnished to it as part of the
+information on which it must continue to act. For example, 
+if we are running an elevator, it is not enough
+to open the outside door because the orders we have
+given should make the elevator be at that door at the
+time we open it. It is important that the release for
+opening the door be dependent on the fact that the
+elevator is actually at the door; otherwise something
+might have detained it, and the passenger might step
+into the empty shaft. This control of a machine on the
+basis of its actual performance rather than its expected
+performance is known as eedback, and involves sensory members 
+which are actuated by motor members and perform the function of 
+tell-tales or monitors—that is, of elements which indicate a performance. 
+It is the function of these mechanisms to control the mechanical tendency 
+toward disorganization; in other words, to produce a temporary and 
+local reversal of the normal direction of entropy.
+
+I have just mentioned the elevator as an example of
+feedback. There are other cases where the importance
+of feedback is even more apparent. For example, a
+gun-pointer takes information from his instruments of
+observation, and conveys it to the gun, so that the
+latter will point in such a direction that the missile will
+pass through the moving target at a certain time. Now,
+the gun itself must be used under all conditions of
+weather. In some of these the grease is warm, and the
+gun swings easily and rapidly. Under other conditions
+the grease is frozen or mixed with sand, and the gun
+is slow to answer the orders given to it. If these orders
+are reinforced by an extra push given when the gun
+fails to respond easily to the orders and lags behind
+them, then the error of the gun-pointer will be decreased.
+ To obtain a performance as uniform as possible, it is customary 
+to put into the gun a control feedback element which reads the 
+lag of the gun behind the position it should have according to the orders
+given it, and which uses this difference to give the gun
+an extra push.
+
+It is true that precautions must be taken so that the
+push is not too hard, for if it is, the gun will swing past
+its proper position, and will have to be pulled back in a
+series of oscillations, which may well become wider
+and wider, and lead to a disastrous instability. If the
+feedback system is itself controlled—if, in other words,
+its own entropic tendencies are checked by still other
+ciently stringent, this will not occur, and the existence
+of the feedback will increase the stability of performance of the gun. 
+In other words, the performance will become less dependent on the 
+frictional load; or what is the same thing, on the drag created by the stiffness
+of the grease.
+
+Something very similar to this occurs in human action.

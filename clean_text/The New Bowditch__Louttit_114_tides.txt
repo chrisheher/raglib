@@ -1,0 +1,80 @@
+### METADATA ###
+# source_file: The New Bowditch__Louttit_114_tides.txt
+# char_count: 4319
+# word_count: 757
+### END METADATA ###
+
+
+The flow of the current may set you toward dangers or away from
+them. By understanding this phenomenon and by making intelligent
+use of predictions published in the tide and tidal current tables, you —
+can set your course and schedule your passage to make the tide serve
+you: . . .
+
+In its rise and fall, the tide is accompanied by a periodic horizontal 
+movement of the water called tidal current. The two movements, tide
+and tidal current, are intimately related, forming parts of the same
+phenomenon brought about by the tide-producing forces of the sun and
+the moon,
+
+The relation between tide and tidal current is not a simple one, nor
+is it everywhere the same. To avoid misunderstanding, adopt the
+technical usage: tide for the vertical rise and fall of the water, and tidal —
+current for the horizontal flow. The tide rises and falls; the tidal current
+floods and ebbs.
+
+Tides are the most accurately predictable oceanographic phenomena. You might 
+assume that oceanographers truly understand them, but this is not true; 
+significant gaps remain. You needn’t fully understand them, but you should respect them, 
+and some understanding is useful if you hope to make them work for you.
+
+The principal tide-generating forces on the surface of the earth result
+from the differential gravitational forces of the moon and sun. The
+moon is the main tide-generating body. Due to its greater distance, the
+effect of the sun is only 46 percent of the effect due to the moon. 1
+
+Observed tides will differ considerably from the tides predicted by
+theory since size, depth, and configuration of the basin or waterway,
+friction, landmasses, inertia of watermasses, acceleration, and other
+factors come into play. Tides are also affected by the phase of the
+moon and the relative position of the earth, moon, and sun. It is more
+important that you, the pilot of a small vessel, know what happens
+than why it happens. (Chapter 31 of American Practical Navigator
+describes the ‘equilibrium theory’’ of the tidal phenomenon in wonderful detail. It’s fascinating reading, but it won’t help you get ““from
+here to there.’’) More urgent for you at this point is a recognition and
+respect for the different tides you will encounter and the currents (or
+streams) those tides will generate.
+
+Spring and Neap Tides
+
+A combined lunar-solar effect is obtained by adding the sun’s 
+gravitational forces to the moon’s gravitational forces. The resultant tide
+forces act in the same direction. B. Neap tides occur at times of first and third 
+quarters. The range of tide is less than average because solar and lunar forces 
+act at right angles to each other.
+
+bulge will be predominantly lunar with modifying solar effects on both
+the height of the tide and the direction of the tidal bulge. When the
+earth, moon, and sun are lying approximately on the same line, the
+forces of the sun are acting in the same direction as the moon’s forces.
+Because the moon is new or full, the results are tides whose ranges are
+greater than average. These are spring tides, but have nothing to do
+with the season.
+
+When the moon is at first and third quarters, the forces of the sun
+are acting at approximately right angles to the moon’s forces. The
+results are tides called neap tides, whose ranges are less than average.
+
+With the moon in positions between quadrature and new and full
+moon, the effect of the sun is to cause the tidal bulge to either lag or
+precede the moon. These effects are called priming and lagging the
+tides.
+
+At most places the rise and fall of the tides occurs twice each day.
+The tide rises until it reaches a maximum height, called high tide or
+high water, and then falls to a minimum level called low tide or low
+water. The rate of rise and fall is not uniform. From low water the tide
+begins to rise, slowly at first but at an increasing rate, until it is about
+halfway to high water. The rate of rise then decreases until high water
+is reached and the rise ceases. The falling tide behaves in a similar
+manner. The period at high or low water during which there is no

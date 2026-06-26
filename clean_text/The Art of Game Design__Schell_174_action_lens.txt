@@ -1,0 +1,47 @@
+
+
+you a very limited range of basic actions. The player generally knows every act
+they can possibly attempt. In text adventures, the complete set of basic action at
+was unclear, and discovering them was part of the game. Very often, the solution
+to a tricky puzzle was thinking to type an unusual verb, like “spin the fish” 0}
+“tickle the monkey.” While this was all very creative, it was also often frustrating
+—for every one of the hundreds of verbs a game supported, there were thousands
+it did not. As a result, players did not really have the “complete freedom
+that text adventure interfaces pretended to give them. It is possible that 
+this frustration, more than anything else, caused text adventures to fall from favor.
+Your choice of actions significantly defines your game structure, so let’s 
+
+Mechanic 5: Rules
+
+The rules are really the most fundamental mechanic. They define the space, the
+timing, the objects, the actions, the consequences of the actions, the constraints on
+the actions, and the goals. In other words, they make possible all the mechanics we
+have seen so far and add the crucial thing that makes a game a game—goals.
+encounter, so let’s consider each.
+
+
+
+Parlett’s Rule Analysis
+
+Navid Parlett, game historian, did a very good job of analyzing the different kinds
+0! rules that are involved with gameplay, as shown in this diagram.
+
+This shows the relationships between all the kinds of rules we are likely to encounter
+
+1. Operational rules: These are the easiest to understand. These are basically
+“What the players do to play the game.” When players understand the opera
+tional rules, they can play a game.
+
+2. Foundational rules: The foundational rules are the underlying formal structure
+of the game. The operational rules might say “The player should roll a six-sided
+die, and collect that many power chips.” The foundational rules would be more
+abstract: “The player’s power value is increased by a random number from
+I to 6.” Foundational rules are a mathematical representation of game state and
+how and when it changes. Boards, dice, chips, health meters, etc., are all just
+operational ways of keeping track of the foundational game state. As Parlett's
+diagram shows, foundational rules inform operational rules. There is not yel
+any standard notation for representing these rules, and there is some question
+about whether a complete notation is even possible. In real life, game designers
+learn to see the foundational rules on an as-needed basis, but seldom do they
+have any need to formally document the entire set of foundational rules in a
+completely abstract way.

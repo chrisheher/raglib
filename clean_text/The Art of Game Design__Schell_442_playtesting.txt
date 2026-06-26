@@ -1,0 +1,96 @@
+
+
+What Do You Tell Them Up Front?
+
+For some tests, you won’t tell the players anything at all—you’ll let the game §}
+for itself, particularly if you want to see if they can figure it out by themselves. For
+the majority of playtests, you will need to tell players something to get them stay.
+
+Use extreme caution when you do so—a few misplaced words right before play
+can spoil the entire test. If, for example, you tell players that their goal is to defeat 1
+evil Chronos, some players might start looking for him right away and, in doing,
+miss out on important details they would have found if you hadn’t said that. For th
+reason, you should take careful note of what you say to testers at the beginning,
+case it has unexpected consequences. It can be a good idea to write it down ahead
+time, so you can be sure you have prepped all the testers the same way.
+
+Of course, you may find, over the course of several tests, a need to change your
+introductory speech to clarify certain things. And here is one of the great side lh
+benefits of playtesting. When you run multiple playtest sessions in sequence, you '
+find yourself gradually tuning the instructions you give to the players, trim MI
+a word here, and adding a phrase there, until you have a speech that is very ¢h
+and very efficient. Write this down! This speech can become the foundation of an
+in-game tutorial. Many game tutorials are terrible—the ones created by this me
+are likely to have an aura of excellence about them. Having an in-game tutorial that
+really makes players feel welcome and cared for is a great first impression for ye
+game to make.
+
+Where Do You Look?
+
+Most people who attend a playtest tend to look where the player looks. If it I
+videogame, this means at the screen. This makes sense, because this way you
+what the player sees. But it isn’t where I look. I spend most of my time during
+playtest looking at the players’ faces. Sure, I steal quick glances at the screen I
+context, but mostly, I watch faces, because I don’t just want to see what the play
+are doing, but how they feel when they are doing it. Their facial expressions provide a
+wealth of data about the game that will never come out in postgame interview:
+survey questions.
+
+I learned to do this when I was a street performer. When you do street shows, I
+only money you get is what you collect by passing the hat at the end. So, if you w
+to have dinner that night, it becomes crucial to ensure the crowd you've Sear
+up stays entertained. With practice, I soon found I could “read” the emotions «
+crowd quickly and would tune my performance appropriately—stretching out ji
+they enjoyed and moving quickly through parts that bored them. I was quite
+surprised, when I started making videogames, to find myself reading the emotion
+the players as they played and determining how the game should change to impr
+the quality of the players’ emotional experiences. This is something that we are
+equipped to do—it just has to be practiced.
+
+PLAYTEST QUESTION THE FIFTH: HOW?
+
+Of course, it would be best if our eyes could be everywhere at once: on the game,
+on the players’ faces, and even on their hands, to see if they are using the controls
+as we would expect. And with modern video technology, you can see it all! Getting
+« few different cameras set up to feed to a single split-screen image can be a greal
+way to record the game, face, and hands at the same time, so you can go back later
+and see how all three of these things interrelate.
+
+What Other Data Should You Collect During Play?
+
+Watching with your own eyes and recording video of a play session can give you
+lot of useful information, but there is other information you can gather as well,
+With a little planning, you can find ways to keep logs of important game events
+(luring each play session. If your game is digital, you can log all this automatically,
+but if your game is not, you can just make careful notes when these important
+events occur. What constitutes an “important event” will vary from game to game
+of course. Here are some examples of data you might want to collect:
+
+¢ How long did players spend in the character creator?
+* How many hits did it take to defeat the villain?
+« What was the average player score?
+
+¢ Which weapons were used the most?
+
+The more your game can collect these data automatically, the more useful the
+(lata will be to you. In the past few years, it has become a necessity for anyone cre
+dling an MMO or free to play game to have a rigorous system of analytics in place
+accompanied by a content management system so that a continuous system of tui:
+ing and testing can be taking place in perpetuity. This new kind of “quantitative
+design” has its dangers—it can lead to dull designs and fear of trusting your own
+instincts as a designer, but if you can overcome that, it is a subtle art that gives you
+ew opportunities to understand player behavior.
+
+Will I Disturb the Players Midgame?
+
+This is a delicate question. When you disturb players midgame, perhaps to asl
+(hem a question about what they are doing, you run the risk of interfering with
+their natural play patterns. On the other hand, asking the right question at the right
+foment may give you an insight you would not have had any other way. You might
+
+_ aigue that it is best to just make a note of the question you have in mind and ask
+
+ihe player about it when the play session is over. But by that time, the player is in a
+different state of mind and may have no recollection of what you are talking about,
+ll is a difficult trade-off. Most designers seem to favor only interrupting when the
+player is doing something truly surprising that the designer does not understand,

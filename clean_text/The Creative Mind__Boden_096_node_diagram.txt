@@ -1,0 +1,91 @@
+### METADATA ###
+# source_file: The Creative Mind__Boden_096_node_diagram.txt
+# char_count: 4148
+# word_count: 666
+### END METADATA ###
+
+t qf”
+
+Concepts of Computation
+
+amoeba
+
+animal
+
+elephant
+
+inst
+
+
+network, then the meaning of each individual node is a function of all
+the others. In this case, adding a new node will implicitly affect the
+meaning of all the existing ones. Analogously, a single experience — or
+poetic image — may subtly change the significance of a large range of
+related ideas within someone's mind. In other words, new meanings (or
+shades of meaning) are created which were not possible before. Having
+heard Hopkins’ description of thrushes’ nests as ‘little blue heavens’,
+one thinks of them in a new way.
+
+Many writers see the creative, largely unconscious association of
+ideas as being primed by the ‘preparatory’ phase of conscious work.
+They assume that if the latent ideas can be selectively activated, there isa
+fair chance that some of the resultant associations will be relevant to the
+creator’s concerns.
+
+The concept of semantic nets suggests how this selective (but largely
+unconscious) preparation can happen. From a selected node, or set of
+nodes, it may be possible — especially if some of the ‘sensible’ cut-off
+rules are temporarily weakened — to reach other nodes that would
+otherwise be inaccessible. In Chapter 7, for instance, we shall discuss a
+semantic net containing over thirty thousand words, and many
+hundreds of thousands of links, which enables concepts to be compared
+in many different and specifiable ways.
+
+Time Concepts of Computation
+Scripts and frames can be thought of as special cases of semantic nets.
+‘They represent the conceptual skeleton ofa familiar idea — such as how
+one should behave in a restaurant, or what it is to be a room, or a
+molecule. In other words, they are schematic outlines of a tiny part of
+conceptual space. (Like semantic nets in general, they can be modelled
+by connectionist systems — in which case, they show the conceptual
+tolerance, or ‘fuzziness’, to be described in Chapter 6.)
+
+Scripts concern socially recognized ways of behaving (involving the
+roles of customer and waiter, for instance), whereas frames usually
+represent single concepts or ideas. Although the distinction between
+scripts and frames is not clear-cut, their equivalents in human minds
+are likely to be more prominent in Jiterary or scientific creativity,
+respectively.
+
+One example of a script is Roger Schank’s restaurant-script, which is
+embodied in computer programs that answer questions about stories
+featuring restaurants.” Schank claims that similar computational
+structures exist in human minds, being accessed whenever we enter or
+think about restaurants. The restaurant-script is a schematic representation 
+of the behaviour of customers and staff in a hamburger-bar in the
+United States (it does not tell Parisians just how to behave in
+Maxim’s).
+
+“It specifies not only who does what when all goes well, but also how
+to deal with the unexpected (no menu on the table) or the unacceptable
+(a burnt hamburger). If the menu is missing, the diner can either
+request one from the staff-member who seats the customers at their
+tables, or borrow one from another customer. And if the hamburger
+turns out to be burnt, the diner normally complains to the waiter or
+manager and refuses to hand over any money to the payclerk. These
+specifications of what to do in deviant circumstances are called what-i/s,
+and are an integral part of the script.
+
+Some sorts of deviance are even more unexpected than missing
+menus and burnt hamburgers, so cannot be anticipated by specially
+crafted what-ifs. In the absence of ready-made contingency-plans, one
+has to plan from scratch. Planning (mentioned later in this chapter) is an
+important computational concept, on which a great deal of AI-work
+has been done. We shall'see in Chapter 7 that some programs (designed
+to write and/or interpret stories) can plan afresh if there are no relevant
+what-ifs available. For this to be possible, the script must be embedded
+within a planning-program with access to more general knowledge
+about means-ends relationships and about what can be done in social
+situations.
+
+The questions answered by Schank’s programs cannot be dealt with

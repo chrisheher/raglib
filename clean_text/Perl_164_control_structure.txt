@@ -1,0 +1,174 @@
+### METADATA ###
+# source_file: Perl_164_control_structure.txt
+# char_count: 6233
+# word_count: 993
+### END METADATA ###
+
+a foreach structure mimics a for structure, the semicolons separating the initialization, 
+condition and incrementation of the loop are required.
+
+* The $_ special variable is the default parameter for many Perl functions 
+and the default control variable for many Perl control structures. 
+The $__ special variable also can take the place of a missing argument in a function call.
+
+* The control variable in a foreach structure is optional and defaults to the value of $_.
+*Y Perl function grep searches through a list and creates a new list containing only 
+elements that satisfy a specified condition.
+
+Function map creates a list reflecting a function applied to each element of a given list.
+* A foreach loop also can iterate over a hash using the keys of the hash returned by function
+keys.
+
+* Function sort orders keys of a hash into lexically ascending 
+order and returns the sorted list that
+is used in the foreach structure.
+
+The loop controls next, last and redo alter the flow of control
+ in a control structure.
+
++ The next statement skips the remaining statements in the 
+body of a loop structure and performs
+the next iteration of the loop.
+
+I The last statement causes immediate exit from a structure.
+ Program execution continues with
+the first statement after the structure.
+
+The redo statement restarts a loop without evaluating the loop-continuation test.
+Any loop block except a do/while or do/funtil structure can have a label.
+A label, besides acting as one-word description for the block of code, acts as a target for the loop
+
+control commands next, last and redo. These commands may use a block label as an 
+argument to refer to a specific loop block. When these commands execute without any arguments, they
+operate on the loop in which they appear. :
+
+A bare block is a block of code enclosed by curly braces, with or without a label, 
+but with no accompanying control structure keyword.
+
+A block of code is equivalent to a loop that executes only once, making it 
+accessible to loop control statements last and redo. (next is equivalent to last ina bare block context.)
+
+Perl provides logical operators that are used to form more complex conditions by combining simple
+conditions. The logical operators are && (logical AND), I I (logical OR) and ! (logical NOT,
+also called logical negation).
+
+Perl evaluates to false or true all expressions that include relational operators, equality operators
+and/or logical operators.
+
+The I I (logical OR) Operator ensures that at some point in a program either or both of two conditions are true before we choose a certain path of execution.
+
+Both the && and I I operators associate from left to right.
+
+The logical negation operator (1) has only a single condition as an operand (unary-operator). The
+logical negation operator is placed before a condition when we are interested in choosing a path of
+execution when the original condition (without the logical negation operator) is false.
+
+Perl provides three additional logical operators: and, or and not. The only difference between
+these logical operators and the logical operators presented before them is that and, or and not
+have lower precedence than any other operators in Perl.
+
+Hunction die allows a programmer to terminate program execution and print a message, assisting
+n both debugging the program and writing clearer code.
+
+’erl stores the most recent system error message in the special variable $!.
+
+eee ee SE a wee aa ee ww
+
+. ry “14 © . y re » a j y a)
+* Function warn produces the same output as the die function, but allows program execution t
+
+continue. This function allows a programmer to warn users of a nonfatal error in a program,
+
+* We have learned that structured programming produces programs that are easier to understand and
+
+hence are easier to test, debug, modify and even prove correct in a mathematical sense.
+
+* Applying the rules of forming properly structured programs always results in a structured flow-
+
+chart with a neat, building-block appearance.
+
+* ‘The beauty of the structured approach is that we use only 11 simple single-entry/single-exit pieces,
+
+and we assemble them in only two simple ways.
+
+If the rules of forming properly structured programs are followed, an unstructured flowchart cannot be created.
+
+Structured programming promotes simplicity. Only three forms of control are needed: sequence,
+selection and repetition. . .
+Selection is implemented in one of four ways: if structure (single selection), unless a e
+(single selection), i£/else structure (double selection) and if/elsif/else structure (multiple
+selection). ned
+The simple if structure is sufficient to provide any form of selection. Everything that can . one
+with the unless structure, the if/else structure and the if/elsif/else structure can be implemented with if structures (although perhaps not as clearly and efficiently).
+
+Repetition is implemented in one of six ways: while structure, until structure, do/while
+structure, do/until structure, for structure and foreach structure.
+
+The while structure is sufficient to provide any form of repetition. Everything that can be “one
+with the other looping structures also can be done with the while structure (although perhaps no
+as clearly). . vollowine
+Any form of control ever needed in a Perl program can be expressed in terms of the following:
+sequence, if structure (selection) and while structure (repetition). These control structures can
+be combined in only two ways: stacking and nesting.
+
+TERMINOLOGY
+! ical ation operator) factorial 7
+; hat ° foreach repetition structure
+
+$_ special variable
+
+&& (logical AND operator)
+
+I I Gogical OR operator)
+
+and (logical AND operator
+bare block
+
+block
+
+block label
+
+building-block appearance
+complex conditions
+control-structure stacking
+deeply nested structures
+dependent condition
+
+die function
+
+divide-by-zero error
+
+double selection
+
+entry point of a control structure
+exit point of a control structure
+
+goto statement
+grep function
+
+if/else selection structure
+if/elsif/else selection structure
+iterate
+
+last statement
+
+leftmost condition
+
+logical operator
+
+loop block
+
+map function
+
+mean
+
+median
+
+middle value
+
+mode
+
+multiple selection
+
+ne (string equality operator)
+nested building block

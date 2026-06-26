@@ -1,0 +1,65 @@
+
+
+Good writing, of course, is the linear fiction writer’s key to creating
+believable characters without any interactivity at all, and the text elements
+of the interactive NPC—description, dialogue, and actions—are no
+different from those of the fictional character. The challenge is in joining
+these 4% elements into a single, well-defined character. As with object
+Placement, there ate many ways to achieve the illusion of realism. An
+NPC’#\’s features need not be completely expected and stereotypical, but
+they # should be explained if they violate common sense, unless you're
+aiming for a comical effect. Why is the policeman cowardly? (His uncle is
+a big -8® political boss who got him the job.) Why does the minister take
+your satchel? (He believes you ate an immoral thief and intends to return
+your t#: treasures to their rightful owners.)
+
+In fact, all the characters in a game, even minor ones, should be able
+to pas*taass the book editor’s eternal question, “What motivates the dwarf to
+throw ay an axe at your” The ticket-taker takes your ticket because it’s his
+job, a *taa desire for world domination pushes Sauron to seek the One Ring,
+and s© so on. The answer need not be terribly deep, but it should be
+evident from the context and the information you provide.
+
+CoDontinuity across settings helps immensely in convincing the player
+
+ines Against Mimesis 15
+
+tan NPC exists independently of any single puzzle. A single character
+) Appears in a variety of situations (like Paneffal/s Floyd) offers far
+ie Opportunity for character exposition and development than would
+itkload of different creatures, one for each puzzle. As with objects,
+hal veloped NPCs should have more than one function in the game,
+these functions should make sense as a whole given the NPC’s
+wnality and motivation. In Christminster, Professor Wilderspin’s
+lition, kindness, and love of exploration are very consistently
+ipht out through the puzzles in which he figures, and the result is an
+Vesting and emotionally engaging character.
+\ more complicated example of continuity appears in Jigsaw, where
+tharacter of Black starts out as an impossible yet oddly helpful
+ance and gradually reveals playful, vulnerable, and even amorous
+} over the course of sixteen episodes. Perhaps only love can explain
+Mack allows the protagonist to inté?fere, time and time again, with
+¥ attempts to change history! In any case, the development of
+character across such a vatiety of roles is an impressive feat. If it
+ti, it does so because of the multifaceted personality and conflicted
+Wes that are brought out in Black’s reactions and dialogue—
+tuity through an explicit admission of discontinuity, perhaps.
+he beauty of the NPC illusion is that, when well-done, it can hide
+Hous limitations in the interactivity of the character. Inform and
+5 only allow the player to converse after a fashion, by probing the
+with single-word input (“ask Einstein about relativity”). Even with
+tation, it’s patently unrealistic to expect a piece of code to be
+0 hold forth about every irrelevant topic the player could bring up.
+# very least, though, a well-developed NPC should be able to react
+le Conversational input about the elements of the ptesent situation
+hout his/her background. The default response for unknown input
+elf convey character; consider “Fiona treats you to a lengthy and
+it conversation about [topic], which unfortunately leaves you no
+I lo getting out of the prison cell” versus “Fiona just grunts and
+ack to reading her paper.” Customized responses to social actions
+“kiss,” “hit,’? and “give” ate also essential to the fully
+Nilized NPC.
+# there workable models for more complex and responsive NPCs?
+\ unteasonable to expect an intelligence like 2001’s HAL to
+tye from a 400 kilobyte game, I think that the increasing desire of
+is tO create interactive games with literary elements may result in

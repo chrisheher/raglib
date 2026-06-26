@@ -1,0 +1,119 @@
+### METADATA ###
+# source_file: Boatowners Manual__Calder_037_battery_bank.txt
+# char_count: 3890
+# word_count: 608
+### END METADATA ###
+
+tery in house service. An emergency paralleling
+switch between the cranking battery and house
+bank can be added just in case the house bank is
+needed as a backup for engine cranking, but this
+function can just as easily be accomplished by
+keeping a set of jumper cables on board.
+
+The question then is, how to charge the cranking battery '
+and house bank? By far the best arrangement, particularly if 
+the boat has substantial DC needs, is to leave the existing 
+alternator and voltage regulator wired to the engine 
+cranking battery and to add a second high-output
+alternator controlled by a multistep regulator and
+wired to the house bank (Figures 1-32A and
+1-32B). This way, the cranking battery and house
+bank can be charged independently, with the
+voltage regulation parameters on each alternator
+adjusted to provide the most efficient charging
+regimen for the individual battery banks. (In
+practice, the existing regulator will probably not
+be adjustable, but in any case, will provide a regimen 
+suitable for a cranking battery. The multistep regulator 
+can be programmed to achieve the
+maximum state of charge and life expectancy
+from the house batteries.) If one or the other
+ alternator or voltage regulator fails, the emergency
+battery paralleling switch, or jumper cables, can
+be used to charge both battery banks from the
+remaining alternator.
+
+Charging More Than One Battery
+Bank from a Common Alternator
+
+Difficulties arise when two battery banks (either
+two house banks alternated in use or independent
+cranking and house batteries) must be charged
+from a single alternator. The various batteries
+must be paralleled while charging, so that both
+are charged, but then isolated when the engine is
+shut down, preventing the cranking battery or
+reserve bank from becoming discharged in house
+service. One of two approaches has traditionally
+been used to accomplish these objectives:
+
+1. A manual battery selector switch is used to
+parallel the batteries when the engine is running 
+and to isolate the cranking battery or
+reserve bank when the engine is not running.
+
+2. Battery isolation diodes are used to provide the
+same service automatically.
+
+In recent years, these approaches have been
+supplanted by battery paralleling relays, and less
+commonly, by series voltage regulators. We need
+to look at all of these.
+
+Battery selector/isolation switch. A four position 
+switch (OFF, 1, BOTH, and 2) parallels
+the various batteries when charging and is used
+
+paralleling switch
+
+house circuit
+
+externally regulated,
+add-on, high-output,
+hot-rated alternator
+
+to isolate the cranking or reserve house battery
+when charging is finished. In a conventional
+two-house-bank installation, the switch is generally
+ wired as in Figure 1-33A. With a dedicated
+cranking battery and a single house bank, the
+wiring will be as in Figure 1-33B. Note that in
+general, there should not be any loads wired to
+the battery side of a battery selector/isolation
+switch, since this will void the switch’s isolation
+function. But in practice, there are almost always
+a few exceptions to this rule: certain pieces of
+electronic equipment that need to be hooked
+directly to a battery to operate properly; 
+automatic bilge pumps, so that the boat can be left
+with the batteries isolated but the pumps operational; 
+the alternator in certain circumstances
+(see below and Figure 1-33B); battery-charging
+devices that are to operate when the boat is unattended; 
+and safety or memory devices that need to be permanently 
+energized (e.g., a propane alarm and stereo memory). 
+
+All of these must have overcurrent protection—fuses or
+ circuit-breakers—as close to the battery as possible
+(see Chapter 4).
+
+PUTTING THE PIECES TOGETHER
+
+cranking circuit
+
+internally regulated
+
+alternator, supplied
+
+with the engine
+
+FIGURE 1-32A. Optimum
+
+battery and alternator
+
+setup on a cruising boat.
+
+FIGURE 1-32B. Twin
+
+alternator installation.

@@ -1,0 +1,82 @@
+### METADATA ###
+# source_file: Human Use...Beings__Weiner_154_metadata.txt
+# char_count: 3978
+# word_count: 670
+### END METADATA ###
+
+De Va
+
+154 THE HUMAN USE OF HUMAN BEINGS
+
+on other human functions. The best that a pick-and-shovel 
+worker can do to make a living at the present
+time is to act as a sort of gleaner after the bulldozer.
+In all important respects, the man who has nothing but
+his physical power to sell has nothing to sell which it is
+worth anyone’s money to buy.
+
+Let us now go on to a picture of a more completely
+automatic age. Let us consider what for example the
+automobile factory of the future will be like; and in
+particular the assembly line, which is the part of the
+automobile factory that employs the most labor. In the
+first place, the sequence of operations will be controlled 
+by something like a modern high-speed computing machine. 
+In this book and elsewhere, I have often said that the 
+high-speed computing machine is primarily a logical machine, 
+which confronts different propositions with one another 
+and draws some of their consequences. It is possible to translate 
+the whole of mathematics into the performance of a sequence of
+purely logical tasks. If this representation of mathematics is 
+embodied in the machine, the machine will be a computing machine 
+in the ordinary sense. However, such a computing machine, besides 
+accomplishing ordinary mathematical tasks, will be able to undertake
+the logical task of channeling a series of orders concerning mathematical
+ operations. Therefore, as present high-speed computing machines in fact do, 
+it will— at least one large assembly which is purely logical.
+
+The instructions to such a machine, and here too I
+am speaking of present practice, are given by what we
+have called a taping. The orders given the machine
+may be fed into it by a taping which is completely pre-
+
+determined. It is also possible that the actual contingencies 
+met in the performance of the machine may
+be handed over as a basis of further regulation to a
+new control tape constructed by the machine itself, or
+to a modification of the old one. I have already explained 
+how I think such processes are related to learning.
+
+It may be thought that the present great expense of
+computing machines bars them from use in industrial
+processes; and furthermore that the delicacy of the
+work needed in their construction and the variability
+of their functions precludes the use of the methods of
+mass production in constructing them. Neither of these
+charges is correct. In the first place, the enormous 
+computing machines now used for the highest level of
+mathematical work cost something of the order of hundreds 
+of thousands of dollars. Even this price would not
+be forbidding for the control machine of a really large
+factory, but it is not the relevant price. The present
+computing machines are developing so rapidly that
+practically every one constructed is a new model. In
+other words, a large part of these apparently exorbitant
+prices goes into new work of design, and into new parts,
+which are produced by a very high quality of labor
+under the most expensive circumstances. If one of these
+computing machines were therefore established
+in price and model, and put to use in quantities of tens
+or twenties, it is very doubtful whether its price would
+be higher than tens of thousands of dollars. A similar
+machine of smaller capacity, not suited for the most
+difficult computational problems, but nevertheless
+quite adequate for factory control, would probably cost
+no more than a few thousand dollars in any sort of
+moderate-scale production.
+
+Now let us consider the problem of the mass production of computing machines. If the only opportunity for
+mass production were the mass production of completed machines, it is quite clear that for a considerable
+period the best we could hope for would be a moderate-scale production. However, in each machine the
+parts are largely repetitive in very considerable numbers. This is true, whether we consider the memory
+apparatus, the logical apparatus, or the arithmetical

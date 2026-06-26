@@ -1,0 +1,94 @@
+### METADATA ###
+# source_file: Act of Creation__Koestler_128_time_orbit.txt
+# char_count: 5085
+# word_count: 891
+### END METADATA ###
+
+Tycho, was given the task of working out the orbit of Mars. He spent
+six years on the task and covered nine thousand folio-sheets with
+<aIculations in his small handwriting without getting anywhere. When
+at last he believed he had succeeded he found to his dismay that certain
+observed positions of Mars differed from those which his theory
+demanded by magnitudes up to eight minutes arc. Eight minutes arc
+is approximately one-quarter of the apparent diameter of the moon.
+
+This was a catastrophe. Ptolemy, and even Copernicus, could afford
+to neglect a difference of eight minutes, because their observations were
+accurate only within a margin of ten minutes, anyway. But, Kepler
+wrote in the New Astronomy, ‘but for us, who by divine kindness were
+given an accurate observer such as Tycho Brahe, for us it is fitting that
+we should acknowledge this divine gift and put it to use. ... Henceforth
+I shall lead the way towards that goal according to my ideas. For if I
+had believed that we could ignore these eight minutes, 1 would have
+patched up my hypothesis accordingly. But since it was not permissible
+to ignore them, those eight minutes point the road to a complete
+reformation of astronomy. . . .’7 :
+
+Thus a theory, built on years of labour and torment, was instantly
+thrown away because of a discord of eight miserable minutes arc.
+Instead of cursing those eight minutes as a stumbling block, he
+transformed them into the cornerstone of a new science. For those
+eight minutes arc had at last made him realize that the field of
+astronomy in its traditional framework was well and truly blocked.
+
+One of the recurrent frustrations and tragedies in the history of
+thought is caused by the uncertainty whether it is possible to solve a
+given problem by traditional methods previously applied to problems
+which seem to be of the same nature. Who can say how many lives
+
+\ were wasted and good minds destroyed in futile attempts to square the
+circle, or to construct a perpetuum mobile? The proof that these problems
+are insoluble was in each case an original discovery in itself (such as
+Maxwell’s second law of thermodynamics); and such proofs could only
+be found by looking at the problem from a point of view outside its
+traditional matrix. On the other hand, the mere knowledge that a
+problem is soluble means that half the game is already won.
+
+The episode of the eight minutes arc had convinced Kepler that his
+problem—the orbit of Mars—was insoluble so long as he felt bound by
+the traditional rules of sky-geometry. Implied in those rules was the
+dogma of ‘uniform motion in perfect circles’. Uniform motion he had
+already discarded before the crisis; now he felt that the even more
+sacred one of circular motion must also go. The impossibility of
+constructing a circular orbit which would satisfy all existing observations 
+suggested to him that the circle must be replaced by some other
+curve.
+
+The conclusion is quite simply that the planet’s path is not a circle
+—it curves inward on both sides and outward again at opposite ends.
+Such a curve is called an oval. The orbit is not a circle but an oval
+figure.8
+
+This oval orbit was a wild, frightening new departure for him. To
+be fed up with cycles-and epicycles, to mock the slavish imitators of
+Aristotle was one thing; to assign an entirely new, lopsided, implausible
+path for the heavenly bodies was quite another. Why indeed an oval?
+There is something in the perfect symmetry of spheres and circles
+which has a deep, reassuring appeal to the unconscious mind—otherwise 
+it could not have survived two millennia. The oval lacks that
+archetypal appeal. It has an arbitrary, distorted form. It destroyed the
+dream of the ‘harmony of the spheres’, which lay at the origin of the
+whole quest. At times he felt like a criminal, or worse: a fool. All he
+had to say in his own defence was: ‘I have cleared the Augean stables
+of astronomy of cycles and spirals, and left behind me only a single
+cartful of dung.’®
+
+That cartful of dung—non-uniform motion in non-circular orbits
+—could only be justified and explained by arguments derived not
+from geometry, but from physics. A phrase kept humming in his ear
+like a catchy tune, and crops up in his writings over and again: there
+is a force in the sun which moves the planets, there is a force in the sun.
+... And since there is a force in the sun, there must exist some simple
+relationship between the planet’s distance from the sun, and its speed.
+A light shines the brighter the nearer one is to its source, and the same
+must apply to the force of the sun: the closer the planet to it, the
+quicker it will move. This had been his instinctive conviction; but now
+
+he thought that he had found the proof for it. “Ye physicists, prick your
+ears, for now we are going to invade your territory.’ The next six
+chapters in the Astronomia Nova are a report on that invasion into
+celestial physics, which had been out of bounds for astronomy since
+Plato. He had found the second matrix which would unblock his
+problem.
+
+That excursion was something of a comedy of errors—which

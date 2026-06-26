@@ -1,0 +1,76 @@
+
+
+if a water heater fails - work, first check the
+fuses, breakers, terminals, and voltage at the
+outlet supplying the water heater. If these are
+OK, and only if it can be done safely 
+(this procedure exposes live terminals: REMEMBER,
+AC VOLTAGE CAN KILL), turn on the water
+heater and check for voltage at the heating 
+element terminals (make sure the water in the
+heater is cold and the thermostat is turned up
+high). If voltage is not present, the switches,
+thermostats, and/or wiring are faulty; if voltage
+is present, the element is almost certainly
+burned up.
+
+
+1. Electric water heaters have a high-temperature cutout. 
+Most water heaters installed on lavatory
+
+boats have a heat exchanger circuit that
+uses heat from the boat’s engine (or generator
+ to heat the water. On occasion, this will
+raise the water temperature well above that
+of typical household water heaters, tripping 
+the high-temperature cutout. So, if the above
+tests show no voltage at the heating element, 
+look first for the high-temperature
+cutout (consult the cata! and see if it
+_needs resetting. - -
+
+ Next, check for voltage across the power
+leads into the thermostat (generally at the —
+top; Figure 4-46). If voltage is not present,
+there is a problem in the circuit to the water
+heater (recheck the switches, breakers,
+etc.). If voltage is present, make sure the —
+thermostat i is set on “HIGH,” double-check
+ sink pressure incoming power
+
+pressure
+—relief valve
+
+FIGURE 4-46. Typical
+onboard water heater
+installation. Water is heated both by the
+electric water heater
+and by engine-cooling
+water via a heat
+exchanger. (Alicratt
+Corporation) —
+
+115 volts AC (USA);
+240 volts AC (UK)
+
+green (or bare)
+
+grounding wire White to Power Line I
+
+Black to Power Line
+red reset button
+
+thermostat
+
+heating
+
+: screw for ground
+_ element
+
+connection
+
+grounding wire
+_to heater case : :
+Note: USA color codes
+
+AC CIRCUITS

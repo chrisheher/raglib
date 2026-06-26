@@ -1,0 +1,125 @@
+GENRE CLUSTER: Consciousness Studies
+
+This cluster groups 429 literary works sharing consciousness studies. Showing 120 representative works.
+
+Works in this cluster:
+  - A Community of Writers | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - A Dolls House | themes: identity, time, nature and cosmos, dream and vision
+  - A Fans Notes | themes: identity, dream and vision, time, memory
+  - A Frolic of His Own | themes: identity, memory, dream and vision, language and narrative
+  - A History of the Senses | themes: dream and vision, nature and cosmos, transformation, time
+  - A Naked Singularity | themes: journey and quest, time, identity, mortality
+  - A Pocket Book for Heroes | themes: language and narrative, nature and cosmos, time, identity
+  - A Walker in the City | themes: identity, memory, dream and vision, nature and cosmos
+  - Act of Creation | themes: nature and cosmos, identity, memory, mortality
+  - Aion | themes: identity, time, dream and vision, nature and cosmos
+  - Amor and Psyche | themes: identity, mortality, journey and quest, transformation
+  - An Unquiet Mind | themes: identity, dream and vision, mortality, journey and quest
+  - Anatomy of Criticism | themes: identity, dream and vision, mortality, nature and cosmos
+  - Art As a Way | themes: transformation, dream and vision, nature and cosmos, identity
+  - Art Is A Way of Knowing | themes: identity, dream and vision, nature and cosmos, transformation
+  - Art Matters | themes: identity, mortality, language and narrative, transformation
+  - Art and Fear | themes: dream and vision, journey and quest, nature and cosmos, transformation
+  - Art and the Creative Unconscious | themes: identity, mortality, journey and quest, language and narrative
+  - Artists Way | themes: identity, dream and vision, mortality, journey and quest
+  - Atman Project | themes: identity, memory, dream and vision, mortality
+  - Beyond Discontent | themes: identity, memory, dream and vision, nature and cosmos
+  - Boatowners Manual | themes: transformation, time, identity, memory
+  - Burning Down the House | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - Carnival of Repetition | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Cinematography 069 noir light.txt | themes: identity, language and narrative, time
+  - Cinematography inverse square.txt | themes: time
+  - Cinematography optics.txt | themes: identity, language and narrative
+  - Clients for Life | themes: identity, transformation, time, memory
+  - Code | themes: memory, dream and vision, time, language and narrative
+  - Cognition In The Wild | themes: journey and quest, nature and cosmos, transformation, time
+  - Coming Into Being | themes: identity, memory, dream and vision, language and narrative
+  - Conversations of Goethe 007 large works.txt | themes: identity, memory, language and narrative, time
+  - Conversations of Goethe 034 werther.txt | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - Conversations of Goethe 045 piety.txt | themes: identity, mortality, language and narrative, time
+  - Conversations of Goethe 056 adversaries.txt | themes: identity, language and narrative, nature and cosmos, time
+  - Conversations of Goethe 080 female motif.txt | themes: identity, dream and vision, language and narrative, time
+  - Conversations of Goethe 082 plagiarism.txt | themes: identity, memory, journey and quest, language and narrative
+  - Conversations of Goethe 088 byron plot.txt | themes: identity, memory, time
+  - Conversations of Goethe 102 excellence.txt | themes: identity, journey and quest, time
+  - Conversations of Goethe 126 art threshold.txt | themes: identity, language and narrative, nature and cosmos, time
+  - Conversations of Goethe 135 mephistopheles.txt | themes: identity, nature and cosmos, time
+  - Conversations of Goethe 157 freedom.txt | themes: identity, journey and quest, nature and cosmos
+  - Conversations of Goethe 188 breathing earth.txt | themes: identity, memory, nature and cosmos, transformation
+  - Conversations of Goethe 251 forcing it.txt | themes: identity, language and narrative, nature and cosmos, time
+  - Conversations of Goethe 252 productivity.txt | themes: identity, dream and vision, nature and cosmos, transformation
+  - Conversations of Goethe 273 greatness.txt | themes: language and narrative, nature and cosmos, time
+  - Conversations of Goethe 292 contradictory hero.txt | themes: identity, mortality, nature and cosmos
+  - Conversations of Goethe 332 faust.txt | themes: mortality, transformation, time
+  - Conversations of Goethe 360 martyr.txt | themes: identity, mortality, language and narrative, nature and cosmos
+  - Conversations of Goethe 364 biblical figures.txt | themes: identity, journey and quest, nature and cosmos, time
+  - Conversations of Goethe 378 potpourri.txt | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Conversations of Goethe 422 jesus saints.txt | themes: identity, mortality, journey and quest, language and narrative
+  - Conversations of Goethe 425 patriotic art.txt | themes: identity, memory, nature and cosmos
+  - Conversations of Goethe notes2.txt
+  - Copywriting brand evaluation.txt | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - Copywriting establishing voice 2.txt | themes: identity, language and narrative
+  - Copywriting establishing voice 3.txt | themes: dream and vision, language and narrative, nature and cosmos
+  - Copywriting process.txt | themes: identity, memory, language and narrative, transformation
+  - Cosmos and History | themes: identity, dream and vision, language and narrative, transformation
+  - Craving for Ecstasy | themes: identity, journey and quest, madness and obsession, time
+  - Creative Authenticity | themes: dream and vision, language and narrative, time, identity
+  - Creators on Creating 009 women suffrage.txt | themes: identity, memory, journey and quest, nature and cosmos
+  - Creators on Creating 016 mental distress.txt | themes: identity, mortality, journey and quest, nature and cosmos
+  - Creators on Creating 034 fellini.txt | themes: identity, memory, dream and vision, language and narrative
+  - Creators on Creating 077 incubation.txt | themes: identity, memory, journey and quest, time
+  - Creators on Creating 099 jung.txt | themes: identity, memory, dream and vision, mortality
+  - Creators on Creating 160 words.txt | themes: identity, memory, dream and vision, language and narrative
+  - Creators on Creating 174 ogilvy.txt | themes: identity, memory, dream and vision, journey and quest
+  - Creators on Creating 208 a mothers cry.txt | themes: identity, mortality, nature and cosmos, madness and obsession
+  - Crime-Punishment | themes: identity, dream and vision, time, language and narrative
+  - D AD arcade fire interactive streets.txt | themes: memory
+  - D AD editors note.txt | themes: identity, journey and quest
+  - D AD haiti silence.txt | themes: nature and cosmos
+  - Daily Rituals | themes: identity, memory, time, dream and vision
+  - Designing Virtual Worlds | themes: identity, mortality, language and narrative, time
+  - Designing WIth Type | themes: language and narrative, nature and cosmos, dream and vision, transformation
+  - Doctor Faustus | themes: identity, journey and quest, nature and cosmos, transformation
+  - Don Juan | themes: dream and vision, mortality, nature and cosmos, time
+  - Dream Work | themes: identity, dream and vision, mortality, journey and quest
+  - Dumped | themes: identity, dream and vision, transformation, memory
+  - Examined Lives | themes: identity, journey and quest, nature and cosmos, time
+  - Examples | themes: identity, mortality, transformation, time
+  - Facing The Shadow | themes: nature and cosmos, transformation, identity, time
+  - Flee | themes: identity, dream and vision, language and narrative, nature and cosmos
+  - Flow | themes: time, identity, nature and cosmos, journey and quest
+  - Food of the Gods | themes: dream and vision, mortality, nature and cosmos, time
+  - From Dawn to Decadence | themes: mortality, language and narrative, nature and cosmos, madness and obsession
+  - Genius | themes: identity, language and narrative, nature and cosmos, madness and obsession
+  - Global Hesychasm 004 meditation.txt | themes: identity, memory, mortality, language and narrative
+  - Global Hesychasm 033 impurity.txt | themes: identity, mortality, language and narrative, nature and cosmos
+  - Global Hesychasm 037 acadia.txt | themes: identity, memory, mortality, journey and quest
+  - Global Hesychasm 050 martha mary.txt | themes: identity, dream and vision, journey and quest, language and narrative
+  - Global Hesychasm 054 voyager.txt | themes: identity, mortality, journey and quest, language and narrative
+  - Global Hesychasm 060 letting go.txt | themes: identity, dream and vision, time
+  - Global Hesychasm 064 knowing god.txt | themes: identity, nature and cosmos, time
+  - Global Hesychasm 078 interior master.txt | themes: identity, mortality, language and narrative, nature and cosmos
+  - Global Hesychasm 081 satan.txt | themes: identity, dream and vision, mortality, journey and quest
+  - Global Hesychasm 103 hesychasm.txt | themes: identity
+  - Growth of the Soil | themes: identity, language and narrative, nature and cosmos, transformation
+  - Hamlet and Oedipus | themes: identity, mortality, time, journey and quest
+  - Hamlet on the Holodeck | themes: identity, dream and vision, journey and quest, language and narrative
+  - Harold Pinter character desc.txt | themes: nature and cosmos, time
+  - Harold Pinter contra.txt | themes: identity, memory, mortality, time
+  - Harold Pinter family.txt | themes: nature and cosmos, time
+  - Harold Pinter last words.txt | themes: memory, mortality, language and narrative, time
+  - Harold Pinter sit down banter.txt | themes: nature and cosmos
+  - Hero of Our Time | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Hero with 1K Faces | themes: identity, dream and vision, journey and quest, language and narrative
+  - Hiawatha | themes: memory, nature and cosmos, time, journey and quest
+  - History of Consciousness | themes: nature and cosmos, identity, mortality, language and narrative
+  - How Children Fail | themes: identity, time, memory, language and narrative
+  - How Fiction Works | themes: dream and vision, language and narrative, nature and cosmos, transformation
+  - How Literature Works | themes: identity, journey and quest, language and narrative, time
+  - Human Beginnings | themes: identity, language and narrative, nature and cosmos, mortality
+  - Human Use...Beings | themes: identity, journey and quest, language and narrative, nature and cosmos
+  - Hunger | themes: identity, dream and vision, language and narrative, time
+  - I And Thou | themes: identity, transformation, time, memory
+  - IF Handbook 062 prompts.txt | themes: identity, dream and vision, language and narrative, transformation
+  - IF Handbook 098 adventure.txt | themes: identity, memory, language and narrative, transformation
+  - IF Handbook 132 teamwork.txt | themes: identity, memory, journey and quest, language and narrative

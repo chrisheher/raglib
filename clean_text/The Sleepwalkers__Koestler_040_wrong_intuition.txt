@@ -1,0 +1,87 @@
+### METADATA ###
+# source_file: The Sleepwalkers__Koestler_040_wrong_intuition.txt
+# char_count: 4106
+# word_count: 703
+### END METADATA ###
+
+40 The Sleepwalkers
+
+He preached to animals, which would seem rather odd behaviour
+in a modern mathematician; but in the Pythagorean view
+nothing could be more natural.
+
+5. Tragedy and greatness of the Pythagoreans
+
+Towards the end of the Master’s life, or shortly after his death,
+two misfortunes befell the Pythagoreans, which would have
+meant the end of any sect or school with a less universal outlook. 
+They triumphantly survived both.
+
+One blow was the discovery of a type of numbers such as
+1/2 - the square root of 2 — which could not be fitted into any
+dot-diagram. And such numbers were common: they are, for
+instance, represented by the diagonal of any square. Let the
+side of the square be called a, and the diagonal d. It can be
+proved that if I assign to a any precise numerical value, then
+it becomes impossible to assign a precise numerical value to d.
+The side and the square are ‘incommensurable’; their ratio
+a/d cannot be represented by any real numbers or fractions
+thereof; it is an irrational’ number; it is both odd and
+even at the same time.* I can easily draw the diagonal of a
+square, but I cannot express its length in numbers — I cannot
+count the number of dots it contains. The point-to-point 
+correspondence between arithmetic and geometry has broken down
+—and with it the universe of number-shapes.
+
+It is said that the Pythagoreans kept the discovery of irrational numbers —
+they called them arrhétos, unspeakable — a
+secret, and that Hippasos, the disciple who let the scandal leak
+out, was put to death. There is also another version, in
+Proclos : #4
+
+* The simplest manner of proving this is as follows. Let d be represented
+by a fraction *, where m and n are unknown. Let a=1, then d?=1?+
+1? and ¢= V/ 2. Then ™ =2. If m and n have a common factor, divide it
+out, then either m or n must be odd. Now m?=2n", therefore m? is
+even, therefore m is even, therefore n is odd. Suppose m=2p. Then
+4p?=2n?, therefore n=2p* and therefore n is even, contra hyp. 
+Therefore no fraction = will measure the diagonal.
+
+It is told that those who first brought out the irrationals from
+concealment into the open perished in shipwreck, to a man. For the
+‘unutterable and the formless must needs be concealed. And those
+who uncovered and touched this image of life were instantly
+‘destroyed and shall remain forever exposed to the play of the
+_ eternal waves.
+
+Yet, Pythagoreanism survived. It had the elastic adaptability
+of all truly great ideological systems which, when some part is
+knocked out of them, display the self-regenerating powers of a
+growing crystal or a living organism. The mathematization of
+the world by means of atom-like dots proved a premature
+short-cut; but on a higher turn of the spiral, mathematical.
+quations proved once again the most serviceable symbols for
+representing the physical aspect of reality. We shall meet with
+further examples of prophetic intuition supported by the wrong
+‘Te asons; and we shall find that they are rather the rule than the exception.
+
+Nobody before the Pythagoreans had thought that mathematical 
+relations held the secret of the universe. Twenty-five
+centuries later, Europe is still blessed and cursed with their
+heritage. To non-European civilizations, the idea that numbers
+are the key to both wisdom and power, seems never to have
+occurred.
+
+The second blow was the dissolution of the Brotherhood.
+We know little of its causes; it probably had something to do
+with the equalitarian principles and communist practices of the
+order, the emancipation of women, and its quasi-monotheistic
+doctrine — the eternal messianic heresy. But persecution reined 
+confined to the Pythagoreans as an organized body -—
+and probably prevented them from degenerating into sectarian
+orthodoxy. The Master’s principal pupils - among them Philos 
+and Lysis — who had gone into exile, were soon allowed to
+return to Southern Italy and to resume teaching. A century
+later, that teaching became one of the sources of Platonism,
+thus entered the mainstream of European thought.
+

@@ -1,0 +1,47 @@
+
+THE PROBLEM'
+
+a second playing (in an attempt to manage a combinatorial explosion), which
+will look pretty bad under Lens #4, Surprise. Some games have tried novel
+approaches to deal with this problem. The infamous game Psychic Detective
+(once summed up in a review as “One of the worst games ever made. Also, a
+masterpiece”) was a continuously moving 30-minute experience that always
+culminated in a final psychic battle with the villain, in which your powers were
+determined by the path you took through the game. As a result, to master the
+game, you had to play it through over and over again. Since most of the game
+consists of video clips, and the game tree has some significant bottlenecks that
+you must experience every time, the designers filmed multiple versions of the
+bottleneck areas, each with different dialog but containing the same
+information. As hard as the designers worked to solve the problem of repeated content
+(and many other problems), players generally found the process of replaying the
+interactive story somewhat tedious.
+
+There are exceptions, of course. Star Wars: Knights of the Old Republic featured
+novel type of player choice—did they want to play the game on the “light
+vide” or “dark side” of the force, that is, with good or evil goals? Depending on
+which of the paths you choose, you have different adventures, different quests,
+and ultimately a different ending. It can be argued that this isn’t really a case
+of two different endings on the same story, but two completely different states
+so different that they are each equally valid. Players who try to take the
+middle path (the, uh, beige side of the force?) generally find the experience to be
+dissatisfactory.
+
+Problem #4: Not Enough Verbs F
+
+The things that videogame characters spend their time doing are very different
+than the things that characters in movies and books spend their time doing:
+
+Videogame verbs: run, shoot, jump, climb, throw, cast, punch, fly
+
+Movie verbs: talk, ask, negotiate, convince, argue, shout, plead, complain
+
+Videogame characters are severely limited in their ability to do anything that
+requires something to happen above the neck. Most of what happens in stories 1s
+communication, and at the present time, videogames just can’t support that, Ga
+designer Chris Swain has suggested that when technology advances to the p
+that players can have an intelligent, spoken conversation with computer-control
+ame characters, it will have an effect similar to the introduction of talking pie
+tures. Suddenly, a medium that was mostly considered an amusing novelly will
+(quickly become the dominant form of cultural storytelling. Until then, however, (le
+lack of usable verbs in videogames significantly hampers our ability to use pune
+as a storytelling medium.

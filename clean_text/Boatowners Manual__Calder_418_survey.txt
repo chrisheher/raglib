@@ -1,0 +1,37 @@
+
+deposits, oil change procedures have
+almost certainly been seriously neglected.
+lf there is emulsified oil (creamy in color
+and texture), there is water in the oil. Bad
+news in both cases!
+
+take a sample of oil from the transmission.
+
+If this is at all black, it is indicative 
+of a slipping/burning clutch.
+
+
+Check the raw-water circuit:
+
+Check the pump’s exterior for signs of
+water and/or oil leaks (Figure 9-52G).
+Remove the raw-water pump cover
+and check the impeller for missing
+vanes, cracks, or excessive wear (the
+impeller tips will be worn flat; Figure
+9-52H).
+
+Remove any zincs from the heat 
+exchanger. If corroded to the point of
+nonexistence or near nonexistence,
+they have been neglected and expensive 
+corrosion problems are possible.
+
+Remove the end caps from the heat
+exchanger and inspect the tube stack
+for scaling, blockage, or corrosion.
+
+Check for the existence of a vented
+loop. If not present, the engine may
+have flooded with salt water at some
+point.

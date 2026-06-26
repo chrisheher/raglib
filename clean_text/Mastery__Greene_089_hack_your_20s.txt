@@ -1,0 +1,96 @@
+### METADATA ###
+# source_file: Mastery__Greene_089_hack_your_20s.txt
+# char_count: 5746
+# word_count: 983
+### END METADATA ###
+
+one who liked to figure things out for himself, He found a fellow hacker at
+Harvard, Robert Morris, and together they began to explore the intricacies
+of the programming language Lisp. It seentéd like the most potentially
+powerful and fluid language of them all. Understanding Lisp made you
+understand something essential about programming itself. It was a 
+language suited for high-level hackers, a language specifically
+ made for investigation and discovery,
+
+Disillusioned with the computer science department at Harvard, Graham
+ decided to design his own graduate school program: he would take a
+wide range of classes and discover what interested him the most. To his
+surprise, he found himself attracted to art—to painting, and to the subject
+of art history itself. What this meant to him was that he should follow this
+interest and see where it would lead. After completing his PhD at Harvard
+in computer science, he enrolled in the Rhode Island School of Design, then
+attended a painting program at the Accademia in Florence, Italy. He returned 
+to the States broke but determined to try his hand at painting. He
+would pay for his lifestyle with intermittent consulting work in programming.
+
+As the years went by, he would occasionally reflect on the course of his
+life. Artists in the Renaissance would go through clear-cut apprenticeships,
+but what could he say about his own apprenticeship? There seemed to be
+no real design or direction to his life. It was like the “cheesy hacks” he did
+in high school, patching things together, figuring things out through constant 
+trial and error, finding out what worked by doing it. Shaping his life
+in this haphazard way, he learned what to avoid—academia; working for
+large companies; any political environment. He liked the process of making
+things. What really mattered to him in the end was having possibilities—
+being able to go in this or that direction, depending on what life presented
+to him. If over the years he had undergone an apprenticeship, it was almost
+by default.
+
+One afternoon in 1995, he heard on the radio a story about Netscape—
+the company itself was touting its future and discussing how someday most
+businesses would be selling their products on the Internet itself, with
+Netscape leading the way. With his bank account getting desperately low
+again, yet dreading the idea of returning to another consulting job,
+ he recruited his old hacker friend Robert Morris to help him create software for
+running an online business. Graham’s idea was to design a program that
+would run directly on the web server instead of having to be downloaded.
+No one had thought of this before. They would write the program in Lisp,
+taking advantage of the speed with which they could make changes to it.
+They called their business Viaweb, and it would be the first of its kind, the
+pioneer of online commerce. Just three years later they sold it to Yahoo! for
+$45 million,
+
+1 I MASTER
+
+In the years to come Graham would continue on the path set in his
+twenties, moving to where his interests and skills converged, to wherever
+he could see possibilities. In 2005 he gave a talk at Harvard about his a al
+riences with Viaweb. The students, excited by his advice, plearler! with him
+to start up some kind of consulting firm. Intrigued by the idea, he create
+Y Combinator, an apprenticeship system for young entrepreneur
+with his company taking a stake in each successful a t .
+years he would refine the system, learning as he went along. In the en ‘
+Combinator represented his ultimate hack—something he came upon by
+accident and improved through his own process of trial and error. 
+The company is now valued at close to $500 million.
+
+Each age tends to create a model of apprenticeship best is suited , the
+system of production that prevails at the time. During
+the birth of modern capitalism and the need for quality control, tne fst
+apprenticeship system appeared, with its rigidly defined siaiaien With the
+advent of the Industrial Revolution, this model of appteniices!ip ae
+largely outmoded, but the idea behind it lived on Be the form of A
+apprenticeship—developing yourself from within a pasticulyy fe, as ae
+win did in biology. This suited the growing es pint of the ume
+We are now in the computer age, with computers dominating newly “
+aspects of commercial life. Although there are many ways in which this
+could influence the concept of apprenticeship, it is the hacker apps) to
+programming that may offer the most promising model for isle now? Sy.
+The model goes like this: You want to learn as many skills as possible,
+following the direction that circumstances lead you to, but only if they are
+related to your deepest interests. Like a hacker, ym value tte process
+self-discovery and making things that are of the highest quality. von avon
+the trap of following one set career path. You are not sure ahem this na
+all lead, but you are taking full advantage of the openness of in ormations
+all of the knowledge about skills now at our disposal. You see what Aiud “i
+work suits you and what you want to avoid at all cost. You move by trial an
+error. This is how you pass your twenties. You are the programmer of this
+wide-ranging apprenticeship, within the loose constraints of your personal
+interests.
+
+You are not wandering about because you are afraid of commitment,
+but because you are expanding your skill base and year possibilities. At a
+certain point, when you are ready to settle on something, ideas and a
+nities will inevitably present themselves to you. When Cat happens, all ab the
+skills you have accumulated will prove invaluable. You will be borhan =
+combining them in ways that are unique and suited to your individuality.

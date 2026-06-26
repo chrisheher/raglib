@@ -1,0 +1,93 @@
+### METADATA ###
+# source_file: Act of Creation__Koestler_114_eureka.txt
+# char_count: 4883
+# word_count: 834
+### END METADATA ###
+
+ba tines
+
+as the pox bacilli in the cow’s body. This led to the surprising, almost
+poetic, conclusion, that life inside an abandoned glass tube can have
+the same debilitating effect on a bug as life inside a cow. From here
+on the implications of the Gloucestershire dairymaid’s statement
+became gloriously obvious: “As attenuation of the bacillus had occurred 
+spontaneously in some of his cultures [just as it occurred
+inside the cow], Pasteur became convinced that it should be possible
+to produce vaccines at will in the laboratory. Instead of depending upon
+the chance of naturally occurring immunizing agents, as cow-pox was
+for smallpox, vaccination could then become a general technique
+applicable to all infectious diseases.’ ®
+
+One of the scourges of humanity had been eliminated—to be
+replaced in due time by another. For the story has a sequel with an
+ironic symbolism, which, though it does not strictly belong to the
+subject, I cannot resist telling. The most famous and dramatic application
+ of Pasteur’s discovery was his anti-rabies vaccine. It was tried for
+the first time on a young Alsatian boy by name of Josef Meister, who
+had been savagely bitten by a rabid dog on his hands, legs, and thighs.
+Since the incubation period of rabies is a month or more, Pasteur hoped
+to be able to immunize the boy against the deadly virus which was
+already in his body. After twelve injections with rabies vaccine of
+increasing strength the boy returned to his native village without
+having suffered any ill effects from the bites. The end of the story is
+told by Dubos: ‘Josef Meister later became gatekeeper at the Pasteur
+Institute in Paris. In 1940, fifty-five years after the accident that gave
+him a lasting place in medical history, he committed suicide rather
+than open Pasteur’s burial crypt for the German invaders.’®* He was
+evidently predestined to become a victim of one form of rabidness
+or another.
+
+Now for a discovery of a diametrically opposite kind, where
+intuition plays the dominant part. The extracts which follow are from
+a celebrated lecture by Henri Poincaré at the Societé de Psychologie in
+Paris, and concern one of his best-known mathematical discoveries: the
+theory of the so-called ‘Fuchsian functions’. To reassure the reader I
+hasten to quote from Poincaré’s own introductory remarks:
+
+I beg your pardon; I am about to use some technical expressions,
+but they need not frighten you for you are not obliged to understand
+them. I shall say, for example, that I have found the demonstration
+
+of such a theorem under such circumstances. This theorem will
+have a barbarous name unfamiliar to many, but that is unimportant;
+what is of interest for the psychologist is not the theorem but
+the circumstances. ...
+
+And now follows one of the most lucid introspective accounts of
+the Eureka act by a great scientist:
+
+For fifteen days I strove to prove that there could not be any
+functions like those I have since called Fuchsian functions. I was
+then very ignorant; every day I seated myself at my work table,
+stayed an hour or two, tried a great number of combinations, and
+reached no results. One evening, contrary to my custom, I drank
+black coffee and could not sleep. Ideas rose in crowds; I felt them
+collide until pairs interlocked, so to speak, making a stable combination.
+ By the next morning I had established the existence of a
+class of Fuchsian functions, those which come from the hypergeometric series; 
+I had only to write out the results, which took but a
+few hours.
+
+Then I wanted to represent these functions by the quotient of two
+series; this idea was perfectly conscious and deliberate, the analogy
+with elliptic functions guided me. I asked myself what properties
+these series must have if they existed, and I succeeded without difficulty 
+in forming the series I have called theta-Fuchsian.
+
+Just at this time I left Caen, where I was then living, to go on a
+geologic excursion under the auspices of the school of mines. The
+changes of travel made me forget my mathematical work. Having
+reached Coutances, we entered an omnibus to go some place or
+other. At the moment when I put my foot on the step the idea came
+to me, without anything in my former thoughts seeming to have
+paved the way for it, that the transformations I had used to define
+the Fuchsian functions were identical with those of non-Euclidean
+geometry. I did not verify the idea; I should not have had time, as,
+upon taking my seat in the omnibus, I went on with a conversation
+already commenced, but I felt a perfect certainty. On my return to
+Caen, for conscience’ sake I verified the result at my leisure.
+
+Then I turned my attention to the study of some arithmetical
+questions apparently without much success and without a suspicion
+of any connection with my preceding researches. Disgusted with my
+failure, I went to spend a few days at the seaside, and thought of

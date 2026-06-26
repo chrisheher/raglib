@@ -1,0 +1,22 @@
+### METADATA ###
+# source_file: Code__Petzold_125_nor_gate.txt
+# char_count: 654
+# word_count: 131
+### END METADATA ###
+
+Gates (Not Bill)
+
+‘The output of the NOR gate is shown in the following table:
+
+This table shows results opposite those of the OR gate, which are 1 if either
+of the two inputs is 1 and 0 only if both inputs are 0.
+And yet another way to wire two relays is shown here:
+
+It’s called NOT OR or, more concisely, NOR. This is the symbol for NOR gate: i
+
+It’s the same as the symbol for the OR except with a little circle at the output. 
+The circle means invert. The NOR is the same as i
+
+In this case, the two outputs are connected, which is similar to the OR
+configuration but using the other contacts. The lightbulb is on when both
+switches are open.

@@ -1,0 +1,45 @@
+
+
+Hmmm...I don’t think that’s how that nursery rhyme goes, but I’m too lazy
+to look it up. Speaking of laziness, see how I stored the width of the poem in
+the variable line_width? This was so that if I want to go back later and make
+the poem wider, I have to change only the first line of the program, instead
+of every line that does centering. With a very long poem, this could save me
+a lot of time. That’s the kind of laziness we want in our programs.
+
+About that centering...you may have noticed that it isn’t quite as beautiful
+as a word processor would have done. If you really want perfect centering
+(and maybe a nicer font), then you should just use a word processor. Ruby
+is a wonderful tool, but no tool is the right tool for every job.
+
+The other two string-formatting methods we'll look at today are Ijust and rjust,
+which stand for left justify and right justify. They are similar to center, except
+that they pad the string with spaces on the right and left sides, respectively.
+Let’s take a look at all three in action:
+
+line_width = 40
+
+str = '--> text <--'
+puts(str.ljust( line _width) )
+puts(str.center(line width) )
+puts(str.rjust( lLine_width) )
+puts(str.ljust(line_width/2)
+
++ str.rjust(line_width/2) )
+
+I wanted to line up
+the .center line_width
+part, soladded those
+extra spaces before
+the strings. This is just
+because I think it is
+prettier that way.
+Programmers often
+have strong feelings
+about code
+aesthetics, and they
+often disagree about
+them. The more you
+program, the more
+you will come into
+your own style.
