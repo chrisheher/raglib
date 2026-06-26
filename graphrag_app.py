@@ -116,13 +116,18 @@ RERANKERS = {
 # CLIENTS
 # ─────────────────────────────────────────────
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
-chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
 
 try:
-    collection = chroma_client.get_collection(COLLECTION_NAME)
-    print(f"✓ Connected to ChromaDB: {collection.count()} documents")
+    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
+    try:
+        collection = chroma_client.get_collection(COLLECTION_NAME)
+        print(f"✓ Connected to ChromaDB: {collection.count()} documents")
+    except Exception as e:
+        print(f"✗ ChromaDB collection not found: {e}")
+        collection = None
 except Exception as e:
-    print(f"✗ ChromaDB connection failed: {e}")
+    print(f"✗ ChromaDB client init failed: {e}")
+    chroma_client = None
     collection = None
 
 
