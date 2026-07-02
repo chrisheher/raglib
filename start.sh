@@ -6,7 +6,7 @@ DB_RELEASE_URL="${DB_RELEASE_URL:-https://github.com/chrisheher/raglib/releases/
 
 if [ -d "$DATA_DIR" ] && [ ! -d "$DATA_DIR/chroma_db" ]; then
   echo "No databases found in $DATA_DIR — downloading snapshot..."
-  wget -q -O "$DATA_DIR/raglib-dbs.tar.gz" "$DB_RELEASE_URL"
+  curl -fsSL -o "$DATA_DIR/raglib-dbs.tar.gz" "$DB_RELEASE_URL"
   tar -xzf "$DATA_DIR/raglib-dbs.tar.gz" -C "$DATA_DIR"
   rm -f "$DATA_DIR/raglib-dbs.tar.gz"
   echo "Databases ready."
