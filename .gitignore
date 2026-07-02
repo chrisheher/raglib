@@ -9,6 +9,7 @@ toclean/
 output_text/
 clean_text.zip
 *.log
+*.tar.gz
 ABC/
 *.afpub
 .DS_Store
