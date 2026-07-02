@@ -1117,6 +1117,7 @@
 
 <script>
   const selectedPrompt = '{{ system_prompts.keys()|list|first }}';
+  let activeGenreFilter = null;
   const rerankerDescs = {
     {% for key, r in rerankers.items() %}
     '{{ key }}': '{{ r.description }}'{{ "," if not loop.last else "" }}
@@ -1664,8 +1665,6 @@
     // Measure text to size each rectangle
     const ctx = canvas.getContext('2d');
     ctx.font = '700 14px "ABC Arizona Flare", serif';
-
-  let activeGenreFilter = null;
 
     const rectBodies = [];
     LITERARY_PROMPTS.forEach((item, i) => {
