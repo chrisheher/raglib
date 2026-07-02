@@ -1118,6 +1118,7 @@
 <script>
   const selectedPrompt = '{{ system_prompts.keys()|list|first }}';
   let activeGenreFilter = null;
+  let activePromptNote = null;
   const rerankerDescs = {
     {% for key, r in rerankers.items() %}
     '{{ key }}': '{{ r.description }}'{{ "," if not loop.last else "" }}
@@ -1213,8 +1214,9 @@
     outputArea.innerHTML = '';
     document.getElementById('rightGutter').innerHTML = '';
 
+    const notePrefix = activePromptNote ? activePromptNote + '\n\n' : '';
     const payload = {
-      query,
+      query: notePrefix + query,
       system_prompt: selectedPrompt,
       reranker: document.getElementById('rerankerSelect').value,
       n_initial: document.getElementById('nInitial').value,
@@ -1225,6 +1227,7 @@
       ...(activeGenreFilter ? { genre_filter: activeGenreFilter } : {})
     };
     activeGenreFilter = null;
+    activePromptNote  = null;
 
     try {
       const response = await fetch(`${BASE}/api/query`, {
@@ -1612,7 +1615,7 @@
     "What can the creative process tell us about ai?",
     "Compare a diesel engine to machine learning",
       { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
-    { text: "What subject matter would Deasy Labs be interested in here?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] }
+    { text: "What subject matter would Deasy Labs be interested in here?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." }
   
   ];
 
@@ -1671,6 +1674,7 @@
     LITERARY_PROMPTS.forEach((item, i) => {
       const text   = typeof item === 'string' ? item : item.text;
       const genres = typeof item === 'object' && item.genres ? item.genres : null;
+      const note   = typeof item === 'object' && item.note   ? item.note   : null;
       const words = text.split(' ');
       // Wrap into ~25-char lines (narrow, more lines = taller boxes)
       const lines = [];
@@ -1737,6 +1741,7 @@
       body._promptLineH = lineH;
       body._jaggedPts = jaggedRect(rw, rh, 7);
       body._genres = genres;
+      body._note   = note;
       rectBodies.push(body);
     });
 
@@ -1809,6 +1814,7 @@
           const ta = document.getElementById('queryInput');
           if (ta) ta.value = b.label;
           activeGenreFilter = b._genres || null;
+          activePromptNote  = b._note   || null;
           document.getElementById('emptyState').style.display = 'none';
           submitQuery();
           break;
