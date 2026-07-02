@@ -424,7 +424,10 @@ def query():
 
     metadata_filter = None
     if genre_filter:
-        metadata_filter = {"genre": {"$eq": genre_filter}}
+        if isinstance(genre_filter, list):
+            metadata_filter = {"genre": {"$in": genre_filter}}
+        else:
+            metadata_filter = {"genre": {"$eq": genre_filter}}
 
     payload, top_docs = graphrag_query(
         query=query_text,

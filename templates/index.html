@@ -1220,8 +1220,10 @@
       n_final: document.getElementById('nFinal').value,
       graph_depth: document.getElementById('graphDepth').value,
       distance_threshold: document.getElementById('distThreshold').value,
-      custom_prompt: document.getElementById('customPrompt').value
+      custom_prompt: document.getElementById('customPrompt').value,
+      ...(activeGenreFilter ? { genre_filter: activeGenreFilter } : {})
     };
+    activeGenreFilter = null;
 
     try {
       const response = await fetch(`${BASE}/api/query`, {
@@ -1603,12 +1605,13 @@
   const LITERARY_PROMPTS = [
     "How does the sea voyage function across myth?",
     "What is revealed in the creative unconscious?",
-      "Which works predict AI communication?",
+    "Which works predict AI communication?",
     "What's the deal with the trickster figure?",
     "What themes connect maximalist novelists?",
     "What can the creative process tell us about ai?",
     "Compare a diesel engine to machine learning",
-    "What subject matter --outside their own corporate documents -- would Deasy Labs be interested in here?",
+    "What subject matter would Deasy Labs be interested in here?",
+    { text: "What do prose and myth share in how they handle transformation?", genres: ["prose", "mythology"] },
   ];
 
   function initTumblingPrompts() {
@@ -1662,8 +1665,12 @@
     const ctx = canvas.getContext('2d');
     ctx.font = '700 14px "ABC Arizona Flare", serif';
 
+  let activeGenreFilter = null;
+
     const rectBodies = [];
-    LITERARY_PROMPTS.forEach((text, i) => {
+    LITERARY_PROMPTS.forEach((item, i) => {
+      const text   = typeof item === 'string' ? item : item.text;
+      const genres = typeof item === 'object' && item.genres ? item.genres : null;
       const words = text.split(' ');
       // Wrap into ~25-char lines (narrow, more lines = taller boxes)
       const lines = [];
@@ -1729,6 +1736,7 @@
       body._promptPadY = padY;
       body._promptLineH = lineH;
       body._jaggedPts = jaggedRect(rw, rh, 7);
+      body._genres = genres;
       rectBodies.push(body);
     });
 
@@ -1799,9 +1807,8 @@
         const ly = sin * (mx - x) + cos * (my - y);
         if (Math.abs(lx) <= hw && Math.abs(ly) <= hh) {
           const ta = document.getElementById('queryInput');
-          if (ta) {
-            ta.value = b.label;
-          }
+          if (ta) ta.value = b.label;
+          activeGenreFilter = b._genres || null;
           document.getElementById('emptyState').style.display = 'none';
           submitQuery();
           break;
