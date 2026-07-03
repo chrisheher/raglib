@@ -1630,7 +1630,7 @@
     const wallOpts = { isStatic: true, render: { fillStyle: 'transparent' } };
     const thickness = 60;
     World.add(world, [
-      Bodies.rectangle(W / 2, H * 0.67 + thickness / 2, W + 200, thickness, wallOpts), // floor at 67% of canvas height
+      Bodies.rectangle(W / 2, H * 0.67 + 100 + thickness / 2, W + 200, thickness, wallOpts), // floor at 67% of canvas height + 100px
       Bodies.rectangle(-thickness / 2, H / 2, thickness, H + 200, wallOpts),    // left
       Bodies.rectangle(W + thickness / 2, H / 2, thickness, H + 200, wallOpts), // right
     ]);
