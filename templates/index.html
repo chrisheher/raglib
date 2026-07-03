@@ -368,6 +368,44 @@
     margin-top: 8px;
   }
 
+  .sidebar-total {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.85rem;
+    color: var(--ink);
+    letter-spacing: 0.02em;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(105,105,105,0.15);
+  }
+
+  .sidebar-genre-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .sidebar-genre-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(105,105,105,0.1);
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.68rem;
+    color: var(--sepia);
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+
+  .sidebar-genre-row:hover { color: var(--ink); }
+
+  .sidebar-genre-row .genre-name { text-transform: lowercase; letter-spacing: 0.04em; }
+
+  .sidebar-genre-row .genre-count {
+    font-size: 0.75rem;
+    color: var(--ink);
+    font-weight: 600;
+  }
+
   .header-stats {
     display: flex;
     flex-direction: column;
@@ -995,68 +1033,19 @@
     </div>
   </header>
 
+  <!-- hidden controls kept for submitQuery() -->
+  <input type="hidden" id="rerankerSelect" value="none">
+  <input type="hidden" id="nInitial"       value="15">
+  <input type="hidden" id="nFinal"         value="6">
+  <input type="hidden" id="graphDepth"     value="1">
+  <input type="hidden" id="distThreshold"  value="0.8">
+
   <!-- SIDEBAR -->
   <aside class="sidebar">
-
-    <!-- Reranker -->
-    <div class="panel-section">
-      <div class="panel-label">Reranking Strategy</div>
-      <div class="control-group">
-        <select id="rerankerSelect">
-          {% for key, r in rerankers.items() %}
-          <option value="{{ key }}">{{ r.name }}</option>
-          {% endfor %}
-        </select>
-        <div class="custom-prompt-note" id="rerankerDesc" style="margin-top:6px;">
-          Use raw ChromaDB cosine similarity scores
-        </div>
-      </div>
+    <div class="sidebar-total" id="docBadgeSide">{{ doc_count }} documents</div>
+    <div class="sidebar-genre-list" id="sidebarStats">
+      <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
     </div>
-
-    <hr class="divider">
-
-    <!-- Retrieval Settings -->
-    <div class="panel-section">
-      <div class="panel-label">Retrieval Settings</div>
-
-      <div class="control-group">
-        <label>Initial Candidates (n_initial)</label>
-        <div class="range-row">
-          <input type="range" id="nInitial" min="5" max="50" value="15"
-                 oninput="document.getElementById('nInitialVal').textContent=this.value">
-          <span class="range-val" id="nInitialVal">15</span>
-        </div>
-      </div>
-
-      <div class="control-group">
-        <label>Final Context Documents (n_final)</label>
-        <div class="range-row">
-          <input type="range" id="nFinal" min="2" max="15" value="6"
-                 oninput="document.getElementById('nFinalVal').textContent=this.value">
-          <span class="range-val" id="nFinalVal">6</span>
-        </div>
-      </div>
-
-      <div class="control-group">
-        <label>Graph Expansion Depth</label>
-        <div class="range-row">
-          <input type="range" id="graphDepth" min="0" max="3" value="1"
-                 oninput="document.getElementById('graphDepthVal').textContent=this.value">
-          <span class="range-val" id="graphDepthVal">1</span>
-        </div>
-      </div>
-
-      <div class="control-group">
-        <label>Distance Threshold (lower = stricter)</label>
-        <div class="range-row">
-          <input type="range" id="distThreshold" min="0.2" max="1.5" step="0.05" value="0.8"
-                 oninput="document.getElementById('distThresholdVal').textContent=parseFloat(this.value).toFixed(2)">
-          <span class="range-val" id="distThresholdVal">0.80</span>
-        </div>
-      </div>
-    </div>
-
-
   </aside>
 
   <!-- MAIN -->
@@ -1176,9 +1165,6 @@
     area.classList.toggle('visible');
   }
 
-  document.getElementById('rerankerSelect').addEventListener('change', function() {
-    document.getElementById('rerankerDesc').textContent = rerankerDescs[this.value] || '';
-  });
 
   // Ctrl/Cmd+Enter to submit
   document.getElementById('queryInput').addEventListener('keydown', function(e) {
@@ -1422,20 +1408,35 @@
     try {
       const res = await fetch(`${BASE}/api/stats`);
       const data = await res.json();
-      const grid = document.getElementById('statsGrid');
-      grid.innerHTML = '';
+      const sorted = Object.entries(data.genres || {}).sort((a,b) => b[1]-a[1]);
 
-      Object.entries(data.genres || {})
-        .sort((a,b) => b[1]-a[1])
-        .slice(0, 8)
-        .forEach(([genre, count]) => {
+      // Header chips (top 8, horizontal)
+      const grid = document.getElementById('statsGrid');
+      if (grid) {
+        grid.innerHTML = '';
+        sorted.slice(0, 8).forEach(([genre, count]) => {
           const chip = document.createElement('div');
           chip.className = 'stat-chip';
-          chip.innerHTML = `<span>${genre.replace('_', ' ')}</span><span class="count">${count}</span>`;
+          chip.innerHTML = `<span>${genre.replace(/_/g, ' ')}</span><span class="count">${count}</span>`;
           grid.appendChild(chip);
         });
+      }
+
+      // Sidebar vertical list
+      const list = document.getElementById('sidebarStats');
+      if (list) {
+        list.innerHTML = '';
+        sorted.forEach(([genre, count]) => {
+          const row = document.createElement('div');
+          row.className = 'sidebar-genre-row';
+          row.innerHTML = `<span class="genre-name">${genre.replace(/_/g, ' ')}</span><span class="genre-count">${count}</span>`;
+          row.onclick = () => showGenreDocs(genre, genre.replace(/_/g, ' '));
+          list.appendChild(row);
+        });
+      }
     } catch(e) {
-      document.getElementById('statsGrid').innerHTML = '<div class="stat-chip" style="grid-column:1/-1">Stats unavailable</div>';
+      const grid = document.getElementById('statsGrid');
+      if (grid) grid.innerHTML = '<div class="stat-chip">Stats unavailable</div>';
     }
   }
 
