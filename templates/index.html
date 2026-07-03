@@ -1748,6 +1748,24 @@
 
     World.add(world, rectBodies);
 
+    // Page-rule lines drawn behind physics bodies
+    Events.on(render, 'beforeRender', () => {
+      const c = render.context;
+      const lineCount = 6;
+      const spacing = (H * 0.67) / (lineCount + 1);
+      c.save();
+      c.strokeStyle = 'rgba(255,255,255,0.06)';
+      c.lineWidth = 0.75;
+      for (let i = 1; i <= lineCount; i++) {
+        const y = Math.round(spacing * i);
+        c.beginPath();
+        c.moveTo(0, y);
+        c.lineTo(W, y);
+        c.stroke();
+      }
+      c.restore();
+    });
+
     // Custom render: draw text on top of each rectangle
     Events.on(render, 'afterRender', () => {
       const c = render.context;
