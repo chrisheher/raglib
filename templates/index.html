@@ -991,29 +991,6 @@
 
     <hr class="divider">
 
-    <!-- System Prompt -->
-    <div class="panel-section">
-      <div class="panel-label">Interpretive Persona</div>
-      {% for key, prompt in system_prompts.items() %}
-      <div class="prompt-card active">
-        <div class="prompt-card-header">
-          <span class="prompt-icon">{{ prompt.icon if prompt.icon is defined else '' }}</span>
-          <span class="prompt-name">{{ prompt.name }}</span>
-        </div>
-        <div class="prompt-desc">{{ prompt.description }}</div>
-      </div>
-      {% endfor %}
-      <button class="toggle-custom" onclick="toggleCustomPrompt()">+ custom system prompt</button>
-      <div class="custom-prompt-area" id="customPromptArea">
-        <textarea class="custom-prompt" id="customPrompt"
-                  placeholder="Write your own system prompt here. Overrides the persona above..."
-                  rows="5"></textarea>
-        <div class="custom-prompt-note">Leave blank to use the default persona.</div>
-      </div>
-    </div>
-
-    <hr class="divider">
-
     <!-- Reranker -->
     <div class="panel-section">
       <div class="panel-label">Reranking Strategy</div>
