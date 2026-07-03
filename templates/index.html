@@ -368,6 +368,21 @@
     margin-top: 8px;
   }
 
+  .header-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: flex-end;
+  }
+
   .stat-chip {
     padding: 5px 8px;
     background: rgba(136,136,136,0.1);
@@ -972,23 +987,16 @@
         </button>
       </div>
     </div>
-    <div class="doc-badge" id="docBadge">
-      {{ doc_count }} documents indexed
+    <div class="header-stats">
+      <div class="doc-badge" id="docBadge">{{ doc_count }} documents indexed</div>
+      <div class="stats-row" id="statsGrid">
+        <div class="stat-chip" style="opacity:0.5;">Loading…</div>
+      </div>
     </div>
   </header>
 
   <!-- SIDEBAR -->
   <aside class="sidebar">
-
-    <!-- DB Stats -->
-    <div class="panel-section">
-      <div class="panel-label">Collection Stats</div>
-      <div class="stats-grid" id="statsGrid">
-        <div class="stat-chip" style="grid-column:1/-1; color:var(--mist);">Loading...</div>
-      </div>
-    </div>
-
-    <hr class="divider">
 
     <!-- Reranker -->
     <div class="panel-section">
