@@ -1201,7 +1201,7 @@
       n_final: document.getElementById('nFinal').value,
       graph_depth: document.getElementById('graphDepth').value,
       distance_threshold: document.getElementById('distThreshold').value,
-      custom_prompt: document.getElementById('customPrompt').value,
+      custom_prompt: document.getElementById('customPrompt')?.value ?? '',
       ...(activeGenreFilter ? { genre_filter: activeGenreFilter } : {})
     };
     activeGenreFilter = null;
