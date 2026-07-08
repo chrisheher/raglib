@@ -89,7 +89,7 @@
   .ticker-footer {
     grid-column: 1 / -1;
     border-top: 1px solid rgba(105,105,105,0.2);
-    background: rgba(0,0,0,0.6);
+    background: #FFFCF9;
     padding: 9px 0;
     overflow: hidden;
     white-space: nowrap;
@@ -109,12 +109,12 @@
 
   .ticker-footer::before {
     left: 0;
-    background: linear-gradient(to right, rgba(0,0,0,0.6), transparent);
+    background: linear-gradient(to right, #FFFCF9, transparent);
   }
 
   .ticker-footer::after {
     right: 0;
-    background: linear-gradient(to left, rgba(0,0,0,0.6), transparent);
+    background: linear-gradient(to left, #FFFCF9, transparent);
   }
 
   .ticker-track {
@@ -197,7 +197,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color: var(--parchment);
+    color: #000000;
     text-shadow: none;
   }
 
@@ -207,16 +207,6 @@
     color: var(--mist);
     letter-spacing: 0.1em;
     opacity: 0.7;
-  }
-
-  .doc-badge {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
-    color: var(--accent-grey);
-    padding: 4px 12px;
-    border: 1px solid rgba(136,136,136,0.3);
-    border-radius: 2px;
-    letter-spacing: 0.08em;
   }
 
   /* ── SIDEBAR ── */
@@ -291,7 +281,7 @@
   label {
     display: block;
     font-family: 'Courier Prime', monospace;
-    font-size: 0.65rem;
+    font-size: 1rem;
     color: var(--mist);
     letter-spacing: 0.08em;
     margin-bottom: 6px;
@@ -406,35 +396,6 @@
     font-weight: 600;
   }
 
-  .header-stats {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 6px;
-    flex-shrink: 0;
-  }
-
-  .stats-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    justify-content: flex-end;
-  }
-
-  .stat-chip {
-    padding: 5px 8px;
-    background: rgba(136,136,136,0.1);
-    border: 1px solid rgba(136,136,136,0.2);
-    border-radius: 2px;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.6rem;
-    color: var(--accent-grey);
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .stat-chip .count { color: var(--gold); }
-
   /* ── MAIN ── */
   .main {
     display: flex;
@@ -450,9 +411,8 @@
 
   /* Genre filter bar */
   .genre-filter-bar {
-    padding: 10px 32px;
+    padding-bottom: 16px;
     border-bottom: 1px solid rgba(105,105,105,0.15);
-    background: #FFFCF9;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -555,11 +515,11 @@
 
   /* Right gutter — source cards */
   .right-gutter {
-    width: 350px;
+    width: 250px;
     flex-shrink: 0;
     overflow-y: auto;
     border-left: 1px solid rgba(105,105,105,0.15);
-    background: rgba(10,10,10,0.6);
+    background: rgba(247, 245, 245, 0.6);
     padding: 24px 50px 24px 16px;
     display: flex;
     flex-direction: column;
@@ -639,7 +599,7 @@
   .source-name {
     color: var(--parchment);
     margin-bottom: 8px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.4;
     word-break: break-word;
     white-space: normal;
@@ -685,7 +645,7 @@
     font-family: 'ABC Arizona Flare', serif;
     font-size: 1.26rem;
     line-height: 1.85;
-    color: var(--parchment);
+    color: var(--ink);
     font-weight: 300;
     max-width: 820px;
     white-space: pre-wrap;
@@ -1025,12 +985,6 @@
         </button>
       </div>
     </div>
-    <div class="header-stats">
-      <div class="doc-badge" id="docBadge">{{ doc_count }} documents indexed</div>
-      <div class="stats-row" id="statsGrid">
-        <div class="stat-chip" style="opacity:0.5;">Loading…</div>
-      </div>
-    </div>
   </header>
 
   <!-- hidden controls kept for submitQuery() -->
@@ -1042,15 +996,6 @@
 
   <!-- SIDEBAR -->
   <aside class="sidebar">
-    <div class="sidebar-total" id="docBadgeSide">{{ doc_count }} documents</div>
-    <div class="sidebar-genre-list" id="sidebarStats">
-      <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
-    </div>
-  </aside>
-
-  <!-- MAIN -->
-  <main class="main">
-
     <!-- Genre Filter -->
     <div class="genre-filter-bar">
       <span class="genre-filter-label">BROWSE:</span>
@@ -1061,6 +1006,14 @@
       <div class="genre-pill" onclick="showGenreDocs('creative_thinking', 'Creative Thinking')">Creative</div>
       <div class="genre-pill" onclick="showGenreDocs('poetry', 'Poetry')">Poetry</div>
     </div>
+    <div class="sidebar-total" id="docBadgeSide">{{ doc_count }} documents</div>
+    <div class="sidebar-genre-list" id="sidebarStats">
+      <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
 
     <div class="main-body">
       <!-- Output -->
@@ -1328,6 +1281,19 @@
     gutter.appendChild(grid);
   }
 
+  // Collection-slug prefixes on metadata.source that are backed by a real PDF
+  // file on disk, servable via /pdfs/<slug>/<filename>.pdf (see PDF_SOURCE_DIRS
+  // in graphrag_app.py).
+  const PDF_BACKED_SLUGS = ['nautical_pdfs'];
+
+  function pdfLinkFor(source) {
+    if (!source || !source.includes('/')) return null;
+    const [slug, ...rest] = source.split('/');
+    if (!PDF_BACKED_SLUGS.includes(slug)) return null;
+    const filename = rest.join('/') + '.pdf';
+    return `${BASE}/pdfs/${slug}/${encodeURIComponent(filename)}`;
+  }
+
   function showChunkModal(s, num) {
     const existing = document.getElementById('chunkModal');
     if (existing) existing.remove();
@@ -1337,6 +1303,7 @@
     const themes = s.metadata.themes || '';
     const score = (s.score * 100).toFixed(0);
     const source = s.metadata.source || s.id;
+    const pdfUrl = pdfLinkFor(source);
 
     const overlay = document.createElement('div');
     overlay.className = 'chunk-modal-overlay';
@@ -1352,6 +1319,7 @@
               <span>${genre}</span>
               ${themes ? `<span>${themes}</span>` : ''}
               <span style="color:var(--accent-grey)">${score}% match</span>
+              ${pdfUrl ? `<a href="${pdfUrl}" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;">View Original PDF</a>` : ''}
             </div>
           </div>
           <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
@@ -1599,7 +1567,7 @@
     "What's the deal with the trickster figure?",
     "What themes connect maximalist novelists?",
     "What can the creative process tell us about ai?",
-    "Compare a diesel engine to machine learning",
+    { text: "Compare a diesel engine to machine learning", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
       { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
     { text: "What subject matter would Deasy Labs be interested in here?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
     { text: "Which passages here would stump an AI like Deasy Labs trying to categorize them?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
@@ -1684,33 +1652,6 @@
       const x = rw / 2 + 20 + Math.random() * Math.max(1, W - rw - 40);
       const y = -60 - i * 120;
 
-      // Generate rough jagged outline vertices around the rectangle
-      function jaggedRect(w, h, jitter) {
-        const pts = [];
-        const steps = 5;
-        // top edge left→right
-        for (let s = 0; s <= steps; s++) {
-          pts.push({ x: -w/2 + s*(w/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
-                     y: -h/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
-        }
-        // right edge top→bottom
-        for (let s = 1; s <= steps; s++) {
-          pts.push({ x: w/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
-                     y: -h/2 + s*(h/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
-        }
-        // bottom edge right→left
-        for (let s = 1; s <= steps; s++) {
-          pts.push({ x: w/2 - s*(w/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
-                     y: h/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
-        }
-        // left edge bottom→top
-        for (let s = 1; s < steps; s++) {
-          pts.push({ x: -w/2 + (s>0&&s<steps?(Math.random()-0.5)*jitter:0),
-                     y: h/2 - s*(h/steps) + (s>0&&s<steps?(Math.random()-0.5)*jitter:0) });
-        }
-        return pts;
-      }
-
       const body = Bodies.rectangle(x, y, rw, rh, {
         restitution: 0.46,
         friction: 0.01,
@@ -1726,7 +1667,6 @@
       body._promptPadX = padX;
       body._promptPadY = padY;
       body._promptLineH = lineH;
-      body._jaggedPts = jaggedRect(rw, rh, 7);
       body._genres = genres;
       body._note   = note;
       rectBodies.push(body);
@@ -1762,17 +1702,41 @@
         c.translate(x, y);
         c.rotate(angle);
 
-        // Draw jagged irregular shape
-        const pts = b._jaggedPts;
+        // Draw book-spine card — exactly matches the physics/hit-test rectangle
+        const w = b._promptRW, h = b._promptRH, r = 10;
         c.beginPath();
-        c.moveTo(pts[0].x, pts[0].y);
-        for (let p = 1; p < pts.length; p++) c.lineTo(pts[p].x, pts[p].y);
+        c.moveTo(-w/2 + r, -h/2);
+        c.lineTo(w/2 - r, -h/2);
+        c.quadraticCurveTo(w/2, -h/2, w/2, -h/2 + r);
+        c.lineTo(w/2, h/2 - r);
+        c.quadraticCurveTo(w/2, h/2, w/2 - r, h/2);
+        c.lineTo(-w/2 + r, h/2);
+        c.quadraticCurveTo(-w/2, h/2, -w/2, h/2 - r);
+        c.lineTo(-w/2, -h/2 + r);
+        c.quadraticCurveTo(-w/2, -h/2, -w/2 + r, -h/2);
         c.closePath();
         c.fillStyle = b.render.fillStyle;
         c.fill();
+        c.lineWidth = 2;
+        c.strokeStyle = 'rgba(20,20,20,0.85)';
+        c.stroke();
+
+        // Spine crease + binding lines, echoing a book spine
+        c.strokeStyle = 'rgba(20,20,20,0.35)';
+        c.lineWidth = 1.5;
+        c.beginPath();
+        c.moveTo(-w/2 + 14, -h/2 + 8);
+        c.lineTo(-w/2 + 14, h/2 - 8);
+        c.stroke();
+        c.beginPath();
+        c.moveTo(-w/2 + 8, h/2 - 14);
+        c.lineTo(w/2 - 8, h/2 - 14);
+        c.moveTo(-w/2 + 8, h/2 - 20);
+        c.lineTo(w/2 - 8, h/2 - 20);
+        c.stroke();
 
         c.font = '700 20px "ABC Arizona Flare", serif';
-        c.fillStyle = 'rgba(40,30,20,0.85)';
+        c.fillStyle = 'rgba(20,20,20,0.9)';
         c.textAlign = 'center';
         c.textBaseline = 'middle';
         const totalH = b._promptLines.length * b._promptLineH;
@@ -1803,10 +1767,16 @@
     // Click detection
     canvas.addEventListener('click', (e) => {
       const rect = canvas.getBoundingClientRect();
-      const mx = e.clientX - rect.left;
-      const my = e.clientY - rect.top;
+      // Canvas is styled to 100%/100% via CSS while its pixel buffer is fixed
+      // at init size — scale click coords into buffer space so hit-testing
+      // stays accurate even if the container has resized since then.
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      const mx = (e.clientX - rect.left) * scaleX;
+      const my = (e.clientY - rect.top) * scaleY;
 
-      for (const b of rectBodies) {
+      for (let bi = rectBodies.length - 1; bi >= 0; bi--) {
+        const b = rectBodies[bi];
         const { x, y } = b.position;
         const hw = b._promptRW / 2;
         const hh = b._promptRH / 2;
@@ -1829,10 +1799,13 @@
 
     canvas.addEventListener('mousemove', (e) => {
       const rect = canvas.getBoundingClientRect();
-      const mx = e.clientX - rect.left;
-      const my = e.clientY - rect.top;
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      const mx = (e.clientX - rect.left) * scaleX;
+      const my = (e.clientY - rect.top) * scaleY;
       let hit = false;
-      for (const b of rectBodies) {
+      for (let bi = rectBodies.length - 1; bi >= 0; bi--) {
+        const b = rectBodies[bi];
         const { x, y } = b.position;
         const hw = b._promptRW / 2;
         const hh = b._promptRH / 2;

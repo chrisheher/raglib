@@ -5,6 +5,7 @@ __pycache__/
 .env
 chroma_db/
 vgraphrag_db/
+templates/pdfs/
 toclean/
 output_text/
 clean_text.zip

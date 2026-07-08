@@ -12,7 +12,7 @@ import json
 import time
 from pathlib import Path
 import networkx as nx
-from flask import Flask, render_template, request, jsonify, Response, stream_with_context
+from flask import Flask, render_template, request, jsonify, Response, stream_with_context, send_from_directory
 from dotenv import load_dotenv
 import chromadb
 from openai import OpenAI
@@ -404,6 +404,24 @@ def index():
                            rerankers=RERANKERS,
                            doc_count=collection.count() if collection else 0,
                            base_path=APP_BASE_PATH)
+
+
+# Maps a chunk's metadata["source"] collection-slug prefix (e.g. "nautical_pdfs/anchor_bend")
+# to the directory the original PDF lives in, so citations can link back to it.
+PDF_SOURCE_DIRS = {
+    "nautical_pdfs": "templates/pdfs",
+}
+
+
+@app.route("/pdfs/<slug>/<path:filename>")
+def serve_source_pdf(slug, filename):
+    pdf_dir = PDF_SOURCE_DIRS.get(slug)
+    if not pdf_dir:
+        return jsonify({"error": "unknown source collection"}), 404
+    safe_name = os.path.basename(filename)
+    if not safe_name.lower().endswith(".pdf"):
+        return jsonify({"error": "not found"}), 404
+    return send_from_directory(pdf_dir, safe_name)
 
 
 @app.route("/api/query", methods=["POST"])

@@ -49,6 +49,11 @@ def fetch_text(url: str) -> tuple[str, str]:
     headers = {"User-Agent": "Mozilla/5.0 (compatible; raglib-ingest/1.0)"}
     r = requests.get(url, headers=headers, timeout=15)
     r.raise_for_status()
+
+    content_type = r.headers.get("Content-Type", "").split(";")[0].strip().lower()
+    if content_type and content_type != "text/html":
+        raise ValueError(f"unsupported content-type '{content_type}' (not HTML) — skipping")
+
     soup = BeautifulSoup(r.text, "html.parser")
 
     title = soup.title.string.strip() if soup.title else urlparse(url).path
@@ -81,6 +86,11 @@ def doc_id(url: str, chunk_idx: int) -> str:
     return f"web__{h}__chunk{chunk_idx}"
 
 
+def page_slug(url: str) -> str:
+    path = urlparse(url).path.strip("/")
+    return path.replace("/", "-") if path else "home"
+
+
 def ingest_url(url: str, source_label: str) -> int:
     print(f"  Fetching {url}")
     try:
@@ -88,6 +98,8 @@ def ingest_url(url: str, source_label: str) -> int:
     except Exception as e:
         print(f"  ✗ {e}")
         return 0
+
+    source_label = f"{source_label}/{page_slug(url)}"
 
     chunks = chunk_text(text)
     if not chunks:
