@@ -31,4 +31,16 @@ fi
 # Clean stale ChromaDB Rust socket/lock files left behind on crash.
 find chroma_db -name "*.sock" -o -name "*.lock" 2>/dev/null | xargs rm -f 2>/dev/null || true
 
+# Patch in taxonomy_leaf tags (written locally by a one-off classification
+# pass, not part of the DB snapshot) onto existing chroma_db chunks by id.
+# Small (<1MB) and idempotent — same unconditional-refresh rationale as
+# document_connections.json above, avoids re-downloading the full snapshot.
+TAXONOMY_TAGS_URL="${TAXONOMY_TAGS_URL:-https://github.com/chrisheher/raglib/releases/download/v1.0-dbs/taxonomy_tags.json}"
+if curl -fsSL -o /tmp/taxonomy_tags.json "$TAXONOMY_TAGS_URL"; then
+  python sync_taxonomy.py /tmp/taxonomy_tags.json || echo "taxonomy sync failed — keeping existing tags."
+  rm -f /tmp/taxonomy_tags.json
+else
+  echo "taxonomy_tags.json fetch failed — keeping existing tags."
+fi
+
 exec python graphrag_app.py
