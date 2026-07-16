@@ -180,6 +180,21 @@ except Exception as e:
     chroma_client = None
     collection = None
 
+# ingest_pdf.py's nautical_pdfs batch reused genre="nautical" (against its
+# own CLI guidance not to reuse literary genres), so a genre-scoped query
+# for "nautical" is ~99% technical PDF manuals (diesel/electrical/nav) and
+# only ~1% actual clean_text sea-voyage literature. Falling prompts that
+# filter by genre are meant to explore the literary corpus, so precompute
+# this batch's source labels once at boot and exclude them from those
+# genre-scoped queries below.
+NAUTICAL_PDF_SOURCES = set()
+if collection:
+    _all_meta = collection.get(limit=collection.count(), include=["metadatas"])["metadatas"]
+    NAUTICAL_PDF_SOURCES = {
+        m["source"] for m in _all_meta if (m.get("source") or "").startswith("nautical_pdfs/")
+    }
+    del _all_meta
+
 
 # ─────────────────────────────────────────────
 # EMBEDDING
@@ -517,6 +532,10 @@ def graphrag_query(
             # this query). Shrink n_results a couple of times before giving
             # up on this genre entirely — one genre missing from one query
             # beats a 500 for the whole request.
+            genre_cond = {"genre": {"$eq": g}}
+            if g == "nautical" and NAUTICAL_PDF_SOURCES:
+                genre_cond = {"$and": [genre_cond, {"source": {"$nin": list(NAUTICAL_PDF_SOURCES)}}]}
+
             sub = None
             attempt_n = min(per_genre_n, collection.count())
             for _ in range(3):
@@ -524,7 +543,7 @@ def graphrag_query(
                     sub = collection.query(
                         query_embeddings=[query_embedding],
                         n_results=attempt_n,
-                        where={"genre": {"$eq": g}},
+                        where=genre_cond,
                         include=["documents", "metadatas", "distances", "embeddings"],
                     )
                     break
@@ -812,7 +831,11 @@ def query():
                 balance_genres = genre_filter
         else:
             genre_cond = {"genre": {"$eq": genre_filter}}
-        metadata_filter = {"$and": [genre_cond, exclude_reference]}
+        conditions = [genre_cond, exclude_reference]
+        genres_requested = genre_filter if isinstance(genre_filter, list) else [genre_filter]
+        if "nautical" in genres_requested and NAUTICAL_PDF_SOURCES:
+            conditions.append({"source": {"$nin": list(NAUTICAL_PDF_SOURCES)}})
+        metadata_filter = {"$and": conditions}
     else:
         metadata_filter = exclude_reference
 
