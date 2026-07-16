@@ -1,10 +1,3 @@
-### METADATA ###
-# source_file: Story__McKee_story_socialprogression.txt
-# char_count: 3829
-# word_count: 643
-### END METADATA ###
-
-294 @ ROBERT MCKEE
 
 Pace begins in the screenplay. Cliché or not, we mane coma
 rhythm and tempo. It needn’t be a symmetrical swelling of action
@@ -18,7 +11,7 @@ the way for the artists who follow.
 
 EXPRESSING PROGRESSION
 
-When a story genuinely progresses it calls upon greater and greate
+When a story genuinely progresses it calls upon greater and greater
 human capacity, demands greater and greater willpower, generate
 greater and greater change in characters’ lives, and places them :
 greater and greater jeopardy. How are we to express How ' At
@@ -61,7 +54,7 @@ If the logic of your setting doesn’t allow you to go wide, then you
 must go deep. Start with a personal or inner conflict that demands
 balancing, yet seems relatively solvable. Then, as the work progresses, 
 hammer the story downward—emotionally, 
-psychologiually, physically, morally—to the dark secrets, the unspoken truths
+psychologically, physically, morally—to the dark secrets, the unspoken truths
 that hide behind a public mask.
 
 ORDINARY PEOPLE is confined to the family, a friend, and

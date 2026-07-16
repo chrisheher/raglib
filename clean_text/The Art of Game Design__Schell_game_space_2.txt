@@ -1,0 +1,45 @@
+Divided space: This kind of space is most like a real map and is common in
+ames that are trying to replicate a real map. It is achieved by carving the space
+up into sections in an irregular way. Some examples of games that have divided
+space are as follows:
+
+a, Risk
+b. Axis and Allies
+c, Dark Tower
+
+3. Web: A web arrangement is achieved by marking several points on a mapI
+connecting them with paths. This is useful when you have several places
+want players to visit but you want to give them a number of different way
+get to them. Sometimes there is meaningful travel along the paths, but oI
+times, travel is instantaneous. Some examples of web-based game spaces 
+follows: i. Zelda: Ocarina of Time
+
+
+
+These different organizing principles are often combined to make interesting new
+types of game spaces. The game of Clue is a combination of the grid and divided
+»pace patterns. Baseball is a combination of a linear structure and points in space, —
+
+A Word about Landmarks
+
+very important thing to consider whenever you organize a space: What are the
+Landmarks? The very first text adventure game, Colossal Cave, had two different mazes
+one, every area was described as “You are in a maze of twisty passages, all ali
+4 as confusing though was the opposite maze, in which every area was deserted.
+
+"You are in a maze of twisty passages, all different.” For it is certainly true that
+too much chaos is just as monotonous as too much order. Players of Colossal Cave learned
+“drop items in the mazes, forming landmarks that helped them find their way, Ati
+sd game space has built-in landmarks, which help the players find where they at
+‘in, and also make the space interesting to look at. Landmarks are what played
+remember and what they talk about, for they are what make a space memorable,
+
+Points in space: This somewhat uncommon type of game space is usually
+games that want to evoke something like wandering a desert and occasion
+returning to an oasis, like one does in an RPG. It also is common for
+where players get to define the game space themselves. Some examples of
+kind of spatial organization are the following:
+
+a. Bocce
+b. Thin Ice (a board game involving wet marbles and a napkin)
+c. Polarity (magnetic board game)

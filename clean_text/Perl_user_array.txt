@@ -1,0 +1,50 @@
+### METADATA ###
+# source_file: Perl_097_user_array.txt
+# char_count: 3741
+# word_count: 716
+### END METADATA ###
+
+s and Hashes Chapter 4
+
+and List Context
+
+ A list in Perl is a collection  separate a series of values with commas and enclose the list in
+(). It is important to know the context in which a variable will be used. List
+egion of a Perl program in which a list is required for the program to complete
+gion of a Perl program in which only a single value is expected is said to be
+vt. The operation being performed on a variable helps determine its context.
+_ascalar variable on the left side of an assignment operator gives scalar context
+the right side, so a value can be assigned to the variable on the left side of the.
+ Similarly, when a list appears on the left side of the assignment operator
+t side is interpreted in list context.
+
+e already seen functions, such as print, that use lists as arguments. For
+with a list containing the string "1 + 7 = ", the expression 1 + 7 (which evalind the newline character. Note that the parentheses are not required for a list
+d to function print.
+
+list is evaluated, each element in the list is evaluated, and all sublists are flat. 
+For example, the list variable stores a list of scalars. Each array can hold 0 or more individual scalars.
+An array element has a position number (or index), which is used to access (or
+t element. The primary difference between a list and an array is that an array is
+variable, whereas a list is considered to be a constant.
+
+
+
+Common Programming Error 4.1
+
+When referring to an individual array element, using @ rather than $ before the array name
+may result in a logic error. Using per with the -wflag to run the program generates warning messages in this case.
+
+Common Programming Error 4.2
+
+
+When initializing an array with a list, accidentally using $ rather than @ before the array
+name may result in a logic error. Using per with the -wflag to run the program generates
+warning messages in this case.
+
+The position number contained within square brackets is more formally called a subscript. A subscript should be an integer or an integer expression. If a program uses an
+expression as a subscript, then the expression is evaluated to determine the subscript. For
+example, if we assume that variable $number1 is equal to 5 and that variable $number2
+is equal to 6, then the statement
+
+¢of Snumberl + $number2 ] += 2;

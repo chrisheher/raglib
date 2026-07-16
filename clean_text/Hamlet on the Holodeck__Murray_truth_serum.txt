@@ -1,14 +1,4 @@
-### METADATA ###
-# source_file: Hamlet on the Holodeck__Murray_truth_serum.txt
-# char_count: 4291
-# word_count: 713
-### END METADATA ###
 
-of “ractiv” entertainment. For instance, while playing the role of Ilse
-in the ractiv equivalent of The Mousetrap (a long-running murder
-mystery set on a train in World War Il Europe), a performance in
-which paying guests and professional ractors interact from distant 
-locations in a shared virtual space, she is distracted by a virtual masher:
 
 It was nearly ruined by one of the players, who had clearly signed up
 exclusively for the purpose of maneuvering Ilse into bed. He turned
@@ -53,11 +43,11 @@ could ask one question, which her partner had to answer truthfully
 This mechanic allowed sex to be used as a game strategy
 ‘of the players’ enjoyment of the scene.
 
-In MUDs, which are on-line role-playing environments, players
-; ave created a similar repertoire of conventions for everything from
-yeddings to virtual pie-making. Sometimes these conventions only
+In MUDs, which are on-line role-playing environments, players 
+have created a similar repertoire of conventions for everything from
+weddings to virtual pie-making. Sometimes these conventions only
 Involve navigating through the MUD to a particular virtual room and
-@hgaging in a ritualized conversation with other MUDders. For exaimple, 
+ehgaging in a ritualized conversation with other MUDders. For example, 
 I might type in “south, west, south” until the program announces, 
 “Wedding Chapel.” The program would then tell me the
 Names of those who are present, but it would be up to all the role
@@ -66,10 +56,10 @@ program some objects and events into the system. The
 ding Chapel could contain an automated minister, who would
 the couple through their vows. After the ceremony the minister
 ld remember they were married; he might be programmed to tell
-eryone he meets about each new marriage—perhaps even gossip
+Everyone he meets about each new marriage—perhaps even gossip
 about what the bride was wearing and whether she looked pregnant.
 
-‘He narrative strategies used in MUDs raise many questions about
+He narrative strategies used in MUDs raise many questions about
 to establish boundaries between private fantasy and public content. 
 There is no single storyteller in a MUD; the computer proi itself 
 serves as narrator of the story, publishing the dialogue of

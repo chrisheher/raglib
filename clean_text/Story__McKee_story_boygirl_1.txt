@@ -1,10 +1,4 @@
-### METADATA ###
-# source_file: Story__McKee_story_boygirl_1.txt
-# char_count: 2267
-# word_count: 376
-### END METADATA ###
 
-96 @ ROBERT MCKEE
 
  In WHEN HARRY MET SALLY,
 the lovers suffer from the 

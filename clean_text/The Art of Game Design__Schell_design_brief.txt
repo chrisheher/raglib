@@ -1,0 +1,104 @@
+### METADATA ###
+# source_file: The Art of Game Design__Schell_100_design_brief.txt
+# char_count: 6086
+# word_count: 1080
+### END METADATA ###
+
+Prisoners of Bubbleville: Design Brief 
+
+Story: You are “Smiley,” a parachuting cat. The good people of Bubbleville
+trapped in their houses by an evil wizard. You must find a way to defeat the
+ard, by repeatedly parachuting into the city and sliding down chimneys to visit
+citizens and get clues about how to stop the wizard.
+
+Mechanics: As you parachute toward the city, you are trying to grab magic
+bles that rise up from the city and use their energy to shoot rays at evil vultures
+try to pop the bubbles and rip your parachute. Simultaneously, you must navi
+down to one of several target buildings in the city.
+
+Aesthetics: A cartoony look and feel.
+
+Technology: Multiple platform 3D console game using a third-party engine,
+- One approach you could take would be to just start building the game. Start
+ing code, designing detailed levels, and animating the characters, while you wait
+it all to come together, to see what it will really be like. But this could be incredibly
+dangerous. Assuming this is an eighteen-month project, it might take as long.
+six months before you even have anything you can playtest. What if you learned,
+that point, that your game idea wasn’t fun? Or your game engine wasn’t up tot
+job? You would be in real trouble. You would be one-third of the way through tl
+project and would only have completed a single loop!
+
+Instead, the right thing is to sit down with your team and do a risk analysis. TI
+means making a list of all the things that might jeopardize the project. A sample
+for this game might be the following:
+
+Prisoners of Bubbleville: Risk List
+
+Risk #1: The bubble collecting/vulture shooting mechanic might not be as fi
+as we think.
+
+Risk #2: The game engine might not be able to handle drawing an entire city a
+all those bubbles and vultures at once.
+
+Risk #3: Our current thinking is that we need thirty different houses to make
+full game—creating all the different interiors and animated characters might tal (
+more time than we have.
+
+Risk #4: We aren’t sure people will like our characters and story.
+
+Risk #5: There is a chance the publisher might insist we theme this game to
+new summer movie about stunt parachuting.
+
+In reality, you will probably have many more risks, but for the sake of our example,
+we'll just consider these. So what do you do about these risks? You could just cro:
+your fingers and hope these things don’t happen, or you could do the smart thing:
+risk mitigation. The idea is to reduce or eliminate the risks as soon as possible, often
+by building small prototypes. Let’s look at how each of these risks could be mitigated:
+
+Prisoners of Bubbleville: Risk Mitigation {
+
+Risk #1: The bubble collecting/vulture shooting mechanic might not be as fun
+
+as we think.
+
+Game mechanics can often be abstracted and played in a simpler form. Have a
+programmer make a very abstract version of this gameplay mechanic, perhaps in
+
+with simple geometric shapes instead of animated characters. You can probably
+have a working game in a week or two and start answering questions about
+whether it is fun right away. If it isn’t, you can make quick modifications to the
+Apple prototype, until it is fun, and then begin work on the elaborate 3D version.
+Ill be doing more loops sooner, wisely taking advantage of the Rule of the Loop.
+4) Wight object to this approach, thinking that throwing out the 2D prototyping
+©, which the players will never see, is wasteful. In the long run, though, you
+Could have saved time, because you will be coding the right game sooner and not
+Simultaneously coding and recoding the wrong game.
+
+
+
+Risk #3; Our current thinking is that we need 30 different houses to make a full
+a creating all the different interiors and animated characters might take more
+than we have.
+
+If you get halfway into development before you realize that you don’t have the
+jesources to build all the artwork, you are doomed. Have an. artist create one house
+yy one animated character immediately to see how long it takes, and if it takes
+Jonger than you can afford, change your design immediately—maybe you could
+jiave fewer houses, or maybe you could reuse some the interiors and characters.
+
+Risk #4: We aren’t sure people will like our characters and story.
+
+I{ you really are concerned about this, you cannot wait until the characters and
+slory are in the game to find out. What kind of prototype do we build here? An art
+prototype—it might not even be on a computer—just a bulletin board. Have your
+artists draw some concept art or produce test renders of your characters and setings. 
+Create some storyboards that show how the story progresses. Once you have
+{hese, start showing them to people (hopefully people in your target demographic)
+and gauge their reactions. Figure out what they like, don’t like, and why. Maybe
+they like the look of the main character but hate his attitude. Maybe the villain is
+exciting, but the story is boring. You can figure most of this out completely
+independent of the game. Each time you do this and make a change, you've completed
+another loop and gotten one step closer to making a good game.
+
+Risk #5: There is a chance we might have to theme this game to a new summer
+jovie about stunt parachuting.

@@ -1,8 +1,3 @@
-### METADATA ###
-# source_file: A Community of Writers__Engle_dylan_thomas.txt
-# char_count: 3879
-# word_count: 730
-### END METADATA ###
 
 When we were again out on the street, Dylan seemed strangely
 relieved.
@@ -29,7 +24,7 @@ grown limber and drooped from his pocket.
 “For God’s sake!” I said. “You’re going to lose that. Haven't you
 a wallet or something you could put it in?”
 
-“Hate the bloody thing,” he said. “Forgot all about it. Got to gol
+“Hate the bloody thing,” he said. “Forgot all about it. Got to get
 it off to Brinnin.”
 
 We sat at a table while I addressed the crumpled envelope ti
@@ -39,7 +34,7 @@ posit only.” He thought this was a brilliant idea.
 
 As it turned out, he had run out of money and had run up a till
 at the bar. He had offered to write a check, but the barman had 
-preferred to extend him credit. His rules, he said, precluded cashiny
+preferred to extend him credit. His rules, he said, precluded cashing
 second-party checks unless the second party were known to him,
 second-party checks? This puzzled me. Dylan showed me Ii\s
 checkbook. It was filled with blank checks, all signed with Britnin’s signature.
@@ -59,9 +54,9 @@ to win the Pulitzer Prize, and Bill Stafford, who would be granted
 i e National Book Award; like Bob Shelley, whom I thought the
 most talented, who would kill himself within a few weeks.
 
- Dylan explained that he was no critic, he didn’t really know how
+Dylan explained that he was no critic, he didn’t really know how
 to talk about poetry, the way critics did. He asked Lowell if he had
-rt anthology. One of the students handed him a collection of British 
+an anthology. One of the students handed him a collection of British 
 and American poetry. Dylan began leafing through the pages.
 He would read some of the poems he liked best, he told us.
 

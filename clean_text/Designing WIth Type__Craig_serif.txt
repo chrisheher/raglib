@@ -1,0 +1,59 @@
+### METADATA ###
+# source_file: Designing WIth Type__Craig_013_serif.txt
+# char_count: 1925
+# word_count: 324
+### END METADATA ###
+
+IVETE. ANAM FEN VY (OUERSS AP REROE PPREER ERO Seek OU
+
+white spaces interrelate (1),
+
+Anatomy of Type
+
+Letterforms consist of many parla, and eneh line
+a specific name (2, 3, 4). You should familiarive
+yourself with these names and with other Lype
+graphic terms used by designers, ‘The following
+are the most common.
+
+Characters. The individual letters, punetuation,
+numerals, and other elements that are used when
+setting type.
+
+Uppercase. The capital letters, or caps, of the
+alphabet. The term derives from the early days
+of handset type when capital letters were stored
+in the upper section of the typecase. The small
+letters were kept in the lower portion and called
+lowercase. When abbreviated, capital letters are
+indicated as Caps, U.C. or simply C.
+
+Lowercase. The small letters of the alphabet,
+often indicated as lc. When combined with
+uppercase, they are indicated as U/Ic or C/le.
+
+Baseline. An imaginary line upon which the
+characters seem to be standing.
+
+Meanline. An imaginary line that runs along the
+top of most lowercase letters, 
+
+X-height. The height of the body, or main ele
+ment, of the lowercase letterform, which falls
+between the meanline and baseline. This mea
+surement is called the x-height because the
+strokes of the lowercase # end at the baseline
+and the meanline.
+
+Ascender. The part of some lowercase letters,
+such as the strokes on the letters 8, d, or hr, that
+rises above the meanline.
+
+Descender. The part of some lowercase letters
+that falls below the baseline, such as the strokes
+on the letters p, y, and g.
+
+Counter. The space entirely or partially enclosed
+within a letterform, such as the enclosed “bowl”
+of the letters b, d, and p.
+

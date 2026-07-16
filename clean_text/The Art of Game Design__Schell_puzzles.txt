@@ -207,14 +207,14 @@ When you present a puzzle to players (or a game of any kind), they should be
 able to clearly visualize what their first few steps would be. Ask yourself these
 questions:
 
-e How will players know how to begin solving my puzzle, or playing my
+How will players know how to begin solving my puzzle, or playing my
 game? Do I need to explain it, or is it self-evident?
 
-e Does my puzzle or game act like something they have seen before? If it
+Does my puzzle or game act like something they have seen before? If it
 does, how can I draw attention to that similarity. If it does not, how can I
 make them understand how it does behave?
 
-e@ Does my puzzle or game draw people in, and make them want to touch it
+Does my puzzle or game draw people in, and make them want to touch it
 and manipulate it? If not, how I can I change it so that it does?
 
 Puzzle Principle #3: Give a Sense of Progress
@@ -255,7 +255,7 @@ Lens #49: The Lens of Visible Progress
 
 Players need to see that they are making progress when solving a difficult problem. To make sure they are getting this feedback, ask yourself these questions:
 
-e@ What does it mean to make progress in my game or puzzle?
+ What does it mean to make progress in my game or puzzle?
 
 e Is there enough progress in my game? Is there a way I can add more interim
 steps of progressive success?
@@ -467,13 +467,13 @@ the right kind.
 Lens #52: The Lens of the Puzzle
 
 Puzzles make the player stop and think. To ensure your puzzles are doing everything you want to shape the player experience, ask yourself these questions:
-e@ What are the puzzles in my game?
+What are the puzzles in my game?
 
-e Should I have more puzzles, or less? Why?
+Should I have more puzzles, or less? Why?
 
-e Which of the ten puzzle principles apply to each of my puzzles?
+Which of the ten puzzle principles apply to each of my puzzles?
 
-e@ Do I have any incongruous puzzles? How can I better integrate them into
+Do I have any incongruous puzzles? How can I better integrate them into
 the game? (Use Lens #43: The Lens of Elegance to help do this).
 
 In the last few chapters, we have focused on game internals — it is now time

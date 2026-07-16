@@ -1,0 +1,77 @@
+New Classes of Objects
+
+The Time Class
+
+What’s the story with this Time class? Time objects represent (you guessed it)
+moments in time. You can add (or subtract) numbers to (or from) times to get
+few times; adding 1.5 to a time makes a new time one-and-a-half seconds
+later:
+
+Time = Time.new # The moment we ran this code.
+Time2 = time + 60 # One minute later.
+
+its time
+
+its time2
+
+You can also make a time for a specific moment using Time.local:
+
+its Time.local(2000, 1, 1) # Y2K,
+its Time. local(1976, 8, 3, 13, 31) # When I was born.
+
+pull notice the in these times. That’s to account for the
+reference between the local time and Greenwich mean time (GMT, the One
+rue Time Zone, dontcha know). This can be because of being in a different
+me zone or daylight saving time or who knows what else. So, you can see
+I was born in daylight saving time, while it was not daylight saving time
+hen Y2K struck. (By the way, the parentheses are to group the parameters
+local together; otherwise, puts might start thinking those are its parameters.)
+he more parameters you add to local, the more accurate your time becomes.
+
+
+You can compare times using the comparison methods (an earlier time is less
+an a later time), and if you subtract one time from another, you'll get the
+Amber of seconds between them. Play around with it!
+
+you happen to be using an older version of Ruby, there’s this problem with
+The Time class. It thinks the world began at epoch: the stroke of midnight,
+iuary 1, 1970, GMT. I don’t really know of any satisfying way of explaining
+
+12.3
+
+this, but here goes: at some point, probably before I way
+people (Unix folks, I believe) decided that a good way tu
+computers was to count the number of seconds since {1
+the 70s. So, time “zero” stood for the birth of thal grew
+called it epoch. '
+
+Now this was all long before Ruby. In those ancient diy:
+in those ancient languages), you often had to worry al
+getting too large. In general, a number would either be I
+billion or be from -2 billion to +2 billion, depending on hi
+store it. il
+
+For whatever reasons (compatibility, tradition, cruelly, wl
+sions of Ruby decided to go with these conventions, So (ati
+tant point), you couldn’t have times more than 2 billion
+epoch! This restriction wasn’t too painful, though, been
+sometime in December 1901 to sometime in January 20M
+
+
+A Few Things to Try
+
+¢ One billion seconds! Find out the exact second you
+Figure out when you will turn (or perhaps when I
+seconds old. Then go mark your calendar.
+
+* Happy birthday! Ask what year a person was hort)
+and then the day. Figure out how old they are, and ji
+for each birthday they have had.
+
+The Hash Class ot
+
+Another useful class is the Hash class. Hashes are a lol I
+a bunch of slots that can point to various objects, How
+slots are lined up in a row, and each one is numbere
+
+In a hash, the slots aren't in a row (they are just sor i
