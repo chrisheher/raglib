@@ -61,7 +61,7 @@ import chromadb
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).parent))
-from vgraphrag.graph_builder import load_graph, GRAPH_PATH, strip_metadata_header
+from vgraphrag.graph_builder import load_graph, GRAPH_PATH, strip_metadata_header, parse_filename
 
 CLEAN_TEXT_DIR = Path("clean_text")
 
@@ -358,6 +358,74 @@ def regenerate_notes(connections: list[dict]) -> list[dict]:
     return connections
 
 
+CITED_WORKS_SYSTEM = """\
+For each connection, identify exactly which of the listed works its note \
+actually names. Return ONLY a JSON array, no prose, no markdown fences."""
+
+CITED_WORKS_USER_TMPL = """\
+For each of the following {n} connections, return the subset of "works" \
+that its "note" explicitly names (verbatim strings copied from "works" — \
+do not paraphrase or invent titles). A note naming two works should map to \
+exactly two entries.
+
+Return: [{{"name": "...", "cited_works": ["...", "..."]}}, ...]
+
+CONNECTIONS:
+{connections_json}
+"""
+
+
+def filter_passages_to_note(connections: list[dict]) -> list[dict]:
+    """
+    Some connections have more works (and thus passages) than their note
+    names — up to 12 for SYMBOL/MYTHOLOGICAL_FIGURE candidates, but every
+    note was written to name just the two clearest instances. Prune
+    'passages' down to only the works the note actually discusses, so the
+    modal never shows more sources than the note accounts for.
+    """
+    client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+    to_check = [c for c in connections if len(c["passages"]) > 2]
+    if not to_check:
+        return connections
+
+    check_input = [{"name": c["name"], "note": c["note"], "works": c["works"]}
+                    for c in to_check]
+
+    user_prompt = CITED_WORKS_USER_TMPL.format(
+        n=len(check_input),
+        connections_json=json.dumps(check_input, ensure_ascii=False, indent=2),
+    )
+
+    msg = client.messages.create(
+        model=MODEL,
+        max_tokens=4000,
+        system=CITED_WORKS_SYSTEM,
+        messages=[{"role": "user", "content": user_prompt}],
+    )
+    raw = msg.content[0].text.strip()
+    raw = re.sub(r'^```(?:json)?\s*', '', raw, flags=re.MULTILINE)
+    raw = re.sub(r'\s*```$', '', raw, flags=re.MULTILINE)
+    if msg.stop_reason == "max_tokens":
+        raw = raw[:raw.rfind('}') + 1] + ']'
+        print("  response truncated at max_tokens, salvaging complete entries...")
+
+    cited = {v["name"]: set(v.get("cited_works", [])) for v in json.loads(raw)}
+
+    pruned = 0
+    for c in connections:
+        works = cited.get(c["name"])
+        if not works:
+            continue
+        kept = [p for p in c["passages"] if p["work"] in works]
+        if kept:  # only prune if the mapping actually matched something
+            pruned += len(c["passages"]) - len(kept)
+            c["passages"] = kept
+
+    print(f"  pruned {pruned} passages not named in their connection's note")
+    return connections
+
+
 def _reflow_text(text: str) -> str:
     """
     clean_text/ preserves the source book's original line-wrap boundaries
@@ -372,12 +440,53 @@ def _reflow_text(text: str) -> str:
     return '\n\n'.join(p for p in reflowed if p)
 
 
+def _crop_to_mentions(text: str, name: str, pad: int = 250) -> str:
+    """
+    Crop passage text down to the span from the first mention of `name` to
+    the last — the chunk itself is a fixed-size window from graph_builder
+    and often starts well before (or ends well after) the entity is
+    actually discussed. Falls back to the untouched text if the name isn't
+    found verbatim (surface form in this chunk may differ from the graph's
+    canonical name).
+    """
+    matches = list(re.finditer(re.escape(name), text, re.IGNORECASE))
+    if not matches:
+        return text
+
+    start, end = matches[0].start(), matches[-1].end()
+
+    # A single (or tightly clustered) mention would crop to almost nothing —
+    # center a readable window instead of a bare word or two.
+    if end - start < pad:
+        start, end = max(0, start - pad), min(len(text), end + pad)
+    else:
+        start, end = max(0, start - 120), min(len(text), end + 120)
+
+    # Trim to the nearest word boundary so we don't cut mid-word.
+    if start > 0:
+        sp = text.find(' ', start)
+        if 0 <= sp - start < 40:
+            start = sp + 1
+    if end < len(text):
+        sp = text.rfind(' ', end - 40, end)
+        if sp != -1:
+            end = sp
+
+    cropped = text[start:end].strip()
+    prefix = '…' if start > 0 else ''
+    suffix = '…' if end < len(text) else ''
+    return f"{prefix}{cropped}{suffix}"
+
+
 def resolve_passages(connections: list[dict]) -> None:
     """
     For each surviving connection, read the actual passage text for one
     representative chunk per involved work — this is what the UI modal
     shows when a user clicks through, so it needs real text, not just the
-    LLM's paraphrase. Mutates each connection in place, replacing
+    LLM's paraphrase. Cropped to the span between the entity's first and
+    last mention in that chunk, since the chunk itself is a fixed-size
+    window that often runs well past where the entity is actually
+    discussed. Mutates each connection in place, replacing
     chunk_ids_by_work with a 'passages' list.
     """
     for c in connections:
@@ -389,7 +498,10 @@ def resolve_passages(connections: list[dict]) -> None:
                 continue
             raw = path.read_text(encoding="utf-8", errors="ignore")
             text = _reflow_text(strip_metadata_header(raw))
-            passages.append({"work": work, "chunk_id": chunk_id, "text": text})
+            text = _crop_to_mentions(text, c["name"])
+            author = parse_filename(f"{chunk_id}.txt")["author"]
+            author = None if author in ("unknown", "") else author
+            passages.append({"work": work, "chunk_id": chunk_id, "author": author, "text": text})
         c["passages"] = passages
 
 
@@ -398,6 +510,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Stage 1 only — print candidates, no API call")
     parser.add_argument("--regenerate-notes", action="store_true",
                          help="Rewrite notes on the existing OUT_PATH connections only — no re-judging, cheap")
+    parser.add_argument("--prune-passages", action="store_true",
+                         help="Prune passages down to the works each note actually names — no re-judging, cheap")
     args = parser.parse_args()
 
     if args.regenerate_notes:
@@ -408,6 +522,14 @@ def main():
         print(f"Rewrote notes for {len(connections)} connections in {OUT_PATH}")
         for c in connections[:10]:
             print(f"  {c['name']!r:25} {c['note']}")
+        return
+
+    if args.prune_passages:
+        connections = json.loads(OUT_PATH.read_text())
+        connections = filter_passages_to_note(connections)
+        with open(OUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(connections, f, indent=2, ensure_ascii=False)
+        print(f"Pruned passages for {len(connections)} connections in {OUT_PATH}")
         return
 
     candidates = find_candidates()

@@ -1084,12 +1084,20 @@ def get_sources():
 
     sample = collection.get(limit=collection.count(), include=["metadatas"])
 
-    book_titles = sorted({
-        _display_title(meta)
-        for meta in sample["metadatas"]
-        if meta.get("source", "").strip() and meta.get("genre", "") != "reference"
-    })
-    return jsonify({"sources": book_titles})
+    title_to_source = {}
+    for meta in sample["metadatas"]:
+        src = meta.get("source", "").strip()
+        if not src or meta.get("genre", "") == "reference":
+            continue
+        title_to_source.setdefault(_display_title(meta), src)
+
+    entries = []
+    for title, src in title_to_source.items():
+        author = _author_from_source(src)
+        entries.append((title, f"{title} | {author}" if author else title))
+    entries.sort(key=lambda x: x[0])
+
+    return jsonify({"sources": [label for _, label in entries]})
 
 
 @app.route("/api/title_chunks", methods=["GET"])

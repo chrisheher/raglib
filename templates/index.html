@@ -200,9 +200,8 @@
 
   h1 {
     font-family: 'Courier Prime', serif;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
     color: #fffdfd;
     text-shadow: none;
   }
@@ -229,11 +228,10 @@
   .panel-label {
     font-family: 'Courier Prime', serif;
     font-size: 1rem;
-    letter-spacing: 0.2em;
-    color: var(--gold);
+    color: var(--parchment);
+    margin-bottom: -12px;
+    opacity: 0.9;
     text-transform: uppercase;
-    margin-bottom: 12px;
-    opacity: 0.8;
   }
 
   /* System prompts */
@@ -383,7 +381,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 8px 0;
+    padding: 0px 0px 5px 10px;
     border-bottom: 1px solid rgba(105,105,105,0.1);
     font-family: 'Courier Prime', monospace;
     font-size: 1rem;
@@ -396,12 +394,14 @@
 
   .sidebar-genre-row .genre-name { text-transform: lowercase; letter-spacing: 0.04em; color: var(--parchment); }
 
+  #sidebarBridges .genre-name { font-size: 0.7rem; }
+
   .sidebar-genre-row .genre-caret {
     display: inline-block;
     margin-right: 6px;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     transition: transform 0.15s;
-    color: var(--gold);
+    color: var(--parchment);
   }
 
   .sidebar-genre-row.expanded .genre-caret { transform: rotate(90deg); }
@@ -621,7 +621,11 @@
     color: var(--parchment);
     letter-spacing: 0.04em;
     margin-bottom: 8px;
+    cursor: pointer;
+    transition: color 0.15s;
   }
+
+  .connection-passage-title:hover { color: var(--gold); text-decoration: underline; }
 
   .connection-passage-text {
     font-size: 0.7rem;
@@ -885,7 +889,7 @@
   }
 
   .chunk-modal {
-    background: #7f7f7f;
+    background: #525151;
     border: 1px solid rgba(105,105,105,0.5);
     border-radius: 4px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
@@ -1063,7 +1067,7 @@
     <div class="sidebar-genre-list" id="sidebarStats">
       <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
     </div>
-    <div class="panel-label">Unexpected connections</div>
+    <div class="panel-label">Weird connections</div>
     <div class="sidebar-genre-list" id="sidebarBridges">
       <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
     </div>
@@ -1636,7 +1640,7 @@
 
     const passagesHtml = (c.passages || []).map(p => `
       <div class="connection-passage">
-        <div class="connection-passage-title">${p.work}</div>
+        <div class="connection-passage-title">${p.work}${p.author ? ' | ' + p.author : ''}</div>
         <div class="connection-passage-text">${p.text}</div>
       </div>
     `).join('');
@@ -1654,6 +1658,13 @@
       </div>
     `;
     document.body.appendChild(overlay);
+
+    // Passage titles open the same title carousel as clicking a book in
+    // the genre menu — wired via closure (not an inline attribute) so
+    // titles with quotes/apostrophes can't break the markup.
+    overlay.querySelectorAll('.connection-passage-title').forEach((el, i) => {
+      el.addEventListener('click', () => showTitleCarousel(c.passages[i].work));
+    });
   }
 
   // ── TITLE CAROUSEL ──
