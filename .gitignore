@@ -5,6 +5,8 @@ __pycache__/
 .env
 chroma_db/
 vgraphrag_db/
+vgraphrag_technical_db/
+clean_text_technical/
 templates/pdfs/
 toclean/
 output_text/

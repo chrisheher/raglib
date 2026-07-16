@@ -28,6 +28,7 @@ Usage:
 import argparse
 import io
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -78,6 +79,19 @@ def extract_pdf_text(pdf_path: Path) -> str:
     return "\n\n".join(t for t in pages_text if t)
 
 
+def unwrap_isolated_corrupt(text: str) -> str:
+    """
+    ocr_cleaner's flag_isolated_corrupt_lines() is tuned for OCR'd book text
+    and false-positives heavily on clean text-layer PDFs (dense author
+    bylines, justified two-column prose with dropped spaces get flagged as
+    "corrupt" just because the tokens aren't in its English word list).
+    Unwrap the marker but keep the underlying line — it's almost always
+    legitimate text, and the raw "[ISOLATED_CORRUPT: ...]" marker should
+    never end up embedded/quoted back to a user as source content.
+    """
+    return re.sub(r'\[ISOLATED_CORRUPT: (.*?)\]', r'\1', text)
+
+
 def chunk_text(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP):
     chunks, start = [], 0
     while start < len(text):
@@ -107,6 +121,7 @@ def ingest_pdf(pdf_path: Path, collection, client, genre: str, themes: str,
         return 0
 
     clean_text, footnotes, change_log = run_pipeline(raw_text)
+    clean_text = unwrap_isolated_corrupt(clean_text)
     print(f"    extracted {len(raw_text)} chars -> cleaned {len(clean_text)} chars")
 
     chunks = chunk_text(clean_text)

@@ -25,6 +25,12 @@
     font-weight: 300;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Dominican';
+    src: url('{{ base_path }}/static/fonts/Dominican.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
 <style>
@@ -38,7 +44,7 @@
     --gold: #a0a0a0;
     --rust: #505050;
     --sage: #505050;
-    --mist: #909090;
+    --mist: #fffcfc;
     --jet: #343434;
     --dark-gray: #3a3a3a;
     --dim-gray: #696969;
@@ -49,7 +55,7 @@
 
   body {
     font-family: 'ui-monospace', Georgia, serif;
-    background: #FFFCF9;
+    background: #60749d;
     color: var(--parchment);
     min-height: 100vh;
     overflow-x: hidden;
@@ -82,14 +88,14 @@
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    height: 100vh;
   }
 
   /* ── TICKER FOOTER ── */
   .ticker-footer {
     grid-column: 1 / -1;
     border-top: 1px solid rgba(105,105,105,0.2);
-    background: #FFFCF9;
+    background: #60749d;
     padding: 9px 0;
     overflow: hidden;
     white-space: nowrap;
@@ -109,12 +115,12 @@
 
   .ticker-footer::before {
     left: 0;
-    background: linear-gradient(to right, #FFFCF9, transparent);
+    background: linear-gradient(to right, #60749d, transparent);
   }
 
   .ticker-footer::after {
     right: 0;
-    background: linear-gradient(to left, #FFFCF9, transparent);
+    background: linear-gradient(to left, #60749d, transparent);
   }
 
   .ticker-track {
@@ -163,10 +169,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    background: #FFFCF9;
+    background: #60749d;
   }
 
-  .header-left { display: flex; align-items: baseline; gap: 16px; flex-shrink: 0; }
+  .header-left { display: flex; align-items: baseline; gap: 16px; flex-shrink: 0; background: #60749d; }
 
   .header-query {
     flex: 1;
@@ -193,11 +199,11 @@
   }
 
   h1 {
-    font-family: 'ABC Arizona Flare', serif;
-    font-size: 1.5rem;
+    font-family: 'Courier Prime', serif;
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: #fffdfd;
     text-shadow: none;
   }
 
@@ -212,17 +218,17 @@
   /* ── SIDEBAR ── */
   .sidebar {
     border-right: 1px solid rgba(105,105,105,0.2);
-    padding: 28px 24px;
+    padding: 18px 14px;
     overflow-y: auto;
-    background: #FFFCF9;
+    background: #60749d;
     display: flex;
     flex-direction: column;
     gap: 28px;
   }
 
   .panel-label {
-    font-family: 'ABC Arizona Flare', serif;
-    font-size: 0.6rem;
+    font-family: 'Courier Prime', serif;
+    font-size: 1rem;
     letter-spacing: 0.2em;
     color: var(--gold);
     text-transform: uppercase;
@@ -361,7 +367,7 @@
   .sidebar-total {
     font-family: 'ABC Arizona Flare', serif;
     font-size: 0.85rem;
-    color: var(--ink);
+    color: var(--parchment);
     letter-spacing: 0.02em;
     padding-bottom: 14px;
     border-bottom: 1px solid rgba(105,105,105,0.15);
@@ -380,7 +386,7 @@
     padding: 8px 0;
     border-bottom: 1px solid rgba(105,105,105,0.1);
     font-family: 'Courier Prime', monospace;
-    font-size: 0.68rem;
+    font-size: 1rem;
     color: var(--sepia);
     cursor: pointer;
     transition: color 0.15s;
@@ -388,12 +394,96 @@
 
   .sidebar-genre-row:hover { color: var(--ink); }
 
-  .sidebar-genre-row .genre-name { text-transform: lowercase; letter-spacing: 0.04em; }
+  .sidebar-genre-row .genre-name { text-transform: lowercase; letter-spacing: 0.04em; color: var(--parchment); }
 
-  .sidebar-genre-row .genre-count {
+  .sidebar-genre-row .genre-caret {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 0.6rem;
+    transition: transform 0.15s;
+    color: var(--gold);
+  }
+
+  .sidebar-genre-row.expanded .genre-caret { transform: rotate(90deg); }
+
+  .sidebar-topic-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+  .sidebar-topic-list.expanded { max-height: 3000px; }
+
+  .sidebar-topic-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 0 6px 18px;
+    font-family: 'Courier Prime', monospace;
     font-size: 0.75rem;
-    color: var(--ink);
-    font-weight: 600;
+    color: var(--mist);
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+
+  .sidebar-topic-row:hover { color: var(--ink); }
+
+  .sidebar-topic-row .topic-caret {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 0.55rem;
+    transition: transform 0.15s;
+    color: var(--gold);
+  }
+
+  .sidebar-topic-row.expanded .topic-caret { transform: rotate(90deg); }
+
+  .sidebar-doc-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+  .sidebar-doc-list.expanded { max-height: 2400px; }
+
+  .sidebar-doc-row {
+    padding: 5px 0 5px 34px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.78rem;
+    color: var(--mist);
+    opacity: 0.85;
+    cursor: pointer;
+    transition: color 0.15s, opacity 0.15s;
+    line-height: 1.3;
+  }
+
+  .sidebar-doc-row:hover { color: var(--ink); opacity: 1; }
+
+  .sidebar-doc-list .sidebar-doc-empty {
+    padding: 5px 0 5px 34px;
+    font-size: 0.72rem;
+    color: var(--mist);
+    opacity: 0.4;
+    font-style: italic;
+  }
+
+  .sidebar-tag-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0 3px 34px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.68rem;
+    color: var(--mist);
+    opacity: 0.85;
+  }
+
+  .sidebar-tag-row .tag-count {
+    color: var(--parchment);
+    font-weight: bold;
   }
 
   /* ── MAIN ── */
@@ -407,16 +497,6 @@
     display: flex;
     flex: 1;
     overflow: hidden;
-  }
-
-  /* Genre filter bar */
-  .genre-filter-bar {
-    padding-bottom: 16px;
-    border-bottom: 1px solid rgba(105,105,105,0.15);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
   }
 
   .query-input-row {
@@ -453,9 +533,9 @@
 
   .submit-btn {
     padding: 8px 22px;
-    background: linear-gradient(135deg, #696969, #a0a0a0);
+    background: var(--ink);
     border: none;
-    color: var(--ink);
+    color: var(--parchment);
     font-family: 'ABC Arizona Flare', serif;
     font-size: 0.75rem;
     letter-spacing: 0.12em;
@@ -470,43 +550,12 @@
   .submit-btn:active { transform: translateY(0); }
   .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-  .genre-filter-row {
-    margin-top: 10px;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .genre-pill {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.62rem;
-    padding: 4px 12px;
-    border: 1px solid rgba(157,176,184,0.25);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.15s;
-    color: var(--mist);
-    letter-spacing: 0.05em;
-    background: transparent;
-  }
-
-  .genre-pill:hover { border-color: var(--accent-grey); color: var(--accent-grey); }
-  .genre-pill.active { border-color: var(--accent-grey); background: rgba(136,136,136,0.15); color: var(--accent-grey); }
-
-  .genre-filter-label {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.6rem;
-    color: var(--mist);
-    opacity: 0.6;
-  }
-
   /* Output area */
   .output-area {
     flex: 1;
     min-width: 0;
     overflow-y: auto;
-    padding: 32px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -519,7 +568,7 @@
     flex-shrink: 0;
     overflow-y: auto;
     border-left: 1px solid rgba(105,105,105,0.15);
-    background: rgba(247, 245, 245, 0.6);
+    background: #60749d;
     padding: 24px 50px 24px 16px;
     display: flex;
     flex-direction: column;
@@ -539,7 +588,7 @@
     font-family: 'Courier Prime', monospace;
     font-size: 0.65rem;
     animation: fadeIn 0.3s ease;
-    width: 50%;
+    width: 90%;
   }
 
   .graph-stat {
@@ -549,7 +598,36 @@
     color: var(--mist);
   }
 
-  .graph-stat span { color: var(--accent-grey); font-weight: bold; }
+  .graph-stat span { color: var(--parchment); font-weight: bold; }
+
+  /* Document-connections modal body: the referenced passages, one column
+     per work, laid out side by side when they fit and wrapping otherwise. */
+  .chunk-modal-body:has(.connection-passage) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    align-items: start;
+    max-width: none;
+  }
+
+  .connection-passage {
+    border-left: 2px solid rgba(160,160,160,0.3);
+    padding-left: 16px;
+  }
+
+  .connection-passage-title {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 0.85rem;
+    color: var(--parchment);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+
+  .connection-passage-text {
+    font-size: 0.7rem;
+    line-height: 1.7;
+    white-space: pre-wrap;
+  }
 
   /* Sources */
   .sources-panel {
@@ -560,9 +638,9 @@
     font-family: 'ABC Arizona Flare', serif;
     font-size: 0.65rem;
     letter-spacing: 0.2em;
-    color: var(--gold);
+    color: var(--parchment);
     margin-bottom: 4px;
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   .sources-header .sources-hint {
@@ -581,7 +659,7 @@
 
   .source-card {
     padding: 20px 18px;
-    background: rgba(20,20,20,0.9);
+    background: #020021b8;
     border: 1px solid rgba(105,105,105,0.2);
     border-radius: 3px;
     font-family: 'Courier Prime', monospace;
@@ -599,7 +677,7 @@
   .source-name {
     color: var(--parchment);
     margin-bottom: 8px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     line-height: 1.4;
     word-break: break-word;
     white-space: normal;
@@ -610,7 +688,7 @@
     opacity: 0.7;
     display: flex;
     gap: 12px;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 
   .source-score { color: var(--accent-grey); }
@@ -632,20 +710,21 @@
     font-size: 0.6rem;
     letter-spacing: 0.2em;
     color: var(--gold);
-    opacity: 0.7;
+    opacity: 0;
   }
 
   .answer-persona {
     font-size: 0.65rem;
     color: var(--mist);
     font-style: italic;
+      opacity: 0;
   }
 
   .answer-text {
     font-family: 'ABC Arizona Flare', serif;
-    font-size: 1.26rem;
-    line-height: 1.85;
-    color: var(--ink);
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: var(--parchment);
     font-weight: 300;
     max-width: 820px;
     white-space: pre-wrap;
@@ -806,12 +885,12 @@
   }
 
   .chunk-modal {
-    background: var(--deep-sea);
+    background: #7f7f7f;
     border: 1px solid rgba(105,105,105,0.5);
     border-radius: 4px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     max-width: none;
-    width: 55%;
+    width: 81.25%;
     max-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -825,24 +904,35 @@
     padding: 15px 18px 12px;
     border-bottom: 1px solid rgba(105,105,105,0.2);
     gap: 16px;
-    overflow: hidden;
+
   }
 
   .chunk-modal-title {
     font-family: 'ABC Arizona Flare', serif;
-    font-size: 0.625rem;
-    color: var(--gold);
+    font-size: 1rem;
+    color: #fffefe;
     letter-spacing: 0.08em;
     margin-bottom: 3px;
   }
 
   .chunk-modal-meta {
     font-family: 'Courier Prime', monospace;
-    font-size: 0.52rem;
+    font-size: 1rem;
     color: var(--mist);
     opacity: 0.7;
     display: flex;
     gap: 12px;
+    float: right;
+  }
+
+  .chunk-modal-context-note {
+    font-family: 'ABC Arizona Flare', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--mist);
+    opacity: 0.85;
+    margin-top: 6px;
+    line-height: 1.4;
   }
 
   .chunk-modal-close {
@@ -861,48 +951,30 @@
 
   .chunk-modal-body {
     flex: 1 1 80%;
-    padding: 50px 55px;
+    padding: 10px 30px 25px;
     overflow-y: auto;
-    font-family: 'ABC Arizona Flare', serif;
-    font-size: 1.4rem;
+    font-family: 'Courier Prime', serif;
+    font-size: 1rem;
     line-height: 1.8;
     color: var(--parchment);
     font-weight: 300;
-    white-space: normal;
-    max-width: 48ch;
+    max-width: 90ch;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* ── GENRE LIST MODAL ── */
-  .genre-list {
-    padding: 12px 22px 20px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  .pdf-modal {
+    width: 85%;
+    height: 88vh;
+    max-height: 88vh;
   }
 
-  .genre-list-item {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1rem;
-    color: var(--parchment);
-    font-weight: 300;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(105,105,105,0.1);
-    opacity: 0.85;
-  }
-
-  .genre-list-item:last-child { border-bottom: none; }
-
-  .genre-list-item.clickable {
-    cursor: pointer;
-    transition: color 0.15s, padding-left 0.15s;
-  }
-
-  .genre-list-item.clickable:hover {
-    color: var(--gold);
-    padding-left: 6px;
+  .pdf-modal-frame {
+    flex: 1 1 auto;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: var(--parchment);
   }
 
   /* ── CAROUSEL NAV ── */
@@ -945,25 +1017,16 @@
     border: none;
     color: var(--mist);
     font-family: 'Courier Prime', monospace;
-    font-size: 0.62rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 0;
-    opacity: 0.6;
+    opacity: 0.8;
     letter-spacing: 0.05em;
     margin-bottom: 6px;
     display: block;
   }
 
   .carousel-back-btn:hover { opacity: 1; color: var(--gold); }
-
-  .genre-list-count {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.6rem;
-    color: var(--accent-grey);
-    letter-spacing: 0.1em;
-    padding: 14px 22px 8px;
-    opacity: 0.7;
-  }
 </style>
 </head>
 <body>
@@ -989,25 +1052,19 @@
 
   <!-- hidden controls kept for submitQuery() -->
   <input type="hidden" id="rerankerSelect" value="none">
-  <input type="hidden" id="nInitial"       value="15">
-  <input type="hidden" id="nFinal"         value="6">
+  <input type="hidden" id="nInitial"       value="120">
+  <input type="hidden" id="nFinal"         value="8">
   <input type="hidden" id="graphDepth"     value="1">
   <input type="hidden" id="distThreshold"  value="0.8">
 
   <!-- SIDEBAR -->
   <aside class="sidebar">
-    <!-- Genre Filter -->
-    <div class="genre-filter-bar">
-      <span class="genre-filter-label">BROWSE:</span>
-      <div class="genre-pill" onclick="showGenreDocs('postmodern_fiction', 'Postmodern Fiction')">Postmodern</div>
-      <div class="genre-pill" onclick="showGenreDocs('mythology', 'Mythology')">Mythology</div>
-      <div class="genre-pill" onclick="showGenreDocs('consciousness_studies', 'Consciousness Studies')">Consciousness</div>
-      <div class="genre-pill" onclick="showGenreDocs('nautical', 'Nautical')">Nautical</div>
-      <div class="genre-pill" onclick="showGenreDocs('creative_thinking', 'Creative Thinking')">Creative</div>
-      <div class="genre-pill" onclick="showGenreDocs('poetry', 'Poetry')">Poetry</div>
-    </div>
-    <div class="sidebar-total" id="docBadgeSide">{{ doc_count }} documents</div>
+    <div class="panel-label">Curated Works</div>
     <div class="sidebar-genre-list" id="sidebarStats">
+      <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
+    </div>
+    <div class="panel-label">Unexpected connections</div>
+    <div class="sidebar-genre-list" id="sidebarBridges">
       <div class="sidebar-genre-row" style="opacity:0.4;">Loading…</div>
     </div>
   </aside>
@@ -1056,63 +1113,6 @@
   let currentSources = [];
 
   // ── UI STATE ──
-  async function showGenreDocs(genre, label) {
-    document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
-    event.currentTarget.classList.add('active');
-
-    const existing = document.getElementById('chunkModal');
-    if (existing) existing.remove();
-
-    const overlay = document.createElement('div');
-    overlay.className = 'chunk-modal-overlay';
-    overlay.id = 'chunkModal';
-    overlay.addEventListener('click', e => {
-      if (e.target === overlay) {
-        overlay.remove();
-        document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
-      }
-    });
-
-    overlay.innerHTML = `
-      <div class="chunk-modal">
-        <div class="chunk-modal-header">
-          <div>
-            <div class="chunk-modal-title">${label}</div>
-            <div class="chunk-modal-meta"><span>Loading…</span></div>
-          </div>
-          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove();document.querySelectorAll('.genre-pill').forEach(p=>p.classList.remove('active'))">✕</button>
-        </div>
-        <div class="genre-list" id="genreListBody"></div>
-      </div>
-    `;
-    document.body.appendChild(overlay);
-
-    try {
-      const res  = await fetch(`${BASE}/api/genre/${genre}`);
-      const data = await res.json();
-      const titles = data.titles || [];
-
-      overlay.querySelector('.chunk-modal-meta').innerHTML =
-        `<span>${titles.length} title${titles.length !== 1 ? 's' : ''}</span>`;
-
-      const body = overlay.querySelector('#genreListBody');
-      if (!titles.length) {
-        body.innerHTML = '<div class="genre-list-item" style="opacity:0.4;font-style:italic;">No documents found.</div>';
-      } else {
-        body.innerHTML = '';
-        titles.forEach(t => {
-          const item = document.createElement('div');
-          item.className = 'genre-list-item clickable';
-          item.textContent = t;
-          item.addEventListener('click', () => showTitleCarousel(t, genre, label));
-          body.appendChild(item);
-        });
-      }
-    } catch(e) {
-      overlay.querySelector('.chunk-modal-meta').innerHTML = '<span style="color:#d4826a">Failed to load</span>';
-    }
-  }
-
   function toggleCustomPrompt() {
     const area = document.getElementById('customPromptArea');
     area.classList.toggle('visible');
@@ -1213,7 +1213,6 @@
               }
               const display = firstSentenceTrimmed ? answerText : answerText;
               answerEl.innerHTML = formatAnswer(display) + '<span class="cursor-blink"></span>';
-              outputArea.scrollTop = outputArea.scrollHeight;
             }
 
           } else if (data.type === 'done') {
@@ -1244,8 +1243,79 @@
       <div class="graph-stat">Graph Expanded <span>+${info.graph_expanded}</span></div>
       <div class="graph-stat">Total Considered <span>${info.total_considered}</span></div>
       <div class="graph-stat">Final Context <span>${info.final_used}</span></div>
+      <div class="graph-stat">Cross-Domain Links <span>${info.cross_domain_links || 0}</span></div>
     `;
     document.getElementById('outputArea').appendChild(div);
+  }
+
+  // Book title, then " | ", then whatever follows (author/chunk info).
+  // clean_text doc IDs are "Title__Author_chunk_topic"; newer batch ingestions
+  // (nautical PDFs, JAIT, Deasy Labs) carry an explicit metadata.title instead
+  // since their IDs are opaque slugs/hashes.
+  // A few clean_text/ collections split into per-excerpt files with a topic
+  // slug but no numeric separator (e.g. "This is Story of Happy
+  // Marriage_lapd"), so the "_<NNN>_" split below can't detect the title
+  // boundary. Listed explicitly as they're found.
+  // Maps a matched source prefix to its canonical display title — usually
+  // identical, but sometimes a normalization (e.g. a hyphen-inconsistent
+  // variant folded into the same title as the rest of that book's chunks).
+  const KNOWN_COLLECTION_TITLES = {
+    'This is Story of Happy Marriage': 'This is Story of Happy Marriage',
+    'Making Shapely Fiction': 'Making Shapely Fiction',
+    'Writers Art': 'Writers Art',
+    'Boating Skills and Seamanship': 'Boating Skills and Seamanship',
+    'Cinematography': 'Cinematography',
+    'Conversations of Goethe': 'Conversations of Goethe',
+    'Creators on Creating': 'Creators on Creating',
+    'Global Hesychasm': 'Global Hesychasm',
+    'IF Handbook': 'IF Handbook',
+    'In Recognition of William Gaddis': 'In Recognition of William Gaddis',
+    'Perl': 'Perl',
+    'Philokalia': 'Philokalia',
+    'Scientific American Creativity': 'Scientific American Creativity',
+    'Texas Handbook': 'Texas Handbook',
+    'The Legacy of DFW': 'The Legacy of DFW',
+    'The Letters of Vincent Van Gogh': 'The Letters of Vincent Van Gogh',
+    'The Mystical Theology of Saint Bernard': 'The Mystical Theology of Saint Bernard',
+    'Plot and Structure': 'Plot and Structure',
+    'The Self-Conscious Novel': 'The Self Conscious Novel',
+    'Vector Narratives': 'Vector Narratives',
+    'The Rhetoric of Fiction': 'The Rhetoric of Fiction',
+  };
+
+  function formatSourceName(s) {
+    if (s.metadata && s.metadata.title) {
+      return s.metadata.title;
+    }
+    for (const known in KNOWN_COLLECTION_TITLES) {
+      if (s.id === known || s.id.startsWith(known + '_')) {
+        const canonical = KNOWN_COLLECTION_TITLES[known];
+        const rest = s.id.slice(known.length + 1).replace(/_/g, ' ');
+        return rest ? `${canonical} | ${rest}` : canonical;
+      }
+    }
+    const idx = s.id.indexOf('__');
+    if (idx !== -1) {
+      const title = s.id.slice(0, idx).replace(/_/g, ' ');
+      const rest = s.id.slice(idx + 2);
+      const restIdx = rest.indexOf('_');
+      if (restIdx !== -1) {
+        const author = rest.slice(0, restIdx);
+        const meta = rest.slice(restIdx + 1).replace(/_/g, ' ');
+        return `${title} | ${author}<br/>${meta}`;
+      }
+      return rest ? `${title} | ${rest.replace(/_/g, ' ')}` : title;
+    }
+    // Many clean_text/ books are split across per-excerpt files named
+    // "<Title>_<NNN>_<topic slug>" — split those into title + topic too,
+    // instead of showing the raw chunk-number-laden id.
+    const m = s.id.match(/^(.*?)_\d{1,4}_(.*)$/);
+    if (m) {
+      const title = m[1].replace(/_/g, ' ');
+      const rest = m[2].replace(/_/g, ' ');
+      return rest ? `${title} | ${rest}` : title;
+    }
+    return s.id.replace(/_/g, ' ');
   }
 
   function renderSources(sources) {
@@ -1264,13 +1334,13 @@
       const card = document.createElement('div');
       card.className = 'source-card';
       card.title = 'Click to view document text';
-      const name = s.id.replace(/_/g, ' ');
+      const name = formatSourceName(s);
       const genre = s.metadata.genre || '—';
       const score = (s.score * 100).toFixed(0);
       card.innerHTML = `
-        <div class="source-name">${i+1}. ${name}</div>
+        <div class="source-name">${name}</div>
         <div class="source-meta">
-          <span>${genre}</span>
+          ${genre !== 'reference' ? `<span>${genre}</span>` : ''}
           <span class="source-score">${score}%</span>
         </div>
       `;
@@ -1284,7 +1354,7 @@
   // Collection-slug prefixes on metadata.source that are backed by a real PDF
   // file on disk, servable via /pdfs/<slug>/<filename>.pdf (see PDF_SOURCE_DIRS
   // in graphrag_app.py).
-  const PDF_BACKED_SLUGS = ['nautical_pdfs'];
+  const PDF_BACKED_SLUGS = ['nautical_pdfs', 'ai_pdfs'];
 
   function pdfLinkFor(source) {
     if (!source || !source.includes('/')) return null;
@@ -1292,6 +1362,29 @@
     if (!PDF_BACKED_SLUGS.includes(slug)) return null;
     const filename = rest.join('/') + '.pdf';
     return `${BASE}/pdfs/${slug}/${encodeURIComponent(filename)}`;
+  }
+
+  function openPdfModal(pdfUrl, title) {
+    const existing = document.getElementById('chunkModal');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'chunk-modal-overlay';
+    overlay.id = 'chunkModal';
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+
+    overlay.innerHTML = `
+      <div class="chunk-modal pdf-modal">
+        <div class="chunk-modal-header">
+          <div>
+            <div class="chunk-modal-title">${title}</div>
+          </div>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
+        </div>
+        <iframe class="pdf-modal-frame" src="${pdfUrl}"></iframe>
+      </div>
+    `;
+    document.body.appendChild(overlay);
   }
 
   function showChunkModal(s, num) {
@@ -1304,6 +1397,7 @@
     const score = (s.score * 100).toFixed(0);
     const source = s.metadata.source || s.id;
     const pdfUrl = pdfLinkFor(source);
+    const contextNote = s.metadata.context_note || '';
 
     const overlay = document.createElement('div');
     overlay.className = 'chunk-modal-overlay';
@@ -1321,10 +1415,11 @@
               <span style="color:var(--accent-grey)">${score}% match</span>
               ${pdfUrl ? `<a href="${pdfUrl}" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;">View Original PDF</a>` : ''}
             </div>
+            ${contextNote ? `<div class="chunk-modal-context-note">${contextNote}</div>` : ''}
           </div>
           <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
         </div>
-        <div class="chunk-modal-body">${s.text || '(no text available)'}</div>
+        <div class="chunk-modal-body" style="white-space:pre-wrap;">${s.text || '(no text available)'}</div>
       </div>
     `;
 
@@ -1372,44 +1467,163 @@
   }
 
   // ── STATS ──
+  // Shared by the taxonomy accordion and the themes panel — renders a list
+  // of {title, pdf_source, author} into a sidebar doc-list container, with
+  // the same PDF-modal-vs-text-carousel click branching either way.
+  function renderDocRows(docList, titles) {
+    docList.innerHTML = '';
+    if (!titles.length) {
+      docList.innerHTML = '<div class="sidebar-doc-empty">No documents found.</div>';
+      return;
+    }
+    titles.forEach(t => {
+      const docRow = document.createElement('div');
+      docRow.className = 'sidebar-doc-row';
+      docRow.textContent = t.author ? `${t.title} | ${t.author}` : t.title;
+      const pdfUrl = t.pdf_source ? pdfLinkFor(t.pdf_source) : null;
+      if (pdfUrl) {
+        docRow.title = 'Click to open PDF';
+        docRow.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          openPdfModal(pdfUrl, t.title);
+        });
+      } else {
+        docRow.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          showTitleCarousel(t.title);
+        });
+      }
+      docList.appendChild(docRow);
+    });
+  }
+
+  // Used by the themes panel — renders the OTHER canonical themes that
+  // co-occur with a given theme (e.g. under "identity", how often
+  // "language_and_narrative" also applies). Informational only, not
+  // clickable — these are tag counts, not documents.
+  function renderFacetTags(container, cooccurringThemes) {
+    container.innerHTML = '';
+    if (!cooccurringThemes.length) {
+      container.innerHTML = '<div class="sidebar-doc-empty">No co-occurring themes found.</div>';
+      return;
+    }
+    cooccurringThemes.forEach(([theme, count]) => {
+      const tagRow = document.createElement('div');
+      tagRow.className = 'sidebar-tag-row';
+      tagRow.innerHTML = `<span>${theme.replace(/_/g, ' ')}</span><span class="tag-count">${count}</span>`;
+      container.appendChild(tagRow);
+    });
+  }
+
   async function loadStats() {
     try {
-      const res = await fetch(`${BASE}/api/stats`);
+      const res = await fetch(`${BASE}/api/taxonomy`);
       const data = await res.json();
-      const sorted = Object.entries(data.genres || {}).sort((a,b) => b[1]-a[1]);
+      const tree = data.tree || {};
+      const topOrder = data.top_order || Object.keys(tree);
 
-      // Header chips (top 8, horizontal)
-      const grid = document.getElementById('statsGrid');
-      if (grid) {
-        grid.innerHTML = '';
-        sorted.slice(0, 8).forEach(([genre, count]) => {
-          const chip = document.createElement('div');
-          chip.className = 'stat-chip';
-          chip.innerHTML = `<span>${genre.replace(/_/g, ' ')}</span><span class="count">${count}</span>`;
-          grid.appendChild(chip);
-        });
-      }
-
-      // Sidebar vertical list
+      // Sidebar accordion: top-category rows (NAUTICAL/STORIES/AI/HUMANITY),
+      // each expanding to its leaf subcategories.
       const list = document.getElementById('sidebarStats');
-      if (list) {
-        list.innerHTML = '';
-        sorted.forEach(([genre, count]) => {
-          const row = document.createElement('div');
-          row.className = 'sidebar-genre-row';
-          row.innerHTML = `<span class="genre-name">${genre.replace(/_/g, ' ')}</span><span class="genre-count">${count}</span>`;
-          row.onclick = () => showGenreDocs(genre, genre.replace(/_/g, ' '));
-          list.appendChild(row);
+      if (!list) return;
+      list.innerHTML = '';
+
+      topOrder.forEach(top => {
+        const leaves = Object.entries(tree[top] || {});
+        if (!leaves.length) return;
+
+        const row = document.createElement('div');
+        row.className = 'sidebar-genre-row';
+        row.innerHTML = `
+          <span><span class="genre-caret">▸</span><span class="genre-name">${top}</span></span>
+        `;
+
+        const leafList = document.createElement('div');
+        leafList.className = 'sidebar-topic-list';
+        leaves.forEach(([leafKey]) => {
+          const leafCode = leafKey.split(' ')[0];
+          const leafLabel = leafKey.slice(leafCode.length + 1);
+          const leafRow = document.createElement('div');
+          leafRow.className = 'sidebar-topic-row';
+          leafRow.innerHTML = `
+            <span><span class="topic-caret">▸</span>${leafLabel}</span>
+          `;
+
+          const docList = document.createElement('div');
+          docList.className = 'sidebar-doc-list';
+          let docsLoaded = false;
+
+          leafRow.addEventListener('click', async (e) => {
+            e.stopPropagation();
+            leafRow.classList.toggle('expanded');
+            docList.classList.toggle('expanded');
+            if (docsLoaded) return;
+            docsLoaded = true;
+            docList.innerHTML = '<div class="sidebar-doc-empty">Loading…</div>';
+            try {
+              const res = await fetch(`${BASE}/api/taxonomy/${leafCode}`);
+              const data = await res.json();
+              renderDocRows(docList, data.titles || []);
+            } catch (err) {
+              docList.innerHTML = '<div class="sidebar-doc-empty">Failed to load.</div>';
+            }
+          });
+
+          leafList.appendChild(leafRow);
+          leafList.appendChild(docList);
         });
-      }
+
+        row.addEventListener('click', () => {
+          row.classList.toggle('expanded');
+          leafList.classList.toggle('expanded');
+        });
+
+        list.appendChild(row);
+        list.appendChild(leafList);
+      });
+
     } catch(e) {
-      const grid = document.getElementById('statsGrid');
-      if (grid) grid.innerHTML = '<div class="stat-chip">Stats unavailable</div>';
+      const list = document.getElementById('sidebarStats');
+      if (list) list.innerHTML = '<div class="sidebar-genre-row" style="opacity:0.4;">Taxonomy unavailable</div>';
+    }
+
+  }
+
+  // Unexpected Connections panel: entities used as a genuine metaphorical
+  // vehicle across multiple, genre-distant clean_text works (curated by
+  // build_document_connections.py). Unlike the other sidebar accordions,
+  // a row click opens a modal with the actual referenced passages rather
+  // than expanding inline — the point is to read the source text, not a
+  // one-line summary.
+  let _documentConnections = [];
+
+  async function loadBridges() {
+    const list = document.getElementById('sidebarBridges');
+    if (!list) return;
+    try {
+      const res = await fetch(`${BASE}/api/document_connections`);
+      const data = await res.json();
+      _documentConnections = data.connections || [];
+      list.innerHTML = '';
+
+      if (!_documentConnections.length) {
+        list.innerHTML = '<div class="sidebar-genre-row" style="opacity:0.4;">None built yet</div>';
+        return;
+      }
+
+      _documentConnections.forEach(c => {
+        const row = document.createElement('div');
+        row.className = 'sidebar-genre-row';
+        row.innerHTML = `<span class="genre-name">${c.name}</span>`;
+        row.addEventListener('click', () => showConnectionModal(c));
+        list.appendChild(row);
+      });
+    } catch (e) {
+      list.innerHTML = '<div class="sidebar-genre-row" style="opacity:0.4;">None built yet</div>';
     }
   }
 
-  // ── TITLE CAROUSEL ──
-  async function showTitleCarousel(title, fromGenre, fromLabel) {
+  function showConnectionModal(c) {
     const existing = document.getElementById('chunkModal');
     if (existing) existing.remove();
 
@@ -1417,14 +1631,45 @@
     overlay.className = 'chunk-modal-overlay';
     overlay.id = 'chunkModal';
     overlay.addEventListener('click', e => {
-      if (e.target === overlay) {
-        overlay.remove();
-        document.querySelectorAll('.genre-pill').forEach(p => p.classList.remove('active'));
-      }
+      if (e.target === overlay) overlay.remove();
     });
 
-    const backBtn = fromGenre
-      ? `<button class="carousel-back-btn" id="carouselBackBtn">← ${fromLabel}</button>`
+    const passagesHtml = (c.passages || []).map(p => `
+      <div class="connection-passage">
+        <div class="connection-passage-title">${p.work}</div>
+        <div class="connection-passage-text">${p.text}</div>
+      </div>
+    `).join('');
+
+    overlay.innerHTML = `
+      <div class="chunk-modal">
+        <div class="chunk-modal-header">
+          <div style="flex:1;min-width:0;">
+            <div class="chunk-modal-title">${c.name}</div>
+            <div class="chunk-modal-context-note">${c.note}</div>
+          </div>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
+        </div>
+        <div class="chunk-modal-body">${passagesHtml}</div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+  }
+
+  // ── TITLE CAROUSEL ──
+  async function showTitleCarousel(title, backLabel, backFn) {
+    const existing = document.getElementById('chunkModal');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'chunk-modal-overlay';
+    overlay.id = 'chunkModal';
+    overlay.addEventListener('click', e => {
+      if (e.target === overlay) overlay.remove();
+    });
+
+    const backBtn = backFn
+      ? `<button class="carousel-back-btn" id="carouselBackBtn">← ${backLabel}</button>`
       : '';
 
     overlay.innerHTML = `
@@ -1434,8 +1679,9 @@
             ${backBtn}
             <div class="chunk-modal-title" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${title}</div>
             <div class="chunk-modal-meta" id="carouselMeta"><span>Loading…</span></div>
+            <div class="chunk-modal-context-note" id="carouselContextNote"></div>
           </div>
-          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove();document.querySelectorAll('.genre-pill').forEach(p=>p.classList.remove('active'))">✕</button>
+          <button class="chunk-modal-close" onclick="document.getElementById('chunkModal').remove()">✕</button>
         </div>
         <div class="chunk-modal-body" id="carouselBody" style="min-height:280px;">
           <div style="display:flex;align-items:center;justify-content:center;height:200px;opacity:0.4;">
@@ -1452,10 +1698,8 @@
 
     document.body.appendChild(overlay);
 
-    if (fromGenre) {
-      document.getElementById('carouselBackBtn').addEventListener('click', () => {
-        showGenreDocs(fromGenre, fromLabel);
-      });
+    if (backFn) {
+      document.getElementById('carouselBackBtn').addEventListener('click', backFn);
     }
 
     try {
@@ -1506,11 +1750,14 @@
     const tags = [genre, themes, slug].filter(Boolean);
     const tagHtml = tags.map(t => `<span>${t}</span>`).join('');
 
+    const contextNoteEl = document.getElementById('carouselContextNote');
+    if (contextNoteEl) contextNoteEl.textContent = meta.context_note || '';
+
     body.innerHTML = `
-      <div style="font-family:'Courier Prime',monospace;font-size:0.6rem;color:var(--mist);opacity:0.6;margin-bottom:14px;display:flex;gap:12px;flex-wrap:wrap;">
+      <div style="font-family:'Courier Prime',monospace;font-size:0.8rem;color:var(--mist);opacity:0.8;margin-bottom:14px;display:flex;gap:12px;flex-wrap:wrap;">
         ${tagHtml}
       </div>
-      <div style="white-space:pre-wrap;font-family:'Cormorant Garamond',serif;font-size:0.95rem;line-height:1.8;color:var(--parchment);font-weight:300;">${text}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;line-height:1.8;color:var(--parchment);font-weight:300;white-space:pre-wrap;">${text}</div>
     `;
 
     counter.textContent = `${index + 1} / ${chunks.length}`;
@@ -1536,6 +1783,7 @@
   });
 
   loadStats();
+  loadBridges();
 
   async function loadSources() {
     try {
@@ -1565,12 +1813,12 @@
     "What is revealed in the creative unconscious?",
     "Which works predict AI communication?",
     "What's the deal with the trickster figure?",
-    "What themes connect maximalist novelists?",
+    "What documents have the most metadata on consciousness?",
     "What can the creative process tell us about ai?",
-    { text: "Compare a diesel engine to machine learning", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
-      { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
-    { text: "What subject matter would Deasy Labs be interested in here?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
-    { text: "Which passages here would stump an AI like Deasy Labs trying to categorize them?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
+{ text:  "Compare a diesel engine to document ingestion and artificial intelligence", genres:["ai_research", "nautical", "creative_thinking"] },
+  { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
+ { text: "What kind of documents would Deasy Labs be interested in this corpus?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
+{ text: "Which passages here would stump an AI like Deasy Labs?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
 
   ];
 
@@ -1606,55 +1854,63 @@
     const wallOpts = { isStatic: true, render: { fillStyle: 'transparent' } };
     const thickness = 60;
     World.add(world, [
-      Bodies.rectangle(W / 2, H * 0.67 + 100 + thickness / 2, W + 200, thickness, wallOpts), // floor at 67% of canvas height + 100px
+      Bodies.rectangle(W / 2, H + thickness / 2, W + 200, thickness, wallOpts), // floor at canvas bottom, meets the footer
       Bodies.rectangle(-thickness / 2, H / 2, thickness, H + 200, wallOpts),    // left
       Bodies.rectangle(W + thickness / 2, H / 2, thickness, H + 200, wallOpts), // right
     ]);
 
-    // Colour palette — egg-white light
+    // Colour palette — shades of grey
     const COLORS = [
-      '#FFFFF0',
-      '#FAF0E6',
-      '#E8DCC8',
-      '#FFFFF0',
-      '#FAF0E6',
-      '#E8DCC8',
+      '#f4f1ea',
+      '#E4E4E4',
+      '#D6D6D6',
+      '#EAEAEA',
+      '#DCDCDC',
+      '#CECECE',
     ];
 
     // Measure text to size each rectangle
     const ctx = canvas.getContext('2d');
-    ctx.font = '700 14px "ABC Arizona Flare", serif';
+    ctx.font = '400 16px "Courier Prime", monospace';
 
     const rectBodies = [];
+    const padX = 40.8, padY = 11, lineH = 18;
+    // Cap line width in pixels (not characters) so wrapping adapts to font
+    // size and never produces a card wider than the canvas itself — long
+    // prompts wrap into more lines (taller card) instead of one huge line.
+    // rw = (maxW + padX*2) * 1.25, so solve for the maxW that keeps rw
+    // within (W - 80) — accounting for that 1.25 multiplier is the part
+    // that was missing before, and it's what let cards overflow again at
+    // narrower canvas widths.
+    const maxLineWidth = Math.min(450, (W - 80) / 1.25 - padX * 2);
     LITERARY_PROMPTS.forEach((item, i) => {
       const text   = typeof item === 'string' ? item : item.text;
       const genres = typeof item === 'object' && item.genres ? item.genres : null;
       const note   = typeof item === 'object' && item.note   ? item.note   : null;
       const words = text.split(' ');
-      // Wrap into ~25-char lines (narrow, more lines = taller boxes)
       const lines = [];
       let line = '';
       words.forEach(w => {
-        if ((line + ' ' + w).trim().length > 60) {
+        const test = (line + ' ' + w).trim();
+        if (line && ctx.measureText(test).width > maxLineWidth) {
           lines.push(line.trim());
           line = w;
         } else {
-          line = (line + ' ' + w).trim();
+          line = test;
         }
       });
       if (line) lines.push(line.trim());
 
-      const padX = 36, padY = 16, lineH = 24;
       const maxW = Math.max(...lines.map(l => ctx.measureText(l).width));
-      const rw = (maxW + padX * 2) * 2;
+      const rw = (maxW + padX * 2) * 1.25;
       const rh = (lines.length * lineH + padY * 2) * 2 / 3;
 
       const x = rw / 2 + 20 + Math.random() * Math.max(1, W - rw - 40);
       const y = -60 - i * 120;
 
       const body = Bodies.rectangle(x, y, rw, rh, {
-        restitution: 0.46,
-        friction: 0.01,
+        restitution: 0.3,
+        friction: 0.05,
         frictionAir: 0.002,
         density: 0.00008,
         inertia: Infinity,
@@ -1717,25 +1973,8 @@
         c.closePath();
         c.fillStyle = b.render.fillStyle;
         c.fill();
-        c.lineWidth = 2;
-        c.strokeStyle = 'rgba(20,20,20,0.85)';
-        c.stroke();
 
-        // Spine crease + binding lines, echoing a book spine
-        c.strokeStyle = 'rgba(20,20,20,0.35)';
-        c.lineWidth = 1.5;
-        c.beginPath();
-        c.moveTo(-w/2 + 14, -h/2 + 8);
-        c.lineTo(-w/2 + 14, h/2 - 8);
-        c.stroke();
-        c.beginPath();
-        c.moveTo(-w/2 + 8, h/2 - 14);
-        c.lineTo(w/2 - 8, h/2 - 14);
-        c.moveTo(-w/2 + 8, h/2 - 20);
-        c.lineTo(w/2 - 8, h/2 - 20);
-        c.stroke();
-
-        c.font = '700 20px "ABC Arizona Flare", serif';
+        c.font = '400 16px "Courier Prime", monospace';
         c.fillStyle = 'rgba(20,20,20,0.9)';
         c.textAlign = 'center';
         c.textBaseline = 'middle';
@@ -1758,7 +1997,7 @@
         if (Math.random() < 0.04) {
           Body.applyForce(b, b.position, {
             x: (Math.random() - 0.5) * 0.00003,
-            y: -Math.random() * 0.000015,
+            y: (Math.random() - 0.5) * 0.000015,
           });
         }
       });

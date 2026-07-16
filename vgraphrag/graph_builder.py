@@ -36,7 +36,7 @@ GRAPH_PATH      = DB_DIR / "rkg.json"
 PROGRESS_PATH   = DB_DIR / "extraction_progress.json"
 
 # ─── model ────────────────────────────────────────────────────
-MODEL        = "claude-sonnet-4-6"
+MODEL        = "claude-opus-4-8"
 
 # ─── corpus focus ─────────────────────────────────────────────
 # Works excluded from graph extraction — technical instruction

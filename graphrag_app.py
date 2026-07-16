@@ -11,6 +11,7 @@ import re
 import json
 import time
 from pathlib import Path
+import numpy as np
 import networkx as nx
 from flask import Flask, render_template, request, jsonify, Response, stream_with_context, send_from_directory
 from dotenv import load_dotenv
@@ -31,6 +32,55 @@ def _get_vgraphrag_engine():
             print(f"VGraphRAG engine not ready: {e}")
             return None
     return _vgraphrag_engine
+
+# VGraphRAG technical graph — nautical manuals + AI/RAG research papers.
+# Loaded read-only (no Anthropic client needed) since the sidebar/graph-modal
+# UI only browses the existing graph, it doesn't run queries against it.
+_vgtech_graph = None
+_vgtech_communities = None
+
+def _get_vgtech_graph():
+    global _vgtech_graph
+    if _vgtech_graph is None:
+        try:
+            from vgraphrag_technical.graph_builder import load_graph, GRAPH_PATH
+            _vgtech_graph = load_graph(GRAPH_PATH)
+        except Exception as e:
+            print(f"VGraphRAG technical graph not ready: {e}")
+            return None
+    return _vgtech_graph
+
+def _get_vgtech_communities():
+    global _vgtech_communities
+    if _vgtech_communities is None:
+        from vgraphrag_technical.index_builder import load_communities
+        _vgtech_communities = load_communities()
+    return _vgtech_communities
+
+# Cross-graph "bridges" — entities shared between the literary graph and
+# the technical graph, curated by build_bridges.py. Static JSON, loaded
+# once and served as-is (no per-request graph traversal needed).
+_bridges = None
+
+def _get_bridges():
+    global _bridges
+    if _bridges is None:
+        path = Path("vgraphrag_technical_db/bridges.json")
+        _bridges = json.loads(path.read_text()) if path.exists() else []
+    return _bridges
+
+# Within-corpus "document connections" — entities used as a genuine
+# metaphorical vehicle across multiple, genre-distant clean_text works,
+# curated by build_document_connections.py. Includes resolved passage
+# text per work so the UI can show the actual referenced excerpts.
+_document_connections = None
+
+def _get_document_connections():
+    global _document_connections
+    if _document_connections is None:
+        path = Path("vgraphrag_db/document_connections.json")
+        _document_connections = json.loads(path.read_text()) if path.exists() else []
+    return _document_connections
 
 load_dotenv()
 
@@ -56,7 +106,7 @@ SYSTEM_PROMPTS = {
     "literary_scholar": {
         "name": "Cordoroyed elbows",
         "description": "Deep textual analysis with symbolic depth expressed casually",
-        "prompt": """You are a goofball with deep expertise in postmodern fiction, consciousness studies, mythology, creative thinking, and nautical literature. You approach texts with humble intellectual rigor and goofy curiosity.
+        "prompt": """You are an unctuous goofball with deep curiosity.
 
 When answering questions:
 - Draw connections between documents, noting intertextual relationships and thematic resonances
@@ -146,12 +196,41 @@ def embed_query(text):
 # ─────────────────────────────────────────────
 # GRAPH CONSTRUCTION
 # ─────────────────────────────────────────────
-def build_document_graph(docs, metadatas, ids, distances):
-    """Build a graph connecting documents by shared metadata attributes."""
+def _domain_key(meta):
+    """The 'domain' a chunk belongs to for cross-domain edge scoring — the
+    taxonomy's top-level category (NAUTICAL/STORIES/AI/HUMANITY) when a chunk
+    has been tagged, else its raw genre for untagged chunks."""
+    leaf = meta.get("taxonomy_leaf", "")
+    if leaf:
+        return TAXONOMY_TOP.get(leaf[0], leaf)
+    return meta.get("genre", "")
+
+
+# How many of a node's nearest-by-embedding neighbors (within the retrieved
+# candidate pool) become graph edges. Rank-based rather than a fixed cosine
+# cutoff: on real queries the candidate pool is already query-relevant, so
+# same-domain and cross-domain pairwise similarities overlap heavily (means
+# ~0.5-0.65 either way) — an absolute threshold connects almost everything.
+# Per-node top-K neighbors stays sparse and meaningful regardless of where
+# that similarity band happens to sit for a given query.
+EMBEDDING_EDGE_TOP_K = 5
+# Added to a candidate's similarity score, before ranking, when it sits in a
+# different domain than the seed node — enough to pull a genuinely close
+# cross-domain passage into the top-K even when a same-domain passage is
+# marginally closer, without being large enough to promote a weak match.
+CROSS_DOMAIN_BONUS = 0.06
+
+
+def build_document_graph(docs, metadatas, ids, distances, embeddings=None):
+    """Build a graph connecting documents by shared metadata attributes and,
+    when embeddings are available, by embedding similarity — biased toward
+    surfacing cross-domain pairs (e.g. a nautical passage and a consciousness
+    passage) rather than only ever linking documents already in the same
+    genre/tone/theme bucket."""
     G = nx.Graph()
 
     for i, doc_id in enumerate(ids):
-        G.add_node(doc_id, 
+        G.add_node(doc_id,
                    text=docs[i],
                    metadata=metadatas[i],
                    distance=distances[i],
@@ -159,6 +238,9 @@ def build_document_graph(docs, metadatas, ids, distances):
 
     # Connect nodes that share genre, themes, myth_tradition, or consciousness_technique
     shared_attributes = ["genre", "myth_tradition", "consciousness_technique", "nautical_context", "tone"]
+
+    edge_shared = {}   # (i, j) -> shared reasons list
+    edge_weight = {}   # (i, j) -> weight
 
     for i in range(len(ids)):
         for j in range(i + 1, len(ids)):
@@ -177,8 +259,41 @@ def build_document_graph(docs, metadatas, ids, distances):
                 shared.append(f"themes:{','.join(theme_overlap)}")
 
             if shared:
-                weight = len(shared) / len(shared_attributes)
-                G.add_edge(ids[i], ids[j], weight=weight, shared=shared)
+                edge_shared[(i, j)] = shared
+                edge_weight[(i, j)] = len(shared) / len(shared_attributes)
+
+    # Embedding-similarity edges: for each node, connect to its top-K nearest
+    # neighbors by cosine similarity within the candidate pool, ranking
+    # cross-domain candidates with a bonus so they can outrank a marginally
+    # closer same-domain one.
+    if embeddings is not None and len(embeddings) == len(ids):
+        emb = np.array(embeddings, dtype=np.float64)
+        norms = np.linalg.norm(emb, axis=1, keepdims=True)
+        norms[norms == 0] = 1e-9
+        unit = emb / norms
+        sim = unit @ unit.T
+        domains = [_domain_key(m) for m in metadatas]
+
+        n = len(ids)
+        for i in range(n):
+            ranked = sorted(
+                (j for j in range(n) if j != i),
+                key=lambda j: sim[i][j] + (CROSS_DOMAIN_BONUS if domains[j] != domains[i] else 0.0),
+                reverse=True,
+            )
+            for j in ranked[:EMBEDDING_EDGE_TOP_K]:
+                key = (i, j) if i < j else (j, i)
+                raw_sim = float(sim[i][j])
+                cross = domains[i] != domains[j]
+                reason = "cross_domain_affinity" if cross else "semantic_similarity"
+
+                existing_shared = edge_shared.get(key, [])
+                if reason not in existing_shared:
+                    edge_shared[key] = existing_shared + [reason]
+                edge_weight[key] = max(edge_weight.get(key, 0.0), raw_sim)
+
+    for (i, j), weight in edge_weight.items():
+        G.add_edge(ids[i], ids[j], weight=weight, shared=edge_shared[(i, j)])
 
     return G
 
@@ -277,6 +392,91 @@ def apply_reranker(reranker_name, query, docs_with_ids):
         return docs_with_ids
 
 
+def _work_key(doc):
+    """
+    Identify the source "work" (book/paper) a chunk belongs to, so retrieval
+    can diversify across distinct works instead of returning several chunks
+    from the same book. Mirrors the title-extraction convention used by
+    /api/genre and /api/sources: prefer an explicit metadata.title (set by
+    the PDF ingestion pipelines), else derive it from the source string
+    (clean_text/ books, coalescing "<Title>_<NNN>_<topic>.txt" excerpt files
+    back to their shared title).
+    """
+    meta = doc["metadata"]
+    explicit = (meta.get("title") or "").strip()
+    if explicit:
+        return explicit
+    s = (meta.get("source") or doc["id"]).strip()
+    if s.endswith(".txt"):
+        s = s[:-4]
+    if "__" in s:
+        s = s.split("__")[0]
+    else:
+        m = re.match(r'^(.*?)_\d{1,4}_', s)
+        if m:
+            s = m.group(1)
+    return s.replace("_", " ").strip()
+
+
+def _diversify_by_work(ranked_docs, n_final):
+    """Take the best-scoring chunk from each distinct work, in rank order,
+    until n_final distinct works are collected (or the pool is exhausted)."""
+    picked = []
+    seen_works = set()
+    for doc in ranked_docs:
+        work = _work_key(doc)
+        if work in seen_works:
+            continue
+        seen_works.add(work)
+        picked.append(doc)
+        if len(picked) >= n_final:
+            break
+    return picked
+
+
+def _diversify_by_work_and_genre(ranked_docs, n_final, balance_genres):
+    """Like _diversify_by_work, but when multiple genres were explicitly
+    requested (a cross-domain comparison prompt), reserve a fair share of
+    the final slots for each one first. Otherwise pure relevance score hands
+    every slot to whichever genre's embedding happens to sit closest to a
+    compound query — e.g. "diesel engine" + "AI" lands overwhelmingly in
+    AI-space, so a plain top-N-by-score never lets diesel content through
+    even when it's sitting right there in the candidate pool."""
+    if not balance_genres or len(balance_genres) <= 1:
+        return _diversify_by_work(ranked_docs, n_final)
+
+    quota = max(1, n_final // len(balance_genres))
+    picked = []
+    seen_works = set()
+
+    for g in balance_genres:
+        count = 0
+        for doc in ranked_docs:
+            if count >= quota or len(picked) >= n_final:
+                break
+            if doc["metadata"].get("genre") != g:
+                continue
+            work = _work_key(doc)
+            if work in seen_works:
+                continue
+            seen_works.add(work)
+            picked.append(doc)
+            count += 1
+
+    if len(picked) < n_final:
+        for doc in ranked_docs:
+            if len(picked) >= n_final:
+                break
+            work = _work_key(doc)
+            if work in seen_works:
+                continue
+            seen_works.add(work)
+            picked.append(doc)
+
+    picked.sort(key=lambda d: -d.get("rerank_score", 0))
+    return picked
+
+
 # ─────────────────────────────────────────────
 # GRAPHRAG PIPELINE
 # ─────────────────────────────────────────────
@@ -284,11 +484,12 @@ def graphrag_query(
     query,
     system_prompt_key="literary_scholar",
     reranker="none",
-    n_initial=15,
-    n_final=6,
+    n_initial=120,
+    n_final=8,
     graph_expansion_depth=1,
     min_distance_threshold=0.8,
     metadata_filter=None,
+    balance_genres=None,
     custom_system_prompt=None
 ):
     if not collection:
@@ -298,32 +499,91 @@ def graphrag_query(
     query_embedding = embed_query(query)
 
     # 2. Initial retrieval from ChromaDB
-    query_params = dict(
-        query_embeddings=[query_embedding],
-        n_results=min(n_initial, collection.count()),
-        include=["documents", "metadatas", "distances"]
-    )
-    if metadata_filter:
-        query_params["where"] = metadata_filter
+    if balance_genres and len(balance_genres) > 1:
+        # A single pooled nearest-neighbor query lets whichever genre's
+        # vocabulary the query text leans toward crowd out the others
+        # entirely — e.g. "diesel engine" + "artificial intelligence" in
+        # one query comes back 100% one domain or the other, never both,
+        # because ranking has no notion of "balance across topics," only
+        # "closest overall." Querying each listed genre separately and
+        # merging guarantees every genre gets a fair shot at the pool.
+        per_genre_n = max(5, n_initial // len(balance_genres))
+        ids, docs, metadatas, distances, cand_embeddings = [], [], [], [], []
+        seen_ids = set()
+        for g in balance_genres:
+            # A handful of chunks in the corpus have corrupted embedding
+            # records that crash ChromaDB's query plan if they land in the
+            # result set (a known pre-existing data issue, not caused by
+            # this query). Shrink n_results a couple of times before giving
+            # up on this genre entirely — one genre missing from one query
+            # beats a 500 for the whole request.
+            sub = None
+            attempt_n = min(per_genre_n, collection.count())
+            for _ in range(3):
+                try:
+                    sub = collection.query(
+                        query_embeddings=[query_embedding],
+                        n_results=attempt_n,
+                        where={"genre": {"$eq": g}},
+                        include=["documents", "metadatas", "distances", "embeddings"],
+                    )
+                    break
+                except Exception:
+                    attempt_n = attempt_n // 2
+                    if attempt_n < 1:
+                        break
+            if not sub:
+                print(f"  balance_genres: skipping genre '{g}' after repeated query errors")
+                continue
+            for id_, doc, meta, dist, emb in zip(
+                sub["ids"][0], sub["documents"][0], sub["metadatas"][0],
+                sub["distances"][0], sub["embeddings"][0]
+            ):
+                if id_ in seen_ids:
+                    continue
+                seen_ids.add(id_)
+                ids.append(id_)
+                docs.append(doc)
+                metadatas.append(meta)
+                distances.append(dist)
+                cand_embeddings.append(emb)
+    else:
+        query_params = dict(
+            query_embeddings=[query_embedding],
+            n_results=min(n_initial, collection.count()),
+            include=["documents", "metadatas", "distances", "embeddings"]
+        )
+        if metadata_filter:
+            query_params["where"] = metadata_filter
 
-    results = collection.query(**query_params)
+        results = collection.query(**query_params)
 
-    ids       = results["ids"][0]
-    docs      = results["documents"][0]
-    metadatas = results["metadatas"][0]
-    distances = results["distances"][0]
+        ids        = results["ids"][0]
+        docs       = results["documents"][0]
+        metadatas  = results["metadatas"][0]
+        distances  = results["distances"][0]
+        cand_embeddings = results["embeddings"][0]
 
-    # Filter by distance threshold
-    filtered = [(id_, doc, meta, dist) for id_, doc, meta, dist in
-                zip(ids, docs, metadatas, distances) if dist < min_distance_threshold]
+    # Filter by distance threshold — skipped in balance_genres mode. A single
+    # embedding for a compound cross-domain query ("diesel engine" + "AI")
+    # doesn't sit equally close to both topics, so a fixed absolute cutoff
+    # tuned for single-topic pooled search can wipe out an entire genre's
+    # contribution even though genre membership (not raw distance) is what
+    # the caller explicitly asked to guarantee here.
+    if balance_genres and len(balance_genres) > 1:
+        filtered = list(zip(ids, docs, metadatas, distances, cand_embeddings))
+    else:
+        filtered = [(id_, doc, meta, dist, emb) for id_, doc, meta, dist, emb in
+                    zip(ids, docs, metadatas, distances, cand_embeddings) if dist < min_distance_threshold]
 
     if not filtered:
         return {"error": "No relevant documents found. Try a different query or adjust the distance threshold."}, []
 
-    ids, docs, metadatas, distances = zip(*filtered)
+    ids, docs, metadatas, distances, cand_embeddings = zip(*filtered)
 
-    # 3. Build document graph
-    G = build_document_graph(list(docs), list(metadatas), list(ids), list(distances))
+    # 3. Build document graph (embedding-similarity edges biased toward
+    # cross-domain pairs, alongside the existing metadata-overlap edges)
+    G = build_document_graph(list(docs), list(metadatas), list(ids), list(distances), list(cand_embeddings))
 
     # 4. Expand via graph neighbors
     seed_ids = list(ids)
@@ -353,16 +613,23 @@ def graphrag_query(
     # 5. Rerank
     reranked = apply_reranker(reranker, query, all_docs)
 
-    # 6. Take top N for context
-    top_docs = reranked[:n_final]
+    # 6. Take top N for context, one chunk per distinct work at most
+    top_docs = _diversify_by_work_and_genre(reranked, n_final, balance_genres)
 
     # 7. Build graph summary for UI
+    cross_domain_edges = [
+        (u, v, d) for u, v, d in G.edges(data=True)
+        if "cross_domain_affinity" in d.get("shared", [])
+    ]
+
     graph_info = {
         "initial_retrieved": len(ids),
         "graph_expanded": len(new_ids),
         "total_considered": len(all_docs),
         "final_used": len(top_docs),
-        "graph_edges": list(G.edges(data=True))[:10]  # sample edges for display
+        "cross_domain_links": len(cross_domain_edges),
+        "graph_edges": list(G.edges(data=True))[:10],  # sample edges for display
+        "cross_domain_edges": sorted(cross_domain_edges, key=lambda e: -e[2].get("weight", 0))[:5],
     }
 
     # 8. Build context
@@ -410,6 +677,99 @@ def index():
 # to the directory the original PDF lives in, so citations can link back to it.
 PDF_SOURCE_DIRS = {
     "nautical_pdfs": "templates/pdfs",
+    "ai_pdfs": "templates/pdfs/ai",
+}
+
+
+# A few clean_text/ collections split into per-excerpt files with a topic
+# slug but no numeric separator (e.g. "This is Story of Happy
+# Marriage_lapd.txt"), so the "_<NNN>_" coalescing regex below can't detect
+# where the title ends. Listed explicitly as they're found.
+# Maps a matched source prefix to its canonical display title — usually
+# identical, but sometimes a normalization (e.g. a hyphen-inconsistent
+# variant folded into the same title as the rest of that book's chunks).
+KNOWN_COLLECTION_TITLES = {
+    "This is Story of Happy Marriage": "This is Story of Happy Marriage",
+    "Making Shapely Fiction": "Making Shapely Fiction",
+    "Writers Art": "Writers Art",
+    "Boating Skills and Seamanship": "Boating Skills and Seamanship",
+    "Cinematography": "Cinematography",
+    "Conversations of Goethe": "Conversations of Goethe",
+    "Creators on Creating": "Creators on Creating",
+    "Global Hesychasm": "Global Hesychasm",
+    "IF Handbook": "IF Handbook",
+    "In Recognition of William Gaddis": "In Recognition of William Gaddis",
+    "Perl": "Perl",
+    "Philokalia": "Philokalia",
+    "Scientific American Creativity": "Scientific American Creativity",
+    "Texas Handbook": "Texas Handbook",
+    "The Legacy of DFW": "The Legacy of DFW",
+    "The Letters of Vincent Van Gogh": "The Letters of Vincent Van Gogh",
+    "The Mystical Theology of Saint Bernard": "The Mystical Theology of Saint Bernard",
+    "Plot and Structure": "Plot and Structure",
+    "The Self-Conscious Novel": "The Self Conscious Novel",  # normalize hyphen variant into the Stonehill group
+    "Vector Narratives": "Vector Narratives",
+    "The Rhetoric of Fiction": "The Rhetoric of Fiction",
+}
+
+
+def _extract_title_from_source(s):
+    s = (s or "").strip()
+    if s.endswith('.txt'):
+        s = s[:-4]
+    for known, canonical in KNOWN_COLLECTION_TITLES.items():
+        if s == known or s.startswith(known + "_"):
+            return canonical
+    if '__' in s:
+        s = s.split('__')[0]
+    else:
+        # Many clean_text/ books are split across many small per-excerpt
+        # files named "<Title>_<NNN>_<topic slug>.txt" (e.g. "The Letters
+        # of Vincent Van Gogh_094_win_nature_over.txt"). Coalesce these back
+        # to their shared book title instead of showing each excerpt as its
+        # own entry.
+        m = re.match(r'^(.*?)_\d{1,4}_', s)
+        if m:
+            s = m.group(1)
+    return s.replace('_', ' ').strip()
+
+
+def _display_title(meta):
+    explicit = (meta.get("title") or "").strip()
+    if explicit:
+        return explicit
+    return _extract_title_from_source(meta.get("source", ""))
+
+
+def _author_from_source(s):
+    """Best-effort last-name extraction for clean_text/ books using the
+    "<Title>__<Author>_<slug>.txt" convention (author names use a literal
+    space for multi-word surnames, e.g. "Van Dusen", so splitting on the
+    first underscore after "__" isolates just the name). Returns None for
+    PDF-backed/known-collection sources that carry no author segment.
+    """
+    s = (s or "").strip()
+    if s.endswith('.txt'):
+        s = s[:-4]
+    if '__' not in s:
+        return None
+    rest = s.split('__', 1)[1]
+    author = rest.split('_')[0].strip()
+    return author or None
+
+
+# The taxonomy the user hand-designed to replace genre/topic browsing in the
+# sidebar. Leaf codes are written onto chunk metadata as "taxonomy_leaf" by
+# the one-off scratchpad classification pass (build_taxonomy.py) — chunks
+# with no confident leaf are left untagged and simply don't appear here.
+TAXONOMY_TOP = {"1": "NAUTICAL", "2": "STORIES", "3": "AI", "4": "HUMANITY"}
+TAXONOMY_LEAF_LABELS = {
+    "1a": "Diesel Maintenance", "1b": "Electrical", "1c": "Navigation",
+    "2a": "Postmodern Fiction", "2b": "American Classics", "2c": "Historical Classics",
+    "2d": "Craft", "2e": "Theory",
+    "3a": "Conversational Design", "3b": "RAG / GraphRAG", "3c": "AI General Studies",
+    "3d": "Pre-AI Computer Science",
+    "4a": "Art", "4b": "Consciousness", "4c": "Myth", "4d": "Creativity",
 }
 
 
@@ -430,8 +790,8 @@ def query():
     query_text          = data.get("query", "").strip()
     system_prompt_key   = data.get("system_prompt", "literary_scholar")
     reranker            = data.get("reranker", "none")
-    n_initial           = int(data.get("n_initial", 15))
-    n_final             = int(data.get("n_final", 6))
+    n_initial           = int(data.get("n_initial", 120))
+    n_final             = int(data.get("n_final", 8))
     graph_depth         = int(data.get("graph_depth", 1))
     distance_threshold  = float(data.get("distance_threshold", 0.8))
     custom_prompt       = data.get("custom_prompt", "")
@@ -440,12 +800,21 @@ def query():
     if not query_text:
         return jsonify({"error": "Query cannot be empty"}), 400
 
-    metadata_filter = None
+    # Deasy Labs content (genre="reference") should never surface as a
+    # source/citation for any prompt or search — it's AI-infrastructure
+    # marketing copy, not corpus material meant to be quoted back to users.
+    exclude_reference = {"genre": {"$ne": "reference"}}
+    balance_genres = None
     if genre_filter:
         if isinstance(genre_filter, list):
-            metadata_filter = {"genre": {"$in": genre_filter}}
+            genre_cond = {"genre": {"$in": genre_filter}}
+            if len(genre_filter) > 1:
+                balance_genres = genre_filter
         else:
-            metadata_filter = {"genre": {"$eq": genre_filter}}
+            genre_cond = {"genre": {"$eq": genre_filter}}
+        metadata_filter = {"$and": [genre_cond, exclude_reference]}
+    else:
+        metadata_filter = exclude_reference
 
     payload, top_docs = graphrag_query(
         query=query_text,
@@ -456,6 +825,7 @@ def query():
         graph_expansion_depth=graph_depth,
         min_distance_threshold=distance_threshold,
         metadata_filter=metadata_filter,
+        balance_genres=balance_genres,
         custom_system_prompt=custom_prompt
     )
 
@@ -523,24 +893,188 @@ def get_stats():
     })
 
 
+@app.route("/api/topics", methods=["GET"])
+def get_topics():
+    if not collection:
+        return jsonify({"error": "No collection"})
+
+    sample = collection.get(limit=collection.count(), include=["metadatas"])
+    tree = {}
+    for meta in sample["metadatas"]:
+        genre = meta.get("genre", "unknown")
+        topic = meta.get("topic", "")
+        if not topic:
+            continue
+        tree.setdefault(genre, {})
+        tree[genre][topic] = tree[genre].get(topic, 0) + 1
+
+    # sort topics within each genre by count desc
+    for genre in tree:
+        tree[genre] = dict(sorted(tree[genre].items(), key=lambda x: -x[1]))
+
+    return jsonify({"genres": tree})
+
+
 @app.route("/api/genre/<genre>", methods=["GET"])
 def get_genre_docs(genre):
     if not collection:
         return jsonify({"error": "No collection"})
 
+    topic = request.args.get("topic", "")
     sample = collection.get(limit=collection.count(), include=["metadatas"])
 
-    def extract_title(s):
-        s = re.sub(r'_\d+$', '', s.strip())
-        s = s.split('__')[0]
-        return s.replace('_', ' ').strip()
+    def matches(meta):
+        if meta.get("genre", "") != genre:
+            return False
+        if topic and meta.get("topic", "") != topic:
+            return False
+        return bool(meta.get("source", "").strip())
 
-    titles = sorted({
-        extract_title(meta.get("source", ""))
-        for meta in sample["metadatas"]
-        if meta.get("genre", "") == genre and meta.get("source", "").strip()
-    })
-    return jsonify({"genre": genre, "titles": titles, "count": len(titles)})
+    # Group chunks by their display title (metadata.title when the ingestion
+    # pipeline set one — nautical_pdfs/ai_pdfs/jait2010/deasylabs all do —
+    # else derived from the raw source string), tracking every distinct raw
+    # source that maps to it. A title is "PDF-backed" only when it comes from
+    # exactly one raw source and that source belongs to a known PDF-backed
+    # collection (see PDF_SOURCE_DIRS) — clean_text books span many
+    # chunks/sources under one title and should keep opening the text carousel.
+    pdf_prefixes = tuple(f"{slug}/" for slug in PDF_SOURCE_DIRS)
+    title_to_sources = {}
+    for meta in sample["metadatas"]:
+        if not matches(meta):
+            continue
+        src = meta.get("source", "").strip()
+        title = _display_title(meta)
+        title_to_sources.setdefault(title, set()).add(src)
+
+    docs = []
+    for title, sources in title_to_sources.items():
+        pdf_source = None
+        if len(sources) == 1:
+            only = next(iter(sources))
+            if only.startswith(pdf_prefixes):
+                pdf_source = only
+        docs.append({"title": title, "pdf_source": pdf_source})
+    docs.sort(key=lambda d: d["title"])
+
+    return jsonify({"genre": genre, "topic": topic, "titles": docs, "count": len(docs)})
+
+
+@app.route("/api/taxonomy", methods=["GET"])
+def get_taxonomy():
+    if not collection:
+        return jsonify({"error": "No collection"})
+
+    sample = collection.get(limit=collection.count(), include=["metadatas"])
+    tree = {}
+    for meta in sample["metadatas"]:
+        leaf = meta.get("taxonomy_leaf", "")
+        if not leaf:
+            continue
+        top = TAXONOMY_TOP.get(leaf[0], "OTHER")
+        label = TAXONOMY_LEAF_LABELS.get(leaf, leaf)
+        key = f"{leaf} {label}"
+        tree.setdefault(top, {})
+        tree[top][key] = tree[top].get(key, 0) + 1
+
+    for top in tree:
+        tree[top] = dict(sorted(tree[top].items(), key=lambda x: x[0]))
+
+    return jsonify({"tree": tree, "top_order": ["NAUTICAL", "STORIES", "AI", "HUMANITY"]})
+
+
+# clean_text/ chunks (tagged by embed.py's Claude Haiku tagger, real theme
+# vocabulary) are identifiable by their source string having no "/" —
+# unlike PDF-batch chunks (nautical_pdfs/..., ai_pdfs/..., jait2010/...,
+# deasylabs/...), which reuse this same "themes" field for their own
+# unrelated free-text CLI tags ("boating", "ai", "retrieval", "wimax", ...).
+# Genre alone can't make this distinction since ingest_pdf.py can also
+# assign genre="nautical" to a PDF-batch chunk, colliding with embed.py's
+# own genre=nautical clean_text chunks. Discovering theme values
+# dynamically this way (rather than a hardcoded word list) also surfaces
+# every literary sub-theme actually present in the data — the corpus
+# carries ~76 distinct values, not just the original 10-word canonical set.
+def _is_clean_text_source(meta):
+    return "/" not in (meta.get("source") or "")
+
+
+@app.route("/api/themes", methods=["GET"])
+def get_themes():
+    if not collection:
+        return jsonify({"error": "No collection"})
+
+    sample = collection.get(limit=collection.count(), include=["metadatas"])
+    counts = {}
+    for meta in sample["metadatas"]:
+        if not _is_clean_text_source(meta):
+            continue
+        for word in (meta.get("themes") or "").split(","):
+            word = word.strip()
+            if word:
+                counts[word] = counts.get(word, 0) + 1
+
+    ordered = sorted(counts.items(), key=lambda x: -x[1])
+    return jsonify({"themes": ordered})
+
+
+@app.route("/api/themes/<theme>", methods=["GET"])
+def get_theme_docs(theme):
+    if not collection:
+        return jsonify({"error": "No collection"})
+
+    sample = collection.get(limit=collection.count(), include=["metadatas"])
+    cooccur = {}
+    n_chunks = 0
+    found = False
+    for meta in sample["metadatas"]:
+        if not _is_clean_text_source(meta):
+            continue
+        words = {w.strip() for w in (meta.get("themes") or "").split(",") if w.strip()}
+        if theme not in words:
+            continue
+        found = True
+        n_chunks += 1
+        for other in words:
+            if other == theme:
+                continue
+            cooccur[other] = cooccur.get(other, 0) + 1
+
+    if not found:
+        return jsonify({"error": "unknown theme"}), 404
+
+    ordered = sorted(cooccur.items(), key=lambda x: -x[1])
+    return jsonify({"theme": theme, "n_chunks": n_chunks, "cooccurring_themes": ordered})
+
+
+@app.route("/api/taxonomy/<leaf>", methods=["GET"])
+def get_taxonomy_docs(leaf):
+    if not collection:
+        return jsonify({"error": "No collection"})
+
+    sample = collection.get(limit=collection.count(), include=["metadatas"])
+    pdf_prefixes = tuple(f"{slug}/" for slug in PDF_SOURCE_DIRS)
+    title_to_sources = {}
+    for meta in sample["metadatas"]:
+        if meta.get("taxonomy_leaf", "") != leaf:
+            continue
+        src = meta.get("source", "").strip()
+        if not src:
+            continue
+        title = _display_title(meta)
+        title_to_sources.setdefault(title, set()).add(src)
+
+    docs = []
+    for title, sources in title_to_sources.items():
+        pdf_source = None
+        if len(sources) == 1:
+            only = next(iter(sources))
+            if only.startswith(pdf_prefixes):
+                pdf_source = only
+        author = _author_from_source(next(iter(sources)))
+        docs.append({"title": title, "pdf_source": pdf_source, "author": author})
+    docs.sort(key=lambda d: d["title"])
+
+    label = TAXONOMY_LEAF_LABELS.get(leaf, leaf)
+    return jsonify({"leaf": leaf, "label": label, "titles": docs, "count": len(docs)})
 
 
 @app.route("/api/sources", methods=["GET"])
@@ -550,15 +1084,10 @@ def get_sources():
 
     sample = collection.get(limit=collection.count(), include=["metadatas"])
 
-    def extract_title(s):
-        s = re.sub(r'_\d+$', '', s.strip())  # strip trailing chunk number
-        s = s.split('__')[0]                  # take only the part before __
-        return s.replace('_', ' ').strip()
-
     book_titles = sorted({
-        extract_title(meta.get("source", ""))
+        _display_title(meta)
         for meta in sample["metadatas"]
-        if meta.get("source", "").strip()
+        if meta.get("source", "").strip() and meta.get("genre", "") != "reference"
     })
     return jsonify({"sources": book_titles})
 
@@ -572,16 +1101,11 @@ def get_title_chunks():
     if not title:
         return jsonify({"error": "No title provided"}), 400
 
-    def extract_title(s):
-        s = re.sub(r'_\d+$', '', s.strip())
-        s = s.split('__')[0]
-        return s.replace('_', ' ').strip()
-
     all_meta = collection.get(limit=collection.count(), include=["metadatas"])
     matching_ids = [
         all_meta["ids"][i]
         for i, meta in enumerate(all_meta["metadatas"])
-        if extract_title(meta.get("source", "")) == title
+        if _display_title(meta) == title
     ]
 
     if not matching_ids:
@@ -714,6 +1238,114 @@ def query_vgraphrag():
             yield f"data: {json.dumps({'type': 'error', 'data': str(e)})}\n\n"
 
     return Response(stream_with_context(generate()), mimetype="text/event-stream")
+
+
+@app.route("/api/vgraphrag_technical/ontology", methods=["GET"])
+def get_vgtech_ontology():
+    """Entity-type and relationship-type counts for the technical graph."""
+    G = _get_vgtech_graph()
+    if G is None:
+        return jsonify({"nodes": 0, "edges": 0, "node_types": {}, "rel_types": {}})
+
+    from vgraphrag_technical.graph_builder import graph_stats
+    return jsonify(graph_stats(G))
+
+
+@app.route("/api/vgraphrag_technical/entity_type/<etype>", methods=["GET"])
+def get_vgtech_entity_type(etype):
+    """Top entities of one type, by degree, for the sidebar drill-down."""
+    G = _get_vgtech_graph()
+    if G is None:
+        return jsonify({"entities": []})
+
+    matches = [
+        {"name": d.get("name", k), "description": d.get("description", ""), "degree": G.degree(k)}
+        for k, d in G.nodes(data=True)
+        if d.get("type", "CONCEPT") == etype
+    ]
+    matches.sort(key=lambda e: e["degree"], reverse=True)
+    return jsonify({"entities": matches[:25]})
+
+
+@app.route("/api/vgraphrag_technical/communities", methods=["GET"])
+def get_vgtech_communities():
+    """All Leiden communities in the technical graph, largest first."""
+    comms = _get_vgtech_communities()
+    out = [{
+        "id":        c["id"],
+        "size":      c["size"],
+        "top_types": c["top_types"],
+        "works":     c["works"][:8],
+        "summary":   c["summary"],
+    } for c in comms]
+    out.sort(key=lambda c: c["size"], reverse=True)
+    return jsonify({"communities": out})
+
+
+@app.route("/api/vgraphrag_technical/community/<int:comm_id>/graph", methods=["GET"])
+def get_vgtech_community_graph(comm_id):
+    """
+    Node-link JSON for one community, capped to the top entities by
+    in-community degree — a full community (up to ~700 entities) is
+    unreadable as a force layout, so the modal shows the most connected
+    subset and reports the true size alongside it.
+    """
+    G = _get_vgtech_graph()
+    comms = _get_vgtech_communities()
+    comm = next((c for c in comms if c["id"] == comm_id), None)
+    if G is None or comm is None:
+        return jsonify({"nodes": [], "links": [], "total_size": 0}), 404
+
+    LIMIT = 70
+    node_keys = [k for k in comm["node_keys"] if G.has_node(k)]
+    sub = G.subgraph(node_keys)
+
+    kept = sorted(sub.nodes(), key=lambda k: sub.degree(k), reverse=True)[:LIMIT]
+    kept_set = set(kept)
+    view = sub.subgraph(kept)
+
+    nodes = [{
+        "id":     k,
+        "name":   view.nodes[k].get("name", k),
+        "type":   view.nodes[k].get("type", "CONCEPT"),
+        "degree": view.degree(k),
+    } for k in view.nodes()]
+
+    links = [{
+        "source": u,
+        "target": v,
+        "name":   d.get("name", "related_to"),
+        "weight": d.get("weight", 0.5),
+    } for u, v, d in view.edges(data=True)]
+
+    return jsonify({
+        "nodes": nodes,
+        "links": links,
+        "total_size": comm["size"],
+        "shown": len(nodes),
+    })
+
+
+@app.route("/api/bridges", methods=["GET"])
+def get_bridges():
+    """
+    Entities shared between the literary graph and the technical graph —
+    curated by build_bridges.py to surface genuine cross-corpus connections
+    (same real-world referent, treated literally in one and thematically
+    in the other) rather than coincidental name collisions.
+    """
+    return jsonify({"bridges": _get_bridges()})
+
+
+@app.route("/api/document_connections", methods=["GET"])
+def get_document_connections():
+    """
+    Entities used as a genuine metaphorical vehicle across multiple,
+    genre-distant clean_text works — curated by build_document_connections.py.
+    Each entry includes resolved passage text for every referenced work so
+    the UI can show the actual excerpts, not just a paraphrase.
+    """
+    return jsonify({"connections": _get_document_connections()})
 
 
 @app.route("/api/build_indexes", methods=["POST"])
