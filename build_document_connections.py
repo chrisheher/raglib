@@ -74,6 +74,20 @@ COLLECTION_NAME = "literary_documents"
 
 TAXONOMY_TOP = {"1": "NAUTICAL", "2": "STORIES", "3": "AI", "4": "HUMANITY"}
 EXCLUDE_TYPES = {"THEME", "CONCEPT", "AUTHOR", "LITERARY_WORK"}
+# The judge model passed these individually, but they don't belong in this
+# UI's lighthearted "unexpected connection" framing. Two are the citation
+# cases the judge prompt is meant to reject, not genuine vehicles: "Alice"
+# is a single passage (a case study literally about a child playing Lewis
+# Carroll's character on stage) padded out by three works that only cite
+# her name, and "Providence" is the shared-subject-matter case (two works
+# discussing the same theological concept as their literal topic) the judge
+# system prompt explicitly calls out as a citation. The rest are legitimate
+# literary vehicles in the source works' own criticism, but their subject
+# matter (a folklore antisemitic trope; drug use; a religious bodily ritual)
+# isn't right for a lighthearted public-facing widget regardless of literary
+# legitimacy. Denylist by name rather than retuning the judge prompt, since
+# these are one-off editorial calls, not a systematic pattern.
+EXCLUDE_NAMES = {"Alice", "Providence", "Wandering Jew", "Cocaine", "Circumcision"}
 HIGH_PRIOR_TYPES = {"SYMBOL", "MYTHOLOGICAL_FIGURE"}
 MIN_WORKS = 2
 MAX_WORKS_DEFAULT = 7
@@ -220,6 +234,8 @@ def find_candidates() -> list[dict]:
             continue
         etype = d.get("type", "CONCEPT")
         if etype in EXCLUDE_TYPES:
+            continue
+        if d.get("name", key) in EXCLUDE_NAMES:
             continue
 
         chunk_ids_by_work: dict[str, list[str]] = {}
