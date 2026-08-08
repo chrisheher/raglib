@@ -1254,8 +1254,8 @@
 
   // Book title, then " | ", then whatever follows (author/chunk info).
   // clean_text doc IDs are "Title__Author_chunk_topic"; newer batch ingestions
-  // (nautical PDFs, JAIT, Deasy Labs) carry an explicit metadata.title instead
-  // since their IDs are opaque slugs/hashes.
+  // (nautical PDFs, JAIT) carry an explicit metadata.title instead since
+  // their IDs are opaque slugs/hashes.
   // A few clean_text/ collections split into per-excerpt files with a topic
   // slug but no numeric separator (e.g. "This is Story of Happy
   // Marriage_lapd"), so the "_<NNN>_" split below can't detect the title
@@ -1828,8 +1828,6 @@
     "What can the creative process tell us about ai?",
 { text:  "Compare a diesel engine to document ingestion and artificial intelligence", genres:["ai_research", "nautical", "creative_thinking"] },
   { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
- { text: "What kind of documents would Deasy Labs be interested in this corpus?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
-{ text: "Which passages here would stump an AI like Deasy Labs?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"], note: "Note: Deasy Labs is an AI metadata company that enriches unstructured documents — not the Joyce character Mr. Deasy from Ulysses." },
 
   ];
 

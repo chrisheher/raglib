@@ -819,9 +819,10 @@ def query():
     if not query_text:
         return jsonify({"error": "Query cannot be empty"}), 400
 
-    # Deasy Labs content (genre="reference") should never surface as a
-    # source/citation for any prompt or search — it's AI-infrastructure
-    # marketing copy, not corpus material meant to be quoted back to users.
+    # ingest_url.py tags any scraped web content genre="reference" — that
+    # should never surface as a source/citation for any prompt or search,
+    # since it's external marketing/reference copy, not corpus material
+    # meant to be quoted back to users.
     exclude_reference = {"genre": {"$ne": "reference"}}
     balance_genres = None
     if genre_filter:
@@ -954,8 +955,8 @@ def get_genre_docs(genre):
         return bool(meta.get("source", "").strip())
 
     # Group chunks by their display title (metadata.title when the ingestion
-    # pipeline set one — nautical_pdfs/ai_pdfs/jait2010/deasylabs all do —
-    # else derived from the raw source string), tracking every distinct raw
+    # pipeline set one — nautical_pdfs/ai_pdfs/jait2010 all do — else derived
+    # from the raw source string), tracking every distinct raw
     # source that maps to it. A title is "PDF-backed" only when it comes from
     # exactly one raw source and that source belongs to a known PDF-backed
     # collection (see PDF_SOURCE_DIRS) — clean_text books span many
@@ -1007,8 +1008,8 @@ def get_taxonomy():
 
 # clean_text/ chunks (tagged by embed.py's Claude Haiku tagger, real theme
 # vocabulary) are identifiable by their source string having no "/" —
-# unlike PDF-batch chunks (nautical_pdfs/..., ai_pdfs/..., jait2010/...,
-# deasylabs/...), which reuse this same "themes" field for their own
+# unlike PDF-batch and scraped-web chunks (nautical_pdfs/..., ai_pdfs/...,
+# jait2010/...), which reuse this same "themes" field for their own
 # unrelated free-text CLI tags ("boating", "ai", "retrieval", "wimax", ...).
 # Genre alone can't make this distinction since ingest_pdf.py can also
 # assign genre="nautical" to a PDF-batch chunk, colliding with embed.py's

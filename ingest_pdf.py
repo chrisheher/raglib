@@ -3,10 +3,10 @@ ingest_pdf.py
 =============
 Ingest a folder of local PDFs (scanned, text-based, or mixed) into the
 literary_documents ChromaDB collection under an explicit, isolated genre —
-following the same pattern used to fix the Deasy Labs / JAIT contamination:
-a distinct genre tag and per-document source slugs, so new non-literary
-content never gets force-fit into the literary taxonomy or bleeds into
-unrelated retrieval.
+following the same pattern used to fix earlier non-literary-batch
+contamination: a distinct genre tag and per-document source slugs, so new
+non-literary content never gets force-fit into the literary taxonomy or
+bleeds into unrelated retrieval.
 
 Per PDF:
   1. Extract text page-by-page with pdfplumber (text-based PDFs).

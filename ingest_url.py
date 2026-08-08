@@ -5,8 +5,8 @@ Scrape one or more URLs, chunk the text, embed with the same OpenAI model
 used by the main corpus, and insert into the existing ChromaDB collection.
 
 Usage:
-  python ingest_url.py https://www.deasylabs.com/
-  python ingest_url.py https://www.deasylabs.com/ https://www.deasylabs.com/platform
+  python ingest_url.py https://example.com/
+  python ingest_url.py https://example.com/ https://example.com/docs
 
 The script crawls each seed URL and follows internal links up to --depth levels.
 """

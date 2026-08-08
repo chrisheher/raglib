@@ -43,4 +43,16 @@ else
   echo "taxonomy_tags.json fetch failed — keeping existing tags."
 fi
 
+# Delete known-bad chunk/community ids (scraped third-party content that
+# shouldn't have been in the corpus) from an existing chroma_db by id.
+# Same rationale as the taxonomy patch above — idempotent, tiny, no volume
+# wipe needed; already-deleted ids are silently skipped on later boots.
+PURGE_MANIFEST_URL="${PURGE_MANIFEST_URL:-https://github.com/chrisheher/raglib/releases/download/v1.0-dbs/purge_manifest.json}"
+if curl -fsSL -o /tmp/purge_manifest.json "$PURGE_MANIFEST_URL"; then
+  python purge_ids.py /tmp/purge_manifest.json || echo "id purge failed — keeping existing data."
+  rm -f /tmp/purge_manifest.json
+else
+  echo "purge_manifest.json fetch failed — keeping existing data."
+fi
+
 exec python graphrag_app.py
