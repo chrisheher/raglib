@@ -5,8 +5,9 @@ MCP server that exposes the live raglib library as a tool. Pair it with
 Kernel's MCP server in the same client (Claude Code, Cursor) and one agent
 can browse the live web with Kernel and cross-check against your library.
 
-It calls the deployed API (Railway, via onlychr.is/raglib), so it needs no
-local databases.
+search_library and library_topics call the deployed API (Railway, via
+onlychr.is/raglib). find_passages reads the local chroma_db, so it only
+works on a machine with the databases.
 
 Usage (Claude Code):
   claude mcp add raglib -- /Applications/MAMP/htdocs/libby/venv/bin/python /Applications/MAMP/htdocs/libby/raglib_mcp.py
@@ -21,7 +22,12 @@ import os
 import requests
 from mcp.server.mcpserver import MCPServer
 
+# MCP clients launch this from anywhere; the local modules use paths
+# relative to the project (chroma_db, taste_labels.json, .env).
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 RAGLIB_URL = os.getenv("RAGLIB_URL", "https://onlychr.is/raglib").rstrip("/")
+_taste = None
 
 mcp = MCPServer("raglib")
 
@@ -66,6 +72,24 @@ def library_topics() -> dict:
     r = requests.get(f"{RAGLIB_URL}/api/stats", timeout=30)
     r.raise_for_status()
     return r.json()
+
+
+@mcp.tool()
+def find_passages(text: str, k: int = 3) -> dict:
+    """Match any text — a news story, a paragraph, a claim — to the passages in
+    Chris Heher's literary library that most resemble it (literature, philosophy,
+    mythology, consciousness studies; not the nautical manuals or AI papers).
+    Returns up to k passages from different books, with similarity scores, plus
+    the Leiden community (a thematic cluster of the library) closest to the text.
+    Use it to find what an older book anticipated or illuminates about the text."""
+    global _taste
+    import discover
+    import passage_match as pm
+    if _taste is None:
+        _taste = discover.load_taste()
+    vec = pm.embed([text[:6000]])[0]
+    return {"passages": pm.find_passages(vec, k=max(1, min(k, 8))),
+            "cluster": pm.closest_clusters(vec, _taste)[0]}
 
 
 if __name__ == "__main__":

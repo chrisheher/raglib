@@ -1380,28 +1380,113 @@ def get_document_connections():
     return jsonify({"connections": _get_document_connections()})
 
 
-@app.route("/api/discover", methods=["GET"])
-def get_discover():
+def _summary_opening(doc: str, max_chars: int = 420) -> str:
+    """First sentences of a community summary, skipping its '# Heading' line."""
+    body = " ".join(l.strip() for l in doc.splitlines() if l.strip() and not l.startswith("#"))
+    body = body.replace("*", "")
+    sentences = re.split(r"(?<=[.!?])\s+", body)
+    out = ""
+    for s in sentences:
+        if out and len(out) + len(s) > max_chars:
+            break
+        out = f"{out} {s}".strip()
+    return out
+
+
+_LIBRARY_TITLES = None
+
+def _library_titles() -> set:
+    """Every title /api/title_chunks can open, computed once."""
+    global _LIBRARY_TITLES
+    if _LIBRARY_TITLES is None:
+        metas = collection.get(limit=collection.count(), include=["metadatas"])["metadatas"]
+        _LIBRARY_TITLES = {_display_title(m) for m in metas}
+    return _LIBRARY_TITLES
+
+
+def _resolve_work(raw: str):
+    """Map a community's member-work string ('Philokalia 154 flesh of youth.txt')
+    to the library title it's stored under, or None."""
+    titles = _library_titles()
+    s = re.sub(r"\.txt$", "", (raw or "").strip())
+    for cand in (s, _extract_title_from_source(s), re.sub(r"\s+\d{1,4}\b.*$", "", s)):
+        if cand in titles:
+            return cand
+    prefixes = [t for t in titles if s.startswith(t + " ")]
+    return max(prefixes, key=len) if prefixes else None
+
+
+NEWS_EXAMPLE_GENRES = ["prose", "consciousness_studies", "postmodern_fiction",
+                       "creative_thinking", "mythology", "poetry", "drama"]
+
+def _cluster_examples(meta: dict, emb, n: int = 5) -> list:
+    """Up to n library titles for a community: its own member works first,
+    topped up with the literary works whose passages sit closest to it."""
+    out = []
+    for raw in json.loads(meta.get("works", "[]")):
+        t = _resolve_work(raw)
+        if t and t not in out:
+            out.append(t)
+        if len(out) == n:
+            return out
+    r = collection.query(query_embeddings=[list(emb)], n_results=40,
+                         where={"genre": {"$in": NEWS_EXAMPLE_GENRES}}, include=["metadatas"])
+    for m in r["metadatas"][0]:
+        t = _display_title(m)
+        if t not in out:
+            out.append(t)
+        if len(out) == n:
+            break
+    return out
+
+
+@app.route("/api/news", methods=["GET"])
+def get_news():
     """
-    Latest reading picks from discover.py: a Kernel browser crawls literary
-    magazines and ranks articles against the literary communities. Served
-    from the saved snapshot — the crawl itself runs offline, not per request.
+    This week's news matched to library passages, from news_oracle.py: a Kernel
+    browser reads recent stories and each is paired with the literary passage
+    that anticipated it. Served from the saved snapshot — the crawl runs offline.
     """
     try:
-        with open("discover_results.json") as f:
+        with open("news_oracle_results.json") as f:
             d = json.load(f)
     except FileNotFoundError:
-        return jsonify({"error": "No reading picks yet. Run: python discover.py"}), 404
+        return jsonify({"error": "No news matches yet. Run: python news_oracle.py"}), 404
 
-    counts = {}
-    for a in d["all"]:
-        counts[a["match"]["id"]] = counts.get(a["match"]["id"], 0) + 1
+    # Give each passage the title /api/title_chunks knows it by, so the UI can
+    # open that book's carousel at the exact chunk.
+    # Deduped: two stories can cite the same passage, and Chroma rejects repeated ids.
+    ids = list(dict.fromkeys(p["id"] for s in d["top"] for p in s["passages"] if p.get("id")))
+    if ids and collection:
+        found = collection.get(ids=ids, include=["metadatas"])
+        titles = {i: _display_title(m) for i, m in zip(found["ids"], found["metadatas"])}
+        for s in d["top"]:
+            for p in s["passages"]:
+                p["library_title"] = titles.get(p.get("id"))
+
+    # Attach the opening of each matched Leiden community's summary, plus a few
+    # example texts from the library that the UI can open.
+    comm_ids = list(dict.fromkeys(s["cluster"]["id"] for s in d["top"] if s.get("cluster", {}).get("id")))
+    try:   # older DB snapshots may lack the community collection; stories still render without it
+        found = chroma_client.get_collection("literary_communities").get(
+            ids=comm_ids, include=["documents", "metadatas", "embeddings"]) if comm_ids and chroma_client else None
+    except Exception:
+        found = None
+    if found:
+        summaries, examples = {}, {}
+        for i, doc, meta, emb in zip(found["ids"], found["documents"], found["metadatas"], found["embeddings"]):
+            summaries[i] = _summary_opening(doc)
+            examples[i] = _cluster_examples(meta, emb)
+        for s in d["top"]:
+            s["cluster"]["summary"] = summaries.get(s["cluster"].get("id"), "")
+            s["cluster"]["examples"] = examples.get(s["cluster"].get("id"), [])
+
     return jsonify({
-        "generated":  d["generated"],
-        "n_articles": len(d["all"]),
-        "n_sites":    len({a["site"] for a in d["all"]}),
-        "picks":      d["picks"],
-        "taste":      [{**t, "matched": counts.get(t["id"], 0)} for t in d["taste"]],
+        "generated": d["generated"],
+        "days":      d["days"],
+        "n_stories": len(d["all"]),
+        "n_sites":   len({s["site"] for s in d["all"]}),
+        "stories":   d["top"],
     })
 
 

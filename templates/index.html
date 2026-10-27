@@ -6,6 +6,8 @@
 <title>Groaning Shelves</title>
 <script>const BASE = "{{ base_path }}";</script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Courier+Prime:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<!-- News panel (dark editorial): Inter Tight (display + text), IBM Plex Mono (labels) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,700;0,900;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   @font-face {
     font-family: 'ABC Arizona Flare';
@@ -1032,74 +1034,51 @@
 
   .carousel-back-btn:hover { opacity: 1; color: var(--gold); }
 
-  /* Reading picks from the web (discover.py, via Kernel) */
-  .discover { animation: fadeIn 0.5s ease; max-width: 820px; }
-
-  .discover-label {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.6rem;
-    letter-spacing: 0.2em;
-    color: var(--gold);
-    margin-bottom: 8px;
+  /* This week's news, read against the library (news_oracle.py, via Kernel).
+     Dark editorial: giant tight display type, warm bordered panels, mono caps labels. */
+  .news {
+    --n-panel: #1e1917; --n-inset: #171311; --n-line: #4a3f3a;
+    --n-ink: #f4eee9; --n-muted: #b9ada6; --n-focus: #e8b43f;
+    --n-sans: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+    --n-mono: 'IBM Plex Mono', 'Courier Prime', ui-monospace, monospace;
+    animation: fadeIn 0.5s ease; max-width: 1040px; display: grid; gap: 14px;
+    color: var(--n-ink); font-family: var(--n-sans);
   }
-
-  .discover-intro {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--mist);
-    opacity: 0.75;
-    margin-bottom: 18px;
+  .news a:focus-visible, .news summary:focus-visible { outline: 2px solid var(--n-focus); outline-offset: 3px; }
+  .news-head { margin-bottom: 26px; }
+  .news-h1 {
+    font: 900 clamp(2.6rem, 7vw, 5.2rem)/0.86 var(--n-sans); letter-spacing: -0.06em;
+    text-transform: uppercase; margin: 0; max-width: 11ch; color: var(--n-ink);
   }
+  .news-lede { font-size: clamp(1.05rem, 1.8vw, 1.35rem); line-height: 1.35; max-width: 40ch; margin: 18px 0 0; color: var(--n-muted); }
+  .news-lede b { color: var(--n-ink); font-weight: 700; }
+  .news-labelcaps { font: 500 0.72rem/1.2 var(--n-mono); letter-spacing: 0.14em; color: var(--n-muted); margin: 0; text-transform: uppercase; }
 
-  .discover-pick {
-    display: grid;
-    grid-template-columns: 2rem minmax(0, 1fr);
-    gap: 0 12px;
-    padding: 14px 0;
-    border-bottom: 1px solid rgba(105,105,105,0.2);
-  }
+  .news-story { background: var(--n-panel); border: 1px solid var(--n-line); border-radius: 14px; padding: 24px; display: grid; gap: 14px; }
+  .news-title { font: 700 clamp(1.25rem, 2.2vw, 1.6rem)/1.15 var(--n-sans); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+  .news-title a { color: inherit; text-decoration: none; }
+  .news-title a:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .news-take { margin: 0; color: var(--n-muted); font-size: 1.02rem; line-height: 1.55; max-width: 100ch; }
+  .news-take b { color: var(--n-ink); }
 
-  .discover-rank {
-    font-family: 'ABC Arizona Flare', serif;
-    font-style: italic;
-    font-size: 1.2rem;
-    color: var(--gold);
-  }
+  .news-inset { background: var(--n-inset); border: 1px solid var(--n-line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 8px; }
+  .news-passage { margin: 0; font-style: italic; color: #ddd3cc; font-size: 0.97rem; line-height: 1.6; }
+  .news-passage cite { font-style: normal; color: var(--n-ink); }
+  .news-book { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; cursor: pointer; }
+  .news-book:hover, .news-book:focus-visible { border-bottom-style: solid; }
 
-  .discover-source {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    color: var(--accent-grey);
-    text-transform: uppercase;
-  }
-
-  .discover-title {
-    font-family: 'ABC Arizona Flare', serif;
-    font-size: 1.15rem;
-    color: var(--parchment);
-    text-decoration: none;
-  }
-
-  .discover-title:hover { text-decoration: underline; }
-
-  .discover-desc {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--mist);
-    opacity: 0.8;
-    margin-top: 4px;
-  }
-
-  .discover-why {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.72rem;
-    color: var(--gold);
-    margin-top: 8px;
-    line-height: 1.5;
-  }
-
-  .discover-why em { color: var(--aged); }
+  /* Cluster accordion: only the name shows until it's opened. */
+  .news-cluster { font-size: 0.88rem; color: var(--n-muted); border-top: 1px solid var(--n-line); padding-top: 12px; }
+  .news-cluster summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 10px; }
+  .news-cluster summary::-webkit-details-marker { display: none; }
+  .news-cluster summary::before { content: "+"; font: 500 0.9rem var(--n-mono); width: 1ch; }
+  .news-cluster[open] summary::before { content: "–"; }
+  .news-cluster summary b { color: var(--n-ink); font-weight: 500; }
+  .news-cluster summary:hover b { text-decoration: underline; text-underline-offset: 3px; }
+  .news-cluster p { margin: 10px 0 0 calc(1ch + 10px); max-width: 72ch; line-height: 1.6; }
+  .news-examples { color: var(--n-ink); }
+  .news-examples .news-labelcaps { display: inline; margin-right: 8px; }
+  .news-examples i { font-style: italic; }
 </style>
 </head>
 <body>
@@ -1897,26 +1876,19 @@
     "What can the creative process tell us about ai?",
 { text:  "Compare a diesel engine to document ingestion and artificial intelligence", genres:["ai_research", "nautical", "creative_thinking"] },
   { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
-  { text: "What should I read next from the web?", action: "discover" },
+  { text: "Which old books predicted today's current events?", action: "news" },
 
   ];
 
-  // ── READING PICKS FROM THE WEB ─────────────────────────────
-  // Snapshot from discover.py: a Kernel browser reads literary magazines and
-  // ranks each article against the library's Leiden communities.
-  const DISCOVER_SITE_NAMES = {
-    'thepointmag.com': 'The Point', 'laphamsquarterly.org': 'Lapham’s Quarterly',
-    'themarginalian.org': 'The Marginalian', 'aeon.co': 'Aeon', 'electricliterature.com': 'Electric Literature',
-    'theparisreview.org': 'The Paris Review', 'nplusonemag.com': 'n+1', 'granta.com': 'Granta', 'lrb.co.uk': 'LRB',
+  // ── THIS WEEK'S NEWS, READ AGAINST THE LIBRARY ─────────────
+  // Snapshot from news_oracle.py: a Kernel browser reads recent stories and
+  // each is paired with the literary passage that most anticipated it.
+  const NEWS_SITE_NAMES = {
+    'theguardian.com': 'The Guardian', 'npr.org': 'NPR', 'apnews.com': 'AP', 'bbc.com': 'BBC',
+    'wired.com': 'Wired', 'cnn.com': 'CNN', 'propublica.org': 'ProPublica', 'politico.com': 'Politico',
   };
 
-  function discoverTitle(raw) {
-    const t = raw.replace(/\s*[|\-–]\s*(The Point Magazine|Aeon Essays|Electric Literature)\s*$/, '');
-    const [title, author] = t.includes(' | ') ? t.split(' | ') : [t, ''];
-    return { title, author };
-  }
-
-  async function showDiscover() {
+  async function showNews() {
     const outputArea = document.getElementById('outputArea');
     document.getElementById('emptyState')?.remove();
     outputArea.innerHTML = '<div class="loading-dots"><span></span><span></span><span></span></div>';
@@ -1924,10 +1896,10 @@
 
     let data;
     try {
-      const response = await fetch(`${BASE}/api/discover`);
+      const response = await fetch(`${BASE}/api/news`);
       data = await response.json();
       outputArea.innerHTML = '';
-      if (!response.ok) { showError(data.error || 'Could not load reading picks'); return; }
+      if (!response.ok) { showError(data.error || 'Could not load news matches'); return; }
     } catch (err) {
       outputArea.innerHTML = '';
       showError('Connection error: ' + err.message);
@@ -1935,44 +1907,51 @@
     }
 
     const panel = document.createElement('div');
-    panel.className = 'discover';
+    panel.className = 'news';
     panel.innerHTML = `
-      <div class="discover-label">READING PICKS · ${esc(data.generated.split(' ')[0])} · VIA KERNEL BROWSERS</div>
-      <div class="discover-intro">A cloud browser read ${data.n_articles} articles across ${data.n_sites} literary
-        magazines and ranked each against the communities in this library. Each pick names the cluster it resembles most.</div>`;
+      <header class="news-head">
+        <h2 class="news-h1">The old books saw it coming</h2>
+        <p class="news-lede"><b>What Chris’s library has to say about today’s current events.</b> Kernel read ${data.n_stories} stories from the last ${data.days} days across ${data.n_sites} news sites. Each story is paired with a passage in my library that anticipated it.</p>
+      </header>`;
 
-    data.picks.forEach((a, i) => {
-      const { title, author } = discoverTitle(a.title);
-      const site = DISCOVER_SITE_NAMES[a.site] || a.site;
-      const works = a.match.works.map(w => `<em>${esc(w)}</em>`).join(', ');
-      const desc = (a.description || '').replace(/\s*\[…\]\s*$/, '');
+    // A link that opens a book in the library carousel (optionally at one chunk).
+    const bookLink = (libTitle, label, chunkId = '') => libTitle
+      ? `<a class="news-book" href="#" data-title="${esc(libTitle)}" data-id="${esc(chunkId)}">${label}</a>`
+      : label;
+
+    data.stories.forEach(s => {
+      const p = s.passages[0];
+      const title = s.title.replace(/\s*:\s*Consider This from NPR\s*$/, '').replace(/\s*\|\s*CNN( \w+)?\s*$/, '');
+      const date = s.published ? new Date(s.published).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+      const examples = (s.cluster.examples || []).map(t => bookLink(t, `<i>${esc(t)}</i>`)).join(' · ');
       panel.insertAdjacentHTML('beforeend', `
-        <div class="discover-pick">
-          <div class="discover-rank">${i + 1}</div>
-          <div>
-            <div class="discover-source">${esc(site)}${author ? ' · ' + esc(author) : ''} · ${a.score.toFixed(3)}</div>
-            <a class="discover-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(title)}</a>
-            ${desc ? `<div class="discover-desc">${esc(desc.length > 240 ? desc.slice(0, 240).replace(/\s+\S*$/, '') + '…' : desc)}</div>` : ''}
-            <div class="discover-why">↳ closest to “${esc(a.match.title)}” — ${works}</div>
+        <article class="news-story">
+          <p class="news-labelcaps">${esc(NEWS_SITE_NAMES[s.site] || s.site)}${date ? ' · ' + esc(date) : ''}</p>
+          <h3 class="news-title"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
+          ${s.why ? `<p class="news-take"><b>Literary reference |</b> ${esc(s.why)}</p>` : ''}
+          <div class="news-inset">
+            <p class="news-labelcaps">From the library</p>
+            <blockquote class="news-passage">“${esc(p.passage)}”
+              <cite>— ${bookLink(p.library_title, `<b>${esc(p.title)}</b>`, p.id)}${p.author ? ', ' + esc(p.author) : ''}</cite>
+            </blockquote>
           </div>
-        </div>`);
+          <details class="news-cluster">
+            <summary><span class="news-labelcaps">Cluster</span> <b>${esc(s.cluster.title)}</b></summary>
+            ${s.cluster.summary ? `<p>${esc(s.cluster.summary)}</p>` : ''}
+            ${examples ? `<p class="news-examples"><span class="news-labelcaps">Example texts</span> ${examples}</p>` : ''}
+          </details>
+        </article>`);
     });
     outputArea.appendChild(panel);
 
-    // Right gutter: the taste profile, by how many articles each cluster won.
-    const gutter = document.getElementById('rightGutter');
-    gutter.insertAdjacentHTML('beforeend',
-      `<div class="sources-header">TASTE CLUSTERS <span class="sources-hint">(articles matched)</span></div>`);
-    const grid = document.createElement('div');
-    grid.className = 'sources-grid';
-    data.taste.filter(t => t.matched).sort((x, y) => y.matched - x.matched).forEach(t => {
-      grid.insertAdjacentHTML('beforeend', `
-        <div class="source-card" style="cursor: default" title="${esc(t.works.join(', '))}">
-          <div class="source-name">${esc(t.title)}</div>
-          <div class="source-meta"><span>${esc(t.works[0] || '')}</span><span class="source-score">${t.matched}</span></div>
-        </div>`);
-    });
-    gutter.appendChild(grid);
+    // Every book title opens that book in the library; a cited passage opens at its own chunk.
+    panel.querySelectorAll('.news-book').forEach(a => a.addEventListener('click', async e => {
+      e.preventDefault();
+      await showTitleCarousel(a.dataset.title);
+      if (!a.dataset.id) return;
+      const idx = (window._carouselChunks || []).findIndex(c => c.id === a.dataset.id);
+      if (idx > 0) { window._carouselIndex = idx; renderCarouselChunk(idx); }
+    }));
   }
 
   function initTumblingPrompts() {
@@ -2069,7 +2048,7 @@
         density: 0.00008,
         inertia: Infinity,
         // The web-picks card is warmer than the grey library prompts so it reads as different.
-        render: { fillStyle: action === 'discover' ? '#d9c9a3' : COLORS[i % COLORS.length] },
+        render: { fillStyle: action === 'news' ? '#d9c9a3' : COLORS[i % COLORS.length] },
         label: text,
       });
       body._action = action;
@@ -2181,7 +2160,7 @@
         const lx = cos * (mx - x) - sin * (my - y);
         const ly = sin * (mx - x) + cos * (my - y);
         if (Math.abs(lx) <= hw && Math.abs(ly) <= hh) {
-          if (b._action === 'discover') { showDiscover(); break; }
+          if (b._action === 'news') { showNews(); break; }
           const ta = document.getElementById('queryInput');
           if (ta) ta.value = b.label;
           activeGenreFilter = b._genres || null;
