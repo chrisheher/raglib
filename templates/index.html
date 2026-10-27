@@ -1881,6 +1881,10 @@
   ];
 
   // ── THIS WEEK'S NEWS, READ AGAINST THE LIBRARY ─────────────
+  // HTML-escape for the news panel; kept separate from the search code's esc().
+  const newsEsc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
   // Snapshot from news_oracle.py: a Kernel browser reads recent stories and
   // each is paired with the literary passage that most anticipated it.
   const NEWS_SITE_NAMES = {
@@ -1916,28 +1920,28 @@
 
     // A link that opens a book in the library carousel (optionally at one chunk).
     const bookLink = (libTitle, label, chunkId = '') => libTitle
-      ? `<a class="news-book" href="#" data-title="${esc(libTitle)}" data-id="${esc(chunkId)}">${label}</a>`
+      ? `<a class="news-book" href="#" data-title="${newsEsc(libTitle)}" data-id="${newsEsc(chunkId)}">${label}</a>`
       : label;
 
     data.stories.forEach(s => {
       const p = s.passages[0];
       const title = s.title.replace(/\s*:\s*Consider This from NPR\s*$/, '').replace(/\s*\|\s*CNN( \w+)?\s*$/, '');
       const date = s.published ? new Date(s.published).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
-      const examples = (s.cluster.examples || []).map(t => bookLink(t, `<i>${esc(t)}</i>`)).join(' · ');
+      const examples = (s.cluster.examples || []).map(t => bookLink(t, `<i>${newsEsc(t)}</i>`)).join(' · ');
       panel.insertAdjacentHTML('beforeend', `
         <article class="news-story">
-          <p class="news-labelcaps">${esc(NEWS_SITE_NAMES[s.site] || s.site)}${date ? ' · ' + esc(date) : ''}</p>
-          <h3 class="news-title"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
-          ${s.why ? `<p class="news-take"><b>Literary connection |</b> ${esc(s.why)}</p>` : ''}
+          <p class="news-labelcaps">${newsEsc(NEWS_SITE_NAMES[s.site] || s.site)}${date ? ' · ' + newsEsc(date) : ''}</p>
+          <h3 class="news-title"><a href="${newsEsc(s.url)}" target="_blank" rel="noopener">${newsEsc(title)}</a></h3>
+          ${s.why ? `<p class="news-take"><b>Literary connection |</b> ${newsEsc(s.why)}</p>` : ''}
           <div class="news-inset">
             <p class="news-labelcaps">From the library</p>
-            <blockquote class="news-passage">“${esc(p.passage)}”
-              <cite>— ${bookLink(p.library_title, `<b>${esc(p.title)}</b>`, p.id)}${p.author ? ', ' + esc(p.author) : ''}</cite>
+            <blockquote class="news-passage">“${newsEsc(p.passage)}”
+              <cite>— ${bookLink(p.library_title, `<b>${newsEsc(p.title)}</b>`, p.id)}${p.author ? ', ' + newsEsc(p.author) : ''}</cite>
             </blockquote>
           </div>
           <details class="news-cluster">
-            <summary><span class="news-labelcaps">Cluster</span> <b>${esc(s.cluster.title)}</b></summary>
-            ${s.cluster.summary ? `<p>${esc(s.cluster.summary)}</p>` : ''}
+            <summary><span class="news-labelcaps">Cluster</span> <b>${newsEsc(s.cluster.title)}</b></summary>
+            ${s.cluster.summary ? `<p>${newsEsc(s.cluster.summary)}</p>` : ''}
             ${examples ? `<p class="news-examples"><span class="news-labelcaps">Example texts</span> ${examples}</p>` : ''}
           </details>
         </article>`);
