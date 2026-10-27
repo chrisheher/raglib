@@ -1915,7 +1915,7 @@
     panel.innerHTML = `
       <header class="news-head">
         <h2 class="news-h1">The old books saw it coming</h2>
-        <p class="news-lede"><b>What Chris’s library has to say about today’s current events.</b> Kernel read ${data.n_stories} stories from the last ${data.days} days across ${data.n_sites} news sites. Each story is paired with a passage in my library that anticipated it.</p>
+        <p class="news-lede"><b>What Chris’s library has to say about today’s current events.</b> Kernel read ${data.n_stories} stories from the last ${data.days} days across ${data.n_sites} news sites. Each story is paired with two passages in my library that anticipated it.</p>
       </header>`;
 
     // A link that opens a book in the library carousel (optionally at one chunk).
@@ -1924,7 +1924,18 @@
       : label;
 
     data.stories.forEach(s => {
-      const p = s.passages[0];
+      // Up to two library references, each with its own connection line.
+      const refs = s.passages.slice(0, 2).map((p, i) => {
+        const why = p.why || (i === 0 ? s.why : '');
+        return `
+          ${why ? `<p class="news-take"><b>Literary connection |</b> ${newsEsc(why)}</p>` : ''}
+          <div class="news-inset">
+            <p class="news-labelcaps">From the library</p>
+            <blockquote class="news-passage">“${newsEsc(p.passage)}”
+              <cite>— ${bookLink(p.library_title, `<b>${newsEsc(p.title)}</b>`, p.id)}${p.author ? ', ' + newsEsc(p.author) : ''}</cite>
+            </blockquote>
+          </div>`;
+      }).join('');
       const title = s.title.replace(/\s*:\s*Consider This from NPR\s*$/, '').replace(/\s*\|\s*CNN( \w+)?\s*$/, '');
       const date = s.published ? new Date(s.published).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
       const examples = (s.cluster.examples || []).map(t => bookLink(t, `<i>${newsEsc(t)}</i>`)).join(' · ');
@@ -1932,13 +1943,7 @@
         <article class="news-story">
           <p class="news-labelcaps">${newsEsc(NEWS_SITE_NAMES[s.site] || s.site)}${date ? ' · ' + newsEsc(date) : ''}</p>
           <h3 class="news-title"><a href="${newsEsc(s.url)}" target="_blank" rel="noopener">${newsEsc(title)}</a></h3>
-          ${s.why ? `<p class="news-take"><b>Literary connection |</b> ${newsEsc(s.why)}</p>` : ''}
-          <div class="news-inset">
-            <p class="news-labelcaps">From the library</p>
-            <blockquote class="news-passage">“${newsEsc(p.passage)}”
-              <cite>— ${bookLink(p.library_title, `<b>${newsEsc(p.title)}</b>`, p.id)}${p.author ? ', ' + newsEsc(p.author) : ''}</cite>
-            </blockquote>
-          </div>
+          ${refs}
           <details class="news-cluster">
             <summary><span class="news-labelcaps">Cluster</span> <b>${newsEsc(s.cluster.title)}</b></summary>
             ${s.cluster.summary ? `<p>${newsEsc(s.cluster.summary)}</p>` : ''}

@@ -150,22 +150,24 @@ async def crawl(per_front: int, days: int) -> list[dict]:
 
 
 def pick_diverse(ranked: list[dict], top: int, same_story: float = 0.70, per_work: int = 1,
-                 min_similarity: float = 0.30) -> list[dict]:
+                 min_similarity: float = 0.30, refs: int = 2) -> list[dict]:
     """Best matches first, but skip a story another outlet already covered and
-    let no single book answer more than `per_work` stories — falling back to a
-    story's next-best passage when its first choice is used up. Matches below
-    `min_similarity` are dropped rather than forced."""
+    give each story `refs` books, letting no single book be cited more than
+    `per_work` times — falling back to a story's next-best passages when its
+    first choices are used up. Matches below `min_similarity` are dropped
+    rather than forced, so a story without `refs` good matches is skipped."""
     picks, used = [], {}
     for s in ranked:
         if any(float(s["_vec"] @ p["_vec"]) > same_story for p in picks):
             continue
         options = [p for p in s["passages"]
                    if used.get(p["title"], 0) < per_work and p["similarity"] >= min_similarity]
-        if not options:
+        if len(options) < refs:
             continue
-        s["passages"] = options[:3]
+        s["passages"] = options[:refs]
         s["score"] = options[0]["similarity"]
-        used[options[0]["title"]] = used.get(options[0]["title"], 0) + 1
+        for p in s["passages"]:
+            used[p["title"]] = used.get(p["title"], 0) + 1
         picks.append(s)
         if len(picks) == top:
             break
@@ -202,7 +204,7 @@ def main():
     taste = discover.load_taste()
     vecs = pm.embed([f"{s['title']}\n{s['description']}\n{s['text']}" for s in stories])
     for s, v in zip(stories, vecs):
-        s["passages"] = pm.find_passages(v, k=5)
+        s["passages"] = pm.find_passages(v, k=8)
         s["cluster"] = pm.closest_clusters(v, taste)[0]
         s["score"] = s["passages"][0]["similarity"] if s["passages"] else 0
         s["_vec"] = v
@@ -214,7 +216,9 @@ def main():
         s.pop("_vec")
     if not args.no_explain:
         for s in top:
-            s["why"] = explain(s, s["passages"][0])
+            for p in s["passages"]:
+                p["why"] = explain(s, p)
+            s["why"] = s["passages"][0]["why"]
 
     for i, s in enumerate(top, 1):
         p = s["passages"][0]
