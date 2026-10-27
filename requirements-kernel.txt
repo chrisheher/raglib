@@ -1,0 +1,6 @@
+# Local-only extras for the Kernel integrations (not installed on Railway)
+kernel
+playwright
+mcp>=2.0.0
+beautifulsoup4
+requests

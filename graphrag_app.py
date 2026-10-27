@@ -1380,6 +1380,31 @@ def get_document_connections():
     return jsonify({"connections": _get_document_connections()})
 
 
+@app.route("/api/discover", methods=["GET"])
+def get_discover():
+    """
+    Latest reading picks from discover.py: a Kernel browser crawls literary
+    magazines and ranks articles against the literary communities. Served
+    from the saved snapshot — the crawl itself runs offline, not per request.
+    """
+    try:
+        with open("discover_results.json") as f:
+            d = json.load(f)
+    except FileNotFoundError:
+        return jsonify({"error": "No reading picks yet. Run: python discover.py"}), 404
+
+    counts = {}
+    for a in d["all"]:
+        counts[a["match"]["id"]] = counts.get(a["match"]["id"], 0) + 1
+    return jsonify({
+        "generated":  d["generated"],
+        "n_articles": len(d["all"]),
+        "n_sites":    len({a["site"] for a in d["all"]}),
+        "picks":      d["picks"],
+        "taste":      [{**t, "matched": counts.get(t["id"], 0)} for t in d["taste"]],
+    })
+
+
 @app.route("/api/build_indexes", methods=["POST"])
 def api_build_indexes():
     """Build or rebuild the TKG and Community Index from loaded chunks."""

@@ -1,0 +1,1236 @@
+{
+  "generated": "2026-10-26 22:29",
+  "taste": [
+    {
+      "id": "comm_27",
+      "title": "The Exhaustion of Heroic Consciousness",
+      "works": [
+        "The Rebel",
+        "Hero with 1K Faces",
+        "The Uncensored Picture of Dorian Gray"
+      ]
+    },
+    {
+      "id": "comm_7",
+      "title": "The Sacred Interior and Its Cultivation",
+      "works": [
+        "Natural Depth In Man",
+        "The Heart of God",
+        "The Soul of Man"
+      ]
+    },
+    {
+      "id": "comm_5",
+      "title": "The Dialectics of Wholeness and Fragmentation",
+      "works": [
+        "The Dancing Wu Li Masters",
+        "Growth of the Soil",
+        "Aion"
+      ]
+    },
+    {
+      "id": "comm_0",
+      "title": "The Systematization of What Resists System",
+      "works": [
+        "Writing Fiction",
+        "Theory of Prose",
+        "The Rhetoric of Fiction rhetoric artistintrusion 1"
+      ]
+    },
+    {
+      "id": "comm_9",
+      "title": "The Paradox of Mastery and Surrender",
+      "works": [
+        "The Magic Synthesis",
+        "Lost Art of Walking on Water",
+        "The Spooky Art"
+      ]
+    },
+    {
+      "id": "comm_6",
+      "title": "The Impossibility of Authentic Selfhood",
+      "works": [
+        "Story",
+        "Examples",
+        "The Sleepwalkers"
+      ]
+    },
+    {
+      "id": "comm_12",
+      "title": "The Uncanny Autonomy of Symbolic Inheritance",
+      "works": [
+        "The Golden Bough",
+        "Myth and Reality",
+        "World Mythology"
+      ]
+    },
+    {
+      "id": "comm_8",
+      "title": "The Untraversable Gap Between Knowing and Becoming",
+      "works": [
+        "Knowledge Painfully Acquired",
+        "Win Without Pitching",
+        "Positioning for Professionals"
+      ]
+    },
+    {
+      "id": "comm_24",
+      "title": "The Duplicity of Language's Clarifying Power",
+      "works": [
+        "How Children Fail",
+        "The Rustle of Language",
+        "The Advertising Concept Book"
+      ]
+    },
+    {
+      "id": "comm_19",
+      "title": "The Unlocatable Origins of Creative Consciousness",
+      "works": [
+        "Genius",
+        "Origin of Inspiration",
+        "A History of the Senses"
+      ]
+    },
+    {
+      "id": "comm_23",
+      "title": "The Impossibility of Original Utterance",
+      "works": [
+        "A Fans Notes",
+        "The Recognitions",
+        "Letters of William Gaddis"
+      ]
+    },
+    {
+      "id": "comm_14",
+      "title": "The Paradox of Withdrawal and Engagement",
+      "works": [
+        "Philokalia",
+        "Global Hesychasm"
+      ]
+    },
+    {
+      "id": "comm_16",
+      "title": "The Craft of Constraint",
+      "works": [
+        "Writers Art writersart cliche",
+        "Writers Art alliteration",
+        "D AD editors note"
+      ]
+    },
+    {
+      "id": "comm_17",
+      "title": "The Problem of Disciplined Interiority",
+      "works": [
+        "The Mystical Theology of Saint Bernard",
+        "Navarre Bible confession",
+        "Navarre Bible suffering"
+      ]
+    },
+    {
+      "id": "comm_22",
+      "title": "The Generative Limits of Human Will",
+      "works": [
+        "Conversations of Goethe"
+      ]
+    },
+    {
+      "id": "comm_2",
+      "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+      "works": [
+        "The Legacy of DFW",
+        "Infinite Jest Guide"
+      ]
+    },
+    {
+      "id": "comm_25",
+      "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+      "works": [
+        "The Letters of Vincent Van Gogh"
+      ]
+    },
+    {
+      "id": "comm_10",
+      "title": "The Dialectic of Narrative Control and Surrender",
+      "works": [
+        "Making Shapely Fiction action",
+        "This is Story of Happy Marriage lapd",
+        "Twisty Little Passages"
+      ]
+    }
+  ],
+  "picks": [
+    {
+      "url": "https://thepointmag.com/criticism/death-is-not-the-end",
+      "site": "thepointmag.com",
+      "title": "Death Is Not the End | The Point Magazine",
+      "description": "David Foster Wallace, who hanged himself in his home last September, wrote about authenticity, self-consciousness and the pursuit of happiness in America. It became a […]",
+      "score": 0.5867,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/song-lost-world",
+      "site": "laphamsquarterly.org",
+      "title": "Song of a Lost World | Curtis White",
+      "description": "Seven theses on resistance.",
+      "score": 0.5441,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/dialogue/rejecting-enlightenment",
+      "site": "thepointmag.com",
+      "title": "Rejecting Enlightenment | The Point Magazine",
+      "description": "“I felt the need to tell my story, and to do so in public, where I’m held accountable by the moral gaze of another person—but at the same time not to reduce it, or simplify it.”",
+      "score": 0.5018,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/letter/on-radical-preservation",
+      "site": "thepointmag.com",
+      "title": "On Radical Preservation | The Point Magazine",
+      "description": "Our contention is that, if we fail to think through and delimit the role of AI in our lives, we risk undermining the intelligibility of our own guiding cultural concepts, and thus initiating a period in our own society of which it may someday be possible to say that “nothing happened.”",
+      "score": 0.4992,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel",
+      "site": "nplusonemag.com",
+      "title": "The Freedom of the Weasel | Grace Glass",
+      "description": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
+      "score": 0.4763,
+      "match": {
+        "id": "comm_22",
+        "title": "The Generative Limits of Human Will",
+        "works": [
+          "Conversations of Goethe"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2024/04/12/dictionary-of-obscure-sorrows",
+      "site": "themarginalian.org",
+      "title": "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words for What We Feel but Cannot Name",
+      "description": "“Despite what dictionaries would have us believe, this world is still mostly undefined.”",
+      "score": 0.4668,
+      "match": {
+        "id": "comm_24",
+        "title": "The Duplicity of Language's Clarifying Power",
+        "works": [
+          "How Children Fail",
+          "The Rustle of Language",
+          "The Advertising Concept Book"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories",
+      "site": "theparisreview.org",
+      "title": "Turner Brooks’s Spatial Memories by Alessandro Tersigni",
+      "description": "October 23, 2026 – Brooks examines buildings less as ends in themselves than as prisms for the human dramas they contain.",
+      "score": 0.4512,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+      "site": "aeon.co",
+      "title": "The century-long search for the limits to knowledge | Aeon Essays",
+      "description": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it",
+      "score": 0.4456,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2024/10/22/marginalian-18",
+      "site": "themarginalian.org",
+      "title": "18 Life-Learnings from 18 Years of The Marginalian",
+      "description": "UPDATE 2025: Here is something special to mark 19 years. Somewhere along the way, you realize that no one will teach you how to live your own life — not your parents or your idols, not the ph…",
+      "score": 0.4402,
+      "match": {
+        "id": "comm_8",
+        "title": "The Untraversable Gap Between Knowing and Becoming",
+        "works": [
+          "Knowledge Painfully Acquired",
+          "Win Without Pitching",
+          "Positioning for Professionals"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+      "site": "aeon.co",
+      "title": "Living in community is where self-illusions go to die | Aeon Essays",
+      "description": "Disconnection is at the heart of today’s crises. So my husband and I chose a radical and revealing remedy: living communally",
+      "score": 0.437,
+      "match": {
+        "id": "comm_5",
+        "title": "The Dialectics of Wholeness and Fragmentation",
+        "works": [
+          "The Dancing Wu Li Masters",
+          "Growth of the Soil",
+          "Aion"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/10-books-exploring-estrangement-as-the-only-route-for-survival",
+      "site": "electricliterature.com",
+      "title": "10 Books Exploring Estrangement as the Only Route for Survival - Electric Literature",
+      "description": "When familial reconciliation isn’t feasible or even wanted, these authors reveal how estrangement can be a life saving act",
+      "score": 0.43,
+      "match": {
+        "id": "comm_14",
+        "title": "The Paradox of Withdrawal and Engagement",
+        "works": [
+          "Philokalia",
+          "Global Hesychasm"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2019/02/25/love-and-saint-augustine-hannah-arendt",
+      "site": "themarginalian.org",
+      "title": "Hannah Arendt on Love and How to Live with the Fundamental Fear of Loss",
+      "description": "“Fearlessness is what love seeks… Such fearlessness exists only in the complete calm that can no longer be shaken by events expected of the future… Hence the only valid tense is the present, the No…",
+      "score": 0.4281,
+      "match": {
+        "id": "comm_17",
+        "title": "The Problem of Disciplined Interiority",
+        "works": [
+          "The Mystical Theology of Saint Bernard",
+          "Navarre Bible confession",
+          "Navarre Bible suffering"
+        ]
+      }
+    }
+  ],
+  "all": [
+    {
+      "url": "https://thepointmag.com/criticism/death-is-not-the-end",
+      "site": "thepointmag.com",
+      "title": "Death Is Not the End | The Point Magazine",
+      "description": "David Foster Wallace, who hanged himself in his home last September, wrote about authenticity, self-consciousness and the pursuit of happiness in America. It became a […]",
+      "score": 0.5867,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/song-lost-world",
+      "site": "laphamsquarterly.org",
+      "title": "Song of a Lost World | Curtis White",
+      "description": "Seven theses on resistance.",
+      "score": 0.5441,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/dialogue/rejecting-enlightenment",
+      "site": "thepointmag.com",
+      "title": "Rejecting Enlightenment | The Point Magazine",
+      "description": "“I felt the need to tell my story, and to do so in public, where I’m held accountable by the moral gaze of another person—but at the same time not to reduce it, or simplify it.”",
+      "score": 0.5018,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/letter/on-radical-preservation",
+      "site": "thepointmag.com",
+      "title": "On Radical Preservation | The Point Magazine",
+      "description": "Our contention is that, if we fail to think through and delimit the role of AI in our lives, we risk undermining the intelligibility of our own guiding cultural concepts, and thus initiating a period in our own society of which it may someday be possible to say that “nothing happened.”",
+      "score": 0.4992,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel",
+      "site": "nplusonemag.com",
+      "title": "The Freedom of the Weasel | Grace Glass",
+      "description": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
+      "score": 0.4763,
+      "match": {
+        "id": "comm_22",
+        "title": "The Generative Limits of Human Will",
+        "works": [
+          "Conversations of Goethe"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2024/04/12/dictionary-of-obscure-sorrows",
+      "site": "themarginalian.org",
+      "title": "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words for What We Feel but Cannot Name",
+      "description": "“Despite what dictionaries would have us believe, this world is still mostly undefined.”",
+      "score": 0.4668,
+      "match": {
+        "id": "comm_24",
+        "title": "The Duplicity of Language's Clarifying Power",
+        "works": [
+          "How Children Fail",
+          "The Rustle of Language",
+          "The Advertising Concept Book"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories",
+      "site": "theparisreview.org",
+      "title": "Turner Brooks’s Spatial Memories by Alessandro Tersigni",
+      "description": "October 23, 2026 – Brooks examines buildings less as ends in themselves than as prisms for the human dramas they contain.",
+      "score": 0.4512,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/criticism/flowers-for-frank",
+      "site": "thepointmag.com",
+      "title": "Flowers for Frank | The Point Magazine",
+      "description": "The End of History and the Last Man is famously talked about more than it is read; as a teenager, however, I did not know this, so after seeing it referenced on multiple blogs, I assumed I had to trudge through the thing.",
+      "score": 0.4496,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+      "site": "aeon.co",
+      "title": "The century-long search for the limits to knowledge | Aeon Essays",
+      "description": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it",
+      "score": 0.4456,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/general/issue-37",
+      "site": "thepointmag.com",
+      "title": "Issue 37 | The Point Magazine",
+      "description": "The annotated table of contents below offers a sneak peek at what’s in issue 37.",
+      "score": 0.4418,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2024/10/22/marginalian-18",
+      "site": "themarginalian.org",
+      "title": "18 Life-Learnings from 18 Years of The Marginalian",
+      "description": "UPDATE 2025: Here is something special to mark 19 years. Somewhere along the way, you realize that no one will teach you how to live your own life — not your parents or your idols, not the ph…",
+      "score": 0.4402,
+      "match": {
+        "id": "comm_8",
+        "title": "The Untraversable Gap Between Knowing and Becoming",
+        "works": [
+          "Knowledge Painfully Acquired",
+          "Win Without Pitching",
+          "Positioning for Professionals"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+      "site": "aeon.co",
+      "title": "Living in community is where self-illusions go to die | Aeon Essays",
+      "description": "Disconnection is at the heart of today’s crises. So my husband and I chose a radical and revealing remedy: living communally",
+      "score": 0.437,
+      "match": {
+        "id": "comm_5",
+        "title": "The Dialectics of Wholeness and Fragmentation",
+        "works": [
+          "The Dancing Wu Li Masters",
+          "Growth of the Soil",
+          "Aion"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/10-books-exploring-estrangement-as-the-only-route-for-survival",
+      "site": "electricliterature.com",
+      "title": "10 Books Exploring Estrangement as the Only Route for Survival - Electric Literature",
+      "description": "When familial reconciliation isn’t feasible or even wanted, these authors reveal how estrangement can be a life saving act",
+      "score": 0.43,
+      "match": {
+        "id": "comm_14",
+        "title": "The Paradox of Withdrawal and Engagement",
+        "works": [
+          "Philokalia",
+          "Global Hesychasm"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2019/02/25/love-and-saint-augustine-hannah-arendt",
+      "site": "themarginalian.org",
+      "title": "Hannah Arendt on Love and How to Live with the Fundamental Fear of Loss",
+      "description": "“Fearlessness is what love seeks… Such fearlessness exists only in the complete calm that can no longer be shaken by events expected of the future… Hence the only valid tense is the present, the No…",
+      "score": 0.4281,
+      "match": {
+        "id": "comm_17",
+        "title": "The Problem of Disciplined Interiority",
+        "works": [
+          "The Mystical Theology of Saint Bernard",
+          "Navarre Bible confession",
+          "Navarre Bible suffering"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/15-small-press-titles-you-should-be-reading-this-fall",
+      "site": "electricliterature.com",
+      "title": "15 Small Press Titles You Should Be Reading This Fall - Electric Literature",
+      "description": "Autumn is best enjoyed with a warm drink and a hot new indie title",
+      "score": 0.423,
+      "match": {
+        "id": "comm_10",
+        "title": "The Dialectic of Narrative Control and Surrender",
+        "works": [
+          "Making Shapely Fiction action",
+          "This is Story of Happy Marriage lapd",
+          "Twisty Little Passages"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+      "site": "aeon.co",
+      "title": "The more we rely on tech, the more we deskill our bodies | Aeon Essays",
+      "description": "We are, moment by moment, doing less sensing, navigating, remembering, walking, choosing, and attending",
+      "score": 0.4225,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/hudson-by-hernan-ronsino",
+      "site": "electricliterature.com",
+      "title": "I Will Never Be the Pianist My Father Loves Best - Electric Literature",
+      "description": "An excerpt from HUDSON by Hernán Ronsino, translated and recommended by Mallory Craig-Kuhn",
+      "score": 0.4131,
+      "match": {
+        "id": "comm_10",
+        "title": "The Dialectic of Narrative Control and Surrender",
+        "works": [
+          "Making Shapely Fiction action",
+          "This is Story of Happy Marriage lapd",
+          "Twisty Little Passages"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2019/12/26/katharina-kepler-witchcraft-dream",
+      "site": "themarginalian.org",
+      "title": "How Kepler Invented Science Fiction and Defended His Mother in a Witchcraft Trial While Revolutionizing Our Understanding of the Universe",
+      "description": "How many revolutions does the cog of culture make before a new truth about reality catches into gear?",
+      "score": 0.4101,
+      "match": {
+        "id": "comm_22",
+        "title": "The Generative Limits of Human Will",
+        "works": [
+          "Conversations of Goethe"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+      "site": "aeon.co",
+      "title": "Does the principle of sufficient reason make panpsychism true? | Aeon Essays",
+      "description": "If the question makes no sense to you, try spending some time with the principle of sufficient reason",
+      "score": 0.4092,
+      "match": {
+        "id": "comm_5",
+        "title": "The Dialectics of Wholeness and Fragmentation",
+        "works": [
+          "The Dancing Wu Li Masters",
+          "Growth of the Soil",
+          "Aion"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+      "site": "aeon.co",
+      "title": "The politics of masculinity at the end of the Roman republic | Aeon Essays",
+      "description": "Cicero’s ideal of manly virtue stressed the performance of self-control and bravery, not boastful egotism and domination",
+      "score": 0.4071,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/silence-agamemnon",
+      "site": "laphamsquarterly.org",
+      "title": "The Silence of Agamemnon",
+      "description": "Since antiquity, artists have depicted figures hiding their faces or covering their eyes. What does it mean when we turn away?",
+      "score": 0.4038,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/19/john-steinbeck-art-of-fiction-east-of-eden",
+      "site": "theparisreview.org",
+      "title": "John Steinbeck, Unlocked: “East of Eden is Going to Take a Bad Beating” by Hazel Byers",
+      "description": "October 19, 2026 – \"East of Eden is going to take a bad beating.”",
+      "score": 0.403,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://granta.com/first-year-sober-sentimentality",
+      "site": "granta.com",
+      "title": "First Year Sober & Sentimentality",
+      "description": "‘Imagine ruining your life, / I thought, / the ecstasy of that.’ Two poems by Maggie Millner.",
+      "score": 0.4028,
+      "match": {
+        "id": "comm_16",
+        "title": "The Craft of Constraint",
+        "works": [
+          "Writers Art writersart cliche",
+          "Writers Art alliteration",
+          "D AD editors note"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+      "site": "aeon.co",
+      "title": "Sometimes, you ‘just know’ something’s off – but how? | Aeon Essays",
+      "description": "Just as seeing a tree gives you reason to believe it’s there, sensing that a stranger is creepy gives you reason to walk away",
+      "score": 0.3999,
+      "match": {
+        "id": "comm_7",
+        "title": "The Sacred Interior and Its Cultivation",
+        "works": [
+          "Natural Depth In Man",
+          "The Heart of God",
+          "The Soul of Man"
+        ]
+      }
+    },
+    {
+      "url": "https://www.lrb.co.uk/blog/2026/october/write-a-novel-in-thirty-days",
+      "site": "lrb.co.uk",
+      "title": "Alfred Nunney | Write a Novel in Thirty Days",
+      "description": "My boss at the bookshop has said he would sell AI novels if there were clear demand and clear labelling. We almost...",
+      "score": 0.3988,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/examined-life/getting-good-effective-altruism",
+      "site": "thepointmag.com",
+      "title": "Getting Good | The Point Magazine",
+      "description": "On a dark, gray day in October 2025, the first dozen attendees of the Effective Altruism Global conference make their way to the Sheraton Hotel just north of Times Square in New York City.",
+      "score": 0.3965,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/the-school-donald-barthelme",
+      "site": "electricliterature.com",
+      "title": "The School - Electric Literature",
+      "description": "“The School” by Donald Barthelme Well, we had all these children out planting trees, see, because we figured that… that was part of their education, to see how, you know, the root systems… and also the sense of responsibility, taking care of things, being individually responsible. You know what I mean. And the trees all […]",
+      "score": 0.3929,
+      "match": {
+        "id": "comm_0",
+        "title": "The Systematization of What Resists System",
+        "works": [
+          "Writing Fiction",
+          "Theory of Prose",
+          "The Rhetoric of Fiction rhetoric artistintrusion 1"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/examined-life/on-being-an-arsehole",
+      "site": "thepointmag.com",
+      "title": "The Philosophical Troll: A Defense",
+      "description": "To disagree too much is to be disagreeable. The trouble for philosophers is that disagreeing is one of life’s higher pleasures.",
+      "score": 0.3829,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/26/ernest-hemingway-the-sun-also-rises",
+      "site": "theparisreview.org",
+      "title": "Ernest Hemingway, Unlocked: The Sun Is Still Rising by Hazel Byers",
+      "description": "October 26, 2026 – “Everybody my age had written a novel and I was still having a difficult time writing a paragraph.”",
+      "score": 0.3801,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/20/the-uncanny-catharsis-of-the-ai-emomercial",
+      "site": "theparisreview.org",
+      "title": "The Uncanny Catharsis of the AI Emomercial by Jean Garnett",
+      "description": "October 20, 2026 – “The new kind of AI skincare ad is a subgenre in a rampant category that I have come to think of as ‘Purification Slop.’ ”",
+      "score": 0.3766,
+      "match": {
+        "id": "comm_2",
+        "title": "The Paradox of Consciousness as Both Entrapment and Escape",
+        "works": [
+          "The Legacy of DFW",
+          "Infinite Jest Guide"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/dear-lewis-dear-annie",
+      "site": "laphamsquarterly.org",
+      "title": "Dear Lewis, Dear Annie",
+      "description": "A writer, recently returned from the Galápagos, corresponds with her assigning editor.",
+      "score": 0.3765,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
+      "site": "aeon.co",
+      "title": "Why a world without friction is a world without progress | Aeon Essays",
+      "description": "Tribologists study friction: what happens when things rub together. It’s indispensable, from the wheel to the paths of stars",
+      "score": 0.3761,
+      "match": {
+        "id": "comm_16",
+        "title": "The Craft of Constraint",
+        "works": [
+          "Writers Art writersart cliche",
+          "Writers Art alliteration",
+          "D AD editors note"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/now-music-ceases",
+      "site": "laphamsquarterly.org",
+      "title": "Now the Music Ceases | Donovan Hohn",
+      "description": "In memory of Annie Dillard.",
+      "score": 0.3755,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://granta.com/he-trains-my-hands-for-war",
+      "site": "granta.com",
+      "title": "He Trains My Hands for War",
+      "description": "‘He placed family portraits alongside a newspaper clipping recording the murder of his mother’s boyfriend.’ Ciarán Finlayson introduces Zora J Murff’s photography and collage.",
+      "score": 0.3725,
+      "match": {
+        "id": "comm_16",
+        "title": "The Craft of Constraint",
+        "works": [
+          "Writers Art writersart cliche",
+          "Writers Art alliteration",
+          "D AD editors note"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/renovating-our-home-means-making-memories-my-husband-might-lose",
+      "site": "electricliterature.com",
+      "title": "Fixing Up Our Home Means Making Memories My Husband Might Lose - Electric Literature",
+      "description": "I feel I’ve been appointed with the precious task of keeping our history accurate for both of us",
+      "score": 0.3683,
+      "match": {
+        "id": "comm_10",
+        "title": "The Dialectic of Narrative Control and Surrender",
+        "works": [
+          "Making Shapely Fiction action",
+          "This is Story of Happy Marriage lapd",
+          "Twisty Little Passages"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/artist-formerly-known-louis-rigaud",
+      "site": "laphamsquarterly.org",
+      "title": "The Artist (Formerly) Known as Louis Rigaud | Marlene L. Daut",
+      "description": "Over the course of a century, a nineteenth-century artist’s paintings traveled from Port-au-Prince to New Orleans to Washington to New Haven. His name stayed in the archives, waiting to be found.",
+      "score": 0.3666,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/where-has-my-mothers-knowledge-gone",
+      "site": "electricliterature.com",
+      "title": "Where Has My Mother’s Knowledge Gone? - Electric Literature",
+      "description": "A specialist in declaring friends’ parents incompetent, trusted lawyer of many, she herself was about to be declared incompetent",
+      "score": 0.3618,
+      "match": {
+        "id": "comm_8",
+        "title": "The Untraversable Gap Between Knowing and Becoming",
+        "works": [
+          "Knowledge Painfully Acquired",
+          "Win Without Pitching",
+          "Positioning for Professionals"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/16/geoffrey-g-obrien-joshua-clover-making-poem",
+      "site": "theparisreview.org",
+      "title": "Making of a Poem: Geoffrey G. O’Brien on “Ray of Light” by Geoffrey G. O’Brien",
+      "description": "October 16, 2026 – “I didn’t intend to write a poem, and if you’d asked me if I wanted to, I would have said no.”",
+      "score": 0.3577,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/two-poems-by-forrest-rapier",
+      "site": "electricliterature.com",
+      "title": "Nothing Says Quality Time Like Being Kidnapped by Dad - Electric Literature",
+      "description": "Two poems by Forrest Rapier",
+      "score": 0.3573,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://thepointmag.com/examined-life/love-in-the-age-of-the-pickup-artist",
+      "site": "thepointmag.com",
+      "title": "Love in the Age of the Pickup Artist | The Point Magazine",
+      "description": "Love has become too difficult, because sex has become too easy.",
+      "score": 0.352,
+      "match": {
+        "id": "comm_14",
+        "title": "The Paradox of Withdrawal and Engagement",
+        "works": [
+          "Philokalia",
+          "Global Hesychasm"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/the-snail-with-the-right-heart",
+      "site": "themarginalian.org",
+      "title": "The Snail with the Right Heart: A True Story",
+      "description": "Great children’s books move young hearts, yes, but they also move the great common heart that beats in the chest of humanity by articulating in the language of children, which is the language…",
+      "score": 0.3499,
+      "match": {
+        "id": "comm_7",
+        "title": "The Sacred Interior and Its Cultivation",
+        "works": [
+          "Natural Depth In Man",
+          "The Heart of God",
+          "The Soul of Man"
+        ]
+      }
+    },
+    {
+      "url": "https://electricliterature.com/exclusive-cover-reveal-of-biolamp-by-dennis-james-sweeney",
+      "site": "electricliterature.com",
+      "title": "Exclusive Cover Reveal of BIOLAMP by Dennis James Sweeney - Electric Literature",
+      "description": "Ghostly plants blossom over a barren wasteland as a lone man treks toward life beyond",
+      "score": 0.3447,
+      "match": {
+        "id": "comm_7",
+        "title": "The Sacred Interior and Its Cultivation",
+        "works": [
+          "Natural Depth In Man",
+          "The Heart of God",
+          "The Soul of Man"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2017/01/27/rachel-carson-silent-spring-dorothy-freeman",
+      "site": "themarginalian.org",
+      "title": "The Story Behind “Silent Spring”: How Rachel Carson’s Countercultural Courage Catalyzed the Environmental Movement",
+      "description": "“It is, in the deepest sense, a privilege as well as a duty to have the opportunity to speak out — to many thousands of people — on something so important.”",
+      "score": 0.3301,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/the-coziest-place-on-the-moon",
+      "site": "themarginalian.org",
+      "title": "The Coziest Place on the Moon",
+      "description": "On July 26, 2022, as I was living through a period of acute loneliness despite being a naturally solitary person, NASA reported that computer modeling of data from its Lunar Reconnaissance Orbiter …",
+      "score": 0.327,
+      "match": {
+        "id": "comm_7",
+        "title": "The Sacred Interior and Its Cultivation",
+        "works": [
+          "Natural Depth In Man",
+          "The Heart of God",
+          "The Soul of Man"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/deja-vu/revolutionary-lovebirds",
+      "site": "laphamsquarterly.org",
+      "title": "Revolutionary Lovebirds | Déjà Vu",
+      "description": "Finding romance while organizing, now and then.",
+      "score": 0.3266,
+      "match": {
+        "id": "comm_10",
+        "title": "The Dialectic of Narrative Control and Surrender",
+        "works": [
+          "Making Shapely Fiction action",
+          "This is Story of Happy Marriage lapd",
+          "Twisty Little Passages"
+        ]
+      }
+    },
+    {
+      "url": "https://granta.com/melanie-klein-among-the-u-boats",
+      "site": "granta.com",
+      "title": "Melanie Klein Among the U-Boats",
+      "description": "Whenever Richard mentioned Hitler, Klein unwaveringly substituted “Hitler” with “penis”. Ben Parker on Melanie Klein and child psychology.",
+      "score": 0.3172,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/blue-power-in-new-york",
+      "site": "nplusonemag.com",
+      "title": "Blue Power in New York | Stuart Schrader and Colin Vanderburg",
+      "description": "Colin Vanderburg: To begin, how generalizable are New York’s politics of policing and criminal justice? I think there’s an idea that the NYPD, as the country’s largest police department in the country’s largest city, is somehow archetypal of American policing generally; but obviously New Yor...",
+      "score": 0.3144,
+      "match": {
+        "id": "comm_6",
+        "title": "The Impossibility of Authentic Selfhood",
+        "works": [
+          "Story",
+          "Examples",
+          "The Sleepwalkers"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/last-week-in-end-times-cinema-2",
+      "site": "nplusonemag.com",
+      "title": "Last Week in End Times Cinema | A. S. Hamrah and Will Tavlin",
+      "description": "After a series of massive concessions by everyone from state attorneys general to the WGA to the great mass of the American people, the Paramount Skydance–Warner Brothers Discovery merger looks to be complete.",
+      "score": 0.3073,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/death-of-the-mind-in-sarasota",
+      "site": "nplusonemag.com",
+      "title": "Death of the Mind in Sarasota | Lauren O'Neill-Butler",
+      "description": "The story of New College of Florida “merits attention . . . if only to record the perseverance of those who, for more than three decades, struggled to overcome numerous and daunting difficulties to help keep the institution alive.” So wrote Furman C.",
+      "score": 0.3067,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
+      "site": "aeon.co",
+      "title": "What cooperatives for an anticapitalist peace look like | Aeon Essays",
+      "description": "From Colombia to Syria, I’ve seen that capitalist logic can’t help to rebuild postwar countries but cooperatives can",
+      "score": 0.3033,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://granta.com/making-cuba-great-again",
+      "site": "granta.com",
+      "title": "Making Cuba Great Again",
+      "description": "‘Two men stood on the street – good enough for me. “And do you consider yourselves socialist or not?” I inquired.’ William T. Vollmann visits Cuba.",
+      "score": 0.3011,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    },
+    {
+      "url": "https://www.themarginalian.org/2018/12/10/emily-dickinson-love-letters-susan-gilbert",
+      "site": "themarginalian.org",
+      "title": "Emily Dickinson’s Electric Love Letters to Susan Gilbert",
+      "description": "“Susie… come home… and be my own again, and kiss me as you used to… I hope for you so much, and feel so eager for you… that the expectation… makes me feel hot an…",
+      "score": 0.2892,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://www.lrb.co.uk/blog/2026/october/close-your-eyes-and-enjoy-the-music",
+      "site": "lrb.co.uk",
+      "title": "Olivia Giovetti | ‘Close your eyes and enjoy the music’",
+      "description": "At the first interval in the Berlin Staatsoper’s new production of La Vestale, the man to my right turned to me and...",
+      "score": 0.2841,
+      "match": {
+        "id": "comm_22",
+        "title": "The Generative Limits of Human Will",
+        "works": [
+          "Conversations of Goethe"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/revolution-around-star-place",
+      "site": "laphamsquarterly.org",
+      "title": "A Revolution Around a Star Place | Gregory Smithers",
+      "description": "1776 looked different from the Cherokee towns on the Little Tennessee River.",
+      "score": 0.2817,
+      "match": {
+        "id": "comm_19",
+        "title": "The Unlocatable Origins of Creative Consciousness",
+        "works": [
+          "Genius",
+          "Origin of Inspiration",
+          "A History of the Senses"
+        ]
+      }
+    },
+    {
+      "url": "https://www.laphamsquarterly.org/roundtable/battle-fort-necessity",
+      "site": "laphamsquarterly.org",
+      "title": "The Battle at Fort Necessity | William Hogeland",
+      "description": "How a young George Washington, fortune-seeking in the Ohio Country, helped start the Seven Years’ War.",
+      "score": 0.2567,
+      "match": {
+        "id": "comm_25",
+        "title": "The Paradox of Productive Struggle in Van Gogh's Correspondence",
+        "works": [
+          "The Letters of Vincent Van Gogh"
+        ]
+      }
+    },
+    {
+      "url": "https://www.theparisreview.org/blog/2026/10/22/unexpected-literary-history-of-the-dildo",
+      "site": "theparisreview.org",
+      "title": "Murano Parsnips: The Unexpected Literary History of the Dildo by Izabella Scott",
+      "description": "October 22, 2026 – “The poem treats the dildo with the inflated seriousness of a mock epic, describing its hero with astonishing material precision.”",
+      "score": 0.2558,
+      "match": {
+        "id": "comm_23",
+        "title": "The Impossibility of Original Utterance",
+        "works": [
+          "A Fans Notes",
+          "The Recognitions",
+          "Letters of William Gaddis"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor",
+      "site": "nplusonemag.com",
+      "title": "The Hi-Neighbor! Mayor | Dennis M. Hogan",
+      "description": "When I first met David Morales it was December 2019, and I was standing in David’s ill-lit bachelor apartment as he announced to a small holiday party full of socialists that he intended to run for state representative. I was skeptical.",
+      "score": 0.1446,
+      "match": {
+        "id": "comm_27",
+        "title": "The Exhaustion of Heroic Consciousness",
+        "works": [
+          "The Rebel",
+          "Hero with 1K Faces",
+          "The Uncensored Picture of Dorian Gray"
+        ]
+      }
+    }
+  ]
+}

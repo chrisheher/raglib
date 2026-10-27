@@ -1031,6 +1031,75 @@
   }
 
   .carousel-back-btn:hover { opacity: 1; color: var(--gold); }
+
+  /* Reading picks from the web (discover.py, via Kernel) */
+  .discover { animation: fadeIn 0.5s ease; max-width: 820px; }
+
+  .discover-label {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .discover-intro {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--mist);
+    opacity: 0.75;
+    margin-bottom: 18px;
+  }
+
+  .discover-pick {
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: 0 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(105,105,105,0.2);
+  }
+
+  .discover-rank {
+    font-family: 'ABC Arizona Flare', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--gold);
+  }
+
+  .discover-source {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    color: var(--accent-grey);
+    text-transform: uppercase;
+  }
+
+  .discover-title {
+    font-family: 'ABC Arizona Flare', serif;
+    font-size: 1.15rem;
+    color: var(--parchment);
+    text-decoration: none;
+  }
+
+  .discover-title:hover { text-decoration: underline; }
+
+  .discover-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--mist);
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+
+  .discover-why {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.72rem;
+    color: var(--gold);
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  .discover-why em { color: var(--aged); }
 </style>
 </head>
 <body>
@@ -1828,8 +1897,83 @@
     "What can the creative process tell us about ai?",
 { text:  "Compare a diesel engine to document ingestion and artificial intelligence", genres:["ai_research", "nautical", "creative_thinking"] },
   { text: "Which of these texts would be hardest to tag — and most worth tagging?", genres: ["postmodern_fiction", "mythology", "consciousness_studies", "nautical", "creative_thinking", "poetry"] },
+  { text: "What should I read next from the web?", action: "discover" },
 
   ];
+
+  // ── READING PICKS FROM THE WEB ─────────────────────────────
+  // Snapshot from discover.py: a Kernel browser reads literary magazines and
+  // ranks each article against the library's Leiden communities.
+  const DISCOVER_SITE_NAMES = {
+    'thepointmag.com': 'The Point', 'laphamsquarterly.org': 'Lapham’s Quarterly',
+    'themarginalian.org': 'The Marginalian', 'aeon.co': 'Aeon', 'electricliterature.com': 'Electric Literature',
+    'theparisreview.org': 'The Paris Review', 'nplusonemag.com': 'n+1', 'granta.com': 'Granta', 'lrb.co.uk': 'LRB',
+  };
+
+  function discoverTitle(raw) {
+    const t = raw.replace(/\s*[|\-–]\s*(The Point Magazine|Aeon Essays|Electric Literature)\s*$/, '');
+    const [title, author] = t.includes(' | ') ? t.split(' | ') : [t, ''];
+    return { title, author };
+  }
+
+  async function showDiscover() {
+    const outputArea = document.getElementById('outputArea');
+    document.getElementById('emptyState')?.remove();
+    outputArea.innerHTML = '<div class="loading-dots"><span></span><span></span><span></span></div>';
+    document.getElementById('rightGutter').innerHTML = '';
+
+    let data;
+    try {
+      const response = await fetch(`${BASE}/api/discover`);
+      data = await response.json();
+      outputArea.innerHTML = '';
+      if (!response.ok) { showError(data.error || 'Could not load reading picks'); return; }
+    } catch (err) {
+      outputArea.innerHTML = '';
+      showError('Connection error: ' + err.message);
+      return;
+    }
+
+    const panel = document.createElement('div');
+    panel.className = 'discover';
+    panel.innerHTML = `
+      <div class="discover-label">READING PICKS · ${esc(data.generated.split(' ')[0])} · VIA KERNEL BROWSERS</div>
+      <div class="discover-intro">A cloud browser read ${data.n_articles} articles across ${data.n_sites} literary
+        magazines and ranked each against the communities in this library. Each pick names the cluster it resembles most.</div>`;
+
+    data.picks.forEach((a, i) => {
+      const { title, author } = discoverTitle(a.title);
+      const site = DISCOVER_SITE_NAMES[a.site] || a.site;
+      const works = a.match.works.map(w => `<em>${esc(w)}</em>`).join(', ');
+      const desc = (a.description || '').replace(/\s*\[…\]\s*$/, '');
+      panel.insertAdjacentHTML('beforeend', `
+        <div class="discover-pick">
+          <div class="discover-rank">${i + 1}</div>
+          <div>
+            <div class="discover-source">${esc(site)}${author ? ' · ' + esc(author) : ''} · ${a.score.toFixed(3)}</div>
+            <a class="discover-title" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(title)}</a>
+            ${desc ? `<div class="discover-desc">${esc(desc.length > 240 ? desc.slice(0, 240).replace(/\s+\S*$/, '') + '…' : desc)}</div>` : ''}
+            <div class="discover-why">↳ closest to “${esc(a.match.title)}” — ${works}</div>
+          </div>
+        </div>`);
+    });
+    outputArea.appendChild(panel);
+
+    // Right gutter: the taste profile, by how many articles each cluster won.
+    const gutter = document.getElementById('rightGutter');
+    gutter.insertAdjacentHTML('beforeend',
+      `<div class="sources-header">TASTE CLUSTERS <span class="sources-hint">(articles matched)</span></div>`);
+    const grid = document.createElement('div');
+    grid.className = 'sources-grid';
+    data.taste.filter(t => t.matched).sort((x, y) => y.matched - x.matched).forEach(t => {
+      grid.insertAdjacentHTML('beforeend', `
+        <div class="source-card" style="cursor: default" title="${esc(t.works.join(', '))}">
+          <div class="source-name">${esc(t.title)}</div>
+          <div class="source-meta"><span>${esc(t.works[0] || '')}</span><span class="source-score">${t.matched}</span></div>
+        </div>`);
+    });
+    gutter.appendChild(grid);
+  }
 
   function initTumblingPrompts() {
     const canvas = document.getElementById('promptCanvas');
@@ -1896,6 +2040,7 @@
       const text   = typeof item === 'string' ? item : item.text;
       const genres = typeof item === 'object' && item.genres ? item.genres : null;
       const note   = typeof item === 'object' && item.note   ? item.note   : null;
+      const action = typeof item === 'object' && item.action ? item.action : null;
       const words = text.split(' ');
       const lines = [];
       let line = '';
@@ -1923,9 +2068,11 @@
         frictionAir: 0.002,
         density: 0.00008,
         inertia: Infinity,
-        render: { fillStyle: COLORS[i % COLORS.length] },
+        // The web-picks card is warmer than the grey library prompts so it reads as different.
+        render: { fillStyle: action === 'discover' ? '#d9c9a3' : COLORS[i % COLORS.length] },
         label: text,
       });
+      body._action = action;
       body._promptLines = lines;
       body._promptRW = rw;
       body._promptRH = rh;
@@ -2034,6 +2181,7 @@
         const lx = cos * (mx - x) - sin * (my - y);
         const ly = sin * (mx - x) + cos * (my - y);
         if (Math.abs(lx) <= hw && Math.abs(ly) <= hh) {
+          if (b._action === 'discover') { showDiscover(); break; }
           const ta = document.getElementById('queryInput');
           if (ta) ta.value = b.label;
           activeGenreFilter = b._genres || null;
