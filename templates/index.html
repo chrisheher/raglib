@@ -2207,6 +2207,17 @@
   // Run after layout is complete so offsetWidth/Height are available
   window.addEventListener('load', initTumblingPrompts);
 
+  // Deep link from other sites (e.g. kernel-news-oracle): ?book=<title>&chunk=<id>
+  // opens that book in the carousel, at the chunk when one is given.
+  window.addEventListener('load', async () => {
+    const q = new URLSearchParams(location.search);
+    const book = q.get('book');
+    if (!book || /[<>]/.test(book)) return;   // the carousel renders the title as HTML
+    await showTitleCarousel(book);
+    const idx = (window._carouselChunks || []).findIndex(c => c.id === q.get('chunk'));
+    if (idx > 0) { window._carouselIndex = idx; renderCarouselChunk(idx); }
+  });
+
   // ── HIGHLIGHT FEEDBACK ──
   async function saveHighlight(btn) {
     const sel = window.getSelection();
