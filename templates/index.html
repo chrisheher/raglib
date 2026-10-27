@@ -37,19 +37,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
 <style>
   :root {
-    --ink: #000000;
-    --parchment: #f0f0f0;
-    --aged: #c8c8c8;
-    --sepia: #696969;
-    --deep-sea: #343434;
-    --accent-grey: #696969;
-    --gold: #a0a0a0;
-    --rust: #505050;
-    --sage: #505050;
-    --mist: #fffcfc;
-    --jet: #343434;
-    --dark-gray: #3a3a3a;
-    --dim-gray: #696969;
+    --ink: #120e0d;
+    --parchment: #f4eee9;
+    --aged: #d8ccc4;
+    --sepia: #8a7b73;
+    --deep-sea: #3a302c;
+    --accent-grey: #8a7b73;
+    --gold: #b9ada6;
+    --rust: #5a4d47;
+    --sage: #5a4d47;
+    --mist: #fbf7f3;
+    --jet: #3a302c;
+    --dark-gray: #40352f;
+    --dim-gray: #8a7b73;
     --shadow: rgba(0,0,0,0.4);
   }
 
@@ -57,7 +57,7 @@
 
   body {
     font-family: 'ui-monospace', Georgia, serif;
-    background: #60749d;
+    background: #29221f;
     color: var(--parchment);
     min-height: 100vh;
     overflow-x: hidden;
@@ -96,8 +96,8 @@
   /* ── TICKER FOOTER ── */
   .ticker-footer {
     grid-column: 1 / -1;
-    border-top: 1px solid rgba(105,105,105,0.2);
-    background: #60749d;
+    border-top: 1px solid rgba(140,122,112,0.2);
+    background: #29221f;
     padding: 9px 0;
     overflow: hidden;
     white-space: nowrap;
@@ -117,12 +117,12 @@
 
   .ticker-footer::before {
     left: 0;
-    background: linear-gradient(to right, #60749d, transparent);
+    background: linear-gradient(to right, #29221f, transparent);
   }
 
   .ticker-footer::after {
     right: 0;
-    background: linear-gradient(to left, #60749d, transparent);
+    background: linear-gradient(to left, #29221f, transparent);
   }
 
   .ticker-track {
@@ -152,7 +152,7 @@
   }
 
   .ticker-sep {
-    color: rgba(105,105,105,0.4);
+    color: rgba(140,122,112,0.4);
     font-family: 'Courier Prime', monospace;
     font-size: 0.62rem;
     align-self: center;
@@ -167,14 +167,14 @@
   header {
     grid-column: 1 / -1;
     padding: 16px 32px;
-    border-bottom: 1px solid rgba(105,105,105,0.3);
+    border-bottom: 1px solid rgba(140,122,112,0.3);
     display: flex;
     align-items: center;
     gap: 20px;
-    background: #60749d;
+    background: #29221f;
   }
 
-  .header-left { display: flex; align-items: baseline; gap: 16px; flex-shrink: 0; background: #60749d; }
+  .header-left { display: flex; align-items: baseline; gap: 16px; flex-shrink: 0; background: #29221f; }
 
   .header-query {
     flex: 1;
@@ -218,10 +218,10 @@
 
   /* ── SIDEBAR ── */
   .sidebar {
-    border-right: 1px solid rgba(105,105,105,0.2);
+    border-right: 1px solid rgba(140,122,112,0.2);
     padding: 18px 14px;
     overflow-y: auto;
-    background: #60749d;
+    background: #29221f;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -239,7 +239,7 @@
   /* System prompts */
   .prompt-card {
     padding: 14px 16px;
-    border: 1px solid rgba(105,105,105,0.2);
+    border: 1px solid rgba(140,122,112,0.2);
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -248,14 +248,14 @@
   }
 
   .prompt-card:hover {
-    border-color: rgba(105,105,105,0.5);
+    border-color: rgba(140,122,112,0.5);
     background: rgba(52,52,52,0.4);
   }
 
   .prompt-card.active {
-    border-color: #56534d;
-    background: rgba(105,105,105,0.15);
-    box-shadow: 0 0 20px rgba(105,105,105,0.15);
+    border-color: #6b5d56;
+    background: rgba(140,122,112,0.15);
+    box-shadow: 0 0 20px rgba(140,122,112,0.15);
   }
 
   .prompt-card-header {
@@ -296,7 +296,7 @@
   select, input[type="range"], input[type="number"] {
     width: 100%;
     background: rgba(20,20,20,0.9);
-    border: 1px solid rgba(105,105,105,0.3);
+    border: 1px solid rgba(140,122,112,0.3);
     color: var(--parchment);
     padding: 8px 10px;
     font-family: 'Courier Prime', monospace;
@@ -309,7 +309,7 @@
 
   select:focus, input:focus { border-color: rgba(160,160,160,0.6); }
 
-  select option { background: #1a1a1a; }
+  select option { background: #171311; }
 
   input[type="range"] {
     padding: 4px 0;
@@ -334,7 +334,7 @@
   textarea.custom-prompt {
     width: 100%;
     background: rgba(20,20,20,0.9);
-    border: 1px solid rgba(105,105,105,0.3);
+    border: 1px solid rgba(140,122,112,0.3);
     color: var(--parchment);
     padding: 10px;
     font-family: 'Cormorant Garamond', serif;
@@ -370,7 +370,7 @@
     color: var(--parchment);
     letter-spacing: 0.02em;
     padding-bottom: 14px;
-    border-bottom: 1px solid rgba(105,105,105,0.15);
+    border-bottom: 1px solid rgba(140,122,112,0.15);
   }
 
   .sidebar-genre-list {
@@ -384,7 +384,7 @@
     justify-content: space-between;
     align-items: baseline;
     padding: 0px 0px 5px 10px;
-    border-bottom: 1px solid rgba(105,105,105,0.1);
+    border-bottom: 1px solid rgba(140,122,112,0.1);
     font-family: 'Courier Prime', monospace;
     font-size: 1rem;
     color: var(--sepia);
@@ -514,7 +514,7 @@
     height: 38px;
     min-height: 38px;
     background: rgba(0,0,0,0.7);
-    border: 1px solid rgba(105,105,105,0.35);
+    border: 1px solid rgba(140,122,112,0.35);
     color: var(--parchment);
     padding: 8px 14px;
     font-family: 'Cormorant Garamond', serif;
@@ -528,7 +528,7 @@
 
   textarea#queryInput:focus {
     border-color: rgba(160,160,160,0.6);
-    box-shadow: 0 0 20px rgba(105,105,105,0.1);
+    box-shadow: 0 0 20px rgba(140,122,112,0.1);
   }
 
   textarea#queryInput::placeholder { color: rgba(157,176,184,0.4); font-style: italic; }
@@ -569,8 +569,8 @@
     width: 250px;
     flex-shrink: 0;
     overflow-y: auto;
-    border-left: 1px solid rgba(105,105,105,0.15);
-    background: #60749d;
+    border-left: 1px solid rgba(140,122,112,0.15);
+    background: #29221f;
     padding: 24px 50px 24px 16px;
     display: flex;
     flex-direction: column;
@@ -665,8 +665,8 @@
 
   .source-card {
     padding: 10px 8px;
-    background: #020021b8;
-    border: 1px solid rgba(105,105,105,0.2);
+    background: #1e1917;
+    border: 1px solid rgba(140,122,112,0.2);
     border-radius: 3px;
     font-family: 'Courier Prime', monospace;
     font-size: 0.85rem;
@@ -676,7 +676,7 @@
   }
 
   .source-card:hover {
-    border-color: rgba(105,105,105,0.5);
+    border-color: rgba(140,122,112,0.5);
     background: rgba(52,52,52,0.9);
   }
 
@@ -848,13 +848,13 @@
   /* Scrollbar */
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: rgba(105,105,105,0.3); border-radius: 2px; }
-  ::-webkit-scrollbar-thumb:hover { background: rgba(105,105,105,0.5); }
+  ::-webkit-scrollbar-thumb { background: rgba(140,122,112,0.3); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(140,122,112,0.5); }
 
   /* Divider */
   .divider {
     border: none;
-    border-top: 1px solid rgba(105,105,105,0.15);
+    border-top: 1px solid rgba(140,122,112,0.15);
     margin: 4px 0;
   }
 
@@ -891,8 +891,8 @@
   }
 
   .chunk-modal {
-    background: #525151;
-    border: 1px solid rgba(105,105,105,0.5);
+    background: #3a302c;
+    border: 1px solid rgba(140,122,112,0.5);
     border-radius: 4px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     max-width: none;
@@ -908,7 +908,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 15px 18px 12px;
-    border-bottom: 1px solid rgba(105,105,105,0.2);
+    border-bottom: 1px solid rgba(140,122,112,0.2);
     gap: 16px;
 
   }
@@ -989,14 +989,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px 22px;
-    border-top: 1px solid rgba(105,105,105,0.2);
+    border-top: 1px solid rgba(140,122,112,0.2);
     background: rgba(20,20,20,0.8);
     flex-shrink: 0;
   }
 
   .carousel-btn {
     background: none;
-    border: 1px solid rgba(105,105,105,0.35);
+    border: 1px solid rgba(140,122,112,0.35);
     color: var(--mist);
     font-family: 'Courier Prime', monospace;
     font-size: 0.68rem;
@@ -1928,7 +1928,7 @@
         <article class="news-story">
           <p class="news-labelcaps">${esc(NEWS_SITE_NAMES[s.site] || s.site)}${date ? ' · ' + esc(date) : ''}</p>
           <h3 class="news-title"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
-          ${s.why ? `<p class="news-take"><b>Literary reference |</b> ${esc(s.why)}</p>` : ''}
+          ${s.why ? `<p class="news-take"><b>Literary connection |</b> ${esc(s.why)}</p>` : ''}
           <div class="news-inset">
             <p class="news-labelcaps">From the library</p>
             <blockquote class="news-passage">“${esc(p.passage)}”

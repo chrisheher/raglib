@@ -1462,7 +1462,8 @@ def get_news():
         titles = {i: _display_title(m) for i, m in zip(found["ids"], found["metadatas"])}
         for s in d["top"]:
             for p in s["passages"]:
-                p["library_title"] = titles.get(p.get("id"))
+                # Fall back to the book itself when this DB snapshot lacks the exact chunk.
+                p["library_title"] = titles.get(p.get("id")) or _resolve_work(p.get("title", ""))
 
     # Attach the opening of each matched Leiden community's summary, plus a few
     # example texts from the library that the UI can open.
